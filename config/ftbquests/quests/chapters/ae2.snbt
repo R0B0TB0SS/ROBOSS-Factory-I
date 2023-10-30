@@ -906,6 +906,81 @@
 				item: "ae2:spatial_storage_cell_128"
 			}]
 		}
+		{
+			x: 6.5d
+			y: -2.5d
+			dependencies: ["5C9B7B1F2C800820"]
+			id: "6C47DDA002950CF1"
+			tasks: [{
+				id: "660C95B437DF6EAB"
+				type: "item"
+				item: {
+					id: "appbot:mana_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			dependencies: ["6C47DDA002950CF1"]
+			id: "7F1D3EC85D519DD5"
+			tasks: [{
+				id: "224C8696223E4EB1"
+				type: "item"
+				item: {
+					id: "appbot:mana_storage_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["7F1D3EC85D519DD5"]
+			id: "3792D790E13AB17D"
+			tasks: [{
+				id: "483F35E16058C93D"
+				type: "item"
+				item: {
+					id: "appbot:mana_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["3792D790E13AB17D"]
+			id: "3F5197DB6C769030"
+			tasks: [{
+				id: "789A60803A463169"
+				type: "item"
+				item: {
+					id: "appbot:mana_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			dependencies: ["3F5197DB6C769030"]
+			id: "359DA623B97C35F1"
+			tasks: [{
+				id: "65C52C4808734BDE"
+				type: "item"
+				item: {
+					id: "appbot:mana_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
 	]
 	quest_links: [ ]
 }

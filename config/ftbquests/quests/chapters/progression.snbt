@@ -5,11 +5,11 @@
 	filename: "progression"
 	title: "progression"
 	icon: "robosstweaks:logo_block"
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	images: [{
 		x: 0.0d
-		y: -1.5d
+		y: -1.0d
 		width: 10.0d
 		height: 1.5d
 		rotation: 0.0d
@@ -297,6 +297,7 @@
 			icon: "create:brass_hand"
 			x: 0.0d
 			y: 0.0d
+			description: ["Quest book inspered by Mldeg's quest book of Ragnamod VI"]
 			id: "68319FDD2F0D6DE8"
 			tasks: [{
 				id: "585D64EADDED6E9E"

@@ -1,4 +1,4 @@
-onEvent("rei.remove.categories", (event) => {
+onEvent("jei.remove.categories", (event) => {
   event.remove("minecraft:plugins/tag");
   event.remove("twilightforest:uncrafting");
 });

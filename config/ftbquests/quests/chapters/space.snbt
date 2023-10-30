@@ -9,7 +9,7 @@
 		Count: 1b
 		tag: { }
 	}
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
 		{

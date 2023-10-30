@@ -1,4 +1,4 @@
-onEvent('rei.hide.items', event => {
+onEvent('jei.hide.items', event => {
     event.hide([
                 //other
                 'avaritia:quartz_singularity', 

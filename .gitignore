@@ -27,3 +27,6 @@ tlauncher_libraries/*
 libraries/*
 esm/*
 mods/*
+TempOptifineStore-1.0.json
+config/byg/backups/last_working_configs_backup.zip
+WailaErrorOutput.txt

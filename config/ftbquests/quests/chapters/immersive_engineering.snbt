@@ -933,8 +933,8 @@
 		{
 			title: "Crude Oil"
 			icon: "thermal:crude_oil_bucket"
-			x: 1.0d
-			y: -3.0d
+			x: 1.5d
+			y: -3.5d
 			description: ["Collect a bucket of Crude Oil."]
 			dependencies: ["0000000000000754"]
 			id: "00000000000006DF"
