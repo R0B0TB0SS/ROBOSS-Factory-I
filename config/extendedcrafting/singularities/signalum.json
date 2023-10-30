@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.signalum",
+  "colors": [
+    "FB6114",
+    "8C0003"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/signalum"
+  }
+}

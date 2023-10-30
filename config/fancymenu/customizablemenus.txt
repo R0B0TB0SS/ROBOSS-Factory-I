@@ -1,0 +1,23 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+dev.latvian.kubejs.ui.ScreenKubeJSUI {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+dev.ftb.mods.ftblibrary.ui.ScreenWrapper {
+}
+
+dev.compactmods.machines.room.client.MachineRoomScreen {
+}
+
+net.minecraft.client.gui.screens.inventory.InventoryScreen {
+}
+

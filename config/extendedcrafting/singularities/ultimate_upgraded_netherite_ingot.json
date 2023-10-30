@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.ultimate_upgraded_netherite_ingot",
+  "colors": [
+    "4C4143",
+    "6E0000"
+  ],
+  "ingredient": {
+    "tag": "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " NNN NNN ",
+      " NIN NIN ",
+      " NIN NIN ",
+      "NNIN NINN",
+      "NIIN NIIN",
+      "NNNN NNNN",
+      "         ",
+      "         ",
+      "         "
+    ],
+    "key": {
+      "N": {
+        "item": "avaritia:neutronium_ingot"
+      },"I": {
+        "item": "avaritia:infinity_ingot"
+      }
+    },
+    "result": {
+      "item": "avaritia:infinity_boots"
+    }
+  }

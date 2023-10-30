@@ -1,0 +1,888 @@
+{
+	id: "3D7606CCC3AA3984"
+	group: ""
+	order_index: 16
+	filename: "project_e"
+	title: "Project E"
+	icon: {
+		id: "projecte:philosophers_stone"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["68319FDD2F0D6DE8"]
+			size: 2.0d
+			id: "2496AB86EC974CBF"
+			tasks: [{
+				id: "6D42CA0763FA53A0"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "72B50CD45E4AB07F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6352993187007078229L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "39B341DDBA9E1041"
+			tasks: [{
+				id: "6CB6F3A0AD541668"
+				type: "item"
+				item: "projecte:alchemical_chest"
+			}]
+			rewards: [{
+				id: "73267A241C7860D4"
+				type: "item"
+				item: "forbidden_arcanus:dark_nether_star"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: [
+				"2496AB86EC974CBF"
+				"39B341DDBA9E1041"
+			]
+			id: "10851F30E823445B"
+			tasks: [{
+				id: "1D47DC8EB5176EBD"
+				type: "item"
+				item: "projecte:condenser_mk1"
+			}]
+			rewards: [{
+				id: "088EBBCCAD2B5090"
+				type: "item"
+				item: "projecte:alchemical_chest"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["10851F30E823445B"]
+			id: "612247F8866643D5"
+			tasks: [{
+				id: "4855F8FDA4F03A61"
+				type: "item"
+				item: "projecte:condenser_mk2"
+			}]
+			rewards: [{
+				id: "78169C8C8CBB7FE3"
+				type: "item"
+				item: "projecte:condenser_mk1"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["2496AB86EC974CBF"]
+			id: "20A13953035A1815"
+			tasks: [{
+				id: "50077D22B700722E"
+				type: "item"
+				item: "projecte:transmutation_table"
+			}]
+			rewards: [{
+				id: "753149C7FDED4C60"
+				type: "item"
+				item: "projecte:transmutation_tablet"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["2496AB86EC974CBF"]
+			id: "66B4624A09FBDD7B"
+			tasks: [{
+				id: "16D1559A03533243"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+			rewards: [{
+				id: "0D5CFB125098F556"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["66B4624A09FBDD7B"]
+			id: "5D5F0B77D9FC5E02"
+			tasks: [{
+				id: "21C4BC0B342CF7F9"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+			rewards: [{
+				id: "48DF71AC5E4284BB"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+		}
+		{
+			title: "Alchemical Bag"
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["39B341DDBA9E1041"]
+			id: "57796882875B5D0D"
+			tasks: [{
+				id: "5A12A0634F413C04"
+				type: "item"
+				title: "Any #projecte:alchemical_bags"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "projecte:alchemical_bags"
+					}
+				}
+			}]
+			rewards: [{
+				id: "017F2DF2BDDDB2EF"
+				type: "item"
+				item: "projecte:red_alchemical_bag"
+			}]
+		}
+		{
+			title: "Dark Matter Armor"
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["66B4624A09FBDD7B"]
+			id: "29A643706EF0F496"
+			tasks: [
+				{
+					id: "3CABE7B8194C564A"
+					type: "item"
+					item: "projecte:dm_helmet"
+				}
+				{
+					id: "5920F6563ED887E5"
+					type: "item"
+					item: "projecte:dm_chestplate"
+				}
+				{
+					id: "6FD3C5D1D6AC8745"
+					type: "item"
+					item: "projecte:dm_leggings"
+				}
+				{
+					id: "5FC3C68B7846BB63"
+					type: "item"
+					item: "projecte:dm_boots"
+				}
+			]
+			rewards: [{
+				id: "4904A5B76BA0448F"
+				type: "item"
+				item: "projecte:dark_matter_block"
+			}]
+		}
+		{
+			title: "Red Matter Armor"
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["5D5F0B77D9FC5E02"]
+			id: "2568CCE74F8EF8AD"
+			tasks: [
+				{
+					id: "3642940B140DE933"
+					type: "item"
+					item: "projecte:rm_helmet"
+				}
+				{
+					id: "38D510E9300CA503"
+					type: "item"
+					item: "projecte:rm_chestplate"
+				}
+				{
+					id: "2E3A68536B3A2026"
+					type: "item"
+					item: "projecte:rm_leggings"
+				}
+				{
+					id: "7A3B1FF5B00181AE"
+					type: "item"
+					item: "projecte:rm_boots"
+				}
+			]
+			rewards: [{
+				id: "394B4B66F34AA1D9"
+				type: "item"
+				item: "projecte:red_matter_block"
+			}]
+		}
+		{
+			title: "Gem Armor"
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["2568CCE74F8EF8AD"]
+			id: "0DE82070B7246F89"
+			tasks: [
+				{
+					id: "14C8877FA0798967"
+					type: "item"
+					item: "projecte:gem_helmet"
+				}
+				{
+					id: "733DC97D2E275178"
+					type: "item"
+					item: "projecte:gem_chestplate"
+				}
+				{
+					id: "74C562A77A4B2E39"
+					type: "item"
+					item: "projecte:gem_leggings"
+				}
+				{
+					id: "411D5C96E0BEBF62"
+					type: "item"
+					item: "projecte:gem_boots"
+				}
+			]
+			rewards: [{
+				id: "18F236A73CE7BA36"
+				type: "item"
+				item: "projecte:red_matter_block"
+				count: 4
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["5D5F0B77D9FC5E02"]
+			id: "788110FA809EA7B8"
+			tasks: [{
+				id: "1A4875CEF3C95DFE"
+				type: "item"
+				item: "extendedexchange:magenta_matter"
+			}]
+			rewards: [{
+				id: "6F0327FECFA14636"
+				type: "item"
+				item: "extendedexchange:magenta_matter"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["788110FA809EA7B8"]
+			id: "2C6F0ACF417C2CF4"
+			tasks: [{
+				id: "25CCA90909B0C751"
+				type: "item"
+				item: "extendedexchange:pink_matter"
+			}]
+			rewards: [{
+				id: "1DE7ED35A426F82D"
+				type: "item"
+				item: "extendedexchange:pink_matter"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["2C6F0ACF417C2CF4"]
+			id: "44F00B3D3A909032"
+			tasks: [{
+				id: "387789D6B49DF467"
+				type: "item"
+				item: "extendedexchange:purple_matter"
+			}]
+			rewards: [{
+				id: "1B21CE0BC38C9A0D"
+				type: "item"
+				item: "extendedexchange:purple_matter"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["44F00B3D3A909032"]
+			id: "0DDB0D02097667F7"
+			tasks: [{
+				id: "7E10DFD4D48C4D82"
+				type: "item"
+				item: "extendedexchange:violet_matter"
+			}]
+			rewards: [{
+				id: "5A7E430135A6C54F"
+				type: "item"
+				item: "extendedexchange:violet_matter"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["0DDB0D02097667F7"]
+			id: "3ECA72C579CC747A"
+			tasks: [{
+				id: "3774C6A20456ABCF"
+				type: "item"
+				item: "extendedexchange:blue_matter"
+			}]
+			rewards: [{
+				id: "707896C51459F56B"
+				type: "item"
+				item: "extendedexchange:blue_matter"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["3ECA72C579CC747A"]
+			id: "22BFC772C39884B5"
+			tasks: [{
+				id: "6F4DC1A880F1F538"
+				type: "item"
+				item: "extendedexchange:cyan_matter"
+			}]
+			rewards: [{
+				id: "6BF619E3D9071651"
+				type: "item"
+				item: "extendedexchange:cyan_matter"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["22BFC772C39884B5"]
+			id: "32E040D267EAB556"
+			tasks: [{
+				id: "5A5FDC9EE69B8D3F"
+				type: "item"
+				item: "extendedexchange:green_matter"
+			}]
+			rewards: [{
+				id: "55C35FA108011390"
+				type: "item"
+				item: "extendedexchange:green_matter"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["32E040D267EAB556"]
+			id: "51C74DF7AA0F4724"
+			tasks: [{
+				id: "030ADB829EA6F3C4"
+				type: "item"
+				item: "extendedexchange:lime_matter"
+			}]
+			rewards: [{
+				id: "7D6A32157BA6433B"
+				type: "item"
+				item: "extendedexchange:lime_matter"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["51C74DF7AA0F4724"]
+			id: "729080F35DF1BD00"
+			tasks: [{
+				id: "06A6252DC6A763A2"
+				type: "item"
+				item: "extendedexchange:yellow_matter"
+			}]
+			rewards: [{
+				id: "7F4C24A6E5368F1D"
+				type: "item"
+				item: "extendedexchange:yellow_matter"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["729080F35DF1BD00"]
+			id: "50D6E47992A00A0C"
+			tasks: [{
+				id: "2D8BF16520532B46"
+				type: "item"
+				item: "extendedexchange:orange_matter"
+			}]
+			rewards: [{
+				id: "06301EF734A10DC8"
+				type: "item"
+				item: "extendedexchange:orange_matter"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["50D6E47992A00A0C"]
+			id: "4127527C72249AF0"
+			tasks: [{
+				id: "7B3A6D7D1D1C2915"
+				type: "item"
+				item: "extendedexchange:white_matter"
+			}]
+			rewards: [{
+				id: "161D5210E1DEF470"
+				type: "item"
+				item: "extendedexchange:white_matter"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["4127527C72249AF0"]
+			id: "3E73787ACD0859FB"
+			tasks: [{
+				id: "6CF6EC11807A2778"
+				type: "item"
+				item: "extendedexchange:fading_matter"
+			}]
+			rewards: [{
+				id: "51DF2E845EF24D6B"
+				type: "item"
+				item: "extendedexchange:fading_matter"
+			}]
+		}
+		{
+			title: "Collector MK1"
+			x: 3.5d
+			y: -2.5d
+			dependencies: ["2496AB86EC974CBF"]
+			id: "6B2FCD3B9BE54DC5"
+			tasks: [
+				{
+					id: "2F718BF77E653158"
+					type: "item"
+					item: "extendedexchange:basic_collector"
+				}
+				{
+					id: "1A07835A11C0E66F"
+					type: "item"
+					item: "extendedexchange:basic_relay"
+				}
+			]
+			rewards: [{
+				id: "6E5749743B2C8693"
+				type: "item"
+				item: "projecte:aeternalis_fuel_block"
+			}]
+		}
+		{
+			title: "Collector MK2"
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["6B2FCD3B9BE54DC5"]
+			id: "5FDE51B2E7A48AFA"
+			tasks: [
+				{
+					id: "1252671D168BA32B"
+					type: "item"
+					item: "extendedexchange:dark_collector"
+				}
+				{
+					id: "319F555273582277"
+					type: "item"
+					item: "extendedexchange:dark_relay"
+				}
+			]
+			rewards: [{
+				id: "6140FFDD98A3C93A"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+		}
+		{
+			title: "Collector MK3"
+			x: 5.5d
+			y: -4.0d
+			dependencies: ["5FDE51B2E7A48AFA"]
+			id: "7D4CAEF28DBE4FE2"
+			tasks: [
+				{
+					id: "683721B3E2D19DDD"
+					type: "item"
+					item: "extendedexchange:red_collector"
+				}
+				{
+					id: "69DA6807DB2C64DD"
+					type: "item"
+					item: "extendedexchange:red_relay"
+				}
+			]
+			rewards: [{
+				id: "57ABD73DEF155E19"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+		}
+		{
+			title: "Collector MK4"
+			x: 5.0d
+			y: -5.0d
+			dependencies: ["7D4CAEF28DBE4FE2"]
+			id: "0401A0F40DFE89FC"
+			tasks: [
+				{
+					id: "0015D4332C0E744A"
+					type: "item"
+					item: "extendedexchange:magenta_collector"
+				}
+				{
+					id: "143102A5332B0022"
+					type: "item"
+					item: "extendedexchange:magenta_relay"
+				}
+			]
+			rewards: [{
+				id: "50DFE6C8846D2BC9"
+				type: "item"
+				item: "extendedexchange:magenta_matter"
+			}]
+		}
+		{
+			title: "Collector MK5"
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["0401A0F40DFE89FC"]
+			id: "0924A748A559208A"
+			tasks: [
+				{
+					id: "0B0DC1351056E592"
+					type: "item"
+					item: "extendedexchange:pink_collector"
+				}
+				{
+					id: "4FAA52D0507CD194"
+					type: "item"
+					item: "extendedexchange:pink_relay"
+				}
+			]
+			rewards: [{
+				id: "1AEA043F77C0639C"
+				type: "item"
+				item: "extendedexchange:pink_matter"
+			}]
+		}
+		{
+			title: "Collector MK6"
+			x: 3.5d
+			y: -5.5d
+			dependencies: ["0924A748A559208A"]
+			id: "50EF3725C690FC51"
+			tasks: [
+				{
+					id: "64980C27E7780B98"
+					type: "item"
+					item: "extendedexchange:purple_collector"
+				}
+				{
+					id: "3033BFD2E657B133"
+					type: "item"
+					item: "extendedexchange:purple_relay"
+				}
+			]
+			rewards: [{
+				id: "256A091D5D9FBA0F"
+				type: "item"
+				item: "extendedexchange:purple_matter"
+			}]
+		}
+		{
+			title: "Collector MK7"
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["50EF3725C690FC51"]
+			id: "61A65C82B7CBA8E1"
+			tasks: [
+				{
+					id: "2FA02299BD4DB62A"
+					type: "item"
+					item: "extendedexchange:violet_collector"
+				}
+				{
+					id: "789DD024F5283CCF"
+					type: "item"
+					item: "extendedexchange:violet_relay"
+				}
+			]
+			rewards: [{
+				id: "16979F8D1D415D89"
+				type: "item"
+				item: "extendedexchange:violet_matter"
+			}]
+		}
+		{
+			title: "Collector MK8"
+			x: 2.5d
+			y: -3.5d
+			dependencies: ["61A65C82B7CBA8E1"]
+			id: "19256785AFE6AEB1"
+			tasks: [
+				{
+					id: "251F9C4F2A4D437D"
+					type: "item"
+					item: "extendedexchange:blue_collector"
+				}
+				{
+					id: "1EF7480CB966428E"
+					type: "item"
+					item: "extendedexchange:blue_relay"
+				}
+			]
+			rewards: [{
+				id: "296663FC1F8CE11A"
+				type: "item"
+				item: "extendedexchange:blue_matter"
+			}]
+		}
+		{
+			title: "Collector MK9"
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["19256785AFE6AEB1"]
+			id: "454A87052AC7B74A"
+			tasks: [
+				{
+					id: "0DA3C84DC7660138"
+					type: "item"
+					item: "extendedexchange:cyan_collector"
+				}
+				{
+					id: "3F2C430D9631AD0E"
+					type: "item"
+					item: "extendedexchange:cyan_relay"
+				}
+			]
+			rewards: [{
+				id: "3CAE7716EE82D5CD"
+				type: "item"
+				item: "extendedexchange:cyan_matter"
+			}]
+		}
+		{
+			title: "Collector MK10"
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["454A87052AC7B74A"]
+			id: "6D86FFBB32BA08FD"
+			tasks: [
+				{
+					id: "25CA6883FF49E873"
+					type: "item"
+					item: "extendedexchange:green_collector"
+				}
+				{
+					id: "3B175C4336B15033"
+					type: "item"
+					item: "extendedexchange:green_relay"
+				}
+			]
+			rewards: [{
+				id: "6A097EC5869F6B37"
+				type: "item"
+				item: "extendedexchange:green_matter"
+			}]
+		}
+		{
+			title: "Collector MK11"
+			x: 0.5d
+			y: -5.5d
+			dependencies: ["6D86FFBB32BA08FD"]
+			id: "723DFEE62780BA88"
+			tasks: [
+				{
+					id: "6723FBF4322A42B0"
+					type: "item"
+					item: "extendedexchange:lime_collector"
+				}
+				{
+					id: "170867EF364170BB"
+					type: "item"
+					item: "extendedexchange:lime_relay"
+				}
+			]
+			rewards: [{
+				id: "02C7F22F59171D53"
+				type: "item"
+				item: "extendedexchange:lime_matter"
+			}]
+		}
+		{
+			title: "Collector MK12"
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["723DFEE62780BA88"]
+			id: "3BB12DA16638F436"
+			tasks: [
+				{
+					id: "5852EDFA7ADAD3FA"
+					type: "item"
+					item: "extendedexchange:yellow_collector"
+				}
+				{
+					id: "0B9C3D137472EE58"
+					type: "item"
+					item: "extendedexchange:yellow_relay"
+				}
+			]
+			rewards: [{
+				id: "62AC7B1BCA6D4FF2"
+				type: "item"
+				item: "extendedexchange:yellow_matter"
+			}]
+		}
+		{
+			title: "Collector MK13"
+			x: -1.0d
+			y: -5.0d
+			dependencies: ["3BB12DA16638F436"]
+			id: "6B7F034E4FB3092D"
+			tasks: [
+				{
+					id: "400D8CF80DF22E64"
+					type: "item"
+					item: "extendedexchange:orange_collector"
+				}
+				{
+					id: "38397249DDEEA6B3"
+					type: "item"
+					item: "extendedexchange:orange_relay"
+				}
+			]
+			rewards: [{
+				id: "595A267BCBF1F537"
+				type: "item"
+				item: "extendedexchange:orange_matter"
+			}]
+		}
+		{
+			title: "Collector MK14"
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["6B7F034E4FB3092D"]
+			id: "37FC2C9D3C60678C"
+			tasks: [
+				{
+					id: "4561D8A8378E0033"
+					type: "item"
+					item: "extendedexchange:white_collector"
+				}
+				{
+					id: "63012D3A14F1564F"
+					type: "item"
+					item: "extendedexchange:white_relay"
+				}
+			]
+			rewards: [{
+				id: "4BD7DB1FC0227BE7"
+				type: "item"
+				item: "extendedexchange:white_matter"
+			}]
+		}
+		{
+			title: "Collector MK15"
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["37FC2C9D3C60678C"]
+			id: "40451083E9066147"
+			tasks: [
+				{
+					id: "2436C9854284FD66"
+					type: "item"
+					item: "extendedexchange:fading_collector"
+				}
+				{
+					id: "2D15431E4508E30E"
+					type: "item"
+					item: "extendedexchange:fading_relay"
+				}
+			]
+			rewards: [{
+				id: "2682E501A07AC11C"
+				type: "item"
+				item: "extendedexchange:fading_matter"
+			}]
+		}
+		{
+			title: "Final Collector MK16"
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["40451083E9066147"]
+			id: "27F008223F162C08"
+			tasks: [
+				{
+					id: "40B96D859D882FC9"
+					type: "item"
+					item: "extendedexchange:final_collector"
+				}
+				{
+					id: "002202C5191D7653"
+					type: "item"
+					item: "extendedexchange:final_relay"
+				}
+			]
+			rewards: [
+				{
+					id: "56EBFDCDEF9E3648"
+					type: "item"
+					item: "extendedexchange:fading_matter"
+				}
+				{
+					id: "72B510F8D7719482"
+					type: "item"
+					item: "extendedexchange:fading_matter"
+				}
+				{
+					id: "4E2A6D7FF13E8B85"
+					type: "item"
+					item: "extendedexchange:fading_matter"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			dependencies: ["2496AB86EC974CBF"]
+			id: "033E8542451947A3"
+			tasks: [{
+				id: "1ECC98F831E21108"
+				type: "item"
+				item: "extendedexchange:final_star"
+			}]
+			rewards: [{
+				id: "4653B635B3D79FFC"
+				type: "item"
+				item: "extendedexchange:final_star_shard"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			dependencies: ["2496AB86EC974CBF"]
+			id: "7E4CD670F8CAFCE3"
+			tasks: [{
+				id: "4E5B927A011DAC85"
+				type: "item"
+				item: "extendedexchange:final_power_flower"
+			}]
+			rewards: [{
+				id: "43A63685DA468C0F"
+				type: "item"
+				item: "minecraft:sunflower"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

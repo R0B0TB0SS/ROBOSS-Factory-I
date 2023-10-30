@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "NNNNNNNNN",
+      "NMCCMCCMN",
+      "NCMMCMMCN",
+      "NMCCMCCMN",
+      "NNNNNNNNN",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    "key": {
+      "M": {
+        "item": "avaritia:crystal_matrix_ingot"
+      },"C": {
+        "item": "avaritia:infinity_catalyst"
+      },"N": {
+        "item": "avaritia:neutronium_ingot"
+      }
+    },
+    "result": {
+      "item": "avaritia:infinity_ingot"
+    }
+  }

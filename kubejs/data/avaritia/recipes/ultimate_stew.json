@@ -1,0 +1,92 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCDEFGHI",
+      "JKLMNOPQR",
+      "STUVWXYZ1",
+      "23456789&",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:sweet_berries"
+      },"B": {
+        "item": "supplementaries:candy"
+      },"C": {
+        "item": "minecraft:glow_berries"
+      },"D": {
+        "item": "minecraft:honey_bottle"
+      },"E": {
+        "item": "minecraft:enchanted_golden_apple"
+      },"F": {
+        "item": "minecraft:golden_apple"
+      },"G": {
+        "item": "minecraft:apple"
+      },"H": {
+        "item": "minecraft:golden_carrot"
+      },"I": {
+        "item": "minecraft:carrot"
+      },"J": {
+        "item": "pamhc2crops:onionitem"
+      },"K": {
+        "item": "pamhc2crops:raspberryitem"
+      },"L": {
+        "item": "pamhc2crops:strawberryitem"
+      },"M": {
+        "item": "pamhc2crops:grapeitem"
+      },"N": {
+        "item": "pamhc2crops:cranberryitem"
+      },"O": {
+        "item": "pamhc2crops:cactusfruititem"
+      },"P": {
+        "item": "pamhc2crops:mulberryitem"
+      },"Q": {
+        "item": "pamhc2crops:blueberryitem"
+      },"R": {
+        "item": "pamhc2crops:kiwiitem"
+      },"S": {
+        "item": "pamhc2crops:broccoliitem"
+      },"T": {
+        "item": "pamhc2crops:rhubarbitem"
+      },"U": {
+        "item": "pamhc2crops:radishitem"
+      },"V": {
+          "item": "pamhc2crops:rutabagaitem"
+        },"W": {
+          "item": "pamhc2crops:tomatoitem"
+        },"X": {
+          "item": "minecraft:beetroot_soup"
+        },"Y": {
+          "item": "pamhc2foodcore:stewitem"
+        },"Z": {
+          "item": "minecraft:rabbit_stew"
+        },"1": {
+          "item": "minecraft:mushroom_stew"
+        },"2": {
+          "item": "pamhc2foodextended:cookedtofuttonitem"
+        },"3": {
+          "item": "pamhc2foodextended:cookedtofishitem"
+        },"4": {
+          "item": "pamhc2foodextended:mcpamitem"
+        },"5": {
+          "item": "pamhc2foodcore:friesitem"
+        },"6": {
+          "item": "minecraft:pumpkin_pie"
+        },"7": {
+          "item": "minecraft:beetroot"
+        },"8": {
+          "item": "minecraft:cookie"
+        },"9": {
+          "item": "minecraft:cake"
+        },"&": {
+          "item": "avaritia:neutronium_block"
+        }
+    },
+    "result": {
+      "item": "avaritia:ultimate_stew"
+    }
+  }

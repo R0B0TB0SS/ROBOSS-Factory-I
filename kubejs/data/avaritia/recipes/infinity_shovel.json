@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "      III",
+      "     IIBI",
+      "      III",
+      "     N I ",
+      "    N    ",
+      "   N     ",
+      "  N      ",
+      " N       ",
+      "N        "
+    ],
+    "key": {
+      "B": {
+        "item": "avaritia:infinity_block"
+      },"N": {
+        "item": "avaritia:neutronium_ingot"
+      },"I": {
+        "item": "avaritia:infinity_ingot"
+      }
+    },
+    "result": {
+      "item": "avaritia:infinity_shovel"
+    }
+  }

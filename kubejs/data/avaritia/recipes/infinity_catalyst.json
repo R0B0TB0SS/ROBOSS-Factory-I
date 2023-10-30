@@ -1,0 +1,50 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCDEFGHI",
+      "JKLMNO   ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    "key": {
+      "A": {
+        "item": "avaritia:diamond_lattice"
+      },"B": {
+        "item": "avaritia:crystal_matrix_ingot"
+      },"C": {
+        "item": "avaritia:neutron_pile"
+      },"D": {
+        "item": "avaritia:neutron_nugget"
+      },"E": {
+        "item": "avaritia:record_fragment"
+      },"F": {
+        "item": "avaritia:ultimate_stew"
+      },"G": {
+        "item": "avaritia:cosmic_meatballs"
+      },"H": {
+        "item": "extendedcrafting:the_ultimate_ingot"
+      },"I": {
+        "item": "extendedcrafting:ultimate_singularity"
+      },"J": {
+        "item": "robosstweaks:robotboss_ingot"
+      },"K": {
+        "item": "robosstweaks:laimx_ingot"
+      },"L": {
+        "item": "robosstweaks:blakdestroyer_ingot"
+      },"M": {
+        "item": "avaritia:endest_pearl"
+      },"N": {
+        "item": "thermal:enderium_block"
+      },"O": {
+        "item": "mekanism:block_steel"
+      }
+    },
+    "result": {
+      "item": "avaritia:infinity_catalyst"
+    }
+  }

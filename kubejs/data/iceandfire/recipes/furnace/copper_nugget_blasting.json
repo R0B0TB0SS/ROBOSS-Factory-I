@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    {
+      "item": "cyclic:copper_pickaxe"
+    },
+    {
+      "item": "cyclic:copper_shovel"
+    },
+    {
+      "item": "cyclic:copper_axe"
+    },
+    {
+      "item": "cyclic:copper_hoe"
+    },
+    {
+      "item": "cyclic:copper_sword"
+    },
+    {
+      "item": "iceandfire:armor_copper_metal_helmet"
+    },
+    {
+      "item": "iceandfire:armor_copper_metal_chestplate"
+    },
+    {
+      "item": "iceandfire:armor_copper_metal_leggings"
+    },
+    {
+      "item": "iceandfire:armor_copper_metal_boots"
+    }
+  ],
+  "result": "thermal:copper_nugget",
+  "experience": 0.1,
+  "cookingtime": 100
+}

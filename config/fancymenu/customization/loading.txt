@@ -1,0 +1,81 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 155
+  width = 330
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = 59f8a5a1-ca1c-4266-ba44-8f697e32b99a1694522367564
+  y = 124
+  height = 82
+}
+
+customization {
+  custom_color_hex = #333333
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 2b5cee3b-b71b-4321-b0bb-b2412b5bf59d1694522367575
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  original_pos_size_calculation = true
+  x = 99
+  width = 264
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 47f0fff5-c98a-49ca-811d-14b0491a54161694522367575
+  y = 215
+  height = 10
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *0.00123*150","decimal":"false"}}  
+  path = kubejs/assets/roboss/textures/ui/logo.png
+  orientation = top-left
+  x = 0
+  width = 326
+  action = addtexture
+  actionid = 2c21ce8d-c6ea-4cb2-b9ce-3e38fef37a531694522438822
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} /2 - {"placeholder":"elementwidth","values":{"id":"2c21ce8d-c6ea-4cb2-b9ce-3e38fef37a531694522438822"}} /2 ","decimal":"false"}}  
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *0.00123*1000","decimal":"false"}}  
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *0.2","decimal":"false"}}  
+  height = 49
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"120*0.00123*{"placeholder":"guiheight"}","decimal":"true"}}
+  path = kubejs/assets/roboss/textures/ui/mojang.png
+  orientation = top-left
+  x = 0
+  width = 162
+  action = addtexture
+  actionid = 4caad73a-d276-4125-b0e2-b7133ba635871694545350336
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2-{"placeholder":"elementwidth","values":{"id":"4caad73a-d276-4125-b0e2-b7133ba635871694545350336"}}/2","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"500*0.00123*{"placeholder":"guiheight"}","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}/2","decimal":"true"}}
+  height = 39
+}
+

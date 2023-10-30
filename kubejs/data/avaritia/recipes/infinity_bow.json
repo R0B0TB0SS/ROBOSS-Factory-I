@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "   II    ",
+      "  I W    ",
+      " I  W    ",
+      "I   W    ",
+      "C   W    ",
+      "I   W    ",
+      " I  W    ",
+      "  I W    ",
+      "   II    "
+    ],
+    "key": {
+      "I": {
+        "item": "avaritia:infinity_ingot"
+      },"C": {
+        "item": "avaritia:crystal_matrix_block"
+      },"W": {
+        "tag": "forge:wool"
+      }
+    },
+    "result": {
+      "item": "avaritia:infinity_bow"
+    }
+  }

@@ -1,0 +1,605 @@
+{
+	id: "0DF08D2F1671453F"
+	group: ""
+	order_index: 18
+	filename: "singularity"
+	title: "singularity"
+	icon: "extendedcrafting:ultimate_singularity"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.0d
+			y: -2.5d
+			id: "1417C0B8447D8C8B"
+			tasks: [{
+				id: "3991497FBE676A60"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:ironwood"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			id: "4A45946CAACD677E"
+			tasks: [{
+				id: "393A8085B2492B3E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:pink_slime_ingot"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			id: "271EA35C9B0F2B7B"
+			tasks: [{
+				id: "5476750101BF4D7E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:bronze"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.0d
+			id: "6F176E89028FE9FC"
+			tasks: [{
+				id: "68026F61557E7F5E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:electrum"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			id: "3AB6225FB26A5422"
+			tasks: [{
+				id: "2C328C234FD65BBC"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:invar"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			id: "335C9048B8A52391"
+			tasks: [{
+				id: "319042DEA1F648FA"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lapis_lazuli"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			id: "2791BCB5D9FBEB5B"
+			tasks: [{
+				id: "2D60A595CE9A483D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:ultimate_upgraded_netherite_ingot"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			id: "57666E325F357113"
+			tasks: [{
+				id: "31E50FCB638ED85C"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:uranium"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			id: "26F987A8401BE0D8"
+			tasks: [{
+				id: "46829BF4EA77ABDE"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:coal"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			id: "232213A83D88FD50"
+			tasks: [{
+				id: "76E3A98665CB697D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:zinc"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			id: "6216E98B073714C8"
+			tasks: [{
+				id: "4FE18D0C59D362A9"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			id: "0889EA18541EF30F"
+			tasks: [{
+				id: "45710AA4C3D1DCC5"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:terrasteel"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			id: "5DF117F6F265B8CE"
+			tasks: [{
+				id: "3BDB2097BB7A2293"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:pig_iron"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			id: "7A232A3913551249"
+			tasks: [{
+				id: "296D57207361EEA8"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:diamond"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			id: "73EA5C46095593F7"
+			tasks: [{
+				id: "45FD4F57E7288BA0"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:iron"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			id: "00D2A8FF6B23617F"
+			tasks: [{
+				id: "79FF785C1BB506DF"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lumium"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			id: "62DBF4C486A0390C"
+			tasks: [{
+				id: "44CFC11348A06659"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:cobalt"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "7DB2C91F9C1AC447"
+			tasks: [{
+				id: "6EBF3D9CF1686217"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:nickel"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			id: "5EE5E8515DCB5233"
+			tasks: [{
+				id: "54E8453D67165354"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:glowstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			id: "4930D57D52DFD14B"
+			tasks: [{
+				id: "545986225F70E991"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:refined_obsidian"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "6FC3E6C6C5C5E4DD"
+			tasks: [{
+				id: "2EBD161287B7F828"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:rose_gold"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			id: "6BF9E1D3E3EDCCF4"
+			tasks: [{
+				id: "0A0052D0B5991157"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:steel"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "7D5D1382843C10B9"
+			tasks: [{
+				id: "76B432F3078124CC"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:enderium"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			id: "6FE26DF6767CC7B6"
+			tasks: [{
+				id: "749249DB8F4241F5"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:emerald"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			id: "77482A39F41FCA05"
+			tasks: [{
+				id: "7F4930931440FD9E"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:netherite"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			id: "692CB18B64BFA6BB"
+			tasks: [{
+				id: "3ABD6445E76A3079"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:yellorium_ingot"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			id: "403B1D8F1FE5BEB2"
+			tasks: [{
+				id: "394023673B2DD314"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:aluminum"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			id: "491B2E6FCA92A64F"
+			tasks: [{
+				id: "7640D33D0AF89949"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:paladium"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			id: "797C294913068AE2"
+			tasks: [{
+				id: "4D1C516443F1D61D"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:silver"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "6BF5313D90513CC8"
+			tasks: [{
+				id: "64E79F952B0204E5"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:uraninite"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			id: "266CFB941846DB24"
+			tasks: [{
+				id: "31192AA201BF7EA9"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:tin"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			id: "04B6ECC8D786D00A"
+			tasks: [{
+				id: "7A0F60C3016538B6"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:brass"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "10EA389539A0D6CC"
+			tasks: [{
+				id: "35E9DE80819DA289"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:copper"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "26A67A5D860F64FB"
+			tasks: [{
+				id: "56EA2A0A69945A8A"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:signalum"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "1417910BAC48BC62"
+			tasks: [{
+				id: "45C45FD6E46C1428"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:manyullyn"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			id: "70C10D9741C6C333"
+			tasks: [{
+				id: "1EBD0DCA845372B6"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:lead"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			id: "4CF4454D6149AE4B"
+			tasks: [{
+				id: "31742FC6498A26D4"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:gold"
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "IIQQQQQII",
+      "I QQQQQ I",
+      "I  RRR  I",
+      "C RRRRR C",
+      "I RRCRR I",
+      "C RRRRR C",
+      "I  RRR  I",
+      "I       I",
+      "IIICICIII"
+    ],
+    "key": {
+      "C": {
+        "item": "avaritia:crystal_matrix_ingot"
+      },"Q": {
+        "tag": "forge:storage_blocks/quartz"
+      },"I": {
+        "item": "minecraft:iron_block"
+      },"R": {
+        "item": "minecraft:redstone_block"
+      }
+    },
+    "result": {
+      "item": "avaritia:neutron_collector"
+    }
+  }

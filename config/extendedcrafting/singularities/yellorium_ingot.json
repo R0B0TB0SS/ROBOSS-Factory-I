@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.yellorium_ingot",
+  "colors": [
+    "E6D871",
+    "383600"
+  ],
+  "ingredient": {
+    "item": "bigreactors:yellorium_ingot"
+  }
+}

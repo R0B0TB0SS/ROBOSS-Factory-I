@@ -1,0 +1,174 @@
+{
+    "name": "Creative Fabricator",
+    "appearance": {
+      "interaction_sound": "minecraft:netherite_block",
+      "idle":{
+        "block": "robosstweaks:machine/creative_fabricator_idle"
+      },
+      "running":{
+        "block": "robosstweaks:machine/creative_fabricator_running"
+      },
+      "errored":{
+        "block": "robosstweaks:machine/creative_fabricator_errored"
+      }
+         
+    },
+    "components": [
+        {
+          "capacity": 500000,
+          "type": "custommachinery:energy"
+        },
+        {
+            "mode": "input",
+            "id": "input1",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input2",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input3",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input4",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "input",
+            "id": "input5",
+            "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "output1",
+            "type": "custommachinery:item"
+        }
+    ],
+    "gui": [
+        {
+          "texture": "custommachinery:textures/gui/base_background.png",
+          "x": 0,
+          "y": 0,
+          "type": "custommachinery:texture"
+        },
+        {
+          "x": 47,
+          "y": 85,
+          "type": "custommachinery:player_inventory"
+        },
+        {
+          "x": 7,
+          "y": 30,
+          "type": "custommachinery:energy",
+          "emptytexture": "robosstweaks:textures/gui/base_energy_storage_empty.png",
+          "filledtexture": "robosstweaks:textures/gui/base_energy_storage_filled.png"
+        },
+        {
+          "x": 87,
+          "y": 20,
+          "type": "custommachinery:slot",
+          "id": "input1"
+        },
+        {
+          "x": 127,
+          "y": 20,
+          "type": "custommachinery:slot",
+          "id": "input2"
+        },
+        {
+          "x": 107,
+          "y": 40,
+          "type": "custommachinery:slot",
+          "id": "input3"
+        },
+        {
+          "x": 87,
+          "y": 60,
+          "type": "custommachinery:slot",
+          "id": "input4"
+        },
+        {
+          "x": 127,
+          "y": 60,
+          "type": "custommachinery:slot",
+          "id": "input5"
+        },
+        {
+          "id": "output1",
+          "x": 187,
+          "y": 40,
+          "type": "custommachinery:slot"
+        },
+        {
+          "x": 157,
+          "y": 40,
+          "type": "custommachinery:progress"
+        },
+        {
+          "x": 236,
+          "y": 5,
+          "type": "custommachinery:status"
+        },
+        {
+          "text": "Creative Fabricator",
+          "x": 7,
+          "y": 5,
+          "type": "custommachinery:text"
+        }
+      ],
+      "jei": [
+        {
+          "x": 20,
+          "y": 30,
+          "type": "custommachinery:energy",
+          "emptytexture": "robosstweaks:textures/gui/base_energy_storage_empty.png",
+          "filledtexture": "robosstweaks:textures/gui/base_energy_storage_filled.png"
+        },
+        {
+          "x": 57,
+          "y": 40,
+          "type": "custommachinery:slot",
+          "id": "input1"
+        },
+        {
+          "x": 97,
+          "y": 40,
+          "type": "custommachinery:slot",
+          "id": "input2"
+        },
+        {
+          "x": 77,
+          "y": 60,
+          "type": "custommachinery:slot",
+          "id": "input3"
+        },
+        {
+          "x": 57,
+          "y": 80,
+          "type": "custommachinery:slot",
+          "id": "input4"
+        },
+        {
+          "x": 97,
+          "y": 80,
+          "type": "custommachinery:slot",
+          "id": "input5"
+        },
+        {
+          "id": "output1",
+          "x": 147,
+          "y": 60,
+          "type": "custommachinery:slot"
+        },
+        {
+          "x": 117,
+          "y": 60,
+          "type": "custommachinery:progress"
+        }
+    ]
+}

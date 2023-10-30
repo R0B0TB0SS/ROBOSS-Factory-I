@@ -1,0 +1,20 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "thermal:bronze_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:bronze_nugget",
+      "count": 9
+    }
+  ],
+  "conditions": [
+    {
+      "modid": "thermal",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

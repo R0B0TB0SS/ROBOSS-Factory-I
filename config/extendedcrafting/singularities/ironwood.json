@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.ironwood",
+  "colors": [
+    "807474",
+    "504238"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/ironwood"
+  }
+}

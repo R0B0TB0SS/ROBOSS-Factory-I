@@ -1,0 +1,1430 @@
+{
+	id: "0163EF4A5A6A1C7B"
+	group: ""
+	order_index: 1
+	filename: "miscellaneous"
+	title: "Miscellaneous"
+	icon: "ftbquests:book"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Builder's Wand"
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "0E4B5AC376DA9D23"
+			tasks: [
+				{
+					id: "67553288841B324A"
+					type: "item"
+					item: {
+						id: "constructionwand:diamond_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "76E41F530844197F"
+					type: "item"
+					item: {
+						id: "constructionwand:infinity_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1AF1C7A6C91BD64C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6352993187007078229L
+			}]
+		}
+		{
+			title: "Ender Storage"
+			x: 1.5d
+			y: -1.5d
+			description: [""]
+			id: "1F0EDC68C1BAB021"
+			tasks: [
+				{
+					id: "6D5B7045D1832BD1"
+					type: "item"
+					item: "enderstorage:ender_chest"
+				}
+				{
+					id: "52F629E4BE1FD82D"
+					type: "item"
+					item: "enderstorage:ender_tank"
+				}
+				{
+					id: "1D223248769B0482"
+					type: "item"
+					item: "enderstorage:ender_pouch"
+				}
+			]
+			rewards: [{
+				id: "17BA5A7626B73BCE"
+				type: "item"
+				item: "minecraft:red_dye"
+				count: 9
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "285B6AF07DEB680A"
+			tasks: [{
+				id: "67702672E913A183"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+			rewards: [{
+				id: "267F7AA0B48782AA"
+				type: "item"
+				item: "minecraft:copper_block"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			dependencies: ["285B6AF07DEB680A"]
+			id: "0745DA6B5A5073E6"
+			tasks: [{
+				id: "361E0782C5D60900"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [{
+				id: "045BBC694B13F8DF"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			dependencies: ["0745DA6B5A5073E6"]
+			id: "67E89C2431196628"
+			tasks: [{
+				id: "55F29A43CEF13556"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+			rewards: [{
+				id: "3F04A52E258CCCE2"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["67E89C2431196628"]
+			id: "0F9C9E3105F175F2"
+			tasks: [{
+				id: "207B2EE16EDBE075"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [{
+				id: "7D9B51A5999AD1C7"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			dependencies: ["0F9C9E3105F175F2"]
+			id: "736B9ABAEB66C837"
+			tasks: [{
+				id: "673AC6E70792426F"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+			rewards: [{
+				id: "5B0B787686AC3C64"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6352993187007078229L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			dependencies: ["0F9C9E3105F175F2"]
+			id: "55F5752FA2A6E52C"
+			tasks: [{
+				id: "56C1E7C32A939DCF"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+			rewards: [{
+				id: "47E9FCC1EA985AC4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6352993187007078229L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "22D82B3883A6253B"
+			tasks: [{
+				id: "7409C942F0FD8DE6"
+				type: "item"
+				item: "ironfurnaces:copper_furnace"
+			}]
+			rewards: [{
+				id: "13E995FCCFB8E333"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			dependencies: ["22D82B3883A6253B"]
+			id: "32B2F3B01C0E8311"
+			tasks: [{
+				id: "514CE2B29FA81EA6"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [{
+				id: "5A4DE5260C87E849"
+				type: "item"
+				item: "minecraft:coal"
+				count: 32
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			dependencies: ["32B2F3B01C0E8311"]
+			id: "2C18654AC26316CE"
+			tasks: [{
+				id: "0EA7E0DB81FDEC50"
+				type: "item"
+				item: "ironfurnaces:silver_furnace"
+			}]
+			rewards: [{
+				id: "4A78C5B214016D6B"
+				type: "item"
+				item: "minecraft:coal"
+				count: 48
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["2C18654AC26316CE"]
+			id: "0971515F51F2E5A3"
+			tasks: [{
+				id: "08B580E9AF023FE6"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+			rewards: [{
+				id: "6E2A9EFF8965C9F5"
+				type: "item"
+				item: "minecraft:coal"
+				count: 64
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			dependencies: ["0971515F51F2E5A3"]
+			id: "011370286A50E620"
+			tasks: [{
+				id: "163E8F2FA108DA17"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+			rewards: [{
+				id: "4532A317ACE45A90"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 10
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["011370286A50E620"]
+			id: "7FA6B8F96C43FFFC"
+			tasks: [{
+				id: "40A836AAECC010A5"
+				type: "item"
+				item: "ironfurnaces:crystal_furnace"
+			}]
+			rewards: [{
+				id: "1927F172DE4354BC"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 15
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			dependencies: ["011370286A50E620"]
+			id: "5C75C12F7A46B79A"
+			tasks: [{
+				id: "386DE4DFB014E382"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+			rewards: [{
+				id: "59D864D55518AF99"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 20
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			dependencies: [
+				"5C75C12F7A46B79A"
+				"7FA6B8F96C43FFFC"
+			]
+			id: "19F6227B96911A09"
+			tasks: [{
+				id: "68496C816A89DF9A"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+			rewards: [{
+				id: "6AD2ACE59AAD48E5"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 25
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			dependencies: ["19F6227B96911A09"]
+			id: "2E61411E88CA41A1"
+			tasks: [{
+				id: "7D2831F3EB51458B"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+			rewards: [{
+				id: "23FD37A02FFC7402"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 30
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			dependencies: [
+				"22D82B3883A6253B"
+				"7FA6B8F96C43FFFC"
+				"011370286A50E620"
+				"5C75C12F7A46B79A"
+				"0971515F51F2E5A3"
+				"32B2F3B01C0E8311"
+				"2E61411E88CA41A1"
+				"19F6227B96911A09"
+				"2C18654AC26316CE"
+			]
+			id: "1013F4A101A289C1"
+			tasks: [{
+				id: "17C3C7D62694C08D"
+				type: "item"
+				item: "ironfurnaces:million_furnace"
+			}]
+			rewards: [{
+				id: "68D9B073137EB57C"
+				type: "item"
+				item: {
+					id: "minecraft:coal_block"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 35
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			id: "1B03D6AA02783EDE"
+			tasks: [{
+				id: "31E50445D8CDAC9D"
+				type: "item"
+				item: "simplyjetpacks:jetpack_vanilla1"
+			}]
+			rewards: [{
+				id: "67950582B3071D0D"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			dependencies: ["1B03D6AA02783EDE"]
+			id: "71DE95E72D6968B3"
+			tasks: [{
+				id: "0B2A786057EB0A46"
+				type: "item"
+				item: "simplyjetpacks:jetpack_vanilla2"
+			}]
+			rewards: [{
+				id: "25E59763DA1EB113"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			dependencies: ["71DE95E72D6968B3"]
+			id: "1FBF5D8B469A3961"
+			tasks: [{
+				id: "1668DC1F4D50109A"
+				type: "item"
+				item: "simplyjetpacks:jetpack_vanilla3"
+			}]
+			rewards: [{
+				id: "2C7FE440919B19B9"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			dependencies: ["1FBF5D8B469A3961"]
+			id: "7319B7B69B0067FB"
+			tasks: [{
+				id: "0A51333807A7B99D"
+				type: "item"
+				item: "simplyjetpacks:jetpack_vanilla4"
+			}]
+			rewards: [{
+				id: "56E38EF79A4224CA"
+				type: "item"
+				item: "minecraft:netherite_block"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			id: "5321A818F8ED9DAE"
+			tasks: [{
+				id: "11208C7CF4AB2A4F"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te1"
+			}]
+			rewards: [{
+				id: "1072594C27743E32"
+				type: "item"
+				item: "thermal:lead_block"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["5321A818F8ED9DAE"]
+			id: "11FD3DE52F519432"
+			tasks: [{
+				id: "6AE05E495E3C36AD"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te2"
+			}]
+			rewards: [{
+				id: "0CE32E30AEEF4318"
+				type: "item"
+				item: "thermal:invar_block"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["11FD3DE52F519432"]
+			id: "3785C64A6A780790"
+			tasks: [{
+				id: "50FE07386C4392F1"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te3"
+			}]
+			rewards: [{
+				id: "6E17BA7D1C7CDFC5"
+				type: "item"
+				item: "thermal:electrum_block"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			dependencies: ["3785C64A6A780790"]
+			id: "2998BF44F1E353FF"
+			tasks: [{
+				id: "1E4BB742E20A9D18"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te4"
+			}]
+			rewards: [{
+				id: "7B637FAA8479DDF8"
+				type: "item"
+				item: "thermal:enderium_block"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			dependencies: ["2998BF44F1E353FF"]
+			id: "7B1F7A6624856E98"
+			tasks: [{
+				id: "746B93C92882FE5C"
+				type: "item"
+				item: "simplyjetpacks:jetpack_te5"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			id: "6D009211960BBE06"
+			tasks: [{
+				id: "2E2AFEDE6BF729EE"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek1"
+			}]
+			rewards: [{
+				id: "6C64F2F918F233CC"
+				type: "item"
+				item: "simplyjetpacks:armorplating_mek1"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["6D009211960BBE06"]
+			id: "255B01BF0AC398A1"
+			tasks: [{
+				id: "687390E0EFA4B09E"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek2"
+			}]
+			rewards: [{
+				id: "63C8218F2F005A34"
+				type: "item"
+				item: "simplyjetpacks:armorplating_mek2"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			dependencies: ["255B01BF0AC398A1"]
+			id: "30014445F3F5C8D1"
+			tasks: [{
+				id: "58A6C2CD92DE102D"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek3"
+			}]
+			rewards: [{
+				id: "156AE619E055F84E"
+				type: "item"
+				item: "simplyjetpacks:armorplating_mek3"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			dependencies: ["30014445F3F5C8D1"]
+			id: "1DBE6F55D347DD57"
+			tasks: [{
+				id: "66EEBAC8A9846678"
+				type: "item"
+				item: "simplyjetpacks:jetpack_mek4"
+			}]
+			rewards: [{
+				id: "7BF903F13D2E7873"
+				type: "item"
+				item: "simplyjetpacks:armorplating_mek4"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			id: "3CAAF135CA97DA60"
+			tasks: [{
+				id: "0097516F5EB0A1DA"
+				type: "item"
+				item: "simplyjetpacks:jetpack_ie1"
+			}]
+			rewards: [{
+				id: "10CE4865C993F9CC"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["3CAAF135CA97DA60"]
+			id: "4885EE38B2566F4E"
+			tasks: [{
+				id: "7402B4A10D74D8A4"
+				type: "item"
+				item: "simplyjetpacks:jetpack_ie2"
+			}]
+			rewards: [{
+				id: "0931282570BDF1DE"
+				type: "item"
+				item: "thermal:electrum_ingot"
+				count: 8
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			dependencies: ["4885EE38B2566F4E"]
+			id: "005A85FFDD74C2C0"
+			tasks: [{
+				id: "4A764C8F1FBE0EEF"
+				type: "item"
+				item: "simplyjetpacks:jetpack_ie3"
+			}]
+			rewards: [{
+				id: "127BA41A41FBFCF5"
+				type: "item"
+				item: "mekanism:ingot_steel"
+				count: 8
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			id: "6057A24539A10D96"
+			tasks: [{
+				id: "141A67A15C6116F8"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7CE2CFF995249C41"
+				type: "item"
+				item: "create:cuckoo_clock"
+			}]
+		}
+		{
+			title: "Jump Day"
+			x: -2.5d
+			y: 6.0d
+			description: [""]
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "7B68A4BBD3A133C3"
+			tasks: [{
+				id: "36D34F90EC5DFD65"
+				type: "item"
+				item: {
+					id: "tconstruct:earth_slime_sling"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2C12A54CA2DE4A7B"
+					type: "item"
+					item: "tconstruct:earth_congealed_slime"
+					count: 8
+				}
+				{
+					id: "02A94E09051D440F"
+					type: "item"
+					item: "tconstruct:sky_congealed_slime"
+					count: 8
+				}
+				{
+					id: "45A67345C1BE6A65"
+					type: "item"
+					item: "tconstruct:ichor_congealed_slime"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Beginner Tinkerer"
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "06F4B11EE74A567E"
+			tasks: [
+				{
+					id: "0122FFED6404CE1C"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "0CC4E600C505D1BF"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "004B46DF5C6DF405"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+				{
+					id: "0F3860C8E114436D"
+					type: "item"
+					item: "tconstruct:crafting_station"
+				}
+			]
+			rewards: [{
+				id: "56507F530E9B9807"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 8
+			}]
+		}
+		{
+			title: "Advanced Tinkerer"
+			x: -0.5d
+			y: 6.0d
+			dependencies: ["06F4B11EE74A567E"]
+			id: "119491CEE2704BF3"
+			tasks: [
+				{
+					id: "6F69351F5C3901C8"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "703AE7D62DE1349E"
+					type: "item"
+					item: "tconstruct:seared_melter"
+					consume_items: false
+				}
+			]
+			rewards: [{
+				id: "240327B61175E3E8"
+				type: "item"
+				item: "minecraft:coal_block"
+			}]
+		}
+		{
+			title: "Master Tinkerer"
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["661C0BD618AE4EDD"]
+			id: "68A18606530D5376"
+			tasks: [
+				{
+					id: "2154608832C42A29"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "75397CB72D2195F0"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "3C526949260C3BA5"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 64L
+				}
+				{
+					id: "5D53A873CEA2A4BD"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "0595598BE977DAD6"
+					type: "item"
+					item: "tconstruct:seared_duct"
+				}
+				{
+					id: "052C10CCCE67C236"
+					type: "item"
+					item: "tconstruct:seared_chute"
+				}
+			]
+			rewards: [{
+				id: "6490010CF8DA433A"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			title: "Tinkerers' casts"
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["119491CEE2704BF3"]
+			id: "661C0BD618AE4EDD"
+			tasks: [
+				{
+					id: "67D2724C4E847B11"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "294F76C98D637A19"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "1960106DEC449552"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "6CA5E4C490D4C95E"
+				type: "item"
+				item: "tconstruct:cast_chest"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			dependencies: ["68A18606530D5376"]
+			id: "5CFDDD66F3349EAB"
+			tasks: [{
+				id: "6AF430BF756870B0"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "minecraft:netherite_block"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7797B0322105FF02"
+				type: "item"
+				item: "tconstruct:blazing_blood_bucket"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "45A6A422D4EBC8E1"
+			tasks: [{
+				id: "502E2172482F03DA"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "37E1FE0AF3BCEA04"
+				type: "item"
+				item: "minecraft:leather"
+				count: 4
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.0d
+			dependencies: ["45A6A422D4EBC8E1"]
+			id: "2E6B3A90B82E604E"
+			tasks: [{
+				id: "3DA12375783BF181"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "2DD7F5F1EE5CB6C9"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			dependencies: ["2E6B3A90B82E604E"]
+			id: "3980C83785FB3A8D"
+			tasks: [{
+				id: "1FEDE8737AAE7A13"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "25F7A31EC1FD4CFA"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			dependencies: ["3980C83785FB3A8D"]
+			id: "7730F0AD80DB6D41"
+			tasks: [{
+				id: "64ACB2E563FA900B"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "702F95FCB542D1FD"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			dependencies: ["7730F0AD80DB6D41"]
+			id: "5CE04112C43D7A02"
+			tasks: [{
+				id: "60F4D70894B6896D"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "60886521EB7FEFD9"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "3CF5229F9A3EFD84"
+			tasks: [{
+				id: "7769A41C930207DB"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+			rewards: [{
+				id: "524A51DAFEA38A61"
+				type: "item"
+				item: "minecraft:leather"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "776FADAE064A70D8"
+			tasks: [{
+				id: "7A30469CD12808A2"
+				type: "item"
+				item: "pipez:item_pipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "71EF5A49F911CD78"
+				type: "item"
+				item: "pipez:item_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "35DB68974ECE2BA0"
+			tasks: [{
+				id: "57E12B38ABDB85EC"
+				type: "item"
+				item: "pipez:fluid_pipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "537C7D6E777A14A4"
+				type: "item"
+				item: "pipez:fluid_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "60DAC0904D75D52E"
+			tasks: [{
+				id: "550520C25F089119"
+				type: "item"
+				item: "pipez:gas_pipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "4FD00D6AD83054C6"
+				type: "item"
+				item: "pipez:gas_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "4FB644D389A2E952"
+			tasks: [{
+				id: "61FAFACCE261CD32"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 16L
+			}]
+			rewards: [{
+				id: "67F302B9D8EFB1A9"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: [
+				"4FB644D389A2E952"
+				"35DB68974ECE2BA0"
+				"60DAC0904D75D52E"
+				"776FADAE064A70D8"
+			]
+			id: "7FE074E408429813"
+			tasks: [{
+				id: "2E38368A3EEA20A4"
+				type: "item"
+				item: "pipez:universal_pipe"
+				count: 8L
+			}]
+			rewards: [{
+				id: "540EC6D550A140CF"
+				type: "item"
+				item: "pipez:universal_pipe"
+				count: 8
+			}]
+		}
+		{
+			title: "Pipe Upgrades"
+			x: 2.0d
+			y: -2.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "1A131060D0DAE21F"
+			tasks: [
+				{
+					id: "5ABCAA8E416D32E4"
+					type: "item"
+					item: "pipez:basic_upgrade"
+				}
+				{
+					id: "1FD5EBDC398302C6"
+					type: "item"
+					item: "pipez:improved_upgrade"
+				}
+				{
+					id: "45901759DC141139"
+					type: "item"
+					item: "pipez:advanced_upgrade"
+				}
+				{
+					id: "7A02906A23828697"
+					type: "item"
+					item: "pipez:ultimate_upgrade"
+				}
+				{
+					id: "2E01E6E34C09E2D2"
+					type: "item"
+					item: "pipez:wrench"
+				}
+			]
+			rewards: [{
+				id: "6814CE08FFDB1438"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+				count: 4
+			}]
+		}
+		{
+			title: "Backpack Upgrades"
+			x: 3.0d
+			y: 7.0d
+			dependencies: ["3CF5229F9A3EFD84"]
+			id: "4A284E684820E2EC"
+			tasks: [
+				{
+					id: "1617D16CC2BC1328"
+					type: "item"
+					item: "sophisticatedbackpacks:smelting_upgrade"
+				}
+				{
+					id: "52C6789B0E341163"
+					type: "item"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+				}
+				{
+					id: "345FDF9F4A302E28"
+					type: "item"
+					item: "sophisticatedbackpacks:stonecutter_upgrade"
+				}
+				{
+					id: "49529BA3ADB9F5D0"
+					type: "item"
+					item: "sophisticatedbackpacks:feeding_upgrade"
+				}
+				{
+					id: "470A07BB0CF0C6D5"
+					type: "item"
+					item: "sophisticatedbackpacks:jukebox_upgrade"
+				}
+			]
+			rewards: [{
+				id: "76656E395E5CA9CD"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "6755F5992A1052AA"
+			tasks: [
+				{
+					id: "0FB5C437E6F14AA9"
+					type: "item"
+					item: "waystones:waystone"
+				}
+				{
+					id: "359585003A76CB0B"
+					type: "item"
+					item: {
+						id: "waystones:warp_stone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2D0FE14F94E7851F"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			id: "30929A39AAE546F9"
+			tasks: [{
+				id: "46C0E5B6DA8DD4E4"
+				type: "item"
+				item: "apotheosis:library"
+			}]
+			rewards: [{
+				id: "42A8A0DABD3A1102"
+				type: "item"
+				item: "minecraft:book"
+				count: 64
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["614C83E1A305853D"]
+			id: "12E0FF32418CBB59"
+			tasks: [{
+				id: "0417B71AFA26FDEF"
+				type: "item"
+				item: {
+					id: "travel_anchors:travel_anchor"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DD451A5B67C1BB5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6352993187007078229L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "614C83E1A305853D"
+			tasks: [{
+				id: "75698C443BC6F336"
+				type: "item"
+				item: {
+					id: "travel_anchors:travel_staff"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C406F37D60C1133"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 6352993187007078229L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "4A5D6D98B0B310EF"
+			tasks: [{
+				id: "1B6B9D27411A5F81"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_1"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["4A5D6D98B0B310EF"]
+			id: "733D7B936B8B91CD"
+			tasks: [{
+				id: "64AEB089A191298B"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_2"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["733D7B936B8B91CD"]
+			id: "679C0A92DEC5CE0A"
+			tasks: [{
+				id: "222693A2B4FB9A50"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_3"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["679C0A92DEC5CE0A"]
+			id: "71FADB67FCDBE32B"
+			tasks: [{
+				id: "018137FB6B07C4E4"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_4"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["71FADB67FCDBE32B"]
+			id: "71D33EB8B22F19C6"
+			tasks: [{
+				id: "01387EAFA36E7EE6"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_5"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: [""]
+			dependencies: ["71D33EB8B22F19C6"]
+			id: "0A9931E89C0665B0"
+			tasks: [{
+				id: "34E0167B46F82BB4"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_6"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["0A9931E89C0665B0"]
+			id: "7DF2E9BE11FB99A7"
+			tasks: [{
+				id: "79E1CF13D16D4041"
+				type: "item"
+				item: {
+					id: "dankstorage:dank_7"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.5d
+			dependencies: [
+				"3BDB56DC15B09942"
+				"4C9B4E323E236C97"
+			]
+			id: "691ADA45669B8CE0"
+			tasks: [{
+				id: "51F3F51E1BBBA944"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			dependencies: ["691ADA45669B8CE0"]
+			id: "4BBE3DABB0E65E98"
+			tasks: [{
+				id: "4F78C657402F975B"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			dependencies: ["4BBE3DABB0E65E98"]
+			id: "59FEE9FF03DEEB95"
+			tasks: [{
+				id: "748B8791992940EA"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.0d
+			dependencies: ["59FEE9FF03DEEB95"]
+			id: "5B07C6F9CF7C57D6"
+			tasks: [{
+				id: "61EFE3BADA09D1D7"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 7.0d
+			dependencies: ["5B07C6F9CF7C57D6"]
+			id: "3FFE1BD285DEA10A"
+			tasks: [{
+				id: "7169A1DDBBF4D6D9"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			dependencies: ["3FFE1BD285DEA10A"]
+			id: "4E033CA9D0D33DF2"
+			tasks: [{
+				id: "0E5C79171B46B708"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.0d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "4C9B4E323E236C97"
+			tasks: [{
+				id: "10D640A10AD5F6A6"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.0d
+			dependencies: ["323CAFB2B22F84E9"]
+			id: "3BDB56DC15B09942"
+			tasks: [{
+				id: "5AFB09DB3D56329C"
+				type: "item"
+				item: "compactmachines:wall"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "323CAFB2B22F84E9"
+			tasks: [{
+				id: "2BD227E0F2F0CA09"
+				type: "item"
+				item: "compactcrafting:field_projector"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

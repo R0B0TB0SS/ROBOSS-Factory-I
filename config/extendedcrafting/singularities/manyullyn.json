@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.manyullyn",
+  "colors": [
+    "9261CC",
+    "350C57"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/manyullyn"
+  }
+}

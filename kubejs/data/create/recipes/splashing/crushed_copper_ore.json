@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "thermal:copper_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:copper_nugget",
+      "count": 9
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "chance": 0.5
+    }
+  ]
+}

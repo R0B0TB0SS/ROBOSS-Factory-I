@@ -1,0 +1,365 @@
+{
+	id: "2E3C2301378F60A5"
+	group: ""
+	order_index: 0
+	filename: "progression"
+	title: "progression"
+	icon: "robosstweaks:logo_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -1.5d
+		width: 10.0d
+		height: 1.5d
+		rotation: 0.0d
+		image: "roboss:textures/ui/logo.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Miscellaneous"
+			icon: "ftbquests:book"
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["0163EF4A5A6A1C7B"]
+			id: "30832019D909C77A"
+			tasks: [{
+				id: "1BC95CF202912B01"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0F857FD86549C6E8"
+				type: "item"
+				item: "robosstweaks:miscellaneous_trophy"
+			}]
+		}
+		{
+			title: "Create"
+			icon: "create:crushing_wheel"
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["000000000000044D"]
+			id: "06CDBD9C9DB8EEF8"
+			tasks: [{
+				id: "2367C07B6EE15270"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2D19ADFBB7CCD8D1"
+				type: "item"
+				item: "robosstweaks:create_trophy"
+			}]
+		}
+		{
+			title: "Mekanism"
+			icon: "mekanism:quantum_entangloporter"
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["0000000000000859"]
+			id: "3252255A365BA1CA"
+			tasks: [{
+				id: "24AD8BC99EB05A22"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "62C432863B7B63E5"
+				type: "item"
+				item: "robosstweaks:mekanism_trophy"
+			}]
+		}
+		{
+			icon: "thermal:wrench"
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["75BCA105246FEFD5"]
+			id: "2FC9DD2BC364D083"
+			tasks: [{
+				id: "2FCFD6339C3371A1"
+				type: "checkmark"
+				title: "Thermal"
+			}]
+			rewards: [{
+				id: "41556F7D2B654DAB"
+				type: "item"
+				item: "robosstweaks:thermal_trophy"
+			}]
+		}
+		{
+			title: "RFToold"
+			icon: "rftoolsbase:dimensionalshard"
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["0000000000000AC7"]
+			id: "5FFA7A7E765D2B0C"
+			tasks: [{
+				id: "25F2F8D5318A4EB6"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2271F4B71C95E4D4"
+				type: "item"
+				item: "robosstweaks:rftools_trophy"
+			}]
+		}
+		{
+			title: "Upgrade Netherite"
+			icon: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+			x: 3.5d
+			y: 2.0d
+			dependencies: ["17817A4DC532E2EC"]
+			id: "14623E0A92964F40"
+			tasks: [{
+				id: "2CDB9E8B1AC97405"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Power generation"
+			icon: "solarflux:sp_1"
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["000000000000059D"]
+			id: "332FFEC02948D74B"
+			tasks: [{
+				id: "7AE42AD667177543"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4C4EE61397F1A989"
+				type: "item"
+				item: "robosstweaks:powergen_trophy"
+			}]
+		}
+		{
+			title: "Applied Energistics 2"
+			icon: "ae2:controller"
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["00000000000000B8"]
+			id: "05A5AEB405FEEB3D"
+			tasks: [{
+				id: "25E86A65823C7B6C"
+				type: "checkmark"
+				title: "applied energistics 2"
+			}]
+			rewards: [{
+				id: "529B76776DEC71CA"
+				type: "item"
+				item: "robosstweaks:ae2_trophy"
+			}]
+		}
+		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["2460DB8DDEB167BE"]
+			id: "66F87A8E9A9A2587"
+			tasks: [{
+				id: "59CFD72A83BCEE88"
+				type: "checkmark"
+				title: "Twilight Forest"
+			}]
+			rewards: [{
+				id: "1128AFADF82C4123"
+				type: "item"
+				item: "robosstweaks:twilightforest_trophy"
+			}]
+		}
+		{
+			icon: {
+				id: "projecte:philosophers_stone"
+				Count: 1b
+				tag: { }
+			}
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["3D7606CCC3AA3984"]
+			id: "0684A94501C53B51"
+			tasks: [{
+				id: "691783CFF880E984"
+				type: "checkmark"
+				title: "Project E"
+			}]
+			rewards: [{
+				id: "4FE8396DB0C4DC3B"
+				type: "item"
+				item: "robosstweaks:projecte_trophy"
+			}]
+		}
+		{
+			icon: "botania:natura_pylon"
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["0000000000000371"]
+			id: "2D4B71EFA1A42100"
+			tasks: [{
+				id: "7911FEE682B29471"
+				type: "checkmark"
+				title: "Botania"
+			}]
+			rewards: [{
+				id: "51A72461D9943577"
+				type: "item"
+				item: "robosstweaks:botania_trophy"
+			}]
+		}
+		{
+			icon: "extendedcrafting:ultimate_table"
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["5F1828D807F8D85C"]
+			id: "0C2672997483434C"
+			tasks: [{
+				id: "37CA20C7BC75B5B3"
+				type: "checkmark"
+				title: "Extended crafting"
+			}]
+			rewards: [{
+				id: "466811C9F9E8AB37"
+				type: "item"
+				item: "robosstweaks:extendedcrafting_trophy"
+			}]
+		}
+		{
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["0000000000000691"]
+			id: "33BAF0BC4AF6FA30"
+			tasks: [{
+				id: "056D19C7B3467D23"
+				type: "checkmark"
+				title: "Immersive Engeneering"
+			}]
+			rewards: [{
+				id: "709DF9C4FA36573D"
+				type: "item"
+				item: "robosstweaks:immersiveengineering_trophy"
+			}]
+		}
+		{
+			icon: "extendedcrafting:the_ultimate_ingot"
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["3B7F1D29EC26E902"]
+			id: "2405656810888D7B"
+			tasks: [{
+				id: "452AC3011D5197A8"
+				type: "checkmark"
+				title: "End Game"
+			}]
+		}
+		{
+			title: "Thanks for playing"
+			icon: "robosstweaks:logo_block"
+			x: 0.0d
+			y: 6.0d
+			dependencies: [
+				"05A5AEB405FEEB3D"
+				"06CDBD9C9DB8EEF8"
+				"2D4B71EFA1A42100"
+				"2405656810888D7B"
+				"0C2672997483434C"
+				"33BAF0BC4AF6FA30"
+				"3252255A365BA1CA"
+				"30832019D909C77A"
+				"332FFEC02948D74B"
+				"0684A94501C53B51"
+				"5FFA7A7E765D2B0C"
+				"2FC9DD2BC364D083"
+				"14623E0A92964F40"
+				"01A5DC5CCF7F14F6"
+				"220219FE3918373A"
+			]
+			id: "14B90E757859B622"
+			tasks: [{
+				id: "0291A8738320C87E"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "56E6CDEFCC120084"
+				type: "item"
+				item: "robosstweaks:logo_block"
+			}]
+		}
+		{
+			title: "Start Questbook"
+			icon: "create:brass_hand"
+			x: 0.0d
+			y: 0.0d
+			id: "68319FDD2F0D6DE8"
+			tasks: [{
+				id: "585D64EADDED6E9E"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "draconicevolution:dragon_heart"
+			x: -3.5d
+			y: 3.0d
+			dependencies: ["25A119813F55D28B"]
+			id: "01A5DC5CCF7F14F6"
+			tasks: [{
+				id: "7ADF1DE1381204B0"
+				type: "checkmark"
+				title: "Draconic Evolution"
+			}]
+			rewards: [{
+				id: "1CCECC9C268048BA"
+				type: "item"
+				item: "robosstweaks:draconicevolution_trophy"
+			}]
+		}
+		{
+			icon: {
+				id: "beyond_earth:rocket_t3"
+				Count: 1b
+				tag: { }
+			}
+			x: 3.5d
+			y: 3.0d
+			dependencies: ["7A488E646C3369BB"]
+			id: "220219FE3918373A"
+			tasks: [{
+				id: "77EFB9D7C7098977"
+				type: "checkmark"
+				title: "Beyon Earth"
+			}]
+		}
+		{
+			icon: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:smart_chicken"
+					}
+				}
+			}
+			x: 0.0d
+			y: 3.5d
+			id: "0463287EA90BACFA"
+			tasks: [{
+				id: "666401C9354058E7"
+				type: "checkmark"
+				title: "Chickens"
+			}]
+			rewards: [{
+				id: "0E59705B258E55A3"
+				type: "item"
+				item: "robosstweaks:chicken_trophy"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

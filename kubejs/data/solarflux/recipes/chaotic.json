@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "EEE",
+      "GCG",
+      "PQP"
+    ],
+    "key": {
+      "E": {
+        "item":"solarflux:ender_glass"
+      },
+      "G": {
+        "item":"minecraft:glowstone"
+      },
+      "C": {
+        "item":"draconicevolution:chaotic_core"
+      },
+      "P": {
+        "item":"solarflux:photovoltaic_cell_draconic"
+      },
+      "Q": {
+        "item":"minecraft:quartz_block"
+      }
+    },
+    "result": {
+        "item": "solarflux:photovoltaic_cell_chaotic",
+        "count": 1
+    }
+}
+

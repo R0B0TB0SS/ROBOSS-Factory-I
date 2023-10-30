@@ -1,0 +1,30 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "       IB",
+      "      IBI",
+      "     IBI ",
+      "    IBI  ",
+      " M IBI   ",
+      "  MBI    ",
+      "  NM     ",
+      " N  M    ",
+      "C        "
+    ],
+    "key": {
+      "I": {
+        "item": "avaritia:crystal_matrix_ingot"
+      },"C": {
+        "item": "minecraft:nether_star"
+      },"N": {
+        "tag": "minecraft:logs"
+      },"M": {
+        "item": "minecraft:bone"
+      },"B": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "result": {
+      "item": "avaritia:skullfire_sword"
+    }
+  }

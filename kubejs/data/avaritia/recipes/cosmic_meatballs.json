@@ -1,0 +1,64 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCDEFGHI",
+      "JKLMNOPQR",
+      "STUV     ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    "key": {
+      "A": {
+      "item": "alexsmobs:kangaroo_meat"
+    },"B": {
+      "item": "alexsmobs:cooked_kangaroo_meat"
+    },"C": {
+      "item": "minecraft:porkchop"
+    },"D": {
+      "item": "minecraft:cooked_porkchop"
+    },"E": {
+      "item": "minecraft:salmon"
+    },"F": {
+      "item": "minecraft:tropical_fish"
+    },"G": {
+      "item": "minecraft:pufferfish"
+    },"H": {
+      "item": "minecraft:cooked_cod"
+    },"I": {
+      "item": "minecraft:cooked_salmon"
+    },"J": {
+      "item": "minecraft:beef"
+    },"K": {
+      "item": "minecraft:cooked_beef"
+    },"L": {
+      "item": "minecraft:mutton"
+    },"M": {
+      "item": "minecraft:cooked_mutton"
+    },"N": {
+      "item": "minecraft:rabbit"
+    },"O": {
+      "item": "minecraft:cooked_rabbit"
+    },"P": {
+      "item": "pamhc2foodextended:sausageitem"
+    },"Q": {
+      "item": "pamhc2foodextended:rawtofuttonitem"
+    },"R": {
+      "item": "pamhc2foodextended:cookedtofuttonitem"
+    },"S": {
+      "item": "pamhc2foodextended:rawtofishitem"
+    },"T": {
+      "item": "pamhc2foodextended:cookedtofishitem"
+    },"U": {
+      "item": "pamhc2foodextended:apricotglazedporkitem"
+    },"V": {
+        "item": "avaritia:neutron_pile"
+      }
+    },
+    "result": {
+      "item": "avaritia:cosmic_meatballs"
+    }
+  }

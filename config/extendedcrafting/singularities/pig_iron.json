@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.pig_iron",
+  "colors": [
+    "F0A8A4",
+    "7E484C"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/pig_iron"
+  }
+}

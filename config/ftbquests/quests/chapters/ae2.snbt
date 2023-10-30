@@ -1,0 +1,911 @@
+{
+	id: "00000000000000B8"
+	group: ""
+	order_index: 14
+	filename: "ae2"
+	title: "Applied Energistics 2"
+	icon: "ae2:controller"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: [
+				"67150ACBA381D1E4"
+				"68319FDD2F0D6DE8"
+				"57EABB479EF76C1B"
+				"2F1959878CDBAEB8"
+			]
+			size: 2.0d
+			id: "6EBE994E090A0361"
+			tasks: [{
+				id: "42669583096BE0B4"
+				type: "item"
+				item: "ae2:controller"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["25BFA5ECD664D8BF"]
+			id: "5F088A212BF457F0"
+			tasks: [{
+				id: "79CAF59341D01908"
+				type: "item"
+				item: "ae2:calculation_processor_press"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["25BFA5ECD664D8BF"]
+			id: "54B2777FEE120094"
+			tasks: [{
+				id: "3CEB684B6DBF2924"
+				type: "item"
+				item: "ae2:engineering_processor_press"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["25BFA5ECD664D8BF"]
+			id: "2081DDD1A5BCE61F"
+			tasks: [{
+				id: "685FC0B92570B3B1"
+				type: "item"
+				item: "ae2:logic_processor_press"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["25BFA5ECD664D8BF"]
+			id: "1D7E50F6502249F0"
+			tasks: [{
+				id: "5AA331F0EBC3FF52"
+				type: "item"
+				item: "ae2:silicon_press"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			dependencies: [
+				"5F088A212BF457F0"
+				"0000000000000481"
+			]
+			id: "363D88627DB36C93"
+			tasks: [{
+				id: "318E8B0EA292231A"
+				type: "item"
+				item: "ae2:printed_calculation_processor"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: [
+				"54B2777FEE120094"
+				"0000000000000481"
+			]
+			id: "67CD0A4AC9F9AE92"
+			tasks: [{
+				id: "45BA19294279DF21"
+				type: "item"
+				item: "ae2:printed_engineering_processor"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: [
+				"2081DDD1A5BCE61F"
+				"0000000000000481"
+			]
+			id: "0E21C9A7C5332FB8"
+			tasks: [{
+				id: "7932F042BD366E2A"
+				type: "item"
+				item: "ae2:printed_logic_processor"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: [
+				"1D7E50F6502249F0"
+				"0000000000000481"
+			]
+			id: "00F2CF424A12D7C4"
+			tasks: [{
+				id: "710463BB5D89C66F"
+				type: "item"
+				item: "ae2:printed_silicon"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: [
+				"0E21C9A7C5332FB8"
+				"00F2CF424A12D7C4"
+			]
+			id: "2F1959878CDBAEB8"
+			tasks: [{
+				id: "22AFAF98D6F2ED2F"
+				type: "item"
+				item: "ae2:logic_processor"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: [
+				"363D88627DB36C93"
+				"67CD0A4AC9F9AE92"
+			]
+			dependency_requirement: "all_started"
+			id: "67150ACBA381D1E4"
+			tasks: [{
+				id: "1F4C74F94C844763"
+				type: "item"
+				item: "ae2:calculation_processor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: [
+				"00F2CF424A12D7C4"
+				"67CD0A4AC9F9AE92"
+			]
+			id: "57EABB479EF76C1B"
+			tasks: [{
+				id: "6DA62A05EEFBC34E"
+				type: "item"
+				item: "ae2:engineering_processor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "25BFA5ECD664D8BF"
+			tasks: [{
+				id: "6EBE5C6A9640F923"
+				type: "item"
+				item: "ae2:sky_compass"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["6EBE994E090A0361"]
+			id: "5C9B7B1F2C800820"
+			tasks: [{
+				id: "64D10CE7128B31C6"
+				type: "item"
+				item: "ae2:drive"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["6EBE994E090A0361"]
+			id: "21E6A6F948BB8311"
+			tasks: [{
+				id: "589853FCFD889481"
+				type: "item"
+				item: "ae2:fluix_glass_cable"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			dependencies: ["21E6A6F948BB8311"]
+			id: "6250E9AA483E5873"
+			tasks: [{
+				id: "5AC94CEB7218AFF4"
+				type: "item"
+				item: "ae2:fluix_covered_cable"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["6250E9AA483E5873"]
+			id: "18A006BD3CD9D1B4"
+			tasks: [{
+				id: "5E81F3E41971F242"
+				type: "item"
+				item: "ae2:fluix_smart_cable"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			dependencies: ["18A006BD3CD9D1B4"]
+			id: "572D63F6F5F8EBE7"
+			tasks: [{
+				id: "60CB3A3514219CDE"
+				type: "item"
+				item: "ae2:fluix_covered_dense_cable"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["5C9B7B1F2C800820"]
+			id: "4E47B970D8A385D8"
+			tasks: [{
+				id: "1920B2E02BA22116"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["4E47B970D8A385D8"]
+			id: "37BE4A0E74E1895D"
+			tasks: [{
+				id: "5D4EC48ADC54AC56"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["37BE4A0E74E1895D"]
+			id: "00A1AECB01C2E9F4"
+			tasks: [{
+				id: "55B2519121EADC80"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["00A1AECB01C2E9F4"]
+			id: "7AA08856F1E4EB05"
+			tasks: [{
+				id: "038599A66F516429"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["6EBE994E090A0361"]
+			id: "08FE613F6F351388"
+			tasks: [{
+				id: "3C458FB8BB591E63"
+				type: "item"
+				item: "ae2:storage_bus"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			dependencies: ["572D63F6F5F8EBE7"]
+			id: "71C6CEAC0536417A"
+			tasks: [{
+				id: "3B1FF8BBC6D4C225"
+				type: "item"
+				item: "ae2:fluix_smart_dense_cable"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["3A32BC77A6BB4EAC"]
+			id: "5762FDE5D43250C1"
+			tasks: [{
+				id: "56A7FADEBFFAA0B2"
+				type: "item"
+				item: "ae2:1k_crafting_storage"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			dependencies: ["5762FDE5D43250C1"]
+			id: "6FC7852AEC722CAD"
+			tasks: [{
+				id: "39960DDEABACF728"
+				type: "item"
+				item: "ae2:4k_crafting_storage"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["6FC7852AEC722CAD"]
+			id: "68B4FA4475542180"
+			tasks: [{
+				id: "4050135223C65852"
+				type: "item"
+				item: "ae2:16k_crafting_storage"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			dependencies: ["68B4FA4475542180"]
+			id: "4132AA3C95071912"
+			tasks: [{
+				id: "0218B44C308751C5"
+				type: "item"
+				item: "ae2:64k_crafting_storage"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["3A32BC77A6BB4EAC"]
+			id: "305BD2E1D169703E"
+			tasks: [{
+				id: "71E21605842125E8"
+				type: "item"
+				item: "ae2:crafting_accelerator"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["53539FE809EE9DA1"]
+			id: "2813EDB15EB92314"
+			tasks: [{
+				id: "265AA78D27336059"
+				type: "item"
+				item: "ae2:terminal"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["2813EDB15EB92314"]
+			id: "1D057F2B7EB19786"
+			tasks: [{
+				id: "4150501B8D74D61F"
+				type: "item"
+				item: "ae2:crafting_terminal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["2813EDB15EB92314"]
+			id: "08C67CFDC5683D4E"
+			tasks: [{
+				id: "4B8A5CCBDA842988"
+				type: "item"
+				item: "ae2:pattern_encoding_terminal"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["2813EDB15EB92314"]
+			id: "10D0A0396B38F3BE"
+			tasks: [{
+				id: "1E75D4760EA45550"
+				type: "item"
+				item: "ae2:pattern_access_terminal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["6EBE994E090A0361"]
+			id: "53539FE809EE9DA1"
+			tasks: [{
+				id: "39FC9EAC4EA5A1A1"
+				type: "item"
+				item: "ae2:storage_monitor"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["6EBE994E090A0361"]
+			id: "3A32BC77A6BB4EAC"
+			tasks: [{
+				id: "096AF378986F5956"
+				type: "item"
+				item: "ae2:crafting_unit"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			dependencies: ["6EBE994E090A0361"]
+			id: "1AF7DCF7141A4948"
+			tasks: [{
+				id: "3F7FE199BCCECB81"
+				type: "item"
+				item: "ae2:security_station"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			dependencies: ["1AF7DCF7141A4948"]
+			id: "15A8DA59B0181D52"
+			tasks: [{
+				id: "23270E6F38003E62"
+				type: "item"
+				item: "ae2:wireless_access_point"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.5d
+			dependencies: ["15A8DA59B0181D52"]
+			id: "684E51C9FA6CE91F"
+			tasks: [{
+				id: "28698FEB5F4A85B0"
+				type: "item"
+				item: {
+					id: "ae2:wireless_terminal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			dependencies: ["684E51C9FA6CE91F"]
+			id: "339E52B4F1128B89"
+			tasks: [{
+				id: "0397B9CE6353D108"
+				type: "item"
+				item: "ae2:wireless_crafting_terminal"
+				match_nbt: false
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			dependencies: ["684E51C9FA6CE91F"]
+			id: "013C5FB2858A7927"
+			tasks: [{
+				id: "713E030B75D738F1"
+				type: "item"
+				item: "ae2wtlib:wireless_pattern_access_terminal"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.5d
+			dependencies: ["684E51C9FA6CE91F"]
+			id: "3CAE589CB68354E9"
+			tasks: [{
+				id: "2883F383BB6DBDD8"
+				type: "item"
+				item: "ae2wtlib:wireless_pattern_encoding_terminal"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["6EBE994E090A0361"]
+			id: "280AE1CB32A8851C"
+			tasks: [{
+				id: "2C9ACD9C50F86890"
+				type: "item"
+				item: "ae2:pattern_provider"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			dependencies: ["280AE1CB32A8851C"]
+			id: "6463E79D3CBE4592"
+			tasks: [{
+				id: "03D086434B886EB0"
+				type: "item"
+				item: "ae2:molecular_assembler"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			dependencies: ["6EBE994E090A0361"]
+			id: "3D282D3E4BAACB98"
+			tasks: [{
+				id: "59D789D331BB3B85"
+				type: "item"
+				item: "ae2:quantum_ring"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.5d
+			dependencies: ["6EBE994E090A0361"]
+			id: "2795374058BB4F5E"
+			tasks: [{
+				id: "2351EE3638384C71"
+				type: "item"
+				item: "ae2:me_p2p_tunnel"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["6EBE994E090A0361"]
+			id: "72EBEE1BDE0A7115"
+			tasks: [{
+				id: "6ECD103DFAEFBA39"
+				type: "item"
+				item: "ae2:export_bus"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			dependencies: ["6EBE994E090A0361"]
+			id: "58A5B798BF0A0C54"
+			tasks: [{
+				id: "500518132F70E96D"
+				type: "item"
+				item: "ae2:export_bus"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["7AA08856F1E4EB05"]
+			id: "1DC1E80498F71204"
+			tasks: [{
+				id: "024EBDF6D8C32468"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -8.5d
+			dependencies: [
+				"339E52B4F1128B89"
+				"013C5FB2858A7927"
+				"3CAE589CB68354E9"
+			]
+			id: "3A1C6C3ACF518FAE"
+			tasks: [{
+				id: "2000C60726E5F455"
+				type: "item"
+				item: "ae2wtlib:wireless_universal_terminal"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["6EBE994E090A0361"]
+			id: "4298812AF1542305"
+			tasks: [{
+				id: "0D8CD4D14594BD9A"
+				type: "item"
+				item: "ae2:interface"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			dependencies: ["4132AA3C95071912"]
+			id: "722E8B43A6258ECB"
+			tasks: [{
+				id: "42F26264768C48FE"
+				type: "item"
+				item: "ae2:256k_crafting_storage"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			dependencies: ["5C9B7B1F2C800820"]
+			id: "51CE72AF229D3DBE"
+			tasks: [{
+				id: "4EF044A0F489F0F0"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["5C9B7B1F2C800820"]
+			id: "0DCA01158DBB81EA"
+			tasks: [{
+				id: "18DB4FF8FF8AA598"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["5C9B7B1F2C800820"]
+			id: "347FB57457EA8211"
+			tasks: [{
+				id: "30E7E8F3A151C9DD"
+				type: "item"
+				item: {
+					id: "ae2things:disk_drive_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["51CE72AF229D3DBE"]
+			id: "0A5702DB50CA7F37"
+			tasks: [{
+				id: "6C4867A08C630EDF"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["347FB57457EA8211"]
+			id: "5E0AA1E9B49BA07B"
+			tasks: [{
+				id: "4EC3EC22DD712D83"
+				type: "item"
+				item: {
+					id: "ae2things:disk_drive_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["0DCA01158DBB81EA"]
+			id: "2FF84E187C25174C"
+			tasks: [{
+				id: "2241169BF31742EC"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_4k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["0A5702DB50CA7F37"]
+			id: "5EB003E32FF350FF"
+			tasks: [{
+				id: "5F342A9F1D8BFDA8"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["5EB003E32FF350FF"]
+			id: "7969A1A63E17D31E"
+			tasks: [{
+				id: "4EE9F04B90B1B224"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["7969A1A63E17D31E"]
+			id: "7E0629F8938177AE"
+			tasks: [{
+				id: "1264CF4756BF1ECA"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["2FF84E187C25174C"]
+			id: "586DB2581BE0ECF5"
+			tasks: [{
+				id: "0B24B091C2CCB731"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			dependencies: ["586DB2581BE0ECF5"]
+			id: "40E27F406CE6F0E5"
+			tasks: [{
+				id: "4094351B58EDC6E1"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["40E27F406CE6F0E5"]
+			id: "590C4865B86C5D65"
+			tasks: [{
+				id: "59E6FB644CD7B907"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			dependencies: ["3ABE9E3C518F456D"]
+			id: "03534D9BE068F77B"
+			tasks: [{
+				id: "1AE397E87AE43B1A"
+				type: "item"
+				item: {
+					id: "ae2things:disk_drive_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["5E0AA1E9B49BA07B"]
+			id: "3ABE9E3C518F456D"
+			tasks: [{
+				id: "1333C934F87EF58D"
+				type: "item"
+				item: {
+					id: "ae2things:disk_drive_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["03534D9BE068F77B"]
+			id: "23C4B6CE1E0241AB"
+			tasks: [{
+				id: "2D5FCD01F780AD1B"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["6EBE994E090A0361"]
+			id: "30F8D0F0F28E98DC"
+			tasks: [{
+				id: "09D8313D53782913"
+				type: "item"
+				item: "ae2:spatial_io_port"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["30F8D0F0F28E98DC"]
+			id: "3E89D753FE778B9E"
+			tasks: [{
+				id: "71E4707009ACE728"
+				type: "item"
+				item: "ae2:spatial_pylon"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["30F8D0F0F28E98DC"]
+			id: "0FB76F2D342B7F11"
+			tasks: [{
+				id: "6E41677273DFDD04"
+				type: "item"
+				item: "ae2:spatial_storage_cell_2"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["0FB76F2D342B7F11"]
+			id: "269F69AEC1624A5E"
+			tasks: [{
+				id: "1C62826C69C8F346"
+				type: "item"
+				item: "ae2:spatial_storage_cell_16"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["269F69AEC1624A5E"]
+			id: "5AE6DDDCA5D000C0"
+			tasks: [{
+				id: "627A277EE8B39D85"
+				type: "item"
+				item: "ae2:spatial_storage_cell_128"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

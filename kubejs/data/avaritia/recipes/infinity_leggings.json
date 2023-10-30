@@ -1,0 +1,28 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "NNNNNNNNN",
+      "NIIICIIIN",
+      "NINNCNNIN",
+      "NIN   NIN",
+      "NMN   NMN",
+      "NIN   NIN",
+      "NIN   NIN",
+      "NIN   NIN",
+      "NNN   NNN"
+    ],
+    "key": {
+      "M": {
+        "item": "avaritia:crystal_matrix_block"
+      },"N": {
+        "item": "avaritia:neutronium_ingot"
+      },"I": {
+        "item": "avaritia:infinity_ingot"
+      },"C": {
+        "item": "avaritia:infinity_catalyst"
+      }
+    },
+    "result": {
+      "item": "avaritia:infinity_legs"
+    }
+  }

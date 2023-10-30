@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.pink_slime_ingot",
+  "colors": [
+    "E7CAE2",
+    "AD4E9D"
+  ],
+  "ingredient": {
+    "item": "industrialforegoing:pink_slime_ingot"
+  }
+}

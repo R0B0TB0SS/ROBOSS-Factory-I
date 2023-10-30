@@ -1,0 +1,21 @@
+{
+	id: "32DD06A12F494771"
+	group: ""
+	order_index: 19
+	filename: "avaritia"
+	title: "Avaritia"
+	icon: "avaritia:infinity_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: -2.5d
+		id: "6A15F9B506F4D819"
+		tasks: [{
+			id: "018CC49E33FCA8E3"
+			type: "item"
+			item: "avaritia:infinity_catalyst"
+		}]
+	}]
+	quest_links: [ ]
+}

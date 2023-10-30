@@ -1,0 +1,14 @@
+{
+    "type": "extendedcrafting:compressor",
+    "powerCost": 500000,
+    "inputCount": 1024,
+    "ingredient": {
+      "item": "extendedexchange:yellow_matter"
+    },
+    "catalyst": {
+      "item": "extendedcrafting:ultimate_catalyst"
+    },
+    "result": {
+      "item": "robosstweaks:blakdestroyer_ingot"
+    }
+  }

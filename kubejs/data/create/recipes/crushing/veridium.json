@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "create:veridium"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:copper_dust",
+      "chance": 0.8
+    },
+    {
+      "item": "thermal:copper_nugget",
+      "chance": 0.8
+    }
+  ],
+  "processingTime": 250
+}

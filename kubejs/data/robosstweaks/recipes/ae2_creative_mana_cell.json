@@ -1,0 +1,36 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 100000,
+    "input": {
+      "item": "appbot:mana_storage_cell_256k"
+    },
+    "ingredients": [
+      {
+        "item": "avaritia:infinity_ingot"
+      },
+      {
+        "item": "avaritia:infinity_ingot"
+      },
+      {
+        "item": "robosstweaks:blakdestroyer_plate"
+      },
+      {
+        "item": "avaritia:infinity_catalyst"
+      },
+      {
+        "item": "robosstweaks:laimx_plate"
+      },
+      {
+        "item": "avaritia:infinity_catalyst"
+      },
+      {
+        "item": "robosstweaks:robotboss_plate"
+      },
+      {
+        "item": "avaritia:infinity_catalyst"
+      }
+    ],
+    "result": {
+      "item": "appbot:creative_mana_cell"
+    }
+  }

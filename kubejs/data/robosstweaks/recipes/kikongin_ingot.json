@@ -1,0 +1,14 @@
+/*{
+    "type": "extendedcrafting:compressor",
+    "powerCost": 500000,
+    "inputCount": 2048,
+    "ingredient": {
+      "item": "extendedexchange:pink_matter"
+    },
+    "catalyst": {
+      "item": "extendedcrafting:ultimate_catalyst"
+    },
+    "result": {
+      "item": "robosstweaks:kikongin_ingot"
+    }
+  }*/

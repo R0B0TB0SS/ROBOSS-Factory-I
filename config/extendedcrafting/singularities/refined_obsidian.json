@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.refined_obsidian",
+  "colors": [
+    "8168AD",
+    "C09FBF"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/refined_obsidian"
+  }
+}

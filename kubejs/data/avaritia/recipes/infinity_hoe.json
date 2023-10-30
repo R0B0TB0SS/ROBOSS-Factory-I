@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "     N   ",
+      " IIIIII  ",
+      "IIIIIII  ",
+      "I    II  ",
+      "     N   ",
+      "     N   ",
+      "     N   ",
+      "     N   ",
+      "     N   "
+    ],
+    "key": {
+     "N": {
+        "item": "avaritia:neutronium_ingot"
+      },"I": {
+        "item": "avaritia:infinity_ingot"
+      }
+    },
+    "result": {
+      "item": "avaritia:infinity_hoe"
+    }
+  }

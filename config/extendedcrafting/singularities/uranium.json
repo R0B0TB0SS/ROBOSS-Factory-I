@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.uranium",
+  "colors": [
+    "A6F4A7",
+    "536458"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/uranium"
+  }
+}

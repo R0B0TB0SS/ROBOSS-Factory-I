@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.paladium",
+  "colors": [
+    "FFE8CC",
+    "521500"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/paladium"
+  }
+}

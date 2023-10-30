@@ -1,0 +1,26 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      " IIIIIII ",
+      "IIIIMIIII",
+      "II  N  II",
+      "    N    ",
+      "    N    ",
+      "    N    ",
+      "    N    ",
+      "    N    ",
+      "    N    "
+    ],
+    "key": {
+      "M": {
+        "item": "avaritia:crystal_matrix_block"
+      },"N": {
+        "item": "avaritia:neutronium_ingot"
+      },"I": {
+        "item": "avaritia:infinity_ingot"
+      }
+    },
+    "result": {
+      "item": "avaritia:infinity_pickaxe"
+    }
+  }
