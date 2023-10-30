@@ -1,5 +1,5 @@
 onEvent("rei.group", (event) => {
-  const useNbt = [
+  const useNbt = [ 
     "tconstruct:crafting_station",
     "tconstruct:tinker_station",
     "tconstruct:part_builder",
