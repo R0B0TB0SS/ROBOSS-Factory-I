@@ -130,6 +130,7 @@ onEvent('recipes', e => {
     ro('beyond_earth:steel_nugget')
     ro('beyond_earth:steel_ingot')
     ro('immersiveengineering:ingot_steel')
+    ri('mekanism:storage_blocks/steel')
 
     //osmium
     ri('create:smelting/ingot_osmium_compat_mekanism')
@@ -156,8 +157,21 @@ onEvent('recipes', e => {
     ri('create:smelting/ingot_aluminum_compat_immersiveengineering')
     ri('create:blasting/ingot_aluminum_compat_immersiveengineering')
     //gold
-
+    ri('industrialforegoing:gold_gear')
+    ri('immersiveengineering:smelting/gold_ingot_from_dust_from_blasting')
+    ri('immersiveengineering:smelting/gold_ingot_from_dust')
+    ri('create:blasting/gold_ingot_from_crushed')
+    ri('create:smelting/gold_ingot_from_crushed')
+    
     //iron
+    ri('industrialforegoing:iron_gear')
+    ri('immersiveengineering:smelting/iron_ingot_from_dust_from_blasting')
+    ri('immersiveengineering:smelting/iron_ingot_from_dust')
+    ri('beyond_earth:iron_plate')
+    ri('beyond_earth_giselle_addon:blasting/iron_ingot_from_plate')
+    ri('beyond_earth_giselle_addon:smelting/iron_ingot_from_plate')
+    ri('create:blasting/iron_ingot_from_crushed')
+    ri('create:smelting/iron_ingot_from_crushed')
 
     //uranuim
 

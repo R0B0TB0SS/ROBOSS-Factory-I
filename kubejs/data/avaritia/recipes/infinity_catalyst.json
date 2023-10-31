@@ -41,7 +41,7 @@
       },"N": {
         "item": "thermal:enderium_block"
       },"O": {
-        "item": "mekanism:block_steel"
+        "item": "immersiveengineering:storage_steel"
       }
     },
     "result": {

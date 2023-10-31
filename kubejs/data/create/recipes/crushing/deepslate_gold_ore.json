@@ -1,0 +1,28 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:deepslate_gold_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:gold_dust",
+      "count": 2
+    },
+    {
+      "item": "thermal:gold_dust",
+      "chance": 0.25
+    },
+    {
+      "item": "create:experience_nugget",
+      "count": 2,
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:cobbled_deepslate",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 350
+}

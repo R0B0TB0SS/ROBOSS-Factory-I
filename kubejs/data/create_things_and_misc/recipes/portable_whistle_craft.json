@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "34 "
+  ],
+  "key": {
+    "1": {
+      "item": "thermal:gold_plate"
+    },
+    "2": {
+      "item": "thermal:gold_plate"
+    },
+    "3": {
+      "item": "minecraft:copper_ingot"
+    },
+    "4": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "create_things_and_misc:portable_whistle",
+    "count": 1
+  }
+}

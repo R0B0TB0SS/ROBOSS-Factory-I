@@ -1,0 +1,18 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_iron"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:iron_dust"
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    }
+  ],
+  "processingTime": 400
+}
