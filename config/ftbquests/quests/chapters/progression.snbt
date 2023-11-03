@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "progression"
-	title: "progression"
+	title: "Progression"
 	icon: "robosstweaks:logo_block"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
@@ -281,6 +281,7 @@
 				"01A5DC5CCF7F14F6"
 				"220219FE3918373A"
 			]
+			size: 2.0d
 			id: "14B90E757859B622"
 			tasks: [{
 				id: "0291A8738320C87E"

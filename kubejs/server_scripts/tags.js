@@ -138,7 +138,6 @@ onEvent('tags.items', event => {
                              'mekanism:dust_lapis_lazuli','mekanism:block_steel'])
 
 
-    event.add('forge:ingots/paladium', 'robosstweaks:paladium_ingot')
 })
 
 

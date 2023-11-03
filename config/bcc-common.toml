@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "R0B0SS Factory I"
 	#The version of the modpack
-	modpackVersion = "alpha V1.0.9"
+	modpackVersion = "alpha V1.0.10"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
