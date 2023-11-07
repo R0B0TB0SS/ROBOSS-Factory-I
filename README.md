@@ -1,7 +1,7 @@
 # R0B0SS-Factory-I
 ### Developement environement 
 
-|add/remove/specific | mods | version|
+|type  | mods | version|
 | :-------: |:---------------:| :-----:|
 | add | custom machinery | last update|
 | add | jei | last update|
