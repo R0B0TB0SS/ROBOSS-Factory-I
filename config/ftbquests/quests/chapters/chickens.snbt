@@ -15,6 +15,23 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: -2.0d
+		y: -1.5d
+		id: "665B4357F4D657E4"
+		tasks: [{
+			id: "5F9A04C8A7C205EC"
+			type: "item"
+			item: {
+				id: "chickens:chicken_item"
+				Count: 1b
+				tag: {
+					ChickenType: {
+						id: "chickens:smart_chicken"
+					}
+				}
+			}
+		}]
+	}]
 	quest_links: [ ]
 }

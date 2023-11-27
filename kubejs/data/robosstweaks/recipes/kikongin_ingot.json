@@ -1,9 +1,9 @@
-/*{
+{
     "type": "extendedcrafting:compressor",
     "powerCost": 500000,
-    "inputCount": 2048,
+    "inputCount": 1024,
     "ingredient": {
-      "item": "extendedexchange:pink_matter"
+      "item": "tconstruct:amethyst_bronze_ingot"
     },
     "catalyst": {
       "item": "extendedcrafting:ultimate_catalyst"
@@ -11,4 +11,4 @@
     "result": {
       "item": "robosstweaks:kikongin_ingot"
     }
-  }*/
+  }

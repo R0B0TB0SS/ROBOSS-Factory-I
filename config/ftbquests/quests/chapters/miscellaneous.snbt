@@ -51,6 +51,7 @@
 			x: 1.5d
 			y: -1.5d
 			description: [""]
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "1F0EDC68C1BAB021"
 			tasks: [
 				{
@@ -617,6 +618,7 @@
 		{
 			x: 0.5d
 			y: -1.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "6057A24539A10D96"
 			tasks: [{
 				id: "141A67A15C6116F8"
