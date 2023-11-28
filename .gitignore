@@ -10,7 +10,7 @@ rhino.local.properties
 servers.dat
 TlauncherProfiles.json
 usercache.json
-usernamecache.json
+usernamecache.json 
 worlds.json
 versions 
 assets 
@@ -19,7 +19,7 @@ backups
 crash-reports 
 local 
 logs 
-profileImage 
+profileImage
 runtime 
 saves 
 screenshots 
@@ -27,10 +27,7 @@ tlauncher_libraries
 libraries
 esm
 mods
-TempOptifineStore-1.0.json
 config/byg/backups/last_working_configs_backup.zip
 WailaErrorOutput.txt 
-config/jei/world 
-config/powah.json5
 lightspeed-cache
 servers.dat_old
