@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  path = kubejs/assets/roboss/textures/ui/bg.png
+  path = kubejs/assets/robosstweaks/textures/ui/bg.png
   action = texturizebackground
 }
 
@@ -48,8 +48,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = kubejs/assets/roboss/textures/ui/button/mp_hover.png
-  backgroundnormal = kubejs/assets/roboss/textures/ui/button/mp.png
+  backgroundhovered = kubejs/assets/robosstweaks/textures/ui/button/mp_hover.png
+  backgroundnormal = kubejs/assets/robosstweaks/textures/ui/button/mp.png
 }
 
 customization {
@@ -92,8 +92,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = kubejs/assets/roboss/textures/ui/button/options_hover.png
-  backgroundnormal = kubejs/assets/roboss/textures/ui/button/options.png
+  backgroundhovered = kubejs/assets/robosstweaks/textures/ui/button/options_hover.png
+  backgroundnormal = kubejs/assets/robosstweaks/textures/ui/button/options.png
 }
 
 customization {
@@ -126,8 +126,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = kubejs/assets/roboss/textures/ui/button/exit_hover.png
-  backgroundnormal = kubejs/assets/roboss/textures/ui/button/exit.png
+  backgroundhovered = kubejs/assets/robosstweaks/textures/ui/button/exit_hover.png
+  backgroundnormal = kubejs/assets/robosstweaks/textures/ui/button/exit.png
 }
 
 customization {
@@ -160,8 +160,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = kubejs/assets/roboss/textures/ui/button/lang_hover.png
-  backgroundnormal = kubejs/assets/roboss/textures/ui/button/lang.png
+  backgroundhovered = kubejs/assets/robosstweaks/textures/ui/button/lang_hover.png
+  backgroundnormal = kubejs/assets/robosstweaks/textures/ui/button/lang.png
 }
 
 customization {
@@ -194,8 +194,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = kubejs/assets/roboss/textures/ui/button/sp_hover.png
-  backgroundnormal = kubejs/assets/roboss/textures/ui/button/sp.png
+  backgroundhovered = kubejs/assets/robosstweaks/textures/ui/button/sp_hover.png
+  backgroundnormal = kubejs/assets/robosstweaks/textures/ui/button/sp.png
 }
 
 customization {
@@ -228,8 +228,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = kubejs/assets/roboss/textures/ui/button/mods_hover.png
-  backgroundnormal = kubejs/assets/roboss/textures/ui/button/mods.png
+  backgroundhovered = kubejs/assets/robosstweaks/textures/ui/button/mods_hover.png
+  backgroundnormal = kubejs/assets/robosstweaks/textures/ui/button/mods.png
 }
 
 customization {
@@ -307,7 +307,7 @@ customization {
 
 customization {
   advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.00123 * 150","decimal":"false"}}
-  path = kubejs/assets/roboss/textures/ui/logo.png
+  path = kubejs/assets/robosstweaks/textures/ui/logo.png
   orientation = top-left
   x = 0
   width = 407

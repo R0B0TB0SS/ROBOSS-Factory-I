@@ -51,7 +51,7 @@ customization {
 
 customization {
   advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *0.00123*150","decimal":"false"}}  
-  path = kubejs/assets/roboss/textures/ui/logo.png
+  path = kubejs/assets/robosstweaks/textures/ui/logo.png
   orientation = top-left
   x = 0
   width = 326
@@ -66,7 +66,7 @@ customization {
 
 customization {
   advanced_height = {"placeholder":"calc","values":{"expression":"120*0.00123*{"placeholder":"guiheight"}","decimal":"true"}}
-  path = kubejs/assets/roboss/textures/ui/mojang.png
+  path = kubejs/assets/robosstweaks/textures/ui/mojang.png
   orientation = top-left
   x = 0
   width = 162

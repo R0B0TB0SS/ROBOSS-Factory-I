@@ -21,7 +21,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/arc_furnace.png"
+			image: "robosstweaks:textures/ftbquests/arc_furnace.png"
 			hover: ["Arc Furnace"]
 			click: ""
 			dev: false
@@ -33,7 +33,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/assembler.png"
+			image: "robosstweaks:textures/ftbquests/assembler.png"
 			hover: ["Assembler"]
 			click: ""
 			dev: false
@@ -45,7 +45,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/automated_workbench.png"
+			image: "robosstweaks:textures/ftbquests/automated_workbench.png"
 			hover: ["Automated Workbench"]
 			click: ""
 			dev: false
@@ -57,7 +57,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/bottling_machine.png"
+			image: "robosstweaks:textures/ftbquests/bottling_machine.png"
 			hover: ["Bottling Machine"]
 			click: ""
 			dev: false
@@ -69,7 +69,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/crusher.png"
+			image: "robosstweaks:textures/ftbquests/crusher.png"
 			hover: ["Crusher"]
 			click: ""
 			dev: false
@@ -81,7 +81,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/diesel_generator.png"
+			image: "robosstweaks:textures/ftbquests/diesel_generator.png"
 			hover: ["Diesel Generator"]
 			click: ""
 			dev: false
@@ -93,7 +93,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/distillation_tower.png"
+			image: "robosstweaks:textures/ftbquests/distillation_tower.png"
 			hover: ["Distillation Tower"]
 			click: ""
 			dev: false
@@ -105,7 +105,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/excavator.png"
+			image: "robosstweaks:textures/ftbquests/excavator.png"
 			hover: ["Excavator"]
 			click: ""
 			dev: false
@@ -117,7 +117,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/fermenter.png"
+			image: "robosstweaks:textures/ftbquests/fermenter.png"
 			hover: ["Fermenter"]
 			click: ""
 			dev: false
@@ -129,7 +129,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/lightning_rod.png"
+			image: "robosstweaks:textures/ftbquests/lightning_rod.png"
 			hover: ["Lightning Rod"]
 			click: ""
 			dev: false
@@ -141,7 +141,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/metal_press.png"
+			image: "robosstweaks:textures/ftbquests/metal_press.png"
 			hover: ["Metal Press"]
 			click: ""
 			dev: false
@@ -153,7 +153,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/mixer.png"
+			image: "robosstweaks:textures/ftbquests/mixer.png"
 			hover: ["Mixer"]
 			click: ""
 			dev: false
@@ -165,7 +165,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/pumpjack.png"
+			image: "robosstweaks:textures/ftbquests/pumpjack.png"
 			hover: ["Pumpjack"]
 			click: ""
 			dev: false
@@ -177,7 +177,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/refinery.png"
+			image: "robosstweaks:textures/ftbquests/refinery.png"
 			hover: ["Refinery"]
 			click: ""
 			dev: false
@@ -189,7 +189,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/sawmill.png"
+			image: "robosstweaks:textures/ftbquests/sawmill.png"
 			hover: ["Sawmill"]
 			click: ""
 			dev: false
@@ -201,7 +201,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/squeezer.png"
+			image: "robosstweaks:textures/ftbquests/squeezer.png"
 			hover: ["Squeezer"]
 			click: ""
 			dev: false
@@ -213,7 +213,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/coker.png"
+			image: "robosstweaks:textures/ftbquests/coker.png"
 			hover: ["Coker"]
 			click: ""
 			dev: false
