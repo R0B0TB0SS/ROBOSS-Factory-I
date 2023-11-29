@@ -13,7 +13,7 @@
 		width: 10.0d
 		height: 1.5d
 		rotation: 0.0d
-		image: "roboss:textures/ui/logo.png"
+		image: "robosstweaks:textures/ui/logo.png"
 		hover: [ ]
 		click: ""
 		dev: false
@@ -293,6 +293,11 @@
 				type: "checkmark"
 				title: "Beyon Earth"
 			}]
+			rewards: [{
+				id: "2D7C307252FF0C09"
+				type: "item"
+				item: "robosstweaks:beyond_earth_trophy"
+			}]
 		}
 		{
 			icon: {
@@ -341,11 +346,17 @@
 			icon: "avaritia:infinity_block"
 			x: 0.5d
 			y: 4.0d
+			dependencies: ["32DD06A12F494771"]
 			id: "40428763FAACD011"
 			tasks: [{
 				id: "4AF74D6DABCD91D8"
 				type: "checkmark"
 				title: "Avaritia"
+			}]
+			rewards: [{
+				id: "6ACA05D2F7F674BB"
+				type: "item"
+				item: "robosstweaks:avaritia_trophy"
 			}]
 		}
 		{
@@ -358,11 +369,17 @@
 			}
 			x: -0.5d
 			y: 4.0d
+			dependencies: ["3B7F1D29EC26E902"]
 			id: "5DA9A8159383BB6D"
 			tasks: [{
 				id: "03725ACC8F5ECFDB"
 				type: "checkmark"
 				title: "End Game"
+			}]
+			rewards: [{
+				id: "6B9686BAB6699FE1"
+				type: "item"
+				item: "robosstweaks:end_game_trophy"
 			}]
 		}
 		{

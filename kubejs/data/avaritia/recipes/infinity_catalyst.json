@@ -2,7 +2,7 @@
     "type": "extendedcrafting:shaped_table",
     "pattern": [
       "ABCDEFGHI",
-      "JKLMNO   ",
+      "JPKLMNO  ",
       "         ",
       "         ",
       "         ",
@@ -32,6 +32,8 @@
         "item": "extendedcrafting:ultimate_singularity"
       },"J": {
         "item": "robosstweaks:robotboss_ingot"
+      },"P": {
+        "item": "robosstweaks:kikongin_ingot"
       },"K": {
         "item": "robosstweaks:laimx_ingot"
       },"L": {

@@ -19,7 +19,7 @@
 		width: 3.5d
 		height: 4.5d
 		rotation: 0.0d
-		image: "roboss:textures/ftbquests/creative_fabricator.png"
+		image: "robosstweaks:textures/ftbquests/creative_fabricator.png"
 		hover: [ ]
 		click: ""
 		dev: false
@@ -29,7 +29,6 @@
 		{
 			x: 6.0d
 			y: -1.5d
-			dependencies: ["211DE7106D6B6D96"]
 			id: "3389365ACFEF86E6"
 			tasks: [{
 				id: "73FFFA7075680032"
@@ -245,66 +244,6 @@
 				id: "7BAE2CEAC51D9BE5"
 				type: "item"
 				item: "functionalstorage:creative_vending_upgrade"
-			}]
-		}
-		{
-			x: -5.0d
-			y: 6.5d
-			id: "359AB0C0CFCCE540"
-			tasks: [{
-				id: "6DDC838E38346687"
-				type: "item"
-				item: "avaritia:infinity_sword"
-			}]
-		}
-		{
-			x: -4.0d
-			y: 5.5d
-			id: "31E5DC20C7B75E1D"
-			tasks: [{
-				id: "6FCED16015E2BBA5"
-				type: "item"
-				item: "avaritia:infinity_helmet"
-			}]
-		}
-		{
-			x: -4.0d
-			y: 7.5d
-			id: "17594F362155E1C1"
-			tasks: [{
-				id: "3947DBF3E01A10DF"
-				type: "item"
-				item: "avaritia:infinity_legs"
-			}]
-		}
-		{
-			x: -4.0d
-			y: 6.5d
-			id: "5647D5B7E7001E8E"
-			tasks: [{
-				id: "24B1BB3BB2DB15B6"
-				type: "item"
-				item: "avaritia:infinity_chestplate"
-			}]
-		}
-		{
-			x: -4.0d
-			y: 8.5d
-			id: "1364F01E4CB52F0F"
-			tasks: [{
-				id: "71728C395B266E89"
-				type: "item"
-				item: "avaritia:infinity_boots"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 6.5d
-			id: "240DA3684FF6CE49"
-			tasks: [{
-				id: "3A506E03517E0B59"
-				type: "item"
-				item: "avaritia:infinity_pickaxe"
 			}]
 		}
 		{

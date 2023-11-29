@@ -14,7 +14,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/fusion_reactor.png"
+			image: "robosstweaks:textures/ftbquests/fusion_reactor.png"
 			hover: ["Fusion Reactor"]
 			click: ""
 			dev: false
@@ -26,7 +26,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/supercritical_phase_shifter.png"
+			image: "robosstweaks:textures/ftbquests/supercritical_phase_shifter.png"
 			hover: ["Supercritical Phase Shifter"]
 			click: ""
 			dev: false
@@ -38,7 +38,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/thermal_evaporation.png"
+			image: "robosstweaks:textures/ftbquests/thermal_evaporation.png"
 			hover: ["Thermal Evaporation"]
 			click: ""
 			dev: false
@@ -50,7 +50,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/energy_storage.png"
+			image: "robosstweaks:textures/ftbquests/energy_storage.png"
 			hover: ["Energy Storage"]
 			click: ""
 			dev: false
@@ -62,7 +62,7 @@
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
-			image: "roboss:textures/ftbquests/fission_reactor.png"
+			image: "robosstweaks:textures/ftbquests/fission_reactor.png"
 			hover: ["Fission Reactor"]
 			click: ""
 			dev: false
