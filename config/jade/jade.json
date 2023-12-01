@@ -1,6 +1,6 @@
 {
   "general": {
-    "displayTooltip": false,
+    "displayTooltip": true,
     "displayBlocks": true,
     "displayEntities": true,
     "displayMode": "TOGGLE",
@@ -10,7 +10,7 @@
     "ttsMode": "PRESS",
     "maxHealthForRender": 40,
     "maxHeartsPerLine": 10,
-    "fluidMode": "NONE",
+    "fluidMode": "ANY",
     "reachDistance": 0.0,
     "debug": false,
     "hintOverlayToggle": false
