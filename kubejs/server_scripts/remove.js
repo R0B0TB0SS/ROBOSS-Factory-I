@@ -174,7 +174,14 @@ onEvent('recipes', e => {
     ri('create:smelting/iron_ingot_from_crushed')
 
     //uranuim
-
+    ro('immersiveengineering:ingot_uranium')
+    ri('create:blasting/ingot_uranium_compat_mekanism')
+    ri('create:smelting/ingot_uranium_compat_mekanism')
+    ri('create:splashing/immersiveengineering/crushed_raw_uranium')
+    ro('immersiveengineering:raw_block_uranium')
+    ro('immersiveengineering:raw_uranium')
+    ri('immersiveengineering:crafting/ingot_uranium_to_storage_uranium')
+    ri('immersiveengineering:crafting/ingot_uranium_to_nugget_uranium')
     //constantan
 
     //nickel
@@ -184,6 +191,10 @@ onEvent('recipes', e => {
     //diamond
     ri('industrialforegoing:diamond_gear')
     //emerald
+
+    //ametist
+    ro('iceandfire:amythest_gem')
+    ro('iceandfire:amythest_block')
 
     //netherite
     ri('cyclic:netherite_nugget')

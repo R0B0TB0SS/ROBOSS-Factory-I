@@ -123,6 +123,14 @@
     {
       "item": "mekanism:dust_lapis_lazuli",
       "emc": 0
+    },
+    {
+      "item": "iceandfire:amythest_gem",
+      "emc": 0
+    },
+    {
+      "item": "iceandfire:amythest_block",
+      "emc": 0
     }
   ]
 }

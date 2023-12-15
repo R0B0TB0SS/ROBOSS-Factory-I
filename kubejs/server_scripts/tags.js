@@ -1,6 +1,9 @@
-onEvent('tags.items', event => {
+onEvent('tags.items', e => {
 
-    event.removeAllTagsFrom(['cyclic:copper_nugget',
+    e.remove('forge:ingots/uranium','bigreactors:yellorium_ingot')
+    e.remove('forge:ores/uranium','bigreactors:yellorite_ore')
+
+    e.removeAllTagsFrom(['cyclic:copper_nugget',
                              'mekanism:dust_copper',
                              'immersiveengineering:wire_copper',
                              'immersiveengineering:nugget_copper',
@@ -135,7 +138,12 @@ onEvent('tags.items', event => {
                              'beyond_earth:steel_nugget', 
                              'beyond_earth:steel_ingot', 
                              'beyond_earth:steel_block',
-                             'mekanism:dust_lapis_lazuli','mekanism:block_steel'])
+                             'mekanism:dust_lapis_lazuli',
+                             'mekanism:block_steel',
+                             'iceandfire:amythest_ore', 
+                             'iceandfire:amythest_gem', 
+                             'iceandfire:amythest_block',
+                             'create:crushed_raw_uranium'])
 
 
 })
@@ -143,9 +151,9 @@ onEvent('tags.items', event => {
 
 
 
-onEvent('tags.blocks', event => {
+onEvent('tags.blocks', e => {
 
-    event.removeAllTagsFrom(['immersiveengineering:ore_lead', 
+    e.removeAllTagsFrom(['immersiveengineering:ore_lead', 
                              'immersiveengineering:deepslate_ore_lead', 
                              'immersiveengineering:raw_block_lead', 
                              'immersiveengineering:storage_lead',  ,  
@@ -187,8 +195,10 @@ onEvent('tags.blocks', event => {
                              'avaritia:double_compressed_crafting_table',
                              'mekanism:tin_ore',
                              'beyond_earth:steel_block',
-                             'mekanism:block_steel'])
+                             'mekanism:block_steel',
+                             'iceandfire:amythest_ore', 
+                             'iceandfire:amythest_block'])
 
-                             event.add('minecraft:block/bedrock', 'minecraft:bedrock')
+                             e.add('minecraft:block/bedrock', 'minecraft:bedrock')
 
 })
