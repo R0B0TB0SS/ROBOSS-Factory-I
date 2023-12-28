@@ -100,12 +100,6 @@ onEvent('tags.items', e => {
                              'immersiveengineering:deepslate_ore_nickel', 
                              'immersiveengineering:ore_nickel', 
                              'create:crushed_nickel_ore',
-                             'immersiveengineering:slab_storage_electrum', 
-                             'immersiveengineering:plate_electrum', 
-                             'immersiveengineering:dust_electrum', 
-                             'immersiveengineering:nugget_electrum', 
-                             'immersiveengineering:ingot_electrum', 
-                             'immersiveengineering:storage_electrum',
                              'iceandfire:copper_ingot', 
                              'iceandfire:copper_block', 
                              'iceandfire:copper_ore', 
@@ -143,7 +137,19 @@ onEvent('tags.items', e => {
                              'iceandfire:amythest_ore', 
                              'iceandfire:amythest_gem', 
                              'iceandfire:amythest_block',
-                             'create:crushed_raw_uranium'])
+                             'create:crushed_raw_uranium',
+                             'immersiveengineering:nugget_nickel',
+                             'createaddition:electrum_sheet',
+                             'createaddition:electrum_nugget',
+                             'createaddition:electrum_ingot',
+                             'immersiveengineering:wire_electrum',
+                             'immersiveengineering:plate_electrum',
+                             'immersiveengineering:dust_electrum',
+                             'immersiveengineering:storage_electrum',
+                             'immersiveengineering:ingot_electrum',
+                             'immersiveengineering:nugget_electrum',
+                             'create:crushed_raw_copper'
+                             ])
 
 
 })
@@ -182,8 +188,6 @@ onEvent('tags.blocks', e => {
                              'immersiveengineering:storage_nickel', 
                              'immersiveengineering:deepslate_ore_nickel',
                              'immersiveengineering:ore_nickel',
-                             'immersiveengineering:slab_storage_electrum' , 
-                             'immersiveengineering:storage_electrum',
                              'iceandfire:copper_block', 
                              'iceandfire:copper_ore', 
                              'iceandfire:silver_block', 
@@ -197,7 +201,8 @@ onEvent('tags.blocks', e => {
                              'beyond_earth:steel_block',
                              'mekanism:block_steel',
                              'iceandfire:amythest_ore', 
-                             'iceandfire:amythest_block'])
+                             'iceandfire:amythest_block',
+                             'immersiveengineering:storage_electrum'])
 
                              e.add('minecraft:block/bedrock', 'minecraft:bedrock')
 

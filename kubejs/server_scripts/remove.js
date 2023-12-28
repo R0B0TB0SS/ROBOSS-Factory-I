@@ -183,15 +183,33 @@ onEvent('recipes', e => {
     ri('immersiveengineering:crafting/ingot_uranium_to_storage_uranium')
     ri('immersiveengineering:crafting/ingot_uranium_to_nugget_uranium')
     //constantan
-
+    ri('immersiveengineering:crafting/ingot_constantan_to_storage_constantan')
+    ro('immersiveengineering:ingot_constantan')
+    ro('immersiveengineering:nugget_constantan')
+    ro('immersiveengineering:dust_constantan')
     //nickel
-
+    ro('immersiveengineering:storage_nickel')
+    ro('immersiveengineering:ingot_nickel')
+    ro('immersiveengineering:raw_block_nickel')
+    ro('immersiveengineering:raw_nickel')
+    ro('immersiveengineering:nugget_nickel')
+    ri('create:blasting/nickel_ingot_compat_thermal')
+    ri('create:smelting/nickel_ingot_compat_thermal')
     //electrum
-
+    ro('createaddition:electrum_nugget')
+    ri('createaddition:crafting/electrum_spool')
+    ro('createaddition:electrum_ingot')
+    ri('immersiveengineering:crafting/electrum_mix')
+    ri('immersiveengineering:crafting/ingot_electrum_to_nugget_electrum')
+    ri('immersiveengineering:crafting/ingot_electrum_to_storage_electrum')
+    ri('immersiveengineering:crafting/storage_electrum_to_ingot_electrum')
+    ri('immersiveengineering:crafting/nugget_electrum_to_ingot_electrum')
+    ri('immersiveengineering:smelting/ingot_electrum_from_dust_from_blasting')
+    ri('immersiveengineering:smelting/ingot_electrum_from_dust')
     //diamond
     ri('industrialforegoing:diamond_gear')
     //emerald
-
+ 
     //ametist
     ro('iceandfire:amythest_gem')
     ro('iceandfire:amythest_block')

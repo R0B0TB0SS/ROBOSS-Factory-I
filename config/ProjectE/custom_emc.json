@@ -131,6 +131,14 @@
     {
       "item": "iceandfire:amythest_block",
       "emc": 0
+    },
+    {
+      "item": "createaddition:electrum_nugget",
+      "emc": 0
+    },
+    {
+      "item": "createaddition:electrum_ingot",
+      "emc": 0
     }
   ]
 }

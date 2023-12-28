@@ -123,6 +123,20 @@ onEvent('jei.hide.items', event => {
                 Item.of('ae2:facade', '{item:"immersiveengineering:storage_silver"}'), 
                 Item.of('ae2:facade', '{item:"iceandfire:silver_ore"}'),
                 'create:crushed_raw_silver',
-                Item.of('ae2:facade', '{item:"iceandfire:silver_block"}')
+                Item.of('ae2:facade', '{item:"iceandfire:silver_block"}'),
+                Item.of('ae2:facade', '{item:"immersiveengineering:ore_uranium"}'), 
+                Item.of('ae2:facade', '{item:"immersiveengineering:deepslate_ore_uranium"}'), 
+                Item.of('ae2:facade', '{item:"immersiveengineering:raw_block_uranium"}'), 
+                Item.of('ae2:facade', '{item:"immersiveengineering:storage_uranium"}'), 
+                'create:crushed_raw_uranium', 
+                'immersiveengineering:ore_uranium', 
+                'immersiveengineering:deepslate_ore_uranium', 
+                'immersiveengineering:raw_block_uranium', 
+                'immersiveengineering:storage_uranium', 
+                'immersiveengineering:slab_storage_uranium', 
+                'immersiveengineering:ingot_uranium', 
+                'immersiveengineering:nugget_uranium', 
+                'immersiveengineering:raw_uranium', 
+                'immersiveengineering:dust_uranium'
             ])
   })
