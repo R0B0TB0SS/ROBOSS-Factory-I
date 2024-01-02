@@ -1,0 +1,31 @@
+{
+    "type": "extendedcrafting:combination",
+    "powerCost": 1000000,
+    "input": {
+      "item": "avaritia:infinity_ingot"
+    },
+    "ingredients": [
+      {
+        "item": "ae2:controller"
+      },{
+        "item": "ae2:controller"
+      },{
+        "item": "ae2:controller"
+      },{
+        "item": "ae2:controller"
+      },{
+        "item": "ae2:controller"
+      },{
+        "item": "ae2:controller"
+      },{
+        "item": "ae2:controller"
+      },{
+        "item": "ae2:controller"
+      }
+      
+    ],
+    "result": {
+      "item": "robosstweaks:creative_catalyst"
+    }
+  }
+  
