@@ -3,18 +3,6 @@ onEvent('recipes', event => {
 
   const item = [
     {
-      in:Item.of("ae2:item_storage_cell_256k"),
-      out:Item.of("ae2:creative_item_cell")
-    },{
-      in:Item.of("ae2:fluid_storage_cell_256k"),
-      out:Item.of("ae2:creative_fluid_cell")
-    },{
-      in:Item.of("appbot:mana_storage_cell_256k"),
-      out:Item.of("appbot:creative_mana_cell")
-    },{
-      in:Item.of("appmek:chemical_storage_cell_256k"),
-      out:Item.of("appmek:creative_chemical_cell")
-    },{
       in:Item.of("createaddition:electric_motor"),
       out:Item.of("create:creative_motor")
     },{
@@ -63,18 +51,39 @@ onEvent('recipes', event => {
     .requireStructure([["a a","   ","a a"],[" a ","aba"," m "]],{"a":"robosstweaks:creative_catalyst","b":"avaritia:infinity_block"})
   })
 
+const item2 =[
+  {
+    in:Item.of("ae2:item_storage_cell_256k"),
+    out:Item.of("ae2:creative_item_cell")
+  },{
+    in:Item.of("ae2:fluid_storage_cell_256k"),
+    out:Item.of("ae2:creative_fluid_cell")
+  },{
+    in:Item.of("appbot:mana_storage_cell_256k"),
+    out:Item.of("appbot:creative_mana_cell")
+  },{
+    in:Item.of("appmek:chemical_storage_cell_256k"),
+    out:Item.of("appmek:creative_chemical_cell")
+  },{
+    in:Item.of("draconicevolution:draconium_chest"),
+    out:Item.of("create:creative_crate")
+  }
+
+]
+
+item2.forEach((cri) =>{
   event.recipes.custommachinery.custom_machine("robosstweaks:creative_fabricator", 200)
     .requireEnergyPerTick(1000)
     .requireItem(Item.of("robosstweaks:robotboss_ingot"), "input1")
     .requireItem(Item.of("robosstweaks:kikongin_ingot"), "input3")
     .requireItem(Item.of("avaritia:infinity_ingot"), "input2")
     .requireItem(Item.of("avaritia:infinity_catalyst"), "input4")
-    .requireItem(Item.of("draconicevolution:draconium_chest"), "input5")
+    .requireItem(cri.in, "input5")
     .requireItem(Item.of("avaritia:infinity_catalyst"), "input6")
     .requireItem(Item.of("robosstweaks:laimx_ingot", "input7"))
-    .requireItem(Item.of("avaritia:infinity_catalyst"), "input8")
+    .requireItem(Item.of("avaritia:infinity_ingot"), "input8")
     .requireItem(Item.of("robosstweaks:blakdestroyer_ingot", "input9"))
-    .produceItem(Item.of("create:creative_crate"), "output1")
+    .produceItem(cri.out, "output1")
     .requireStructure([["a a","   ","a a"],[" a ","aba"," m "]],{"a":"robosstweaks:creative_catalyst","b":"avaritia:infinity_block"})
-  
+  })
 })

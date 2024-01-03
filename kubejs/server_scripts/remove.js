@@ -219,5 +219,7 @@ onEvent('recipes', e => {
     ri('tconstruct:common/materials/netherite_nugget_from_ingot')
     //avaritia
     ri('avaritia:compressor')
+    //invar
+    ri('immersiveengineering:metalpress/plate_invar')
 
 })

@@ -26,8 +26,8 @@ screenshots
 tlauncher_libraries 
 libraries
 esm
-mods
 config/byg/backups/last_working_configs_backup.zip
 WailaErrorOutput.txt 
 lightspeed-cache
 servers.dat_old
+*.jar

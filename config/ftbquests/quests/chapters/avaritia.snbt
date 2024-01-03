@@ -7,6 +7,15 @@
 	icon: "avaritia:infinity_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 0.0d
+		y: -1.0d
+		id: "18BF4582A073A024"
+		tasks: [{
+			id: "3473C569076C8FB2"
+			type: "item"
+			item: "immersiveengineering:tesla_coil"
+		}]
+	}]
 	quest_links: [ ]
 }

@@ -62,7 +62,11 @@
 		{
 			x: 1.0d
 			y: 2.5d
-			dependencies: ["211DE7106D6B6D96"]
+			hide_dependency_lines: true
+			dependencies: [
+				"211DE7106D6B6D96"
+				"30F2A943E4B4A817"
+			]
 			id: "034E38A2F981E961"
 			tasks: [
 				{
@@ -269,6 +273,8 @@
 		{
 			x: 1.0d
 			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["6E6C7E755E2EE9A5"]
 			id: "30F2A943E4B4A817"
 			tasks: [{
 				id: "0F4F00FB220FD157"
@@ -307,6 +313,7 @@
 		{
 			x: 3.0d
 			y: 4.5d
+			dependencies: ["32DD06A12F494771"]
 			id: "01A5245310285704"
 			tasks: [{
 				id: "098A1FEE84FD3571"

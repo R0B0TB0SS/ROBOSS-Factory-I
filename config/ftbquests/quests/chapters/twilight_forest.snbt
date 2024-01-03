@@ -641,6 +641,19 @@
 				}
 			]
 		}
+		{
+			title: "Final Boss ?"
+			icon: "ftbquests:missing_item"
+			x: 11.5d
+			y: 0.0d
+			dependencies: ["299BA4D00D811433"]
+			id: "2359F0AF2A737373"
+			tasks: [{
+				id: "581656DA5F53BB37"
+				type: "item"
+				item: "robosstweaks:twilight_bot_trophy"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
