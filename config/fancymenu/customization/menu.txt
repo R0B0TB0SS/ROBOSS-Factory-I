@@ -310,13 +310,18 @@ customization {
   path = kubejs/assets/robosstweaks/textures/ui/logo.png
   orientation = top-left
   x = 0
-  width = 407
+  width = 415
   action = addtexture
   actionid = 71442c80-c7c0-4cc5-939e-7e1e156218f51694535310162
   y = 0
   advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - {"placeholder":"elementwidth","values":{"id":"71442c80-c7c0-4cc5-939e-7e1e156218f51694535310162"}} /2","decimal":"false"}}
   advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *1000 * 0.00123","decimal":"false"}}
   advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *0.07","decimal":"false"}}
-  height = 61
+  height = 62
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
 }
 

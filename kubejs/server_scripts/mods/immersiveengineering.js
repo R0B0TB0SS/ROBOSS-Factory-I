@@ -68,5 +68,63 @@ onEvent('recipes', e => {
     })
 
 
+    const gear =[
+        {
+            in:"thermal_extra:soul_infused_ingot",
+            out:"thermal_extra:soul_infused_gear"
+        },{
+            in:"thermal:enderium_ingot",
+            out:"thermal:enderium_gear"
+        },{
+            in:"thermal:lumium_ingot",
+            out:"thermal:lumium_gear"
+        },{
+            in:"thermal:signalum_ingot",
+            out:"thermal:signalum_gear"
+        },{
+            in:"minecraft:quartz",
+            out:"thermal:quartz_gear"
+        },{
+            in:"minecraft:diamond",
+            out:"thermal:diamond_gear"
+        },{
+            in:"minecraft:lapis_lazuli",
+            out:"thermal:lapis_gear"
+        },{
+            in:"minecraft:emerald",
+            out:"thermal:emerald_gear"
+        },{
+            in:"minecraft:netherite_ingot",
+            out:"thermal:netherite_gear"
+        },{
+            in:"thermal_extra:dragonsteel_ingot",
+            out:"thermal_extra:dragonsteel_gear"
+        },{
+            in:"thermal_extra:twinite_ingot",
+            out:"thermal_extra:twinite_gear"
+        },{
+            in:"thermal_extra:shellite_ingot",
+            out:"thermal_extra:shellite_gear"
+        }
+    ]
+
+    gear.forEach((i) => {
+        e.custom({
+            "type":"immersiveengineering:metal_press",
+            "mold":"immersiveengineering:mold_gear",
+            "result":{
+                "item":i.out
+            },
+            "input":{
+                "count":4,
+                "base_ingredient":{
+                    "item":i.in
+                }
+            },
+            "energy":2400
+        })
+    })
+
+
 
 })
