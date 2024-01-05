@@ -13,7 +13,6 @@ usercache.json
 usernamecache.json 
 worlds.json
 versions 
-assets 
 backup 
 backups 
 crash-reports 
@@ -32,3 +31,5 @@ lightspeed-cache
 servers.dat_old
 *.jar
 resourcepacks/Quark Programmer Art.zip
+*.disabled
+fancymenu_data/last_world.fmdata
