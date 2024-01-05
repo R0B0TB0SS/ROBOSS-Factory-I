@@ -1,7 +1,0 @@
-type = last_world
-
-last_world {
-  is_server = false
-  world = C:/Users/robot/Documents/modpack/Instances/R0B0SS Factory I/saves/twilight boss (1)
-}
-
