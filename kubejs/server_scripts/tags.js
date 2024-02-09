@@ -148,8 +148,13 @@ onEvent('tags.items', e => {
                              'immersiveengineering:storage_electrum',
                              'immersiveengineering:ingot_electrum',
                              'immersiveengineering:nugget_electrum',
-                             'create:crushed_raw_copper'
+                             'create:crushed_raw_copper',
+                             'ae2:ender_dust'
                              ])
+
+                             e.add('forge:dusts','thermal:ender_pearl_dust')
+                             e.add('supplementaries:hourglass_dusts','thermal:ender_pearl_dust')
+                             e.add('extendedexchange:stone_table_whitelist','thermal:ender_pearl_dust')
 
 
 })

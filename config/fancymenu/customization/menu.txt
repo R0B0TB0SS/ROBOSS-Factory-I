@@ -1,327 +1,549 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screens.TitleScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1706299961471
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:b3760d24-8d9f-4957-bba0-f7cecc513b7e-1706299902695] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]kubejs/assets/robosstweaks/textures/ui/bg.png
+  slide = false
+  background_type = image
 }
 
 customization {
-  path = kubejs/assets/robosstweaks/textures/ui/bg.png
-  action = texturizebackground
-}
-
-customization {
-  keepaspectratio = true
   action = backgroundoptions
+  keepaspectratio = true
 }
 
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  orientation = top-left
-  x = 0
-  action = movebutton
-  y = 0
-  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2","decimal":"false"}}
-  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button"}} -{"placeholder":"guiheight"}*0.13","decimal":"true"}}
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
 }
 
-customization {
-  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *496*0.000255","decimal":"false"}}
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  width = 50
-  action = resizebutton
-  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 2000 * 0.000255","decimal":"false"}}
-  height = 50
+element {
+  source = [source:local]kubejs/assets/robosstweaks/textures/ui/logo.png
+  element_type = image
+  instance_identifier = 71442c80-c7c0-4cc5-939e-7e1e156218f51694535310162
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - {"placeholder":"elementwidth","values":{"id":"71442c80-c7c0-4cc5-939e-7e1e156218f51694535310162"}} /2","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *0.07","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *1000 * 0.00123","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.00123 * 150","decimal":"false"}}
+  x = -36
+  y = 24
+  width = 415
+  height = 62
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = ea984ed6-3e29-47af-9b60-8f2a3add764d-1706296381984
+  [loading_requirement_container_meta:ea984ed6-3e29-47af-9b60-8f2a3add764d-1706296381984] = [groups:][instances:]
 }
 
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  loopbackgroundanimations = true
+element {
+  button_element_executable_block_identifier = e32cc12d-58d7-40b2-a3c7-e96b0031e8c8-1706298894091
+  [executable_action_instance:72c56232-fc40-4bbb-9998-aef59f2d19d0-1706299496045][action_type:opengui] = net.minecraftforge.client.gui.ModListScreen
+  [executable_block:e32cc12d-58d7-40b2-a3c7-e96b0031e8c8-1706298894091][type:generic] = [executables:72c56232-fc40-4bbb-9998-aef59f2d19d0-1706299496045;]
+  backgroundnormal = [source:local]kubejs/assets/robosstweaks/textures/ui/button/mods.png
+  backgroundhovered = [source:local]kubejs/assets/robosstweaks/textures/ui/button/mods_hover.png
   restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/robosstweaks/textures/ui/button/mp_hover.png
-  backgroundnormal = kubejs/assets/robosstweaks/textures/ui/button/mp.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=376322%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = top-left
-  x = 0
-  action = movebutton
-  y = 0
-  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2+1","decimal":"true"}}
+  loopbackgroundanimations = true
+  label = 
+  element_type = custom_button
+  instance_identifier = 6bd84dd0-ff2c-4015-9f66-65f769be2960-1706298894091
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2-{"placeholder":"elementwidth","values":{"id":"6bd84dd0-ff2c-4015-9f66-65f769be2960-1706298894091"}}-1","decimal":"true"}}
   advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-391*0.00017*{"placeholder":"guiheight"}-{"placeholder":"guiheight"}*0.04","decimal":"true"}}
-}
-
-customization {
-  advanced_height = {"placeholder":"calc","values":{"expression":"391*0.00017*{"placeholder":"guiheight"}","decimal":"true"}}
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 50
-  action = resizebutton
   advanced_width = {"placeholder":"calc","values":{"expression":"395*0.00017*{"placeholder":"guiheight"}*3.0","decimal":"true"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"391*0.00017*{"placeholder":"guiheight"}","decimal":"true"}}
+  x = -57
+  y = 196
+  width = 50
   height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 0a5d8127-366a-4a9a-9f24-1abb5ea66826-1706298894091
+  [loading_requirement_container_meta:0a5d8127-366a-4a9a-9f24-1abb5ea66826-1706298894091] = [groups:][instances:]
 }
 
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  loopbackgroundanimations = true
+vanilla_button {
+  button_element_executable_block_identifier = c9e95d98-1e56-4408-b71e-6fefd5ac524a-1706296882119
+  [executable_block:c9e95d98-1e56-4408-b71e-6fefd5ac524a-1706296882119][type:generic] = [executables:]
   restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/robosstweaks/textures/ui/button/options_hover.png
-  backgroundnormal = kubejs/assets/robosstweaks/textures/ui/button/options.png
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_copyright_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 442
+  y = 327
+  width = 196
+  height = 10
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = e1992cc5-97b7-44a3-9e59-4bd3bf404f43-1706296882119
+  [loading_requirement_container_meta:e1992cc5-97b7-44a3-9e59-4bd3bf404f43-1706296882119] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
 }
 
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = top-left
-  x = 0
-  action = movebutton
-  y = 0
+vanilla_button {
+  button_element_executable_block_identifier = 92b68ece-a4d5-4363-8646-527c3b479805-1706296381983
+  [executable_block:92b68ece-a4d5-4363-8646-527c3b479805-1706296381983][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_realms_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 322
+  y = 180
+  width = 98
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 0fe13fbf-f416-4f54-b7b7-deadf770265b-1706296381983
+  [loading_requirement_container_meta:0fe13fbf-f416-4f54-b7b7-deadf770265b-1706296381983] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = b76d4714-42ac-48f6-8b52-339a19d1f2c7-1706296381975
+  [executable_block:b76d4714-42ac-48f6-8b52-339a19d1f2c7-1706296381975][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/robosstweaks/textures/ui/button/exit.png
+  backgroundhovered = [source:local]kubejs/assets/robosstweaks/textures/ui/button/exit_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = 
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_quit_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
   advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2+ 395*0.00017*{"placeholder":"guiheight"} *3.0+1","decimal":"true"}}
   advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-391*0.00017*{"placeholder":"guiheight"}-{"placeholder":"guiheight"}*0.04","decimal":"true"}}
-}
-
-customization {
-  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *0.00017*391","decimal":"false"}}
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 50
-  action = resizebutton
   advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.00017 * 395","decimal":"false"}}
-  height = 50
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/robosstweaks/textures/ui/button/exit_hover.png
-  backgroundnormal = kubejs/assets/robosstweaks/textures/ui/button/exit.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = top-left
-  x = 0
-  action = movebutton
-  y = 0
-  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2-395*0.00017*{"placeholder":"guiheight"}*3.0-{"placeholder":"elementwidth","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_language_button"}}","decimal":"true"}}
-  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-391*0.00017*{"placeholder":"guiheight"}-{"placeholder":"guiheight"}*0.04","decimal":"true"}}
-}
-
-customization {
-  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.00017 * 391","decimal":"false"}}
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *0.00017*391","decimal":"false"}}
+  x = 455
+  y = 266
   width = 50
-  action = resizebutton
+  height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = a0f4456b-fdda-4ce2-8f81-c25e655f87be-1706296381975
+  [loading_requirement_container_meta:a0f4456b-fdda-4ce2-8f81-c25e655f87be-1706296381975] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = a0739ddb-e2b0-41ef-b86d-d1567a4b8179-1706296381975
+  [executable_block:a0739ddb-e2b0-41ef-b86d-d1567a4b8179-1706296381975][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_accessibility_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 424
+  y = 216
+  width = 20
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 8f953cfb-7422-4bda-b82a-ad1a7d1d89b0-1706296381975
+  [loading_requirement_container_meta:8f953cfb-7422-4bda-b82a-ad1a7d1d89b0-1706296381975] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 9f2d062a-7b74-4e77-b78b-6f2919d03fb1-1706296381975
+  [executable_block:9f2d062a-7b74-4e77-b78b-6f2919d03fb1-1706296381975][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/robosstweaks/textures/ui/button/mp.png
+  backgroundhovered = [source:local]kubejs/assets/robosstweaks/textures/ui/button/mp_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = 
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_multiplayer_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"vanillabtn:mc_titlescreen_multiplayer_button"}} -{"placeholder":"guiheight"}*0.13","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 2000 * 0.000255","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *496*0.000255","decimal":"false"}}
+  x = 580
+  y = 242
+  width = 50
+  height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = d4428504-9a57-40cb-a8aa-c662bfccaa83-1706296381974
+  [loading_requirement_container_meta:d4428504-9a57-40cb-a8aa-c662bfccaa83-1706296381974] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 2c02d4ec-3264-42d8-bbad-26320ee9ada7-1706296381975
+  [executable_block:2c02d4ec-3264-42d8-bbad-26320ee9ada7-1706296381975][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/robosstweaks/textures/ui/button/lang.png
+  backgroundhovered = [source:local]kubejs/assets/robosstweaks/textures/ui/button/lang_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = 
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_language_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2-395*0.00017*{"placeholder":"guiheight"}*3.0-{"placeholder":"elementwidth","values":{"id":"vanillabtn:mc_titlescreen_language_button"}}","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-391*0.00017*{"placeholder":"guiheight"}-{"placeholder":"guiheight"}*0.04","decimal":"true"}}
   advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.00017 * 395 ","decimal":"false"}}
-  height = 50
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/robosstweaks/textures/ui/button/lang_hover.png
-  backgroundnormal = kubejs/assets/robosstweaks/textures/ui/button/lang.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = top-left
-  x = 0
-  action = movebutton
-  y = 0
-  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 -{"placeholder":"elementwidth","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button"}} -1","decimal":"false"}}
-  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} - {"placeholder":"elementheight","values":{"id":"vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button"}} - {"placeholder":"guiheight"} *0.13","decimal":"false"}}
-}
-
-customization {
-  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.000255 * 496","decimal":"false"}}
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.00017 * 391","decimal":"false"}}
+  x = 213
+  y = 251
   width = 50
-  action = resizebutton
+  height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = f5a3e831-49ec-4126-afd6-0b16deefc4ca-1706296381975
+  [loading_requirement_container_meta:f5a3e831-49ec-4126-afd6-0b16deefc4ca-1706296381975] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 3ed36166-b13a-424f-ab69-237ea5bedba0-1706296381975
+  [executable_block:3ed36166-b13a-424f-ab69-237ea5bedba0-1706296381975][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:376322
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 196
+  y = 156
+  width = 20
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 8c968ce0-6469-4e39-9371-5b55c59ef434-1706296381975
+  [loading_requirement_container_meta:8c968ce0-6469-4e39-9371-5b55c59ef434-1706296381975] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 0fbb04ac-168f-47a1-b07d-6499b577a497-1706296381976
+  [executable_block:0fbb04ac-168f-47a1-b07d-6499b577a497-1706296381976][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/robosstweaks/textures/ui/button/sp.png
+  backgroundhovered = [source:local]kubejs/assets/robosstweaks/textures/ui/button/sp_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = 
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_singleplayer_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 -{"placeholder":"elementwidth","values":{"id":"vanillabtn:mc_titlescreen_singleplayer_button"}} -1","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-{"placeholder":"elementheight","values":{"id":"vanillabtn:mc_titlescreen_singleplayer_button"}} -{"placeholder":"guiheight"}*0.13","decimal":"true"}}
   advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.000255 * 2000","decimal":"false"}}
-  height = 50
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/robosstweaks/textures/ui/button/sp_hover.png
-  backgroundnormal = kubejs/assets/robosstweaks/textures/ui/button/sp.png
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  orientation = top-left
-  x = 0
-  action = movebutton
-  y = 0
-  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2-{"placeholder":"elementwidth","values":{"id":"vanillabtn:button_compatibility_id:forge_titlescreen_mods_button"}}-1","decimal":"true"}}
-  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-391*0.00017*{"placeholder":"guiheight"}-{"placeholder":"guiheight"}*0.04","decimal":"true"}}
-}
-
-customization {
-  advanced_height = {"placeholder":"calc","values":{"expression":"391*0.00017*{"placeholder":"guiheight"}","decimal":"true"}}
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.000255 * 496","decimal":"false"}}
+  x = 93
+  y = 203
   width = 50
-  action = resizebutton
-  advanced_width = {"placeholder":"calc","values":{"expression":"395*0.00017*{"placeholder":"guiheight"}*3.0","decimal":"true"}}
   height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = b21d2921-3498-473b-bd39-6d6204df3a3a-1706296381976
+  [loading_requirement_container_meta:b21d2921-3498-473b-bd39-6d6204df3a3a-1706296381976] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
 }
 
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  loopbackgroundanimations = true
+vanilla_button {
+  button_element_executable_block_identifier = 1ecc9993-6fde-4b5a-8d56-06dbb50ae613-1706296381975
+  [executable_block:1ecc9993-6fde-4b5a-8d56-06dbb50ae613-1706296381975][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/robosstweaks/textures/ui/button/options.png
+  backgroundhovered = [source:local]kubejs/assets/robosstweaks/textures/ui/button/options_hover.png
   restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = kubejs/assets/robosstweaks/textures/ui/button/mods_hover.png
-  backgroundnormal = kubejs/assets/robosstweaks/textures/ui/button/mods.png
+  loopbackgroundanimations = true
+  label = 
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mc_titlescreen_options_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2+1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-391*0.00017*{"placeholder":"guiheight"}-{"placeholder":"guiheight"}*0.04","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"395*0.00017*{"placeholder":"guiheight"}*3.0","decimal":"true"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"391*0.00017*{"placeholder":"guiheight"}","decimal":"true"}}
+  x = 354
+  y = 260
+  width = 50
+  height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 641084a0-e8b5-474a-8b77-cd720855f6de-1706296381975
+  [loading_requirement_container_meta:641084a0-e8b5-474a-8b77-cd720855f6de-1706296381975] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
 }
 
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
+vanilla_button {
+  button_element_executable_block_identifier = 2c6d5d84-9cde-4974-97e8-123b32e69156-1706296381983
+  [executable_block:2c6d5d84-9cde-4974-97e8-123b32e69156-1706296381983][type:generic] = [executables:]
+  backgroundnormal = [source:local]kubejs/assets/robosstweaks/textures/ui/button/mods.png
+  backgroundhovered = [source:local]kubejs/assets/robosstweaks/textures/ui/button/mods_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = 
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:forge_titlescreen_mods_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"}/2-{"placeholder":"elementwidth","values":{"id":"vanillabtn:forge_titlescreen_mods_button"}}-1","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"}-391*0.00017*{"placeholder":"guiheight"}-{"placeholder":"guiheight"}*0.04","decimal":"true"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"395*0.00017*{"placeholder":"guiheight"}*3.0","decimal":"true"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"391*0.00017*{"placeholder":"guiheight"}","decimal":"true"}}
+  x = -139
+  y = 283
+  width = 50
+  height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 47e59a70-3a1c-4e45-b879-440f643ac263-1706296381982
+  [loading_requirement_container_meta:47e59a70-3a1c-4e45-b879-440f643ac263-1706296381982] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
 }
 
-customization {
-  orientation = top-left
-  hidden = true
-  x = 186
-  width = 268
-  action = deep_customization_element:title_screen_forge_top
-  actionid = f0c31bc7-563f-4e97-910a-ec7569ba30b41694523769047
-  y = 4
-  height = 19
+vanilla_button {
+  button_element_executable_block_identifier = 2e18e208-302c-49ff-bc32-b3862331fa37-1706296882119
+  [executable_block:2e18e208-302c-49ff-bc32-b3862331fa37-1706296882119][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:0
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 81
+  y = 156
+  width = 20
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 7c39b0ac-f09d-4091-a697-a6dba118edff-1706296882119
+  [loading_requirement_container_meta:7c39b0ac-f09d-4091-a697-a6dba118edff-1706296882119] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
 }
 
-customization {
-  orientation = top-left
-  hidden = true
-  x = 2
-  width = 108
-  action = deep_customization_element:title_screen_branding
-  actionid = 4124fb5f-ac8e-49e8-af80-b1b03b7ae2c51694523769048
-  y = 289
-  height = 40
+vanilla_button {
+  button_element_executable_block_identifier = 24830a0b-63fd-4531-ae25-e873f69afe34-1706296381983
+  [executable_block:24830a0b-63fd-4531-ae25-e873f69afe34-1706296381983][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:376346
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 196
+  y = 180
+  width = 20
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 8c1058ba-a502-4d28-a8bc-8aae465aa00f-1706296381983
+  [loading_requirement_container_meta:8c1058ba-a502-4d28-a8bc-8aae465aa00f-1706296381983] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
 }
 
-customization {
-  orientation = top-left
-  hidden = true
-  x = 411
-  width = 228
-  action = deep_customization_element:title_screen_forge_copyright
-  actionid = 3edcab19-9edf-4d2a-a398-4abc73869d6e1694523769048
-  y = 311
-  height = 9
-}
-
-customization {
-  orientation = top-left
-  hidden = true
-  x = 423
-  width = 13
-  action = deep_customization_element:title_screen_realms_notification
-  actionid = f70fc583-1b65-4170-9e23-10fad29dcdf41694523769048
-  y = 182
-  height = 13
-}
-
-customization {
-  orientation = top-left
-  hidden = true
+deep_element {
+  element_type = title_screen_logo
+  instance_identifier = deep:title_screen_logo
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
   x = 183
-  width = 274
-  action = deep_customization_element:title_screen_logo
-  actionid = 8a870037-4c18-4ca7-98eb-f5e8dfadeb821694523769048
   y = 30
+  width = 274
   height = 52
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 335bd69e-d70e-48fa-9e47-4f07d3c3ca79-1706296882118
+  [loading_requirement_container_meta:335bd69e-d70e-48fa-9e47-4f07d3c3ca79-1706296882118] = [groups:][instances:]
+  is_hidden = true
 }
 
-customization {
-  orientation = original
-  splash_color = #ffff00
-  hidden = true
+deep_element {
+  element_type = title_screen_branding
+  instance_identifier = deep:title_screen_branding
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 2
+  y = 289
+  width = 108
+  height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = a775ef6e-ac80-472e-ade2-6a7af438d5fa-1706296882118
+  [loading_requirement_container_meta:a775ef6e-ac80-472e-ade2-6a7af438d5fa-1706296882118] = [groups:][instances:]
+  is_hidden = true
+}
+
+deep_element {
+  element_type = title_screen_splash
+  instance_identifier = deep:title_screen_splash
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
   x = 0
+  y = 0
   width = 60
-  splash_rotation = -20
-  action = deep_customization_element:title_screen_splash
-  actionid = ef9dca58-15c9-4cfa-a685-bd51465947601694523769048
-  y = 0
   height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = ee8097d7-aa4f-4069-9d2c-656a024f0fb6-1706296882118
+  [loading_requirement_container_meta:ee8097d7-aa4f-4069-9d2c-656a024f0fb6-1706296882118] = [groups:][instances:]
+  is_hidden = true
 }
 
-customization {
-  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} * 0.00123 * 150","decimal":"false"}}
-  path = kubejs/assets/robosstweaks/textures/ui/logo.png
-  orientation = top-left
-  x = 0
-  width = 415
-  action = addtexture
-  actionid = 71442c80-c7c0-4cc5-939e-7e1e156218f51694535310162
-  y = 0
-  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - {"placeholder":"elementwidth","values":{"id":"71442c80-c7c0-4cc5-939e-7e1e156218f51694535310162"}} /2","decimal":"false"}}
-  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *1000 * 0.00123","decimal":"false"}}
-  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} *0.07","decimal":"false"}}
-  height = 62
+deep_element {
+  element_type = title_screen_realms_notification
+  instance_identifier = deep:title_screen_realms_notification
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 423
+  y = 182
+  width = 13
+  height = 13
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 6be352f8-b8b2-4e10-8f58-d5d572d33076-1706296882118
+  [loading_requirement_container_meta:6be352f8-b8b2-4e10-8f58-d5d572d33076-1706296882118] = [groups:][instances:]
+  is_hidden = true
 }
 
-customization {
-  identifier = %id=376346%
-  action = hidebutton
+deep_element {
+  element_type = title_screen_forge_copyright
+  instance_identifier = deep:title_screen_forge_copyright
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 411
+  y = 311
+  width = 228
+  height = 9
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 72d2cf26-2f20-4257-9367-3e049b0806ed-1706296882118
+  [loading_requirement_container_meta:72d2cf26-2f20-4257-9367-3e049b0806ed-1706296882118] = [groups:][instances:]
+  is_hidden = true
+}
+
+deep_element {
+  element_type = title_screen_forge_top
+  instance_identifier = deep:title_screen_forge_top
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 186
+  y = 4
+  width = 268
+  height = 19
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 253a0577-241b-43fe-a616-feb33668c63b-1706296882118
+  [loading_requirement_container_meta:253a0577-241b-43fe-a616-feb33668c63b-1706296882118] = [groups:][instances:]
+  is_hidden = true
 }
 

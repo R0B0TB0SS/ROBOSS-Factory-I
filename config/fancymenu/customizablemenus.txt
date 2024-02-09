@@ -3,9 +3,6 @@ type = customizablemenus
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-dev.latvian.kubejs.ui.ScreenKubeJSUI {
-}
-
 dev.ftb.mods.ftblibrary.ui.ScreenWrapper {
 }
 
@@ -21,9 +18,9 @@ net.minecraft.client.gui.screens.LevelLoadingScreen {
 net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
+net.minecraft.client.gui.screens.PauseScreen {
 }
 
-net.minecraft.client.gui.screens.PauseScreen {
+net.minecraft.client.gui.screens.TitleScreen {
 }
 
