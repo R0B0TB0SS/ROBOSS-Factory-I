@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 22, 2023, 2:56:42 PM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 8, 2024, 2:21:05 PM
 
 #minecraft:has_structure/nether_fortress
 - #minecraft:is_nether
@@ -422,10 +422,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #repurposed_structures:has_structure/mineshafts/jungle
 - #repurposed_structures:collections/jungles
 
-#wildbackport:allows_surface_slime_spawns
-- minecraft:swamp
-- wildbackport:mangrove_swamp
-
 #repurposed_structures:collections/deserts
 - minecraft:desert
 - biomesoplenty:lush_desert?
@@ -438,7 +434,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:is_swamp
 - minecraft:swamp
 - #byg:is_swamp
-- wildbackport:mangrove_swamp
 
 #minecraft:is_mountain
 - minecraft:meadow
@@ -811,17 +806,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:is_dead?
 - #c:dead?
 
-#wildbackport:spawns_warm_variant_frogs
-- minecraft:desert
-- minecraft:warm_ocean
-- #minecraft:is_jungle
-- #minecraft:has_structure/village_savanna
-- minecraft:savanna_plateau
-- minecraft:windswept_savanna
-- #minecraft:is_nether
-- #minecraft:is_badlands
-- wildbackport:mangrove_swamp
-
 #repurposed_structures:has_structure/villages/badlands
 - #repurposed_structures:collections/badlands
 
@@ -983,7 +967,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #minecraft:has_structure/ruined_portal_swamp
 - minecraft:swamp
-- wildbackport:mangrove_swamp
 
 #dungeons_plus:has_structure/has_reanimated_ruins_frozen
 - #minecraft:has_structure/village_snowy
@@ -1128,7 +1111,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:dripstone_caves
 - minecraft:lush_caves
 - #byg:has_structure/mineshaft
-- wildbackport:mangrove_swamp
 
 #tconstruct:islands/earthslime
 - #minecraft:is_deep_ocean
@@ -1627,7 +1609,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:overgrown_mangroves
 - tropicraft:tropical_peaks
 - tropicraft:tropics
-- wildbackport:mangrove_swamp
 
 #c:stony_shores
 
@@ -2201,23 +2182,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:frozen_peaks
 - minecraft:snowy_slopes
 
-#wildbackport:spawns_cold_variant_frogs
-- minecraft:snowy_plains
-- minecraft:ice_spikes
-- minecraft:frozen_peaks
-- minecraft:jagged_peaks
-- minecraft:snowy_slopes
-- minecraft:frozen_ocean
-- minecraft:deep_frozen_ocean
-- minecraft:grove
-- wildbackport:deep_dark
-- minecraft:frozen_river
-- minecraft:snowy_taiga
-- minecraft:snowy_beach
-- minecraft:the_end
-- minecraft:small_end_islands
-- minecraft:end_barrens
-- #minecraft:has_structure/end_city
+#quark:stoneling_pathfinding
+- quark:glimmering_weald
 
 #minecraft:has_structure/desert_pyramid
 - minecraft:desert
@@ -2440,7 +2406,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:lush_caves
 - minecraft:dripstone_caves
 - #byg:is_underground
-- wildbackport:deep_dark
 
 #twilightforest:valid_labyrinth_biomes
 - twilightforest:swamp

@@ -20,8 +20,9 @@ onEvent('recipes', e => {
     ri('create:blasting/lead_ingot_compat_thermal')
     ri('create:blasting/ingot_lead_compat_mekanism')    
     ri('create:blasting/ingot_lead_compat_immersiveengineering')
-    ri('create:splashing/immersiveengineering/crushed_lead_ore')
-    ri('create:splashing/mekanism/crushed_lead_ore')
+    ri('create:splashing/immersiveengineering/crushed_raw_lead')
+    ri('create:splashing/mekanism/crushed_raw_lead')
+    ri('create:splashing/thermal/crushed_raw_lead')
     ri('immersiveengineering:smelting/ingot_lead')
     ri('immersiveengineering:smelting/ingot_lead_from_blasting')
     ri('immersiveengineering:smelting/ingot_lead2')
@@ -50,6 +51,7 @@ onEvent('recipes', e => {
     ri('mekanism:processing/lead/ingot/from_ore_blasting')
     ri('mekanism:processing/lead/ingot/from_dust_blasting')
     ri('mekanism:processing/lead/nugget/from_ingot')
+    ro('immersiveengineering:wire_lead')
 
     //copper
     ri('tconstruct:common/materials/copper_nugget_from_ingot')
@@ -221,5 +223,12 @@ onEvent('recipes', e => {
     ri('avaritia:compressor')
     //invar
     ri('immersiveengineering:metalpress/plate_invar')
+
+
+    //other
+    ro('createaddition:gold_spool')
+    ro('createaddition:festive_spool')
+    ro('createaddition:copper_spool')
+    ro('createaddition:large_connector')
 
 })

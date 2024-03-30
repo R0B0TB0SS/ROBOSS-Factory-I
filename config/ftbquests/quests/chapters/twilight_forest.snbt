@@ -643,7 +643,7 @@
 		}
 		{
 			title: "Final Boss ?"
-			icon: "ftbquests:missing_item"
+			icon: "twilightforest:final_boss_boss_spawner"
 			x: 11.5d
 			y: 0.0d
 			dependencies: ["299BA4D00D811433"]

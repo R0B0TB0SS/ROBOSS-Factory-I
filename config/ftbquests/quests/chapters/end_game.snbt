@@ -112,23 +112,6 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 1.0d
-			dependencies: ["729080F35DF1BD00"]
-			id: "6E9BA3F742B29117"
-			tasks: [{
-				id: "69106718FE3E04EB"
-				type: "item"
-				item: {
-					id: "robosstweaks:blakdestroyer_ingot"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
-			}]
-		}
-		{
 			x: 0.0d
 			y: 1.0d
 			dependencies: [
@@ -157,23 +140,6 @@
 				id: "4D06F24313254F23"
 				type: "item"
 				item: "robosstweaks:robotboss_statue"
-			}]
-		}
-		{
-			x: 5.0d
-			y: 1.0d
-			dependencies: ["6E9BA3F742B29117"]
-			id: "5F43E1E3E02B1E3B"
-			tasks: [{
-				id: "0051D21C60ABB2E4"
-				type: "item"
-				item: {
-					id: "robosstweaks:blakdestroyer_statue"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
 			}]
 		}
 		{
@@ -300,8 +266,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.5d
+			x: 5.0d
+			y: 1.0d
 			dependencies: ["01A5245310285704"]
 			id: "17D56D1EDA5B3973"
 			tasks: [{
@@ -311,8 +277,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 4.5d
+			x: 6.0d
+			y: 1.0d
 			dependencies: ["32DD06A12F494771"]
 			id: "01A5245310285704"
 			tasks: [{
@@ -369,7 +335,7 @@
 		}
 		{
 			x: 3.0d
-			y: 6.0d
+			y: 3.5d
 			id: "2B7E492D2938D788"
 			tasks: [{
 				id: "3144318DFC2FBE00"

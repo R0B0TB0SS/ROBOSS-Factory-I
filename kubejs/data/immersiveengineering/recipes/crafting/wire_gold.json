@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":
+    [
+        {
+        "tag":"forge:plates/gold"
+        },
+        {
+        "item":"immersiveengineering:wirecutter"
+        }
+    ],
+    "result":
+    {
+    "item":"createaddition:gold_wire"
+    }
+}

@@ -239,15 +239,15 @@
 					id: "minecraft:potion"
 					Count: 1b
 					tag: {
-						CustomPotionEffects: [{
-							Duration: 200
-							Id: 10
-							Amplifier: 9
-						}]
-						Potion: "minecraft:water"
 						display: {
 							Name: "\"The Regeneration\""
 						}
+						Potion: "minecraft:water"
+						CustomPotionEffects: [{
+							Id: 10
+							Amplifier: 9
+							Duration: 200
+						}]
 					}
 				}
 			}]
@@ -367,9 +367,9 @@
 					tag: {
 						BlockEntityTag: {
 							TankInv: [{
+								Tank: 0b
 								FluidName: "minecraft:empty"
 								Capacity: 32000
-								Tank: 0b
 								Amount: 0
 							}]
 						}
@@ -404,10 +404,10 @@
 					Count: 1b
 					tag: {
 						BlockEntityTag: {
-							EnergyMax: 1000000
-							EnergySend: 1000
 							Energy: 0
+							EnergySend: 1000
 							EnergyRecv: 1000
+							EnergyMax: 1000000
 						}
 					}
 				}
@@ -507,11 +507,11 @@
 					id: "minecraft:potion"
 					Count: 1b
 					tag: {
-						Potion: "minecraft:water"
 						CustomPotionEffects: [{
-							Duration: 1200
 							Id: 23
+							Duration: 1200
 						}]
+						Potion: "minecraft:water"
 					}
 				}
 			}]

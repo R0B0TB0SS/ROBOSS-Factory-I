@@ -388,6 +388,9 @@
 				Count: 1b
 				ForgeCaps: {
 					Parent: {
+						energy: {
+							energy: 0
+						}
 						module_host: {
 							provider_id: [I;
 								-320739840
@@ -395,16 +398,13 @@
 								-1973426912
 								-1370594186
 							]
-							modules: [ ]
 							properties: {
 								mining_speed: {
-									hud: 1b
 									value: 1.0d
+									hud: 1b
 								}
 							}
-						}
-						energy: {
-							energy: 0
+							modules: [ ]
 						}
 					}
 				}

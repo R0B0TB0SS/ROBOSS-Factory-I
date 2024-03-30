@@ -22,8 +22,8 @@
 						id: "constructionwand:diamond_wand"
 						Count: 1b
 						tag: {
-							wand_options: { }
 							Damage: 0
+							wand_options: { }
 						}
 					}
 				}

@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 22, 2023, 2:56:43 PM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 8, 2024, 2:21:06 PM
 
 #forge:wax
 - cyclic:wax?
@@ -30,8 +30,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - beyond_earth:flowing_oil
 - securitycraft:fake_water
 - securitycraft:flowing_fake_water
-- create_enchantment_industry:flowing_ink
-- create_enchantment_industry:ink
 
 #tconstruct:molten_porcelain
 - tconstruct:molten_porcelain
@@ -39,7 +37,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:biodiesel
 - immersiveengineering:biodiesel
-- createdieselgenerators:biodiesel
 
 #forge:uranium_hexafluoride
 - mekanism:uranium_hexafluoride
@@ -184,7 +181,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:ethanol
 - immersiveengineering:ethanol
-- createdieselgenerators:ethanol
 
 #forge:uranium_oxide
 - mekanism:uranium_oxide
@@ -256,12 +252,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:latex
 - industrialforegoing:latex
 - thermal:latex
-
-#create_enchantment_industry:blaze_enchanter_input
-- create_enchantment_industry:flowing_experience
-- create_enchantment_industry:experience
-- create_enchantment_industry:flowing_hyper_experience
-- create_enchantment_industry:hyper_experience
 
 #tconstruct:molten_tin
 - tconstruct:molten_tin
@@ -369,7 +359,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - createaddition:flowing_seed_oil
 - createaddition:seed_oil
 - immersiveengineering:plantoil
-- createdieselgenerators:plant_oil
 
 #tconstruct:molten_electrum
 - tconstruct:molten_electrum
@@ -571,6 +560,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - twilightforest:molten_fiery?
 - twilightforest:flowing_molten_fiery?
 
+#forge:powdered_snow
+- tconstruct:powdered_snow
+
 #forge:oil
 - beyond_earth:oil
 - beyond_earth:flowing_oil
@@ -605,10 +597,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:molten_twinite
 - thermal_extra:twinite
-
-#forge:ink
-- create_enchantment_industry:flowing_ink
-- create_enchantment_industry:ink
 
 #tconstruct:molten_soulsteel
 - tconstruct:molten_soulsteel
@@ -790,7 +778,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - cyclic:xpjuice
 - cofh_core:experience
 - experienceobelisk:cognitium
-- experienceobelisk:raw_experience
 - mob_grinding_utils:fluid_xp?
 - cofh_core:experience?
 - industrial_foregoing:essence?
@@ -833,7 +820,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:fuel
 - beyond_earth:fuel
 - beyond_earth:flowing_fuel
-- createdieselgenerators:biodiesel
 
 #forge:lubricant
 - immersivepetroleum:lubricant
@@ -856,13 +842,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - industrialforegoing:biofuel
 - createaddition:flowing_bioethanol
 - createaddition:bioethanol
-
-#create_enchantment_industry:printer_input
-- create_enchantment_industry:flowing_experience
-- create_enchantment_industry:experience
-- create_enchantment_industry:flowing_hyper_experience
-- create_enchantment_industry:hyper_experience
-- #forge:ink
 
 #tconstruct:molten_amethyst
 - tconstruct:molten_amethyst

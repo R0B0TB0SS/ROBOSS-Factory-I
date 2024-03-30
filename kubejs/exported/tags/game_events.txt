@@ -1,36 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 22, 2023, 2:56:43 PM
-
-#wildbackport:warden_can_listen
-- minecraft:block_attach
-- minecraft:block_change
-- minecraft:block_close
-- minecraft:block_destroy
-- minecraft:block_detach
-- minecraft:block_open
-- minecraft:block_place
-- minecraft:container_close
-- minecraft:container_open
-- minecraft:dispense_fail
-- wildbackport:entity_die
-- minecraft:equip
-- minecraft:explode
-- minecraft:fluid_pickup
-- minecraft:fluid_place
-- minecraft:hit_ground
-- wildbackport:instrument_play
-- minecraft:lightning_strike
-- wildbackport:note_block_play
-- minecraft:piston_contract
-- minecraft:piston_extend
-- minecraft:prime_fuse
-- minecraft:projectile_land
-- minecraft:projectile_shoot
-- minecraft:shear
-- minecraft:splash
-- minecraft:step
-- minecraft:swim
-- wildbackport:shriek
-- #wildbackport:shrieker_can_listen
+To refresh this file, delete it and run /reload command again! Last updated: Mar 8, 2024, 2:21:05 PM
 
 #minecraft:vibrations
 - minecraft:block_attach
@@ -78,18 +46,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:step
 - minecraft:swim
 - minecraft:wolf_shaking
-- wildbackport:entity_die
-- wildbackport:instrument_play
-- wildbackport:note_block_play
 
 #minecraft:ignore_vibrations_sneaking
 - minecraft:hit_ground
 - minecraft:projectile_shoot
 - minecraft:step
 - minecraft:swim
-
-#wildbackport:allay_can_listen
-- wildbackport:note_block_play
-
-#wildbackport:shrieker_can_listen
-- wildbackport:sculk_sensor_tendrils_clicking
