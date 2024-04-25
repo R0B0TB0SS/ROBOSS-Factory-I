@@ -147,6 +147,10 @@
     {
       "item": "thermal:lead_plate",
       "emc": 0
+    },
+    {
+      "item": "beyond_earth:iron_stick",
+      "emc": 0
     }
   ]
 }

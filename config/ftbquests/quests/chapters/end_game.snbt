@@ -110,6 +110,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "12444D9AB086556E"
+				type: "item"
+				item: "robosstweaks:computer"
+			}]
 		}
 		{
 			x: 0.0d
@@ -129,6 +134,11 @@
 						"customnpcs:itemscripteddata": { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "624019EE00481AE4"
+				type: "item"
+				item: "robosstweaks:laimx_disc"
 			}]
 		}
 		{
@@ -286,6 +296,11 @@
 				type: "item"
 				item: "robosstweaks:kikongin_ingot"
 			}]
+			rewards: [{
+				id: "4AC7892511F1446F"
+				type: "item"
+				item: "robosstweaks:cat_helmet"
+			}]
 		}
 		{
 			x: 5.0d
@@ -335,12 +350,45 @@
 		}
 		{
 			x: 3.0d
-			y: 3.5d
+			y: 6.0d
 			id: "2B7E492D2938D788"
 			tasks: [{
 				id: "3144318DFC2FBE00"
 				type: "item"
 				item: "pipez:infinity_upgrade"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["31CA094774A92C47"]
+			id: "6990B1B081DCA115"
+			tasks: [{
+				id: "2496EDA48D2D2BDC"
+				type: "item"
+				item: "robosstweaks:blakdestroyer_statue"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: ["729080F35DF1BD00"]
+			id: "31CA094774A92C47"
+			tasks: [{
+				id: "6A60558879FE7E43"
+				type: "item"
+				item: "robosstweaks:blakdestroyer_ingot"
+			}]
+			rewards: [{
+				id: "6004228DB9E1C94B"
+				type: "item"
+				item: {
+					id: "robosstweaks:blak_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

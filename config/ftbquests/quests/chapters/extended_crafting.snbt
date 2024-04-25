@@ -352,7 +352,7 @@
 		{
 			title: "Combination Crafting"
 			x: 6.0d
-			y: 3.0d
+			y: 1.0d
 			dependencies: ["4F376C7EADD0619C"]
 			id: "3F4C2EC234F74D74"
 			tasks: [

@@ -150,7 +150,8 @@ onEvent('tags.items', e => {
                              'immersiveengineering:nugget_electrum',
                              'create:crushed_raw_copper',
                              'ae2:ender_dust',
-                             'immersiveengineering:wire_lead'
+                             'immersiveengineering:wire_lead',
+                             'beyond_earth:iron_stick'
                              ])
 
                              e.add('forge:dusts','thermal:ender_pearl_dust')

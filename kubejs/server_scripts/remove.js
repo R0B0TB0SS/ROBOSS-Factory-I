@@ -174,6 +174,7 @@ onEvent('recipes', e => {
     ri('beyond_earth_giselle_addon:smelting/iron_ingot_from_plate')
     ri('create:blasting/iron_ingot_from_crushed')
     ri('create:smelting/iron_ingot_from_crushed')
+    ri('beyond_earth:iron_stick')
 
     //uranuim
     ro('immersiveengineering:ingot_uranium')
@@ -230,5 +231,6 @@ onEvent('recipes', e => {
     ro('createaddition:festive_spool')
     ro('createaddition:copper_spool')
     ro('createaddition:large_connector')
+
 
 })
