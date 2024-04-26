@@ -149,14 +149,17 @@ onEvent('tags.items', e => {
                              'immersiveengineering:ingot_electrum',
                              'immersiveengineering:nugget_electrum',
                              'create:crushed_raw_copper',
-                             'ae2:ender_dust',
                              'immersiveengineering:wire_lead',
-                             'beyond_earth:iron_stick'
+                             'beyond_earth:iron_stick',
+                             'mekanism:sawdust',
+                             'thermal:ender_pearl_dust',
+                             'immersiveengineering:dust_wood',
+                             'immersiveengineering:dust_sulfur',
+                             'mekanism:dust_sulfur'
                              ])
 
-                             e.add('forge:dusts','thermal:ender_pearl_dust')
-                             e.add('supplementaries:hourglass_dusts','thermal:ender_pearl_dust')
-                             e.add('extendedexchange:stone_table_whitelist','thermal:ender_pearl_dust')
+                            
+                             
 
 
 })

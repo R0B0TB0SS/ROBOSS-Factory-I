@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i",
+        "i"
+    ],
+    "key": {
+        "i": {
+            "item": "thermal:electrum_ingot"
+        }
+    },
+    "result": {
+        "item": "createaddition:electrum_rod",
+        "count": 1
+    }
+}

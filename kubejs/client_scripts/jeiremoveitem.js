@@ -137,6 +137,17 @@ onEvent('jei.hide.items', event => {
                 'immersiveengineering:ingot_uranium', 
                 'immersiveengineering:nugget_uranium', 
                 'immersiveengineering:raw_uranium', 
-                'immersiveengineering:dust_uranium'
+                'immersiveengineering:dust_uranium',
+                'createappliedkinetics:energy_provider',
+                'iceandfire:silver_nugget',
+                'iceandfire:silver_ingot',
+                Item.of('ae2:facade', '{item:"immersiveengineering:deepslate_ore_lead"}'),
+                Item.of('ae2:facade', '{item:"iceandfire:copper_ore"}'),
+                Item.of('ae2:facade', '{item:"iceandfire:copper_block"}'),
+                'immersiveengineering:stick_iron',
+                Item.of('ae2:facade', '{item:"mekanism:block_raw_tin"}'),
+                Item.of('ae2:facade', '{item:"mekanism:block_tin"}'),
+                'mekanism:sawdust',
+                'immersiveengineering:dust_wood'
             ])
   })

@@ -1,5 +1,56 @@
 onEvent('recipes', e => {
-    
+
+
+
+  const chiller =[
+    {
+      in:"tconstruct:molten_electrum",
+      inamount:45,
+      out:'createaddition:electrum_rod',
+      cast:"thermal:chiller_rod_cast",
+      rf:2400
+    },{
+      in:"tconstruct:molten_copper",
+      inamount:45,
+      out:'createaddition:copper_rod',
+      cast:"thermal:chiller_rod_cast",
+      rf:2400
+    },{
+      in:"tconstruct:molten_gold",
+      inamount:45,
+      out:'createaddition:gold_rod',
+      cast:"thermal:chiller_rod_cast",
+      rf:2400
+    },{
+      in:"tconstruct:molten_brass",
+      inamount:45,
+      out:'createaddition:brass_rod',
+      cast:"thermal:chiller_rod_cast",
+      rf:2400
+    }
+
+  ]
+
+  chiller.forEach((i) =>{
+    e.custom({
+      "type": "thermal:chiller",
+      "ingredients": [
+        {
+          "fluid": i.in,
+          "amount": i.inamount
+        },
+        {
+          "item": i.cast
+        }
+      ],
+      "result": [
+        {
+          "item": i.out
+        }
+      ],
+      "energy": i.rf,
+    })
+  })     
     const plate =[
         {
           in:"mekanism:ingot_steel",

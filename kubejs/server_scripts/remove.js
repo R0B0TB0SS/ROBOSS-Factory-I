@@ -12,6 +12,11 @@ onEvent('recipes', e => {
     ro(['avaritia:quartz_singularity','avaritia:redstone_singularity','avaritia:lapis_singularity', 'avaritia:gold_singularity','avaritia:iron_singularity', 'avaritia:emerald_singularity','avaritia:extreme_crafting_table','avaritia:double_compressed_crafting_table', 'avaritia:compressed_crafting_table','avaritia:diamond_singularity', 'avaritia:copper_singularity','avaritia:tin_singularity','avaritia:lead_singularity','avaritia:nickel_singularity','avaritia:silver_singularity'])
     ri('twilightforest:stonecutting/oak_log/hollow_oak_log')
     ri('intefrateddynamics:special/facade')
+    ro('createappliedkinetics:energy_provider')
+
+    ri('thermal:compat/create/smelter_create_crushed_raw_copper')
+    ri('mekanism:processing/copper/ingot/from_dust_blasting')
+    ri('mekanism:processing/copper/ingot/from_dust_smelting')
 
     //lead
     ri('create:smelting/lead_ingot_compat_thermal')
@@ -52,6 +57,7 @@ onEvent('recipes', e => {
     ri('mekanism:processing/lead/ingot/from_dust_blasting')
     ri('mekanism:processing/lead/nugget/from_ingot')
     ro('immersiveengineering:wire_lead')
+    ri('thermal:compat/create/smelter_create_crushed_raw_lead')
 
     //copper
     ri('tconstruct:common/materials/copper_nugget_from_ingot')
@@ -90,11 +96,6 @@ onEvent('recipes', e => {
     ri('iceandfire:furnace/silver_ingot_blasting')
     ri('iceandfire:silver_block')
     ri('iceandfire:silver_ingot_to_nuggets')
-    ri('iceandfire:silver_hoe')
-    ri('iceandfire:silver_axe')
-    ri('iceandfire:silver_pickaxe')
-    ri('iceandfire:silver_shovel')
-    ri('iceandfire:silver_sword')
     ri('immersiveengineering:crafting/raw_silver_to_raw_block_silver')
     ri('immersiveengineering:crafting/raw_block_silver_to_raw_silver')
     ri('immersiveengineering:crafting/storage_silver_to_ingot_silver')
@@ -113,6 +114,7 @@ onEvent('recipes', e => {
     ri('create:smelting/silver_ingot_compat_thermal')
     ri('create:blasting/silver_ingot_compat_thermal')
     ri('create:splashing/immersiveengineering/crushed_raw_silver')
+    ri('thermal:compat/create/smelter_create_crushed_raw_silver')
 
     
     
@@ -138,6 +140,7 @@ onEvent('recipes', e => {
     ri('create:smelting/ingot_osmium_compat_mekanism')
     ri('create:blasting/ingot_osmium_compat_mekanism')
     //tin
+    ri('thermal:compat/create/smelter_create_crushed_raw_tin')
     ri('create:splashing/mekanism/crushed_raw_tin')
     ri('create:blasting/ingot_tin_compat_mekanism')
     ri('create:blasting/tin_ingot_compat_thermal')
@@ -158,14 +161,17 @@ onEvent('recipes', e => {
     //aluminium
     ri('create:smelting/ingot_aluminum_compat_immersiveengineering')
     ri('create:blasting/ingot_aluminum_compat_immersiveengineering')
+    ri('thermal:compat/create_ie/smelter_create_ie_crushed_raw_aluminum')
     //gold
     ri('industrialforegoing:gold_gear')
     ri('immersiveengineering:smelting/gold_ingot_from_dust_from_blasting')
     ri('immersiveengineering:smelting/gold_ingot_from_dust')
     ri('create:blasting/gold_ingot_from_crushed')
     ri('create:smelting/gold_ingot_from_crushed')
+    ri('thermal:compat/create/smelter_create_crushed_raw_gold')
     
     //iron
+    ri('beyond_earth_giselle_addon:extruding/iron_stick')
     ri('industrialforegoing:iron_gear')
     ri('immersiveengineering:smelting/iron_ingot_from_dust_from_blasting')
     ri('immersiveengineering:smelting/iron_ingot_from_dust')
@@ -175,6 +181,7 @@ onEvent('recipes', e => {
     ri('create:blasting/iron_ingot_from_crushed')
     ri('create:smelting/iron_ingot_from_crushed')
     ri('beyond_earth:iron_stick')
+    ri('thermal:compat/create/smelter_create_crushed_raw_iron')
 
     //uranuim
     ro('immersiveengineering:ingot_uranium')
@@ -198,6 +205,7 @@ onEvent('recipes', e => {
     ro('immersiveengineering:nugget_nickel')
     ri('create:blasting/nickel_ingot_compat_thermal')
     ri('create:smelting/nickel_ingot_compat_thermal')
+    ri('thermal:compat/create/smelter_create_crushed_raw_nickel')
     //electrum
     ro('createaddition:electrum_nugget')
     ri('createaddition:crafting/electrum_spool')

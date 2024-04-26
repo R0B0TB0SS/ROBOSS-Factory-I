@@ -1,0 +1,22 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "create:veridium"
+  },
+  "result": [
+    {
+      "item": "thermal:copper_dust",
+      "chance": 0.8
+    },
+    {
+      "item": "thermal:copper_nugget",
+      "chance": 0.8
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thermal:flag",
+      "flag": "mod_create"
+    }
+  ]
+}
