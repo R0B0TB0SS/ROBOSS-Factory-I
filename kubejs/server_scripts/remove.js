@@ -120,6 +120,13 @@ onEvent('recipes', e => {
     
 
     //steel
+    ri('thermal:storage/steel_block')
+    ri('mekanism:nuggets/steel')
+    ri('mekanism:processing/steel/ingot/from_nuggets')
+    ri('mekanism:processing/steel/ingot/from_dust_blasting')
+    ri('mekanism:processing/steel/ingot/from_dust_smelting')
+    ri('thermal:compat/immersiveengineering/press_ie_steel_ingot_to_plate')
+    ri('mekanism:processing/steel/ingot/from_block')
     ro('immersiveengineering:armor_steel_feet')
     ro('immersiveengineering:armor_steel_legs')
     ro('immersiveengineering:armor_steel_chest')

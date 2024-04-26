@@ -239,7 +239,7 @@
 			title: "Thanks for playing"
 			icon: "robosstweaks:logo_block"
 			x: 0.0d
-			y: 8.0d
+			y: 6.0d
 			dependencies: [
 				"05A5AEB405FEEB3D"
 				"06CDBD9C9DB8EEF8"
@@ -253,6 +253,12 @@
 				"5FFA7A7E765D2B0C"
 				"2FC9DD2BC364D083"
 				"220219FE3918373A"
+				"039344CBD59965A9"
+				"66F87A8E9A9A2587"
+				"387CFF6315EEF98D"
+				"0463287EA90BACFA"
+				"5DA9A8159383BB6D"
+				"40428763FAACD011"
 			]
 			size: 2.0d
 			id: "14B90E757859B622"

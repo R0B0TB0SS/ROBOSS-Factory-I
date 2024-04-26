@@ -56,15 +56,6 @@ const item2 =[
     in:Item.of("ae2:item_storage_cell_256k"),
     out:Item.of("ae2:creative_item_cell")
   },{
-    in:Item.of("ae2:fluid_storage_cell_256k"),
-    out:Item.of("ae2:creative_fluid_cell")
-  },{
-    in:Item.of("appbot:mana_storage_cell_256k"),
-    out:Item.of("appbot:creative_mana_cell")
-  },{
-    in:Item.of("appmek:chemical_storage_cell_256k"),
-    out:Item.of("appmek:creative_chemical_cell")
-  },{
     in:Item.of("draconicevolution:draconium_chest"),
     out:Item.of("create:creative_crate")
   }

@@ -53,9 +53,6 @@ onEvent('recipes', e => {
   })     
     const plate =[
         {
-          in:"mekanism:ingot_steel",
-          out:"immersiveengineering:plate_steel"
-      },{
           in:"mekanism:ingot_uranium",
           out:"immersiveengineering:plate_uranium"
       },{

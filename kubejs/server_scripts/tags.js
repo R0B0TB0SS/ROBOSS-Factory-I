@@ -155,7 +155,12 @@ onEvent('tags.items', e => {
                              'thermal:ender_pearl_dust',
                              'immersiveengineering:dust_wood',
                              'immersiveengineering:dust_sulfur',
-                             'mekanism:dust_sulfur'
+                             'mekanism:dust_sulfur',
+                             'immersiveengineering:plate_steel',
+                             'mekanism:nugget_steel',
+                             'mekanism:ingot_steel',
+                             'thermal:steel_block',
+                             'mekanism:dust_steel'
                              ])
 
                             

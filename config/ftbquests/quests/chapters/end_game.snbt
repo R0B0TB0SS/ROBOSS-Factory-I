@@ -173,28 +173,11 @@
 			x: 0.0d
 			y: -1.5d
 			id: "481FCCFD50824C10"
-			tasks: [
-				{
-					id: "5CC747DE907C0834"
-					type: "item"
-					item: "ae2:creative_item_cell"
-				}
-				{
-					id: "1C526B3E6363B5C4"
-					type: "item"
-					item: "ae2:creative_fluid_cell"
-				}
-				{
-					id: "065C86DCF737A9EE"
-					type: "item"
-					item: "appbot:creative_mana_cell"
-				}
-				{
-					id: "773DAF8481364C17"
-					type: "item"
-					item: "appmek:creative_chemical_cell"
-				}
-			]
+			tasks: [{
+				id: "5CC747DE907C0834"
+				type: "item"
+				item: "ae2:creative_item_cell"
+			}]
 		}
 		{
 			x: 5.0d
