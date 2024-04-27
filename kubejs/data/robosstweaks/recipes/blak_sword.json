@@ -1,0 +1,24 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "    A",
+      " B A ",
+      " BA  ",
+      " CBB ",
+      "B    "
+    ],
+    "key": {
+      "A": {
+        "item": "extendedcrafting:redstone_ingot"
+      },
+      "B": {
+        "item": "minecraft:gold_ingot"
+      },
+      "C": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "robosstweaks:blak_sword"
+    }
+  }

@@ -241,6 +241,16 @@ onEvent('recipes', e => {
     ri('immersiveengineering:metalpress/plate_invar')
 
 
+    //rose gold
+    ro('thermal:rose_gold_block')
+    ro('thermal:rose_gold_ingot')
+    ro('thermal:rose_gold_nugget')
+    ro('thermal:rose_gold_dust')
+    ro('thermal:rose_gold_gear')
+    ro('thermal:rose_gold_plate')
+    ro('thermal:rose_gold_coin')
+
+
     //other
     ro('createaddition:gold_spool')
     ro('createaddition:festive_spool')

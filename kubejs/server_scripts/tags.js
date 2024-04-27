@@ -160,8 +160,43 @@ onEvent('tags.items', e => {
                              'mekanism:nugget_steel',
                              'mekanism:ingot_steel',
                              'thermal:steel_block',
-                             'mekanism:dust_steel'
+                             'mekanism:dust_steel',
+                             'thermal:rose_gold_block',
+                             'thermal:rose_gold_ingot',
+                             'thermal:rose_gold_nugget',
+                             'thermal:rose_gold_dust',
+                             'thermal:rose_gold_gear',
+                             'thermal:rose_gold_plate',
+                             'thermal:rose_gold_coin'
                              ])
+
+
+                    const it =[
+                                {
+                                item:'viescraftmachines:music_disc_bramble',
+                                tag:'minecraft:music_discs'
+                                },{
+                                item:'viescraftmachines:music_disc_castle',
+                                tag:'minecraft:music_discs'
+                                },{
+                                item:'viescraftmachines:music_disc_dire',
+                                tag:'minecraft:music_discs'
+                                },{
+                                item:'viescraftmachines:music_disc_jungle',
+                                tag:'minecraft:music_discs'
+                                },{
+                                item:'viescraftmachines:music_disc_storms',
+                                tag:'minecraft:music_discs'
+                                },{
+                                item:'viescraftmachines:music_disc_timescar',
+                                tag:'minecraft:music_discs'
+                                }
+                            ]
+                    
+                    it.forEach((i)=>{
+                        e.add(i.tag, i.item);
+                    
+                    })
 
                             
                              
