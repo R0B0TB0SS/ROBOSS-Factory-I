@@ -1605,6 +1605,56 @@
 				item: "colossalchests:uncolossal_chest"
 			}]
 		}
+		{
+			x: 8.0d
+			y: 2.5d
+			id: "0DA4DE039D713DC8"
+			tasks: [{
+				id: "0B0FF31B0AF092F6"
+				type: "item"
+				item: "cobblefordays:tier_1"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			id: "258F5538417D51B6"
+			tasks: [{
+				id: "36F06A118278B790"
+				type: "item"
+				item: "cobblefordays:tier_2"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			id: "3A6637B2D97216DC"
+			tasks: [{
+				id: "5D4BEAD66DD3F79C"
+				type: "item"
+				item: "cobblefordays:tier_3"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			id: "5204913CABBE2F5F"
+			tasks: [{
+				id: "18CF2C030BA6A42B"
+				type: "item"
+				item: "cobblefordays:tier_4"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			id: "2937766E5DA73086"
+			tasks: [{
+				id: "01A47D2132A15303"
+				type: "item"
+				item: "cobblefordays:tier_5"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

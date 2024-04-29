@@ -9,10 +9,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -1.5d
-			y: 0.0d
+			x: 5.0d
+			y: -4.5d
 			description: ["Give all 16 color of wool to the Questing Ram to get his trophy."]
-			dependencies: ["044717B20F69F9CA"]
+			dependencies: ["31B7D924845F50DE"]
 			id: "68D5E874C3465B00"
 			tasks: [{
 				id: "4D668E57301A2878"
@@ -26,10 +26,10 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.0d
+			x: 3.0d
+			y: -3.0d
 			description: ["Defeat the Naga."]
-			dependencies: ["68319FDD2F0D6DE8"]
+			dependencies: ["31B7D924845F50DE"]
 			id: "34795F1FA667C798"
 			tasks: [{
 				id: "05673C6D49568CA1"
@@ -43,8 +43,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 0.0d
+			x: 3.0d
+			y: -1.5d
 			description: ["Defeat the Lich."]
 			dependencies: ["34795F1FA667C798"]
 			id: "752096CCB84E8889"
@@ -60,7 +60,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 3.0d
 			y: 0.0d
 			description: ["Defeat the Minoshroom."]
 			dependencies: ["752096CCB84E8889"]
@@ -77,8 +77,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 0.0d
+			x: 4.0d
+			y: 1.5d
 			description: ["Defeat the Hydra."]
 			dependencies: ["7CFDD57D5E733BC3"]
 			id: "65C7AAEC5E1FCD04"
@@ -94,8 +94,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 0.0d
+			x: 6.0d
+			y: 2.5d
 			description: ["Defeat the Knight Phantom."]
 			dependencies: ["65C7AAEC5E1FCD04"]
 			id: "7DEAB2078C4950D5"
@@ -111,8 +111,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 0.0d
+			x: 8.0d
+			y: 1.5d
 			description: ["Defeat the Ur-Ghast."]
 			dependencies: ["7DEAB2078C4950D5"]
 			id: "7B779C23229B644F"
@@ -128,7 +128,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 9.0d
 			y: 0.0d
 			description: ["Defeat the Alpha Yeti."]
 			dependencies: ["7B779C23229B644F"]
@@ -145,8 +145,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 0.0d
+			x: 9.0d
+			y: -1.5d
 			description: ["Defeat the Snow Queen."]
 			dependencies: ["578DB079209EB883"]
 			id: "1758E60CB3304A85"
@@ -162,8 +162,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 0.0d
+			x: 5.0d
+			y: -6.0d
 			description: ["The Cruble Horn is obtained with the Questing Ram trophy and can transform stone to cobble, cobble to gravel, grass to dirt and sandstone into sand."]
 			dependencies: ["68D5E874C3465B00"]
 			id: "67D07042D5E40B9E"
@@ -179,16 +179,16 @@
 				}
 			}]
 			rewards: [{
-				id: "15B36073306DF0C4"
+				id: "3160A503A8F25884"
 				type: "item"
-				item: "twilightforest:ironwood_raw"
+				item: "twilightforest:raw_ironwood"
 				count: 16
 			}]
 		}
 		{
 			icon: "twilightforest:naga_scale"
-			x: 1.5d
-			y: -1.0d
+			x: 2.0d
+			y: -3.0d
 			description: ["With some Naga Scale, dropped by the Naga, craft a tunic out of it!"]
 			dependencies: ["34795F1FA667C798"]
 			id: "0FB6A7C28BEE9614"
@@ -246,8 +246,8 @@
 		}
 		{
 			title: "Scepter"
-			x: 2.5d
-			y: 1.0d
+			x: 2.0d
+			y: -1.5d
 			description: ["All four Scepters are looted by the Twilight Lich."]
 			dependencies: ["752096CCB84E8889"]
 			id: "6260B7F475FF7835"
@@ -310,8 +310,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.0d
+			x: 2.0d
+			y: 0.0d
 			description: ["The Mazebreaker is a special pickaxe that is found in a secret room in the Labyrinth."]
 			dependencies: ["7CFDD57D5E733BC3"]
 			id: "6E372CFD25ADB26A"
@@ -354,8 +354,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
+			x: 3.0d
+			y: 2.0d
 			description: ["The Fiery Ingot is obtained by combining Iron and Fiery Blood or Fiery Tears."]
 			dependencies: ["65C7AAEC5E1FCD04"]
 			id: "438863FD4A38BC3A"
@@ -372,8 +372,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -1.0d
+			x: 6.0d
+			y: 3.5d
 			description: ["The Knightmetal Ingot is obtained by smelting Armor Shard."]
 			dependencies: ["7DEAB2078C4950D5"]
 			id: "1C9769B6FDCE6995"
@@ -395,8 +395,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 1.0d
+			x: 9.0d
+			y: 2.0d
 			description: ["The Experiment 115 can be found in Dark Tower loot chests."]
 			dependencies: ["7B779C23229B644F"]
 			id: "16581BA7A2F63B58"
@@ -413,8 +413,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -1.0d
+			x: 10.0d
+			y: 0.0d
 			description: ["The Ice Bomb is drop from the Alpha Yeti."]
 			dependencies: ["578DB079209EB883"]
 			id: "068EE09DB6D93AC0"
@@ -437,8 +437,8 @@
 		}
 		{
 			title: "Twilight Bow"
-			x: 8.5d
-			y: 1.0d
+			x: 10.0d
+			y: -1.5d
 			description: ["The Seeker Bow has a 50% chance to drop when the Snow Queen is slain, otherwise, the Tri-bow will be dropped."]
 			dependencies: ["1758E60CB3304A85"]
 			id: "3C764999E3451587"
@@ -480,8 +480,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -1.0d
+			x: 7.5d
+			y: -2.0d
 			description: ["Defeat a Giant."]
 			dependencies: ["752CED77D3E58765"]
 			id: "541A35E5A81C7DBA"
@@ -509,8 +509,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 0.0d
+			x: 9.0d
+			y: -3.0d
 			description: ["Magic Beans are dropped rarely by Cave Trolls, they can be used on Uberous Soil to grow a beanstalk up to the Cloud Cottage."]
 			dependencies: ["1758E60CB3304A85"]
 			id: "752CED77D3E58765"
@@ -535,8 +535,8 @@
 			]
 		}
 		{
-			x: 10.5d
-			y: 0.0d
+			x: 6.0d
+			y: 0.5d
 			description: [
 				"The Lamp of Cinders is obtained from the Giant Obsidian Vault in the Mushroom Vault of a Troll Cave, below the Cloud Cottage, near the Thornlands."
 				""
@@ -571,13 +571,16 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -1.0d
+			x: 7.0d
+			y: -4.5d
 			description: [
 				"You need a Magic Map Focus to craft a Blank Magic Map."
 				"This map is useful to find structures all over the Twilight Forest."
 			]
-			dependencies: ["68319FDD2F0D6DE8"]
+			dependencies: [
+				"68319FDD2F0D6DE8"
+				"31B7D924845F50DE"
+			]
 			id: "044717B20F69F9CA"
 			tasks: [
 				{
@@ -598,30 +601,22 @@
 			}]
 		}
 		{
-			title: "Miniature Twilight Portal"
+			title: "The Twilight Forest"
 			icon: "twilightforest:twilight_portal_miniature_structure"
-			x: 0.0d
-			y: 0.0d
+			x: 6.0d
+			y: -3.0d
 			description: [
 				"The Miniature Twilight Portal is a proof that you have complete and conquer the dimension !"
 				"And it's useful to craft the Quarkotron Controller."
 			]
-			dependencies: [
-				"578DB079209EB883"
-				"65C7AAEC5E1FCD04"
-				"7DEAB2078C4950D5"
-				"752096CCB84E8889"
-				"7CFDD57D5E733BC3"
-				"34795F1FA667C798"
-				"1758E60CB3304A85"
-				"7B779C23229B644F"
-				"68D5E874C3465B00"
-			]
+			dependencies: ["68319FDD2F0D6DE8"]
 			size: 2.0d
 			id: "31B7D924845F50DE"
 			tasks: [{
-				id: "123D897630DCFAB4"
-				type: "checkmark"
+				id: "68FAA7206038793C"
+				type: "dimension"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				dimension: "twilightforest:twilight_forest"
 			}]
 			rewards: [
 				{
@@ -644,8 +639,9 @@
 		{
 			title: "Final Boss ?"
 			icon: "twilightforest:final_boss_boss_spawner"
-			x: 11.5d
-			y: 0.0d
+			x: 4.5d
+			y: -2.0d
+			description: ["This boss was created to \"close out the Twilight Forest\" since the mod creator has not yet implemented a boss for \"The Final Castle\". This boss is my own creation, I hope you enjoy it"]
 			dependencies: ["299BA4D00D811433"]
 			id: "2359F0AF2A737373"
 			tasks: [{

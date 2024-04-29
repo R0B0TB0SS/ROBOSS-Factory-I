@@ -5,7 +5,7 @@
 	filename: "powah"
 	title: "Powah"
 	icon: "powah:energizing_rod_nitro"
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [ ]
 	quest_links: [ ]

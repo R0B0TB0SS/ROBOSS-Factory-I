@@ -64,7 +64,6 @@
 			x: -6.75d
 			y: 0.75d
 			shape: "diamond"
-			subtitle: "S"
 			size: 1.5d
 			id: "40834ABA2E223903"
 			tasks: [{
@@ -83,7 +82,6 @@
 			x: -6.75d
 			y: -0.75d
 			shape: "diamond"
-			subtitle: "M"
 			size: 1.5d
 			id: "0A17C3B38E255B1F"
 			tasks: [{
@@ -102,7 +100,6 @@
 			x: -6.75d
 			y: 2.25d
 			shape: "diamond"
-			subtitle: "P"
 			size: 1.5d
 			id: "40BE720AD3D9AA55"
 			tasks: [{
@@ -121,7 +118,6 @@
 			x: -6.75d
 			y: 3.75d
 			shape: "diamond"
-			subtitle: "B"
 			size: 1.5d
 			id: "3D9CB4D8BFE68845"
 			tasks: [{
@@ -353,6 +349,11 @@
 				type: "dimension"
 				dimension: "beyond_earth:earth_orbit"
 			}]
+			rewards: [{
+				id: "4A859B039182C5EC"
+				type: "item"
+				item: "beyond_earth:earth_globe"
+			}]
 		}
 		{
 			title: "Visite the moon"
@@ -365,6 +366,11 @@
 				type: "dimension"
 				dimension: "beyond_earth:moon"
 			}]
+			rewards: [{
+				id: "3784AAD445113D48"
+				type: "item"
+				item: "beyond_earth:moon_globe"
+			}]
 		}
 		{
 			icon: "beyond_earth:mars_globe"
@@ -375,6 +381,11 @@
 				id: "614846A33644E5C2"
 				type: "dimension"
 				dimension: "beyond_earth:mars"
+			}]
+			rewards: [{
+				id: "5FBA59DFE0C903E5"
+				type: "item"
+				item: "beyond_earth:mars_globe"
 			}]
 		}
 		{
@@ -387,6 +398,11 @@
 				type: "dimension"
 				dimension: "beyond_earth:mercury"
 			}]
+			rewards: [{
+				id: "65C3962A9B47BFB0"
+				type: "item"
+				item: "beyond_earth:mercury_globe"
+			}]
 		}
 		{
 			icon: "beyond_earth:venus_globe"
@@ -398,6 +414,11 @@
 				type: "dimension"
 				dimension: "beyond_earth:venus"
 			}]
+			rewards: [{
+				id: "36A4731ECE418B5F"
+				type: "item"
+				item: "beyond_earth:venus_globe"
+			}]
 		}
 		{
 			icon: "beyond_earth:glacio_globe"
@@ -405,11 +426,14 @@
 			y: 6.0d
 			id: "70568A0BBBD8AC4D"
 			tasks: [{
-				id: "1CE2B23CF725F1A6"
+				id: "7CB9741CFBB22E3E"
 				type: "dimension"
-				title: "Visit Glacio"
-				icon: "beyond_earth:glacio_globe"
 				dimension: "beyond_earth:glacio"
+			}]
+			rewards: [{
+				id: "7F9266A48983A2CF"
+				type: "item"
+				item: "beyond_earth:glacio_globe"
 			}]
 		}
 	]

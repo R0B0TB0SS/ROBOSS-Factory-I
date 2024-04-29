@@ -63,10 +63,7 @@
 			x: 1.0d
 			y: 2.5d
 			hide_dependency_lines: true
-			dependencies: [
-				"211DE7106D6B6D96"
-				"30F2A943E4B4A817"
-			]
+			dependencies: ["211DE7106D6B6D96"]
 			id: "034E38A2F981E961"
 			tasks: [
 				{
@@ -230,33 +227,28 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -0.5d
-			hide_dependency_lines: true
-			dependencies: ["6E6C7E755E2EE9A5"]
-			id: "30F2A943E4B4A817"
-			tasks: [{
-				id: "0F4F00FB220FD157"
-				type: "item"
-				item: {
-					id: "custommachinery:custom_machine_item"
-					Count: 1b
-					tag: {
-						machine: "robosstweaks:creative_fabricator"
-					}
-				}
-			}]
-		}
-		{
 			x: 5.0d
 			y: -0.5d
 			id: "6E6C7E755E2EE9A5"
-			tasks: [{
-				id: "19DBE93FBEE58AC4"
-				type: "item"
-				item: "robosstweaks:creative_catalyst"
-				count: 8L
-			}]
+			tasks: [
+				{
+					id: "19DBE93FBEE58AC4"
+					type: "item"
+					item: "robosstweaks:creative_catalyst"
+					count: 8L
+				}
+				{
+					id: "2CA85518E7C59A11"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "robosstweaks:creative_fabricator"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -332,8 +324,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 6.0d
+			x: 1.0d
+			y: -0.5d
 			id: "2B7E492D2938D788"
 			tasks: [{
 				id: "3144318DFC2FBE00"

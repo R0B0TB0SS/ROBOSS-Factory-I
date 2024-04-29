@@ -38,7 +38,7 @@
 		}
 		{
 			x: 0.0d
-			y: 3.5d
+			y: 5.0d
 			dependencies: ["25BFA5ECD664D8BF"]
 			id: "54B2777FEE120094"
 			tasks: [{
@@ -113,7 +113,7 @@
 		}
 		{
 			x: 0.0d
-			y: 5.5d
+			y: 4.0d
 			dependencies: [
 				"1D7E50F6502249F0"
 				"0000000000000481"
@@ -127,7 +127,7 @@
 		}
 		{
 			x: 1.0d
-			y: 1.5d
+			y: 1.0d
 			dependencies: [
 				"0E21C9A7C5332FB8"
 				"00F2CF424A12D7C4"
@@ -141,7 +141,7 @@
 		}
 		{
 			x: -1.0d
-			y: 1.5d
+			y: 1.0d
 			dependencies: [
 				"363D88627DB36C93"
 				"00F2CF424A12D7C4"
@@ -155,7 +155,7 @@
 		}
 		{
 			x: 0.0d
-			y: 1.5d
+			y: 1.0d
 			dependencies: [
 				"00F2CF424A12D7C4"
 				"67CD0A4AC9F9AE92"
@@ -371,8 +371,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -0.5d
+			x: 0.0d
+			y: -1.5d
 			dependencies: ["53539FE809EE9DA1"]
 			id: "2813EDB15EB92314"
 			tasks: [{
@@ -382,7 +382,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: -0.5d
 			y: -0.5d
 			dependencies: ["2813EDB15EB92314"]
 			id: "1D057F2B7EB19786"
@@ -393,7 +393,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 1.0d
 			y: -1.5d
 			dependencies: ["2813EDB15EB92314"]
 			id: "08C67CFDC5683D4E"
@@ -404,7 +404,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -1.0d
 			y: -1.5d
 			dependencies: ["2813EDB15EB92314"]
 			id: "10D0A0396B38F3BE"
@@ -415,8 +415,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.5d
+			x: 0.5d
+			y: -0.5d
 			dependencies: ["6EBE994E090A0361"]
 			id: "53539FE809EE9DA1"
 			tasks: [{
@@ -836,21 +836,6 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 1.5d
-			dependencies: ["03534D9BE068F77B"]
-			id: "23C4B6CE1E0241AB"
-			tasks: [{
-				id: "2D5FCD01F780AD1B"
-				type: "item"
-				item: {
-					id: "appmek:chemical_storage_cell_256k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
 			x: -2.5d
 			y: -2.0d
 			dependencies: ["6EBE994E090A0361"]
@@ -975,6 +960,21 @@
 				type: "item"
 				item: {
 					id: "appbot:mana_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["03534D9BE068F77B"]
+			id: "6B0D0C6A78094932"
+			tasks: [{
+				id: "4A0EAD540C13852F"
+				type: "item"
+				item: {
+					id: "ae2things:disk_drive_256k"
 					Count: 1b
 					tag: { }
 				}
