@@ -1646,9 +1646,8 @@
 		}
 		{
 			title: "Induction Matrix"
-			x: 9.5d
+			x: 9.0d
 			y: -4.5d
-			dependencies: ["6888EBB4C5E39F1F"]
 			id: "0000000000000930"
 			tasks: [
 				{
@@ -1673,9 +1672,8 @@
 		}
 		{
 			title: "Thermal Evaporation Plant"
-			x: 11.5d
+			x: 11.0d
 			y: -4.5d
-			dependencies: ["36E35E10E83EF0EE"]
 			id: "0000000000000933"
 			tasks: [
 				{
@@ -1705,9 +1703,8 @@
 		}
 		{
 			title: "Fusion Reactor"
-			x: 3.5d
+			x: 3.0d
 			y: -4.5d
-			dependencies: ["388675A67CC6C15F"]
 			id: "0000000000000938"
 			tasks: [
 				{
@@ -1772,9 +1769,8 @@
 		}
 		{
 			title: "Fission Reactor"
-			x: 5.5d
+			x: 5.0d
 			y: -4.5d
-			dependencies: ["7793A1D816ED6291"]
 			id: "000000000000093F"
 			tasks: [
 				{
@@ -1855,9 +1851,8 @@
 		}
 		{
 			title: "Supercritical Phase Shifter"
-			x: 7.5d
+			x: 7.0d
 			y: -4.5d
-			dependencies: ["36E927EAE1EC49AA"]
 			id: "000000000000094B"
 			tasks: [
 				{
@@ -1903,57 +1898,6 @@
 						}
 					}
 				}
-			}]
-		}
-		{
-			x: 2.5d
-			y: -4.5d
-			id: "388675A67CC6C15F"
-			tasks: [{
-				id: "36913F11C6813959"
-				type: "checkmark"
-				title: "Fusion Reactor"
-			}]
-		}
-		{
-			title: "Supercritical Phase Shifter"
-			x: 6.5d
-			y: -4.5d
-			id: "36E927EAE1EC49AA"
-			tasks: [{
-				id: "17600C24C58CBE4D"
-				type: "checkmark"
-				title: "Supercritical Phase Shifter"
-			}]
-		}
-		{
-			x: 10.5d
-			y: -4.5d
-			id: "36E35E10E83EF0EE"
-			tasks: [{
-				id: "63F59F1FDB43CA0E"
-				type: "checkmark"
-				title: "Thermal Evaporation"
-			}]
-		}
-		{
-			x: 8.5d
-			y: -4.5d
-			id: "6888EBB4C5E39F1F"
-			tasks: [{
-				id: "0BC2A9F9DFB154D0"
-				type: "checkmark"
-				title: "Energy Storage"
-			}]
-		}
-		{
-			x: 4.5d
-			y: -4.5d
-			id: "7793A1D816ED6291"
-			tasks: [{
-				id: "17114B905F1E5628"
-				type: "checkmark"
-				title: "Fission Reactor"
 			}]
 		}
 		{

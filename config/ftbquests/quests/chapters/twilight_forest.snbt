@@ -536,7 +536,7 @@
 		}
 		{
 			x: 6.0d
-			y: 0.5d
+			y: -1.0d
 			description: [
 				"The Lamp of Cinders is obtained from the Giant Obsidian Vault in the Mushroom Vault of a Troll Cave, below the Cloud Cottage, near the Thornlands."
 				""
@@ -606,8 +606,8 @@
 			x: 6.0d
 			y: -3.0d
 			description: [
-				"The Miniature Twilight Portal is a proof that you have complete and conquer the dimension !"
-				"And it's useful to craft the Quarkotron Controller."
+				"Go to the Twilight Forest dimention using the portal create by a 2x2 of water with the outline blocks cover by flowers and drop a diamont into the water"
+				"{image:robosstweaks:textures/ftbquests/twilight_portal.png width:110 height:65 align:1}"
 			]
 			dependencies: ["68319FDD2F0D6DE8"]
 			size: 2.0d
@@ -618,23 +618,11 @@
 				icon: "twilightforest:twilight_portal_miniature_structure"
 				dimension: "twilightforest:twilight_forest"
 			}]
-			rewards: [
-				{
-					id: "0B86FD898B0363A6"
-					type: "item"
-					item: "twilightforest:naga_courtyard_miniature_structure"
-				}
-				{
-					id: "7EC6C9D899908895"
-					type: "item"
-					item: "twilightforest:lich_tower_miniature_structure"
-				}
-				{
-					id: "4C434EF177A82BF5"
-					type: "item"
-					item: "twilightforest:twilight_portal_miniature_structure"
-				}
-			]
+			rewards: [{
+				id: "4C434EF177A82BF5"
+				type: "item"
+				item: "twilightforest:twilight_portal_miniature_structure"
+			}]
 		}
 		{
 			title: "Final Boss ?"

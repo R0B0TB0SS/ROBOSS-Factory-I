@@ -980,6 +980,35 @@
 				}
 			}]
 		}
+		{
+			title: "Cable Facade"
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["7369D2F435609EC5"]
+			id: "21D6C975365F746E"
+			tasks: [{
+				id: "0621EFE717F4CFFA"
+				type: "item"
+				item: {
+					id: "ae2:facade"
+					Count: 1b
+					tag: {
+						item: "minecraft:stone"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["6EBE994E090A0361"]
+			id: "7369D2F435609EC5"
+			tasks: [{
+				id: "66EC1CF367523A68"
+				type: "item"
+				item: "ae2:cable_anchor"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

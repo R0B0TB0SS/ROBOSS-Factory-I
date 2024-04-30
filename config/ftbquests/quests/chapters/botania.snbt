@@ -288,8 +288,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color2: 0
 						color1: 0
+						color2: 0
 					}
 				}
 			}]
@@ -1271,13 +1271,13 @@
 					id: "minecraft:slime_spawn_egg"
 					Count: 1b
 					tag: {
-						RepairCost: 0
-						display: {
-							Name: "{\"text\":\"King Slime\"}"
-						}
 						EntityTag: {
 							Size: 31
 							id: "minecraft:slime"
+						}
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"King Slime\"}"
 						}
 					}
 				}

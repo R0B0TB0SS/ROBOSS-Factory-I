@@ -325,9 +325,9 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 2.5d
-			dependencies: ["68319FDD2F0D6DE8"]
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["66BFF56B2CB51EF3"]
 			id: "2A4B496451E1606F"
 			tasks: [
 				{
@@ -376,7 +376,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 6.0d
 			y: 0.0d
 			dependencies: ["4F376C7EADD0619C"]
 			id: "01225FF9727AD15D"
@@ -392,9 +392,47 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 7.5d
 			y: 0.0d
-			dependencies: ["01225FF9727AD15D"]
+			dependencies: [
+				"01225FF9727AD15D"
+				"403B1D8F1FE5BEB2"
+				"04B6ECC8D786D00A"
+				"271EA35C9B0F2B7B"
+				"26F987A8401BE0D8"
+				"62DBF4C486A0390C"
+				"10EA389539A0D6CC"
+				"7A232A3913551249"
+				"6F176E89028FE9FC"
+				"6FE26DF6767CC7B6"
+				"5EE5E8515DCB5233"
+				"7D5D1382843C10B9"
+				"4CF4454D6149AE4B"
+				"3AB6225FB26A5422"
+				"73EA5C46095593F7"
+				"1417C0B8447D8C8B"
+				"335C9048B8A52391"
+				"70C10D9741C6C333"
+				"00D2A8FF6B23617F"
+				"1417910BAC48BC62"
+				"77482A39F41FCA05"
+				"7DB2C91F9C1AC447"
+				"5DF117F6F265B8CE"
+				"6216E98B073714C8"
+				"4A45946CAACD677E"
+				"4930D57D52DFD14B"
+				"26A67A5D860F64FB"
+				"6FC3E6C6C5C5E4DD"
+				"797C294913068AE2"
+				"6BF9E1D3E3EDCCF4"
+				"0889EA18541EF30F"
+				"266CFB941846DB24"
+				"2791BCB5D9FBEB5B"
+				"6BF5313D90513CC8"
+				"57666E325F357113"
+				"692CB18B64BFA6BB"
+				"232213A83D88FD50"
+			]
 			id: "77B2A91BD9E59CB3"
 			tasks: [{
 				id: "4620538E5319E044"
@@ -408,12 +446,10 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -0.5d
-			dependencies: [
-				"66BFF56B2CB51EF3"
-				"7E668257DBBF3E7C"
-			]
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["4203CC3A1362F582"]
+			size: 2.0d
 			id: "211DE7106D6B6D96"
 			tasks: [{
 				id: "168CAFF6C20F4590"
@@ -427,8 +463,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 2.5d
+			x: -2.0d
+			y: 0.5d
 			dependencies: ["2A4B496451E1606F"]
 			id: "2D2FEAB32CD9728A"
 			tasks: [{
@@ -445,7 +481,7 @@
 		}
 		{
 			x: -2.0d
-			y: 2.0d
+			y: 1.5d
 			dependencies: ["2D2FEAB32CD9728A"]
 			id: "4203CC3A1362F582"
 			tasks: [{
@@ -453,23 +489,6 @@
 				type: "item"
 				item: {
 					id: "extendedcrafting:enhanced_ender_ingot"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
-			}]
-		}
-		{
-			x: -3.0d
-			y: 1.0d
-			dependencies: ["4203CC3A1362F582"]
-			id: "7E668257DBBF3E7C"
-			tasks: [{
-				id: "5F265F39BEF9B764"
-				type: "item"
-				item: {
-					id: "extendedcrafting:enhanced_ender_component"
 					Count: 1b
 					ForgeCaps: {
 						"customnpcs:itemscripteddata": { }

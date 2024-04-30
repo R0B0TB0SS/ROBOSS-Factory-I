@@ -10,9 +10,6 @@
 		tag: { }
 		ForgeCaps: {
 			Parent: {
-				energy: {
-					energy: 0
-				}
 				module_host: {
 					provider_id: [I;
 						-92341353
@@ -20,13 +17,16 @@
 						-1982106507
 						-1531360940
 					]
+					modules: [ ]
 					properties: {
 						mining_speed: {
-							value: 1.0d
 							hud: 1b
+							value: 1.0d
 						}
 					}
-					modules: [ ]
+				}
+				energy: {
+					energy: 0
 				}
 			}
 		}
