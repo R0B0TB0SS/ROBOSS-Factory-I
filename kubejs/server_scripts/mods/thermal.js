@@ -58,7 +58,13 @@ onEvent('recipes', e => {
       },{
           in:"immersiveengineering:ingot_aluminum",
           out:"immersiveengineering:plate_aluminum"
-      }
+      },{
+        in:"create:zinc_ingot",
+        out:'createaddition:zinc_sheet'
+    },{
+      in:'create:brass_ingot',
+      out:'create:brass_sheet'
+  }
     ]
 
     plate.forEach((i) => {

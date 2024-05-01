@@ -150,7 +150,7 @@ function init()
 			.shape("ppp", "8c8", "8c8")
 			.bind('p', photovoltaic_cell_infinity)
 			.bind('8', neutron)
-			.bind('c', item("avaritia:infinity_ingot"))
+			.bind('c', item("avaritia:infinity_catalyst"))
 		.build(2);
 
    // Comment end

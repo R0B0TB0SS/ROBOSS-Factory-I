@@ -1,0 +1,15 @@
+{
+	"favorites": [
+		"{id:\"ftbteams:my_team\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',type:\"ftblibrary:sidebar_button\"}",
+		"{id:\"ftbquests:quests\",json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbquests:item/book\",\"x\":610,\"click\":\"ftbquests:open_gui\",\"required_server_mods\":[\"ftbquests\"],\"custom_text\":true}',type:\"ftblibrary:sidebar_button\"}",
+		"{id:\"ftbessentials:trash_can\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/bin\",\"x\":150,\"click\":\"command:/trashcan\",\"required_server_mods\":[\"ftbessentials\"]}',type:\"ftblibrary:sidebar_button\"}",
+		"{id:\"ftbchunks:chunks\",json:'{\"group\":\"ftblibrary:util\",\"icon\":\"ftblibrary:icons/map\",\"x\":310,\"click\":\"ftbchunks:open_gui\"}',type:\"ftblibrary:sidebar_button\"}",
+		"{data:{Amount:1000,FluidName:\"experienceobelisk:cognitium\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Amount:1000,FluidName:\"sophisticatedcore:xp_still\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Amount:1000,FluidName:\"cofh_core:experience\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Amount:1000,FluidName:\"mob_grinding_utils:fluid_xp\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}",
+		"{data:{Amount:1000,FluidName:\"cyclic:xpjuice\",type:\"minecraft:fluid\"},type:\"roughlyenoughitems:entry_stack\"}"
+	],
+	"hiddenFavorites": [],
+	"displays": []
+}

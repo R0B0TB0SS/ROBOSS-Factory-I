@@ -189,7 +189,18 @@
 			tasks: [{
 				id: "01C7441DABB0EA70"
 				type: "item"
-				item: "draconicevolution:creative_op_capacitor"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
 			}]
 		}
 		{

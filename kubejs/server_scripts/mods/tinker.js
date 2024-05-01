@@ -16,6 +16,12 @@ onEvent('recipes', e => {
         }
     ]
 
+
+
+   const plate =[
+
+   ]
+
     gear.forEach((i)=>{
         e.custom({
             "type": "tconstruct:casting_table",
@@ -50,5 +56,42 @@ onEvent('recipes', e => {
             "cooling_time": 100
           })
     })
+
+
+
+    plate.forEach((i)=>{
+      e.custom({
+          "type": "tconstruct:casting_table",
+          "cast": {
+            "tag": "tconstruct:casts/multi_use/plate"
+          },
+          "fluid": {
+            "tag": i.f,
+            "amount": i.am
+          },
+          "result": {
+            "item": i.out
+          },
+          "cooling_time": 100
+        })
+  })
+
+  plate.forEach((i)=>{
+      e.custom({
+          "type": "tconstruct:casting_table",
+          "cast": {
+            "tag": "tconstruct:casts/single_use/plate"
+          },
+          "cast_consumed": true,
+          "fluid": {
+            "tag": i.f,
+            "amount": i.am
+          },
+          "result": {
+            "item":i.out 
+          },
+          "cooling_time": 100
+        })
+  })
 
 })

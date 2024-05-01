@@ -19,7 +19,7 @@ onEvent('recipes', event => {
       out:Item.of("mekanism:creative_fluid_tank")
     },{
       in:Item.of('mekanism:ultimate_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"256000000"}]}}'),
-      out:Item.of("draconicevolution:creative_op_capacitor")
+      out:Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}]}}')
     },{
       in:Item.of('draconicevolution:chaotic_capacitor'),
       out:Item.of("draconicevolution:creative_capacitor")

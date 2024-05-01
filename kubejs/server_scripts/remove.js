@@ -249,6 +249,8 @@ onEvent('recipes', e => {
     ro('thermal:rose_gold_gear')
     ro('thermal:rose_gold_plate')
     ro('thermal:rose_gold_coin')
+    ri('beyond_earth_giselle_addon:rolling/iron_plate')
+    ri('beyond_earth_giselle_addon:rolling/desh_plate')
 
 
     //other
@@ -256,6 +258,9 @@ onEvent('recipes', e => {
     ro('createaddition:festive_spool')
     ro('createaddition:copper_spool')
     ro('createaddition:large_connector')
+    ri('immersiveengineering:metalpress/plate_brass')
+    ri('immersiveengineering:metalpress/plate_zinc')
+    ri('beyond_earth:desh_plate')
 
 
 })

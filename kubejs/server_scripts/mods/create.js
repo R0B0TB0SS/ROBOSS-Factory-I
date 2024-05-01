@@ -31,6 +31,9 @@ onEvent('recipes', e => {
         },{
             in:"minecraft:netherite_ingot",
             out:"thermal:netherite_plate"
+        },{
+            in:'beyond_earth:desh_ingot',
+            out:'beyond_earth:desh_plate'
         }
     ]
 

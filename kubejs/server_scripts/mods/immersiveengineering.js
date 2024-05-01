@@ -31,7 +31,13 @@ onEvent('recipes', e => {
         },{
             in:"minecraft:netherite_ingot",
             out:"thermal:netherite_plate"
-        }
+        },{
+            in:"create:zinc_ingot",
+            out:'createaddition:zinc_sheet'
+        },{
+          in:'create:brass_ingot',
+          out:'create:brass_sheet'
+      }
     ]
 
     plate.forEach((i) => {
