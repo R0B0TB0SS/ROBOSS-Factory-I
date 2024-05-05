@@ -35,8 +35,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 6.5d
-			y: -6.0d
+			x: 2.5d
+			y: -13.5d
 			description: ["The Crystal Binder is used when linking Energy I/O Crystal."]
 			dependencies: ["68319FDD2F0D6DE8"]
 			id: "098767A5FC13619E"
@@ -51,8 +51,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -6.0d
+			x: 3.5d
+			y: -13.5d
 			description: [
 				"The Basic Energy Relay Crystal is used to make a relay between I/O Crystal and Energy Crystal, it can store 4M RF and has 8 links, and has a range of 32 blocks."
 				""
@@ -87,8 +87,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -6.0d
+			x: 4.5d
+			y: -13.5d
 			description: [
 				"The Wyvern Energy Relay Crystal is used to make a relay between I/O Crystal and Energy Crystal, It can store 16M RF and has 16 links, and it has a range of 64 blocks."
 				""
@@ -123,8 +123,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -6.0d
+			x: 5.5d
+			y: -13.5d
 			description: [
 				"The Draconic Energy Relay Crystal is used to make a relay between I/O Crystal and Energy Crystal, it can store 64M RF and has 32 links, and it has a range of 128 blocks."
 				""
@@ -159,8 +159,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -9.5d
+			x: -2.0d
+			y: -12.0d
 			description: [
 				"The Dislocator is used to teleport you."
 				""
@@ -186,8 +186,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -8.0d
+			x: 0.0d
+			y: -12.0d
 			description: [
 				"The Advanced Dislocator is a device that can store a lot of TP point. "
 				"Shift right-click to register your teleportation point in it, you can rename it and lock."
@@ -215,8 +215,8 @@
 		}
 		{
 			title: "Draconium Dust"
-			x: 2.5d
-			y: -9.5d
+			x: -2.0d
+			y: -10.0d
 			description: ["You can find Draconium Dust from Draconium Ore and by killing the Ender Dragon."]
 			dependencies: ["68319FDD2F0D6DE8"]
 			id: "57F807CF8460DB9D"
@@ -234,8 +234,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -8.0d
+			x: -0.5d
+			y: -8.5d
 			description: ["Use the Sequenced Assembly to craft your Draconium Ingot."]
 			dependencies: ["57F807CF8460DB9D"]
 			id: "7B2F1149E89E2AC0"
@@ -251,8 +251,8 @@
 			}]
 		}
 		{
-			x: 0.75d
-			y: -6.75d
+			x: 2.0d
+			y: -8.25d
 			description: ["The Draconic Core is an important crafting ingredient, It's used in many recipes and it is also used to stabilize a mob spawner into a Stabilized Mob Spawner."]
 			dependencies: ["7B2F1149E89E2AC0"]
 			size: 1.5d
@@ -269,8 +269,8 @@
 			}]
 		}
 		{
-			x: 0.75d
-			y: -5.25d
+			x: 4.5d
+			y: -8.25d
 			description: ["The Wyvern Core is the advanced version of a Draconic Core. It is used in higher crafting recipes like all the Wyvern Tools and Chest Piece."]
 			dependencies: ["52862612E74DA81A"]
 			size: 1.5d
@@ -287,8 +287,8 @@
 			}]
 		}
 		{
-			x: 0.75d
-			y: -3.75d
+			x: 7.0d
+			y: -8.25d
 			description: ["The Awakened Core is the third tier of cores. It's mainly used for crafting The Draconic Staff of Power."]
 			dependencies: [
 				"37E47BACAEEA6C1C"
@@ -308,8 +308,8 @@
 			}]
 		}
 		{
-			x: 0.75d
-			y: -2.25d
+			x: 9.75d
+			y: -8.25d
 			description: ["The Chaotic Core is the final Core. It's used to craft Chaotic stuff and also the Reactor Stabilizer."]
 			dependencies: [
 				"7E6F43ABF03FF686"
@@ -329,8 +329,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -5.0d
+			x: 8.5d
+			y: -12.0d
 			description: ["Use the Fusion Crafting Core to combine a Dragon Heart, some Draconic Cores and Draconium Blocks to get the Awakened Draconium Blocks."]
 			dependencies: ["5FEF1CE17B8A57E7"]
 			id: "1BF4A0B3372F5E91"
@@ -346,8 +346,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -6.0d
+			x: 8.5d
+			y: -13.5d
 			description: ["You can get a Dragon Heart by killing the Ender Dragon."]
 			dependencies: ["68319FDD2F0D6DE8"]
 			id: "5FEF1CE17B8A57E7"
@@ -363,8 +363,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -4.0d
+			x: 8.5d
+			y: -11.0d
 			description: ["Simply uncraft a block to get an ingot."]
 			dependencies: ["1BF4A0B3372F5E91"]
 			id: "176D771D9F343E0F"
@@ -381,26 +381,22 @@
 		}
 		{
 			title: "Dragon Ball"
-			x: 4.5d
-			y: -6.75d
+			x: 2.25d
+			y: -12.0d
 			description: [
 				"If you want to store a lot of energy with class, they're what you need."
 				"The Energy Core is in the center of your ball, The Energy Pylons are used to insert or extract energy (you need to put a glass block on top or below the Pylon to activate it), and the Energy Core Stabilizer are here to stabilize your ball."
 				""
 				"For a tier 1 : 4 Energy Stabilizer, It can store 45.5M RF."
-				"{image:kubejs:textures/ftbquests/begin/t1t2.png width:150 height:100 align:1}"
 				"For a tier 2 : 6 Draconium Blocks, 4 Energy Core Stabilizer, It can store 273M RF."
 				""
 				"For a tier 3 : 26 Draconium Blocks, 4 Energy Core Stabilizer, It can store 1.6G RF."
-				"{image:kubejs:textures/ftbquests/begin/t3t4.png width:150 height:100 align:1}"
 				"For a tier 4 : 54 Draconium Blocks, 26 Redstone Blocks, 4 Energy Core Stabilizer, It can store 9.8G RF."
 				""
 				"For a tier 5 : 90 Draconium Blocks, 80 Redstone Blocks, 36 Energy Core Stabilizer, It can store 59.3G RF."
-				"{image:kubejs:textures/ftbquests/begin/t5t6.png width:150 height:100 align:1}"
 				"For a tier 6 : 150 Draconium Blocks, 178 Redstone Blocks, 36 Energy Core Stabilizer, It can store 356G RF."
 				""
 				"For a tier 7 : 210 Draconium Blocks, 328 Redstone Blocks, 36 Energy Core Stabilizer, It can store 2.14T RF."
-				"{image:kubejs:textures/ftbquests/begin/t7t8.png width:150 height:100 align:1}"
 				"For a tier 8 : 378 Awakened Blocks,  786 Draconium Blocks,  36 Energy Core Stabilizer, It can store Almost Infinite RF (9,223,372,036,854,775,807)."
 				""
 				"The Energy Core Stabilizers need to be 8 blocks max and 1 block minimum distance from your ball."
@@ -435,8 +431,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -8.0d
+			x: 0.0d
+			y: -10.0d
 			description: [
 				"The Fusion Crafting Core is the center of the multi-block Fusion Crafting setup, its purpose is to hold the item to be transformed."
 				""
@@ -458,8 +454,8 @@
 		}
 		{
 			title: "Draconium Fusion Crafting Injector"
-			x: 3.0d
-			y: -6.5d
+			x: 2.0d
+			y: -10.0d
 			description: [
 				"The Draconium Fusion Crafting Injector is the first tier of Fusion Crafting Injectors used in the Fusion crafting process."
 				""
@@ -487,8 +483,8 @@
 		}
 		{
 			title: "Wyvern Fusion Crafting Injector"
-			x: 3.0d
-			y: -5.0d
+			x: 4.5d
+			y: -10.0d
 			description: ["The Wyvern Fusion Crafting Injector is the second tier of Fusion Crafting Injectors used in the Fusion crafting process and is created using Fusion crafting."]
 			dependencies: [
 				"637CEF39661E2E17"
@@ -510,8 +506,8 @@
 		}
 		{
 			title: "Draconic Fusion Crafting Injector"
-			x: 3.0d
-			y: -3.5d
+			x: 7.0d
+			y: -10.0d
 			description: ["The Draconic Fusion Crafting Injector is the third tier of Fusion Crafting Injectors used in the Fusion crafting process and is created using Fusion crafting."]
 			dependencies: [
 				"6AFF133E53B9E11E"
@@ -533,8 +529,8 @@
 		}
 		{
 			title: "Chaotic Fusion Crafting Injector"
-			x: 3.0d
-			y: -2.0d
+			x: 9.5d
+			y: -10.0d
 			description: ["The Chaotic Fusion Crafting Injector is the fourth and final tier of Fusion Crafting Injectors used in the Fusion crafting process and is created using Fusion crafting."]
 			dependencies: [
 				"16A5A3624601F22E"
@@ -555,8 +551,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -10.5d
+			x: -1.0d
+			y: -13.5d
 			description: ["The Item Dislocator is a magnet with a range of 8 blocks."]
 			dependencies: ["11118011651BA076"]
 			id: "068F187546E8D339"
@@ -572,8 +568,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -10.5d
+			x: 1.0d
+			y: -14.0d
 			description: ["The Awakened Item Dislocator is a magnet with a range of 32 blocks."]
 			dependencies: ["068F187546E8D339"]
 			id: "7CFCE7A81FC5AAF0"
@@ -589,8 +585,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -6.0d
+			x: 7.0d
+			y: -12.0d
 			description: ["The Energy Transfuser is used to rapidly recharge your draconic stuff, you can charge 4 items or blocks inside."]
 			dependencies: ["68319FDD2F0D6DE8"]
 			id: "3809491C3158398B"
@@ -607,8 +603,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: -5.0d
+			x: 5.5d
+			y: -12.0d
 			description: [
 				"The Mob Grinder is used to kill mob with a powerful filter, you can choose what you want to kill, Hostile, Tames, Adults, etc..."
 				"You can provide it any sword (so with enchant in it) it uses his durability."
@@ -630,8 +626,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -5.0d
+			x: 4.5d
+			y: -3.0d
 			description: ["The Wyvern Capacitor has a grid of 4x4 for modules."]
 			dependencies: ["6AFF133E53B9E11E"]
 			id: "6E85AF3FD9B7C495"
@@ -684,8 +680,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -5.0d
+			x: 4.5d
+			y: -7.0d
 			description: ["The Wyvern Shovel has a grid of 4x4 for modules."]
 			dependencies: ["6AFF133E53B9E11E"]
 			id: "41B73D17192145C1"
@@ -726,8 +722,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -5.0d
+			x: 4.5d
+			y: -6.0d
 			description: ["The Wyvern Pickaxe has a grid of 4x4 for modules."]
 			dependencies: ["6AFF133E53B9E11E"]
 			id: "27894F649BE6E4F7"
@@ -768,7 +764,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 4.5d
 			y: -5.0d
 			description: ["The Wyvern Sword has a grid of 4x4 for modules."]
 			dependencies: ["6AFF133E53B9E11E"]
@@ -805,8 +801,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -5.0d
+			x: 4.5d
+			y: -4.0d
 			description: ["The Wyvern Bow has a grid of 4x4 for modules."]
 			dependencies: ["6AFF133E53B9E11E"]
 			id: "5E3DB1BE3DD40735"
@@ -843,7 +839,7 @@
 		}
 		{
 			x: 4.5d
-			y: -5.0d
+			y: -1.5d
 			description: [
 				"The Chest Piece is the new armor from Draconic Evolution, you can cary him on your body slot or in your curio slot."
 				"On its own it does nothing, you have to upgrade it with modules."
@@ -885,8 +881,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -3.5d
+			x: 7.0d
+			y: -3.0d
 			description: ["The Draconic Capacitor has a grid of 6x5 for modules."]
 			dependencies: [
 				"16A5A3624601F22E"
@@ -942,8 +938,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -3.5d
+			x: 7.0d
+			y: -7.0d
 			description: ["The Draconic Shovel has a grid of 6x5 for modules."]
 			dependencies: [
 				"16A5A3624601F22E"
@@ -988,7 +984,7 @@
 		}
 		{
 			x: 7.0d
-			y: -3.5d
+			y: -6.0d
 			description: ["The Draconic Pickaxe has a grid of 6x5 for modules."]
 			dependencies: [
 				"16A5A3624601F22E"
@@ -1032,8 +1028,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -3.5d
+			x: 7.0d
+			y: -5.0d
 			description: ["The Draconic Sword has a grid of 6x5 for modules."]
 			dependencies: [
 				"16A5A3624601F22E"
@@ -1072,8 +1068,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -3.5d
+			x: 7.0d
+			y: -4.0d
 			description: ["The Draconic Bow has a grid of 6x5 for modules."]
 			dependencies: [
 				"16A5A3624601F22E"
@@ -1112,8 +1108,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -3.5d
+			x: 7.0d
+			y: -1.5d
 			description: ["The Draconic Chest Piece has a grid of 8x6 for modules."]
 			dependencies: [
 				"16A5A3624601F22E"
@@ -1153,8 +1149,8 @@
 			}]
 		}
 		{
-			x: 11.25d
-			y: -3.5d
+			x: 7.0d
+			y: 0.0d
 			description: ["The Draconic Staff of Power has a grid of 8x6 for modules."]
 			dependencies: [
 				"16A5A3624601F22E"
@@ -1202,8 +1198,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -2.0d
+			x: 9.5d
+			y: -3.0d
 			description: ["The Chaotic Capacitor has a grid of 8x6 for modules."]
 			dependencies: [
 				"0C3DD446B101C1D1"
@@ -1259,8 +1255,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -2.0d
+			x: 9.5d
+			y: -7.0d
 			description: ["The Chaotic Shovel has a grid of 8x6 for modules."]
 			dependencies: [
 				"0C3DD446B101C1D1"
@@ -1304,8 +1300,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -2.0d
+			x: 9.5d
+			y: -6.0d
 			description: ["The Chaotic Pickaxe has a grid of 8x6 for modules."]
 			dependencies: [
 				"0C3DD446B101C1D1"
@@ -1349,8 +1345,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -2.0d
+			x: 9.5d
+			y: -5.0d
 			description: ["The Chaotic Sword has a grid of 8x6 for modules."]
 			dependencies: [
 				"0C3DD446B101C1D1"
@@ -1389,8 +1385,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -2.0d
+			x: 9.5d
+			y: -4.0d
 			description: ["The Chaotic Bow has a grid of 8x6 for modules."]
 			dependencies: [
 				"0C3DD446B101C1D1"
@@ -1429,8 +1425,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -2.0d
+			x: 9.5d
+			y: -1.5d
 			description: ["The Chaotic Chest Piece has a grid of 10x8 for modules."]
 			dependencies: [
 				"1819C64566C8F99C"
@@ -1470,8 +1466,8 @@
 			}]
 		}
 		{
-			x: 11.25d
-			y: -2.0d
+			x: 9.5d
+			y: 0.0d
 			description: ["The Chaotic Staff of Power has a grid of 10x8 for modules."]
 			dependencies: [
 				"0C3DD446B101C1D1"
@@ -1520,8 +1516,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -8.5d
+			x: -2.0d
+			y: -2.5d
 			shape: "square"
 			description: ["The Jump Module is used to give you Jump Boost."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1554,8 +1550,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: -7.5d
+			x: 0.0d
+			y: -1.0d
 			shape: "square"
 			description: ["The Hill Step Module gives you the ability to have a step assist."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1571,8 +1567,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: -9.5d
+			x: 0.5d
+			y: -4.0d
 			shape: "square"
 			description: ["The Auto Fire Module, well, auto fire with your bow."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1588,8 +1584,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -7.5d
+			x: -1.0d
+			y: -2.0d
 			shape: "square"
 			description: ["The Auto Feed Module is used to store food and auto feed you."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1617,8 +1613,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -9.5d
+			x: -1.0d
+			y: -3.0d
 			shape: "square"
 			description: ["The Energy Module is used to increase the energy of your stuff."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1651,8 +1647,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -8.5d
+			x: 2.0d
+			y: -4.0d
 			shape: "square"
 			description: ["The Speed Module is used to give you more Speed."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1685,8 +1681,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: -10.5d
+			x: 0.5d
+			y: 0.0d
 			shape: "square"
 			description: ["The Projectile Immunity Cancellation Module is used to cancel the enderman's teleportation when you want to shoot them."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1702,8 +1698,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: -8.5d
+			x: 0.0d
+			y: 1.0d
 			shape: "square"
 			description: ["The Damage Module is used to increase the damage done by your weapons."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1736,8 +1732,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -10.5d
+			x: -1.0d
+			y: -1.0d
 			shape: "square"
 			description: ["The AOE Module is used to increase your AOE (area of effect) on your tools and weapons."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1771,8 +1767,8 @@
 		}
 		{
 			title: "Shield Capacity Module"
-			x: 9.5d
-			y: -9.5d
+			x: -0.5d
+			y: -4.0d
 			shape: "square"
 			description: ["The Shield Capacity Module increases your Energy Shield."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1801,8 +1797,8 @@
 		}
 		{
 			title: "Shield Control Module"
-			x: 10.5d
-			y: -7.5d
+			x: 0.0d
+			y: -3.0d
 			shape: "square"
 			description: ["The Shield Control Module is used to decrease the Shield Cooldown."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1831,8 +1827,8 @@
 		}
 		{
 			title: "Large Shield Capacity Module"
-			x: 10.5d
-			y: -9.5d
+			x: 0.0d
+			y: -2.0d
 			shape: "square"
 			description: ["The Large Shield Capacity Module increases your Energy Shield but take less place in your grid of modules."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1861,8 +1857,8 @@
 		}
 		{
 			title: "Shield Recovery Module"
-			x: 9.5d
-			y: -10.5d
+			x: -2.0d
+			y: -4.0d
 			shape: "square"
 			description: ["The Shield Recovery Module is used to increase your shield recharge on your Chest Piece."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1891,8 +1887,8 @@
 		}
 		{
 			title: "Flight Module"
-			x: 7.5d
-			y: -10.5d
+			x: 1.0d
+			y: -3.0d
 			shape: "square"
 			description: ["The Flight Module give you an Elytra on your Chest Piece, doesn't work in a curio slot for right now."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1920,8 +1916,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -9.0d
+			x: 0.0d
+			y: -6.0d
 			description: ["The Module Core is the base of every Module for your Draconic Evolution Stuff."]
 			dependencies: ["57921DC357097515"]
 			size: 2.0d
@@ -1940,8 +1936,8 @@
 		}
 		{
 			title: "Chaos Shard"
-			x: -1.0d
-			y: -2.5d
+			x: 11.5d
+			y: -9.5d
 			description: ["You need to defeat the Chaos Guardian, located in every 10k distance, to can grab the Chaotic Shards inside the Chaotic Island."]
 			dependencies: ["68319FDD2F0D6DE8"]
 			id: "410C369B33532099"
@@ -1960,8 +1956,8 @@
 		}
 		{
 			title: "Undying Module"
-			x: 8.5d
-			y: -9.5d
+			x: 2.0d
+			y: -2.5d
 			shape: "square"
 			description: ["The Undying Module is basically a totem of undying installable on your Chest Piece."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -1990,8 +1986,8 @@
 		}
 		{
 			title: "Projectile Velocity Module"
-			x: 7.5d
-			y: -8.5d
+			x: -0.5d
+			y: 0.0d
 			shape: "square"
 			description: ["The Projectile Velocity Module is used to increase the velocity of your arrow when you shoot."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -2020,8 +2016,8 @@
 		}
 		{
 			title: "Projectile Penetration Module"
-			x: 9.5d
-			y: -7.5d
+			x: 1.0d
+			y: -2.0d
 			shape: "square"
 			description: ["The Projectile Penetration Module is used to penetrate armor when you shoot an arrow, sometimes you can even pass through a target and potentially hit additional targets."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -2050,8 +2046,8 @@
 		}
 		{
 			title: "Projectile Damage Module"
-			x: 10.5d
-			y: -8.5d
+			x: -2.0d
+			y: -1.5d
 			shape: "square"
 			description: ["The Projectile Damage Module is used to increase the damage done by your arrows."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -2080,8 +2076,8 @@
 		}
 		{
 			title: "Projectil Gravity Compensation Module"
-			x: 8.5d
-			y: -7.5d
+			x: 1.0d
+			y: -1.0d
 			shape: "square"
 			description: ["The Projectile Gravity Compensation Module is used to make your archery straighter and therefore shoot farther."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -2110,8 +2106,8 @@
 		}
 		{
 			title: "Projectile Accuracy Module"
-			x: 8.5d
-			y: -10.5d
+			x: 2.0d
+			y: -1.5d
 			shape: "square"
 			description: ["The Projectile Accuracy Module is used to improve your accuracy with the bow."]
 			dependencies: ["55866EF2FF2B1401"]
@@ -2137,6 +2133,29 @@
 				id: "049142FC62ECF79D"
 				type: "random"
 			}]
+		}
+		{
+			x: 4.0d
+			y: -12.0d
+			size: 1.5d
+			id: "107C2567292699D7"
+			tasks: [
+				{
+					id: "65AD0CDEB1F8C4ED"
+					type: "item"
+					item: "draconicevolution:reactor_core"
+				}
+				{
+					id: "3AE79A308B57FDA6"
+					type: "item"
+					item: "draconicevolution:reactor_stabilizer"
+				}
+				{
+					id: "6205EEEE70782F66"
+					type: "item"
+					item: "draconicevolution:reactor_injector"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

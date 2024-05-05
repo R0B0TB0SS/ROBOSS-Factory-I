@@ -261,6 +261,9 @@ onEvent('recipes', e => {
     ri('immersiveengineering:metalpress/plate_brass')
     ri('immersiveengineering:metalpress/plate_zinc')
     ri('beyond_earth:desh_plate')
+    ri('extendedexchange:stone_table_1')
+    ri('extendedexchange:alchemy_table')
+    ri('projecte:philosophers_stone_alt')
 
 
 })

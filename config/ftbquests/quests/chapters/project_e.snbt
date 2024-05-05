@@ -98,11 +98,6 @@
 				type: "item"
 				item: "projecte:transmutation_table"
 			}]
-			rewards: [{
-				id: "753149C7FDED4C60"
-				type: "item"
-				item: "projecte:transmutation_tablet"
-			}]
 		}
 		{
 			x: 3.5d
@@ -881,6 +876,16 @@
 				id: "43A63685DA468C0F"
 				type: "item"
 				item: "minecraft:sunflower"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			id: "22370862B8A42108"
+			tasks: [{
+				id: "2C3566F6BE9284AD"
+				type: "item"
+				item: "projecte:transmutation_tablet"
 			}]
 		}
 	]

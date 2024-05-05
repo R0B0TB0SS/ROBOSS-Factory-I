@@ -1,0 +1,32 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+        "    A    ",
+        "   ABA   ",
+        "  ABCBA  ",
+        " ABBCBBA ",
+        "ABCCDCCBA",
+        " ABBCBBA ",
+        "  ABCBA  ",
+        "   ABA   ",
+        "    A    "
+    ],
+    "key": {
+        "A": {
+          "item": "projecte:dark_matter_block"
+        },
+        "B": {
+          "item": "projecte:aeternalis_fuel_block"
+        },
+        "C": {
+          "item": "extendedexchange:magenta_matter"
+        },
+        "D": {
+          "item": "draconicevolution:draconium_chest"
+        }
+      },
+    
+    "result": {
+      "item": "projecte:transmutation_table"
+    }
+  }

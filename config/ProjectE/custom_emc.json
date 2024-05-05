@@ -199,6 +199,42 @@
     {
       "item": "create:zinc_ingot",
       "emc": 512
+    },
+    {
+      "item": "extendedexchange:energy_link",
+      "emc": 467380
+    },
+    {
+      "item": "projecte:alchemical_chest",
+      "emc": 8987
+    },
+    {
+      "item": "minecraft:furnace",
+      "emc": 8
+    },
+    {
+      "item": "#forge:cobblestone/normal",
+      "emc": 1
+    },
+    {
+      "item": "#forge:cobblestone",
+      "emc": 1
+    },
+    {
+      "item": "#forge:stone",
+      "emc": 1
+    },
+    {
+      "item": "projecte:transmutation_table",
+      "emc": 21692416
+    },
+    {
+      "item": "projecte:transmutation_tablet",
+      "emc": 43384832
+    },
+    {
+      "item": "projecte:philosophers_stone",
+      "emc": 1597657
     }
   ]
 }

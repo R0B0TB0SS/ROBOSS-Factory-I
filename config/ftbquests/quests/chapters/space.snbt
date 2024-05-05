@@ -38,7 +38,6 @@
 		{
 			x: -4.0d
 			y: 1.5d
-			subtitle: "Sucking the O2 dry"
 			size: 1.25d
 			id: "361B97B2D078236D"
 			tasks: [{
@@ -122,7 +121,6 @@
 		{
 			x: -2.5d
 			y: 1.5d
-			subtitle: "One Oxygen Tank for the Road"
 			dependencies: ["361B97B2D078236D"]
 			id: "31F8F0EE00F7C2B9"
 			tasks: [{
@@ -134,7 +132,6 @@
 		{
 			x: -4.0d
 			y: 3.0d
-			subtitle: "Fill it up!"
 			size: 1.25d
 			id: "076B7BA0F794D482"
 			tasks: [{
