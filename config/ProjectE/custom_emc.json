@@ -206,7 +206,7 @@
     },
     {
       "item": "projecte:alchemical_chest",
-      "emc": 8987
+      "emc": 183071
     },
     {
       "item": "minecraft:furnace",
@@ -235,6 +235,14 @@
     {
       "item": "projecte:philosophers_stone",
       "emc": 1597657
+    },
+    {
+      "item": "projecte:condenser_mk1",
+      "emc": 330655
+    },
+    {
+      "item": "projecte:condenser_mk2",
+      "emc": 615327
     }
   ]
 }

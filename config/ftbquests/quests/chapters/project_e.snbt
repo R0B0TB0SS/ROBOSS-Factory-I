@@ -14,8 +14,11 @@
 	quests: [
 		{
 			x: 2.0d
-			y: -2.0d
-			dependencies: ["68319FDD2F0D6DE8"]
+			y: -1.5d
+			dependencies: [
+				"68319FDD2F0D6DE8"
+				"4DBB337CE3C9624B"
+			]
 			size: 2.0d
 			id: "2496AB86EC974CBF"
 			tasks: [{
@@ -38,28 +41,23 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -1.5d
-			dependencies: ["68319FDD2F0D6DE8"]
+			x: 2.0d
+			y: -3.0d
+			dependencies: [
+				"68319FDD2F0D6DE8"
+				"4DBB337CE3C9624B"
+			]
 			id: "39B341DDBA9E1041"
 			tasks: [{
 				id: "6CB6F3A0AD541668"
 				type: "item"
 				item: "projecte:alchemical_chest"
 			}]
-			rewards: [{
-				id: "73267A241C7860D4"
-				type: "item"
-				item: "forbidden_arcanus:dark_nether_star"
-			}]
 		}
 		{
-			x: -0.5d
-			y: -2.0d
-			dependencies: [
-				"2496AB86EC974CBF"
-				"39B341DDBA9E1041"
-			]
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["39B341DDBA9E1041"]
 			id: "10851F30E823445B"
 			tasks: [{
 				id: "1D47DC8EB5176EBD"
@@ -73,8 +71,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -2.5d
+			x: -1.0d
+			y: -1.5d
 			dependencies: ["10851F30E823445B"]
 			id: "612247F8866643D5"
 			tasks: [{
@@ -89,8 +87,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.5d
+			x: 5.0d
+			y: -1.5d
 			dependencies: ["2496AB86EC974CBF"]
 			id: "20A13953035A1815"
 			tasks: [{
@@ -100,8 +98,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.0d
+			x: 3.0d
+			y: 1.0d
 			dependencies: ["2496AB86EC974CBF"]
 			id: "66B4624A09FBDD7B"
 			tasks: [{
@@ -116,8 +114,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -0.5d
+			x: 1.0d
+			y: 1.0d
 			dependencies: ["66B4624A09FBDD7B"]
 			id: "5D5F0B77D9FC5E02"
 			tasks: [{
@@ -133,8 +131,8 @@
 		}
 		{
 			title: "Alchemical Bag"
-			x: -2.5d
-			y: -2.0d
+			x: 4.0d
+			y: -2.5d
 			dependencies: ["39B341DDBA9E1041"]
 			id: "57796882875B5D0D"
 			tasks: [{
@@ -157,8 +155,8 @@
 		}
 		{
 			title: "Dark Matter Armor"
-			x: 4.5d
-			y: -2.0d
+			x: 4.0d
+			y: -0.5d
 			dependencies: ["66B4624A09FBDD7B"]
 			id: "29A643706EF0F496"
 			tasks: [
@@ -191,8 +189,8 @@
 		}
 		{
 			title: "Red Matter Armor"
-			x: 5.5d
-			y: -1.5d
+			x: 0.0d
+			y: -0.5d
 			dependencies: ["5D5F0B77D9FC5E02"]
 			id: "2568CCE74F8EF8AD"
 			tasks: [
@@ -225,8 +223,8 @@
 		}
 		{
 			title: "Gem Armor"
-			x: 5.5d
-			y: -2.5d
+			x: 0.5d
+			y: -1.5d
 			dependencies: ["2568CCE74F8EF8AD"]
 			id: "0DE82070B7246F89"
 			tasks: [
@@ -259,8 +257,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 0.5d
+			x: 2.0d
+			y: 1.5d
 			dependencies: ["5D5F0B77D9FC5E02"]
 			id: "788110FA809EA7B8"
 			tasks: [{
@@ -275,8 +273,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.5d
+			x: 3.0d
+			y: 2.0d
 			dependencies: ["788110FA809EA7B8"]
 			id: "2C6F0ACF417C2CF4"
 			tasks: [{
@@ -291,8 +289,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 0.0d
+			x: 1.0d
+			y: 2.0d
 			dependencies: ["2C6F0ACF417C2CF4"]
 			id: "44F00B3D3A909032"
 			tasks: [{
@@ -307,8 +305,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: 2.0d
+			y: 2.5d
 			dependencies: ["44F00B3D3A909032"]
 			id: "0DDB0D02097667F7"
 			tasks: [{
@@ -323,8 +321,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -0.5d
+			x: 3.0d
+			y: 3.0d
 			dependencies: ["0DDB0D02097667F7"]
 			id: "3ECA72C579CC747A"
 			tasks: [{
@@ -339,8 +337,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -0.5d
+			x: 1.0d
+			y: 3.0d
 			dependencies: ["3ECA72C579CC747A"]
 			id: "22BFC772C39884B5"
 			tasks: [{
@@ -355,8 +353,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
+			x: 2.0d
+			y: 3.5d
 			dependencies: ["22BFC772C39884B5"]
 			id: "32E040D267EAB556"
 			tasks: [{
@@ -371,8 +369,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 0.0d
+			x: 3.0d
+			y: 4.0d
 			dependencies: ["32E040D267EAB556"]
 			id: "51C74DF7AA0F4724"
 			tasks: [{
@@ -387,8 +385,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 1.5d
+			x: 1.0d
+			y: 4.0d
 			dependencies: ["51C74DF7AA0F4724"]
 			id: "729080F35DF1BD00"
 			tasks: [{
@@ -403,8 +401,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 0.5d
+			x: 2.0d
+			y: 4.5d
 			dependencies: ["729080F35DF1BD00"]
 			id: "50D6E47992A00A0C"
 			tasks: [{
@@ -419,8 +417,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -0.5d
+			x: 3.0d
+			y: 5.0d
 			dependencies: ["50D6E47992A00A0C"]
 			id: "4127527C72249AF0"
 			tasks: [{
@@ -435,8 +433,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -1.0d
+			x: 1.0d
+			y: 5.0d
 			dependencies: ["4127527C72249AF0"]
 			id: "3E73787ACD0859FB"
 			tasks: [{
@@ -451,23 +449,15 @@
 			}]
 		}
 		{
-			title: "Collector MK1"
-			x: 3.5d
-			y: -2.5d
+			x: 3.0d
+			y: -4.0d
 			dependencies: ["2496AB86EC974CBF"]
 			id: "6B2FCD3B9BE54DC5"
-			tasks: [
-				{
-					id: "2F718BF77E653158"
-					type: "item"
-					item: "extendedexchange:basic_collector"
-				}
-				{
-					id: "1A07835A11C0E66F"
-					type: "item"
-					item: "extendedexchange:basic_relay"
-				}
-			]
+			tasks: [{
+				id: "7C8855E30A086266"
+				type: "item"
+				item: "extendedexchange:basic_power_flower"
+			}]
 			rewards: [{
 				id: "6E5749743B2C8693"
 				type: "item"
@@ -475,23 +465,15 @@
 			}]
 		}
 		{
-			title: "Collector MK2"
-			x: 4.5d
-			y: -3.0d
+			x: 1.0d
+			y: -4.0d
 			dependencies: ["6B2FCD3B9BE54DC5"]
 			id: "5FDE51B2E7A48AFA"
-			tasks: [
-				{
-					id: "1252671D168BA32B"
-					type: "item"
-					item: "extendedexchange:dark_collector"
-				}
-				{
-					id: "319F555273582277"
-					type: "item"
-					item: "extendedexchange:dark_relay"
-				}
-			]
+			tasks: [{
+				id: "4681C2C39360E408"
+				type: "item"
+				item: "extendedexchange:dark_power_flower"
+			}]
 			rewards: [{
 				id: "6140FFDD98A3C93A"
 				type: "item"
@@ -499,23 +481,15 @@
 			}]
 		}
 		{
-			title: "Collector MK3"
-			x: 5.5d
-			y: -4.0d
+			x: 2.0d
+			y: -4.5d
 			dependencies: ["5FDE51B2E7A48AFA"]
 			id: "7D4CAEF28DBE4FE2"
-			tasks: [
-				{
-					id: "683721B3E2D19DDD"
-					type: "item"
-					item: "extendedexchange:red_collector"
-				}
-				{
-					id: "69DA6807DB2C64DD"
-					type: "item"
-					item: "extendedexchange:red_relay"
-				}
-			]
+			tasks: [{
+				id: "7B978052FB5ACE5E"
+				type: "item"
+				item: "extendedexchange:red_power_flower"
+			}]
 			rewards: [{
 				id: "57ABD73DEF155E19"
 				type: "item"
@@ -523,23 +497,15 @@
 			}]
 		}
 		{
-			title: "Collector MK4"
-			x: 5.0d
+			x: 3.0d
 			y: -5.0d
 			dependencies: ["7D4CAEF28DBE4FE2"]
 			id: "0401A0F40DFE89FC"
-			tasks: [
-				{
-					id: "0015D4332C0E744A"
-					type: "item"
-					item: "extendedexchange:magenta_collector"
-				}
-				{
-					id: "143102A5332B0022"
-					type: "item"
-					item: "extendedexchange:magenta_relay"
-				}
-			]
+			tasks: [{
+				id: "26C7AE2EAED2C08F"
+				type: "item"
+				item: "extendedexchange:magenta_power_flower"
+			}]
 			rewards: [{
 				id: "50DFE6C8846D2BC9"
 				type: "item"
@@ -547,23 +513,15 @@
 			}]
 		}
 		{
-			title: "Collector MK5"
-			x: 4.0d
-			y: -4.0d
+			x: 1.0d
+			y: -5.0d
 			dependencies: ["0401A0F40DFE89FC"]
 			id: "0924A748A559208A"
-			tasks: [
-				{
-					id: "0B0DC1351056E592"
-					type: "item"
-					item: "extendedexchange:pink_collector"
-				}
-				{
-					id: "4FAA52D0507CD194"
-					type: "item"
-					item: "extendedexchange:pink_relay"
-				}
-			]
+			tasks: [{
+				id: "3D4C4DEFEA76A1F4"
+				type: "item"
+				item: "extendedexchange:pink_power_flower"
+			}]
 			rewards: [{
 				id: "1AEA043F77C0639C"
 				type: "item"
@@ -571,23 +529,15 @@
 			}]
 		}
 		{
-			title: "Collector MK6"
-			x: 3.5d
+			x: 2.0d
 			y: -5.5d
 			dependencies: ["0924A748A559208A"]
 			id: "50EF3725C690FC51"
-			tasks: [
-				{
-					id: "64980C27E7780B98"
-					type: "item"
-					item: "extendedexchange:purple_collector"
-				}
-				{
-					id: "3033BFD2E657B133"
-					type: "item"
-					item: "extendedexchange:purple_relay"
-				}
-			]
+			tasks: [{
+				id: "656A270860D66193"
+				type: "item"
+				item: "extendedexchange:purple_power_flower"
+			}]
 			rewards: [{
 				id: "256A091D5D9FBA0F"
 				type: "item"
@@ -595,23 +545,15 @@
 			}]
 		}
 		{
-			title: "Collector MK7"
 			x: 3.0d
-			y: -4.5d
+			y: -6.0d
 			dependencies: ["50EF3725C690FC51"]
 			id: "61A65C82B7CBA8E1"
-			tasks: [
-				{
-					id: "2FA02299BD4DB62A"
-					type: "item"
-					item: "extendedexchange:violet_collector"
-				}
-				{
-					id: "789DD024F5283CCF"
-					type: "item"
-					item: "extendedexchange:violet_relay"
-				}
-			]
+			tasks: [{
+				id: "683520E58025A13C"
+				type: "item"
+				item: "extendedexchange:violet_power_flower"
+			}]
 			rewards: [{
 				id: "16979F8D1D415D89"
 				type: "item"
@@ -619,23 +561,15 @@
 			}]
 		}
 		{
-			title: "Collector MK8"
-			x: 2.5d
-			y: -3.5d
+			x: 1.0d
+			y: -6.0d
 			dependencies: ["61A65C82B7CBA8E1"]
 			id: "19256785AFE6AEB1"
-			tasks: [
-				{
-					id: "251F9C4F2A4D437D"
-					type: "item"
-					item: "extendedexchange:blue_collector"
-				}
-				{
-					id: "1EF7480CB966428E"
-					type: "item"
-					item: "extendedexchange:blue_relay"
-				}
-			]
+			tasks: [{
+				id: "53FE4F1B662DA66E"
+				type: "item"
+				item: "extendedexchange:blue_power_flower"
+			}]
 			rewards: [{
 				id: "296663FC1F8CE11A"
 				type: "item"
@@ -643,23 +577,15 @@
 			}]
 		}
 		{
-			title: "Collector MK9"
-			x: 1.5d
-			y: -3.5d
+			x: 2.0d
+			y: -6.5d
 			dependencies: ["19256785AFE6AEB1"]
 			id: "454A87052AC7B74A"
-			tasks: [
-				{
-					id: "0DA3C84DC7660138"
-					type: "item"
-					item: "extendedexchange:cyan_collector"
-				}
-				{
-					id: "3F2C430D9631AD0E"
-					type: "item"
-					item: "extendedexchange:cyan_relay"
-				}
-			]
+			tasks: [{
+				id: "287E15DECA5A5FD3"
+				type: "item"
+				item: "extendedexchange:cyan_power_flower"
+			}]
 			rewards: [{
 				id: "3CAE7716EE82D5CD"
 				type: "item"
@@ -667,23 +593,15 @@
 			}]
 		}
 		{
-			title: "Collector MK10"
-			x: 1.0d
-			y: -4.5d
+			x: 3.0d
+			y: -7.0d
 			dependencies: ["454A87052AC7B74A"]
 			id: "6D86FFBB32BA08FD"
-			tasks: [
-				{
-					id: "25CA6883FF49E873"
-					type: "item"
-					item: "extendedexchange:green_collector"
-				}
-				{
-					id: "3B175C4336B15033"
-					type: "item"
-					item: "extendedexchange:green_relay"
-				}
-			]
+			tasks: [{
+				id: "605A5C6F6BF15521"
+				type: "item"
+				item: "extendedexchange:green_power_flower"
+			}]
 			rewards: [{
 				id: "6A097EC5869F6B37"
 				type: "item"
@@ -691,23 +609,15 @@
 			}]
 		}
 		{
-			title: "Collector MK11"
-			x: 0.5d
-			y: -5.5d
+			x: 1.0d
+			y: -7.0d
 			dependencies: ["6D86FFBB32BA08FD"]
 			id: "723DFEE62780BA88"
-			tasks: [
-				{
-					id: "6723FBF4322A42B0"
-					type: "item"
-					item: "extendedexchange:lime_collector"
-				}
-				{
-					id: "170867EF364170BB"
-					type: "item"
-					item: "extendedexchange:lime_relay"
-				}
-			]
+			tasks: [{
+				id: "3782B27368515AF5"
+				type: "item"
+				item: "extendedexchange:lime_power_flower"
+			}]
 			rewards: [{
 				id: "02C7F22F59171D53"
 				type: "item"
@@ -715,23 +625,15 @@
 			}]
 		}
 		{
-			title: "Collector MK12"
-			x: 0.0d
-			y: -4.0d
+			x: 2.0d
+			y: -7.5d
 			dependencies: ["723DFEE62780BA88"]
 			id: "3BB12DA16638F436"
-			tasks: [
-				{
-					id: "5852EDFA7ADAD3FA"
-					type: "item"
-					item: "extendedexchange:yellow_collector"
-				}
-				{
-					id: "0B9C3D137472EE58"
-					type: "item"
-					item: "extendedexchange:yellow_relay"
-				}
-			]
+			tasks: [{
+				id: "0F5A89227E072DE8"
+				type: "item"
+				item: "extendedexchange:yellow_power_flower"
+			}]
 			rewards: [{
 				id: "62AC7B1BCA6D4FF2"
 				type: "item"
@@ -739,23 +641,15 @@
 			}]
 		}
 		{
-			title: "Collector MK13"
-			x: -1.0d
-			y: -5.0d
+			x: 3.0d
+			y: -8.0d
 			dependencies: ["3BB12DA16638F436"]
 			id: "6B7F034E4FB3092D"
-			tasks: [
-				{
-					id: "400D8CF80DF22E64"
-					type: "item"
-					item: "extendedexchange:orange_collector"
-				}
-				{
-					id: "38397249DDEEA6B3"
-					type: "item"
-					item: "extendedexchange:orange_relay"
-				}
-			]
+			tasks: [{
+				id: "090C349749619760"
+				type: "item"
+				item: "extendedexchange:orange_power_flower"
+			}]
 			rewards: [{
 				id: "595A267BCBF1F537"
 				type: "item"
@@ -763,23 +657,15 @@
 			}]
 		}
 		{
-			title: "Collector MK14"
-			x: -1.5d
-			y: -4.0d
+			x: 1.0d
+			y: -8.0d
 			dependencies: ["6B7F034E4FB3092D"]
 			id: "37FC2C9D3C60678C"
-			tasks: [
-				{
-					id: "4561D8A8378E0033"
-					type: "item"
-					item: "extendedexchange:white_collector"
-				}
-				{
-					id: "63012D3A14F1564F"
-					type: "item"
-					item: "extendedexchange:white_relay"
-				}
-			]
+			tasks: [{
+				id: "2CB9CBAEF8ACB6C0"
+				type: "item"
+				item: "extendedexchange:white_power_flower"
+			}]
 			rewards: [{
 				id: "4BD7DB1FC0227BE7"
 				type: "item"
@@ -787,23 +673,15 @@
 			}]
 		}
 		{
-			title: "Collector MK15"
-			x: -0.5d
-			y: -3.0d
+			x: 2.0d
+			y: -8.5d
 			dependencies: ["37FC2C9D3C60678C"]
 			id: "40451083E9066147"
-			tasks: [
-				{
-					id: "2436C9854284FD66"
-					type: "item"
-					item: "extendedexchange:fading_collector"
-				}
-				{
-					id: "2D15431E4508E30E"
-					type: "item"
-					item: "extendedexchange:fading_relay"
-				}
-			]
+			tasks: [{
+				id: "600A28176EA22CC5"
+				type: "item"
+				item: "extendedexchange:fading_power_flower"
+			}]
 			rewards: [{
 				id: "2682E501A07AC11C"
 				type: "item"
@@ -811,23 +689,15 @@
 			}]
 		}
 		{
-			title: "Final Collector MK16"
-			x: 0.5d
-			y: -2.5d
+			x: 2.0d
+			y: -9.5d
 			dependencies: ["40451083E9066147"]
 			id: "27F008223F162C08"
-			tasks: [
-				{
-					id: "40B96D859D882FC9"
-					type: "item"
-					item: "extendedexchange:final_collector"
-				}
-				{
-					id: "002202C5191D7653"
-					type: "item"
-					item: "extendedexchange:final_relay"
-				}
-			]
+			tasks: [{
+				id: "07F0D411908D8227"
+				type: "item"
+				item: "extendedexchange:final_power_flower"
+			}]
 			rewards: [
 				{
 					id: "56EBFDCDEF9E3648"
@@ -847,8 +717,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: -2.0d
+			x: 2.0d
+			y: 0.0d
 			dependencies: ["2496AB86EC974CBF"]
 			id: "033E8542451947A3"
 			tasks: [{
@@ -863,24 +733,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -5.0d
-			dependencies: ["2496AB86EC974CBF"]
-			id: "7E4CD670F8CAFCE3"
-			tasks: [{
-				id: "4E5B927A011DAC85"
-				type: "item"
-				item: "extendedexchange:final_power_flower"
-			}]
-			rewards: [{
-				id: "43A63685DA468C0F"
-				type: "item"
-				item: "minecraft:sunflower"
-			}]
-		}
-		{
-			x: 2.0d
-			y: 2.5d
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["20A13953035A1815"]
 			id: "22370862B8A42108"
 			tasks: [{
 				id: "2C3566F6BE9284AD"

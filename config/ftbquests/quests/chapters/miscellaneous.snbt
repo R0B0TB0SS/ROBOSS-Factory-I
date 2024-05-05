@@ -615,7 +615,7 @@
 			rewards: [{
 				id: "127BA41A41FBFCF5"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "thermal:steel_ingot"
 				count: 8
 			}]
 		}

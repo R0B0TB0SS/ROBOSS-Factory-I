@@ -7,6 +7,384 @@
 	icon: "powah:energizing_rod_nitro"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: -3.0d
+			y: -3.0d
+			id: "594F75734F619015"
+			tasks: [{
+				id: "523110F01A8A44B1"
+				type: "item"
+				item: "powah:capacitor_basic_tiny"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			id: "221AF04CA8750712"
+			tasks: [{
+				id: "79239D40627597E6"
+				type: "item"
+				item: "powah:capacitor_basic"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			id: "7FAF34B75C625601"
+			tasks: [{
+				id: "62EAAFC1E92C4CC4"
+				type: "item"
+				item: "powah:capacitor_basic_large"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "3196F9143AFA085D"
+			tasks: [{
+				id: "09FE3FE2059F34B1"
+				type: "item"
+				item: "powah:capacitor_hardened"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			id: "6E0F83BBCFC1B0A1"
+			tasks: [{
+				id: "4E7786E432E489C5"
+				type: "item"
+				item: "powah:capacitor_blazing"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			id: "0573C00702EE20B9"
+			tasks: [{
+				id: "209535850D00E113"
+				type: "item"
+				item: "powah:capacitor_niotic"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			id: "7A36B32491EEFDB3"
+			tasks: [{
+				id: "7AA43845D30D51AA"
+				type: "item"
+				item: "powah:capacitor_spirited"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			id: "395D8DD16C79C401"
+			tasks: [{
+				id: "7EEBFE6EF6E8EFD6"
+				type: "item"
+				item: "powah:capacitor_nitro"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			id: "712972CE2DC80F84"
+			tasks: [{
+				id: "64835DF283A827C0"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			id: "7682B481D6B08E29"
+			tasks: [{
+				id: "49E228367DB26F85"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			id: "43C8FD4E8506B26B"
+			tasks: [{
+				id: "5E7E3D3AB8B01C0D"
+				type: "item"
+				item: "powah:crystal_nitro"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			id: "6047263793605430"
+			tasks: [{
+				id: "61034246D7621FC0"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -8.25d
+			size: 1.5d
+			id: "4DBB337CE3C9624B"
+			tasks: [{
+				id: "7D8E125E75D9C2BE"
+				type: "item"
+				item: "powah:energizing_orb"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			id: "611934954449A8CE"
+			tasks: [{
+				id: "194DBCF0D01454A3"
+				type: "item"
+				item: "powah:energizing_rod_starter"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			id: "1BEAA7EA296D3013"
+			tasks: [{
+				id: "65DDCAAC1EDC28B4"
+				type: "item"
+				item: "powah:energizing_rod_basic"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.5d
+			id: "09F6DE5796A80089"
+			tasks: [{
+				id: "6C0976C0BEC2F15C"
+				type: "item"
+				item: "powah:energizing_rod_hardened"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -8.5d
+			id: "4C53659CF25128C1"
+			tasks: [{
+				id: "245840188728A185"
+				type: "item"
+				item: "powah:energizing_rod_blazing"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -9.5d
+			id: "2B8CE73A7A6B1732"
+			tasks: [{
+				id: "0CECC46A68757B9E"
+				type: "item"
+				item: "powah:energizing_rod_niotic"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -10.5d
+			id: "2F5AE36F31C90356"
+			tasks: [{
+				id: "1CC8C92B95C3BFCC"
+				type: "item"
+				item: "powah:energizing_rod_spirited"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -11.5d
+			id: "54D3FB72F3040D66"
+			tasks: [{
+				id: "448F64C875D2C3D7"
+				type: "item"
+				item: "powah:energizing_rod_nitro"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			id: "10EFCFD3AE05C56C"
+			tasks: [{
+				id: "24BC47076C2E760B"
+				type: "item"
+				item: "powah:steel_energized"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			id: "5FDEC3372AA8B60F"
+			tasks: [{
+				id: "0E245E3D4D862A8E"
+				type: "item"
+				item: {
+					id: "powah:wrench"
+					Count: 1b
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			id: "110E13EBDB06C660"
+			tasks: [{
+				id: "35681A4AA01C05A9"
+				type: "item"
+				item: "powah:uraninite"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			id: "17F919CC915CEC1E"
+			tasks: [{
+				id: "5A45154ECC957D9E"
+				type: "item"
+				item: "powah:reactor_starter"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			id: "1BBDBFEA165B5C9D"
+			tasks: [{
+				id: "2ECFBDD9D81E4319"
+				type: "item"
+				item: "powah:reactor_basic"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "7C66FF12B80306E1"
+			tasks: [{
+				id: "47696D2834B9CEB8"
+				type: "item"
+				item: "powah:reactor_hardened"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			id: "65048630CBC8EEE5"
+			tasks: [{
+				id: "726D05F78434AAB1"
+				type: "item"
+				item: "powah:reactor_blazing"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			id: "6EB08101C737D627"
+			tasks: [{
+				id: "38137815938C99DF"
+				type: "item"
+				item: "powah:reactor_niotic"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			id: "24CE8A78DDE4555C"
+			tasks: [{
+				id: "5409E63D3112D850"
+				type: "item"
+				item: "powah:reactor_spirited"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			id: "64DB7EE9EDA6201D"
+			tasks: [{
+				id: "2C6F47F3D53CC416"
+				type: "item"
+				item: "powah:reactor_nitro"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "1A0D30589D03A8B2"
+			tasks: [{
+				id: "681D221816950B88"
+				type: "item"
+				item: "powah:energy_cable_starter"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			id: "5CD28DF9DEE391E4"
+			tasks: [{
+				id: "078D10DF910D46FB"
+				type: "item"
+				item: "powah:energy_cable_hardened"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "288DF31A9170A0F6"
+			tasks: [{
+				id: "21598650968DF66D"
+				type: "item"
+				item: "powah:energy_cable_hardened"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			id: "4BC84F4513EB1C0F"
+			tasks: [{
+				id: "55DD7FF5586A2CD0"
+				type: "item"
+				item: "powah:energy_cable_blazing"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			id: "0DA6F0D8DE1E4FF0"
+			tasks: [{
+				id: "3C23004C6F0FE377"
+				type: "item"
+				item: "powah:energy_cable_niotic"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "04DCCCF086C894A0"
+			tasks: [{
+				id: "0D2C5EAC184F70BF"
+				type: "item"
+				item: "powah:energy_cable_spirited"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			id: "388300970422B4E0"
+			tasks: [{
+				id: "67D26F7B1F5CAD28"
+				type: "item"
+				item: "powah:energy_cable_nitro"
+			}]
+		}
+	]
 	quest_links: [ ]
 }
