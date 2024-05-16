@@ -141,7 +141,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: -0.5d
 			y: 0.0d
 			subtitle: "Pathetic Rocket"
 			dependencies: ["2695E26BDBE6B682"]
@@ -157,8 +157,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			x: 1.0d
+			y: 0.5d
 			subtitle: "Can be found on the moon"
 			dependencies: ["66B019A8FDB227F1"]
 			id: "5F9C092B8E70782E"
@@ -169,7 +169,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: -0.5d
 			y: 1.5d
 			subtitle: "Advanced Rocket"
 			dependencies: [
@@ -188,7 +188,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: -0.5d
 			y: 3.0d
 			subtitle: "Elite Rocket"
 			dependencies: [
@@ -207,7 +207,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: 4.5d
 			subtitle: "Ultimate Rocket"
 			dependencies: [
@@ -226,8 +226,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.5d
+			x: 1.0d
+			y: 2.0d
 			subtitle: "Can be found on Mars"
 			dependencies: ["578A584538A96852"]
 			id: "667851E00A5A178E"
@@ -238,8 +238,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 3.0d
+			x: 1.0d
+			y: 3.5d
 			subtitle: "Can be found on Venus"
 			dependencies: ["51842EF6C65907F0"]
 			id: "184B8217FE7868E3"

@@ -95,7 +95,10 @@ onEvent('recipes', e => {
     },{
       in:"minecraft:lapis_lazuli",
       out:"thermal:lapis_gear"
-    }
+    },{
+      in:"pneumaticcraft:ingot_iron_compressed",
+      out:'pneumaticcraft:compressed_iron_gear'
+  }
     ]
 
     gear.forEach((i)=>{

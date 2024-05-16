@@ -6,5 +6,6 @@
   ],
   "ingredient": {
     "item": "minecraft:copper_ingot"
-  }
+  },
+  "inUltimateSingularity": true
 }

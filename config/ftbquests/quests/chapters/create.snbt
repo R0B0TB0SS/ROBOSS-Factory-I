@@ -803,12 +803,6 @@
 				type: "item"
 				item: "createaddition:rolling_mill"
 			}]
-			rewards: [{
-				id: "05248140DEE61CF5"
-				type: "item"
-				item: "thermal:copper_ingot"
-				count: 4
-			}]
 		}
 		{
 			title: "Wires"

@@ -77,8 +77,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -5.0d
+			x: -1.5d
+			y: -1.5d
 			id: "3AB6225FB26A5422"
 			tasks: [{
 				id: "2C328C234FD65BBC"
@@ -94,8 +94,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -1.5d
+			x: -1.5d
+			y: -0.5d
 			id: "335C9048B8A52391"
 			tasks: [{
 				id: "319042DEA1F648FA"
@@ -105,23 +105,6 @@
 					Count: 1b
 					tag: {
 						Id: "extendedcrafting:lapis_lazuli"
-					}
-				}
-				match_nbt: true
-			}]
-		}
-		{
-			x: -1.5d
-			y: -1.5d
-			id: "2791BCB5D9FBEB5B"
-			tasks: [{
-				id: "2D60A595CE9A483D"
-				type: "item"
-				item: {
-					id: "extendedcrafting:singularity"
-					Count: 1b
-					tag: {
-						Id: "extendedcrafting:ultimate_upgraded_netherite_ingot"
 					}
 				}
 				match_nbt: true
@@ -190,41 +173,6 @@
 					Count: 1b
 					tag: {
 						Id: "extendedcrafting:redstone"
-					}
-				}
-				match_nbt: true
-			}]
-		}
-		{
-			x: -1.5d
-			y: -0.5d
-			id: "0889EA18541EF30F"
-			tasks: [{
-				id: "45710AA4C3D1DCC5"
-				type: "item"
-				item: {
-					id: "extendedcrafting:singularity"
-					Count: 1b
-					tag: {
-						Id: "extendedcrafting:terrasteel"
-					}
-				}
-				match_nbt: true
-			}]
-		}
-		{
-			x: 1.0d
-			y: 3.5d
-			dependencies: ["01225FF9727AD15D"]
-			id: "5DF117F6F265B8CE"
-			tasks: [{
-				id: "3BDB2097BB7A2293"
-				type: "item"
-				item: {
-					id: "extendedcrafting:singularity"
-					Count: 1b
-					tag: {
-						Id: "extendedcrafting:pig_iron"
 					}
 				}
 				match_nbt: true
@@ -487,8 +435,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 1.5d
+			x: 0.0d
+			y: 0.0d
 			id: "6BF5313D90513CC8"
 			tasks: [{
 				id: "64E79F952B0204E5"
@@ -521,8 +469,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 5.0d
+			x: 0.5d
+			y: 3.5d
 			dependencies: ["01225FF9727AD15D"]
 			id: "04B6ECC8D786D00A"
 			tasks: [{

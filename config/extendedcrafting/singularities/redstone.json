@@ -6,5 +6,6 @@
   ],
   "ingredient": {
     "item": "minecraft:redstone"
-  }
+  },
+  "inUltimateSingularity": true
 }

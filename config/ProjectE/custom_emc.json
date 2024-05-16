@@ -243,6 +243,10 @@
     {
       "item": "projecte:condenser_mk2",
       "emc": 615327
+    },
+    {
+      "item": "thermal:sulfur_dust",
+      "emc": 32
     }
   ]
 }

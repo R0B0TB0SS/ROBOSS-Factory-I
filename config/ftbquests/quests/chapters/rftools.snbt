@@ -45,8 +45,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -5.0d
+			x: 6.5d
+			y: -4.5d
 			description: ["The Matter Transmitter is used with a Dialing Device to teleport you to a Matter Receiver."]
 			dependencies: ["0000000000000ACA"]
 			id: "0000000000000AD0"
@@ -64,7 +64,7 @@
 		}
 		{
 			x: 6.5d
-			y: -5.0d
+			y: -5.5d
 			description: ["The Matter Receiver is used to create a point of teleportation, place this block anywhere in the world, then you can dial to it using a Dialing Device."]
 			dependencies: ["0000000000000ACA"]
 			id: "0000000000000AD2"
@@ -103,7 +103,7 @@
 		}
 		{
 			x: 1.5d
-			y: -6.0d
+			y: -4.5d
 			description: ["The Builder can quarry areas, pump liquids, move/copy/swap structures, collect item and XP, move entities, build structures, etc..."]
 			dependencies: ["0000000000000ACA"]
 			id: "0000000000000B09"
@@ -121,7 +121,7 @@
 		}
 		{
 			x: 1.5d
-			y: -7.0d
+			y: -5.5d
 			description: [
 				"Every card is used in a Builder."
 				"The Sharp card is used to build."
@@ -251,7 +251,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.0d
 			y: -3.5d
 			description: ["The Storage Scanner will scan all nearby inventories and show them in a list, you can then search and access items from those inventories."]
 			dependencies: ["0000000000000ACA"]
@@ -269,8 +269,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -3.5d
+			x: 4.0d
+			y: -6.5d
 			description: ["The Modular Storage can store a lot of items and allows easy searching and filtering using a storage module in it."]
 			dependencies: ["0000000000000ACA"]
 			id: "0000000000000B1B"
@@ -287,8 +287,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -2.5d
+			x: 4.0d
+			y: -7.5d
 			description: ["The Tier 1 Storage Module can old 100 stacks."]
 			dependencies: ["0000000000000B1B"]
 			id: "0000000000000B1D"
@@ -304,8 +304,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.5d
+			x: 3.0d
+			y: -8.5d
 			description: ["The Tier 2 Storage Module can old 200 stacks."]
 			dependencies: ["0000000000000B1D"]
 			id: "0000000000000B1F"
@@ -321,8 +321,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
+			x: 5.0d
+			y: -8.5d
 			description: ["The Tier 3 Storage Module can old 300 stacks."]
 			dependencies: ["0000000000000B1F"]
 			id: "0000000000000B21"
@@ -339,7 +339,7 @@
 		}
 		{
 			x: 4.0d
-			y: -0.5d
+			y: -9.5d
 			description: ["The Tier 4 Storage Module can old 500 stacks."]
 			dependencies: ["0000000000000B21"]
 			id: "0000000000000B23"
@@ -433,7 +433,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.0d
 			y: -2.5d
 			dependencies: ["0000000000000B19"]
 			id: "25ACE1C1A60E4D38"

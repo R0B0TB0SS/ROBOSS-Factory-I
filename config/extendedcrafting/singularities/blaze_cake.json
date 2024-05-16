@@ -1,0 +1,12 @@
+{
+  "name": "singularity.extendedcrafting.blaze_cake",
+  "materialCount": 64,
+  "colors": [
+    "CC4628",
+    "FFE385"
+  ],
+  "ingredient": {
+    "item": "create:blaze_cake"
+  },
+  "inUltimateSingularity": true
+}

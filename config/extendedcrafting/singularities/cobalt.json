@@ -6,5 +6,6 @@
   ],
   "ingredient": {
     "tag": "forge:ingots/cobalt"
-  }
+  },
+  "inUltimateSingularity": true
 }

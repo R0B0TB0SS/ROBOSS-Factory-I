@@ -984,6 +984,7 @@
 			title: "Cable Facade"
 			x: 4.0d
 			y: -4.0d
+			description: ["All cable facade are available and are juste hiden in JEI"]
 			dependencies: ["7369D2F435609EC5"]
 			id: "21D6C975365F746E"
 			tasks: [{

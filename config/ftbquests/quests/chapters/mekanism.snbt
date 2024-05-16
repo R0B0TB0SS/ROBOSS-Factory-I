@@ -477,6 +477,7 @@
 			title: "Hazmat Suit"
 			x: 5.5d
 			y: -1.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "0000000000000892"
 			tasks: [
 				{
@@ -524,11 +525,6 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "4A80326A4ED4B77A"
-				type: "item"
-				item: "engineersdecor:sign_radioactive"
-			}]
 		}
 		{
 			title: "MekaSuit Armor"
@@ -824,6 +820,7 @@
 		{
 			x: 7.0d
 			y: -1.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "00000000000008BB"
 			tasks: [{
 				id: "00000000000008BC"
@@ -845,6 +842,7 @@
 		{
 			x: 9.0d
 			y: -1.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "00000000000008BD"
 			tasks: [{
 				id: "00000000000008BE"
@@ -995,16 +993,12 @@
 		{
 			x: 4.5d
 			y: -1.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "00000000000008CE"
 			tasks: [{
 				id: "00000000000008CF"
 				type: "item"
 				item: "mekanism:radioactive_waste_barrel"
-			}]
-			rewards: [{
-				id: "2CF862464153922F"
-				type: "item"
-				item: "engineersdecor:sign_radioactive"
 			}]
 		}
 		{
@@ -1648,6 +1642,7 @@
 			title: "Induction Matrix"
 			x: 9.0d
 			y: -4.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "0000000000000930"
 			tasks: [
 				{
@@ -1674,6 +1669,7 @@
 			title: "Thermal Evaporation Plant"
 			x: 11.0d
 			y: -4.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "0000000000000933"
 			tasks: [
 				{
@@ -1705,6 +1701,8 @@
 			title: "Fusion Reactor"
 			x: 3.0d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["0000000000000948"]
 			id: "0000000000000938"
 			tasks: [
 				{
@@ -1771,6 +1769,8 @@
 			title: "Fission Reactor"
 			x: 5.0d
 			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: ["7D0BC26B33BBB358"]
 			id: "000000000000093F"
 			tasks: [
 				{
@@ -1853,6 +1853,7 @@
 			title: "Supercritical Phase Shifter"
 			x: 7.0d
 			y: -4.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "000000000000094B"
 			tasks: [
 				{

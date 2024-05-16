@@ -111,6 +111,9 @@ onEvent('recipes', e => {
         },{
             in:"thermal_extra:shellite_ingot",
             out:"thermal_extra:shellite_gear"
+        },{
+            in:"pneumaticcraft:ingot_iron_compressed",
+            out:'pneumaticcraft:compressed_iron_gear'
         }
     ]
 

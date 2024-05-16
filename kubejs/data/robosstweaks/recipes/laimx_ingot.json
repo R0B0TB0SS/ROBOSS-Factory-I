@@ -1,7 +1,7 @@
 {
     "type": "extendedcrafting:compressor",
     "powerCost": 500000,
-    "inputCount": 512,
+    "inputCount": 5,
     "ingredient": {
       "item": "mekanism:pellet_polonium"
     },

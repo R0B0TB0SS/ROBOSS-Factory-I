@@ -1,4 +1,4 @@
-onEvent('rei.hide.items', event => {
+onEvent('jei.hide.items', event => {
     event.hide([
                 //other
                 'avaritia:quartz_singularity', 
@@ -10,7 +10,6 @@ onEvent('rei.hide.items', event => {
                 'avaritia:extreme_crafting_table', 
                 'avaritia:silver_singularity', 
                 'avaritia:compressed_crafting_table', 
-                Item.of('ae2:facade', '{item:"twilightforest:uncrafting_table"}'), 
                 'cyclic:uncrafter', 
                 'twilightforest:uncrafting_table', 
                 'avaritia:amethyst_singularity', 
@@ -45,13 +44,6 @@ onEvent('rei.hide.items', event => {
                 'mekanism:deepslate_lead_ore', 
                 'mekanism:lead_ore', 
                 'immersiveengineering:ore_lead',
-                Item.of('ae2:facade', '{item:"mekanism:block_lead"}'),
-                Item.of('ae2:facade', '{item:"mekanism:block_raw_lead"}'),
-                Item.of('ae2:facade', '{item:"mekanism:lead_ore"}'),
-                Item.of('ae2:facade', '{item:"immersiveengineering:ore_lead"}'),
-                Item.of('ae2:facade', '{item:"immersiveengineering:raw_block_lead"}'),
-                Item.of('ae2:facade', '{item:"immersiveengineering:storage_lead"}'),
-                Item.of('ae2:facade', '{item:"mekanism:deepslate_lead_ore"}'),
                 //copper
                 Item.of('iceandfire:copper_hoe'), 
                 Item.of('iceandfire:copper_shovel'), 
@@ -101,13 +93,10 @@ onEvent('rei.hide.items', event => {
                 'iceandfire:amythest_ore',
                 'iceandfire:amythest_block',
                 'iceandfire:amythest_gem',
-                Item.of('ae2:facade', '{item:"iceandfire:amythest_block"}'),
-                Item.of('ae2:facade', '{item:"iceandfire:amythest_ore"}'),
                 'immersiveengineering:deepslate_ore_silver', 
                 'immersiveengineering:ore_silver', 
                 'iceandfire:silver_ore', 
                 'iceandfire:silver_block', 
-                Item.of('ae2:facade', '{item:"mekanism:block_bronze"}'), 
                 'immersiveengineering:nugget_silver', 
                 'immersiveengineering:raw_block_silver', 
                 'immersiveengineering:storage_silver', 
@@ -116,18 +105,7 @@ onEvent('rei.hide.items', event => {
                 'immersiveengineering:plate_silver', 
                 'immersiveengineering:raw_silver', 
                 'immersiveengineering:ingot_silver', 
-                Item.of('ae2:facade', '{item:"immersiveengineering:sheetmetal_silver"}'), 
-                Item.of('ae2:facade', '{item:"immersiveengineering:ore_silver"}'), 
-                Item.of('ae2:facade', '{item:"immersiveengineering:deepslate_ore_silver"}'), 
-                Item.of('ae2:facade', '{item:"immersiveengineering:raw_block_silver"}'), 
-                Item.of('ae2:facade', '{item:"immersiveengineering:storage_silver"}'), 
-                Item.of('ae2:facade', '{item:"iceandfire:silver_ore"}'),
                 'create:crushed_raw_silver',
-                Item.of('ae2:facade', '{item:"iceandfire:silver_block"}'),
-                Item.of('ae2:facade', '{item:"immersiveengineering:ore_uranium"}'), 
-                Item.of('ae2:facade', '{item:"immersiveengineering:deepslate_ore_uranium"}'), 
-                Item.of('ae2:facade', '{item:"immersiveengineering:raw_block_uranium"}'), 
-                Item.of('ae2:facade', '{item:"immersiveengineering:storage_uranium"}'), 
                 'create:crushed_raw_uranium', 
                 'immersiveengineering:ore_uranium', 
                 'immersiveengineering:deepslate_ore_uranium', 
@@ -141,12 +119,7 @@ onEvent('rei.hide.items', event => {
                 'createappliedkinetics:energy_provider',
                 'iceandfire:silver_nugget',
                 'iceandfire:silver_ingot',
-                Item.of('ae2:facade', '{item:"immersiveengineering:deepslate_ore_lead"}'),
-                Item.of('ae2:facade', '{item:"iceandfire:copper_ore"}'),
-                Item.of('ae2:facade', '{item:"iceandfire:copper_block"}'),
                 'immersiveengineering:stick_iron',
-                Item.of('ae2:facade', '{item:"mekanism:block_raw_tin"}'),
-                Item.of('ae2:facade', '{item:"mekanism:block_tin"}'),
                 'mekanism:sawdust',
                 'immersiveengineering:dust_wood',
                 'mekanism:dust_lapis_lazuli',
@@ -217,12 +190,6 @@ onEvent('rei.hide.items', event => {
                  'industrialforegoing:gold_gear', 
                  'mekanism:dust_gold',
                  Item.of('extendedcrafting:singularity', '{Id:"extendedcrafting:platinum"}'),
-                 Item.of('ae2:facade', '{item:"immersiveengineering:storage_electrum"}'), 
-                 Item.of('ae2:facade', '{item:"immersiveengineering:storage_constantan"}'), 
-                 Item.of('ae2:facade', '{item:"immersiveengineering:storage_nickel"}'), 
-                 Item.of('ae2:facade', '{item:"mekanism:block_steel"}'), 
-                 Item.of('ae2:facade', '{item:"thermal:steel_block"}'), 
-                 Item.of('ae2:facade', '{item:"beyond_earth:steel_block"}'),
                  'zerocore:debugtool',
                  'create:crushed_raw_copper',
                  'thermal:rose_gold_block', 
@@ -231,7 +198,6 @@ onEvent('rei.hide.items', event => {
                  'thermal:rose_gold_dust', 
                  'thermal:rose_gold_gear', 
                  'thermal:rose_gold_coin',
-                 Item.of('ae2:facade', '{item:"thermal:rose_gold_block"}'),
                  'appmek:creative_chemical_cell',
                  'ae2:creative_fluid_cell',
                  'appbot:creative_mana_cell',
@@ -241,8 +207,7 @@ onEvent('rei.hide.items', event => {
                  Item.of('tconstruct:creative_slot', '{slot:"upgrades"}'), 
                  'botania:corporea_spark_creative', 
                  'botania:lens_storm', 
-                 'botania:infrangible_platform', 
-                 'ae2:creative_energy_cell', 
+                 'botania:infrangible_platform',
                  'integrateddynamics:energy_battery_creative', 
                  'create:creative_fluid_tank', 
                  'immersiveengineering:capacitor_creative', 
@@ -266,6 +231,18 @@ onEvent('rei.hide.items', event => {
                  'bigreactors:reinforced_turbinecreativesteamgenerator',
                  'bigreactors:basic_turbinecreativesteamgenerator',
                  'bigreactors:reinforced_reactorcreativewatergenerator',
-                 'industrialforegoing:transporter'
+                 'industrialforegoing:transporter',
+                 'thermal:beekeeper_helmet', 
+                 'thermal:beekeeper_chestplate', 
+                 'thermal:beekeeper_leggings', 
+                 'thermal:beekeeper_boots',
+                 'thermal:beekeeper_fabric',
+                 /ae2:facade/
             ])
+
+  })
+
+
+  onEvent('jei.add.items', event => {
+    event.add(Item.of('ae2:facade', '{item:"minecraft:stone"}'))
   })
