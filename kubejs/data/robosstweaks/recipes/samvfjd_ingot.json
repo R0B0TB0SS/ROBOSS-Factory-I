@@ -1,14 +1,14 @@
 {
     "type": "extendedcrafting:compressor",
     "powerCost": 500000,
-    "inputCount": 5,
+    "inputCount": 128,
     "ingredient": {
-      "item": "tconstruct:amethyst_bronze_ingot"
+      "item": "minecraft:wither_skeleton_skull"
     },
     "catalyst": {
       "item": "extendedcrafting:ultimate_catalyst"
     },
     "result": {
-      "item": "robosstweaks:kikongin_ingot"
+      "item": "robosstweaks:samvfjd_ingot"
     }
   }
