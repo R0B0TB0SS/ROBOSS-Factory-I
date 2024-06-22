@@ -1,5 +1,6 @@
 {
   "name": "singularity.extendedcrafting.copper",
+  "materialCount": 1024,
   "colors": [
     "fa977c",
     "bc5430"

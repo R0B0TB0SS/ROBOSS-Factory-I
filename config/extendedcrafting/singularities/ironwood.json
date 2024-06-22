@@ -1,5 +1,6 @@
 {
   "name": "singularity.extendedcrafting.ironwood",
+  "materialCount": 64,
   "colors": [
     "807474",
     "504238"

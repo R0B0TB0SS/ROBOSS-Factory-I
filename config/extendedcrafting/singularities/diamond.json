@@ -1,5 +1,6 @@
 {
   "name": "singularity.extendedcrafting.diamond",
+  "materialCount": 512,
   "colors": [
     "a6fce9",
     "1aaca8"

@@ -1,5 +1,6 @@
 {
   "name": "singularity.extendedcrafting.uraninite",
+  "materialCount": 512,
   "colors": [
     "00C90F",
     "004C09"

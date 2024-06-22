@@ -496,6 +496,206 @@
 				item: "rftoolsutility:regeneration_module"
 			}]
 		}
+		{
+			x: 5.0d
+			y: -0.5d
+			id: "31EBBEFBF6CDBB1C"
+			tasks: [{
+				id: "56A759D2238AB367"
+				type: "item"
+				item: "rftoolsdim:empty_dimension_tab"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "453882EE2E9B9617"
+			tasks: [{
+				id: "18FF0A6F37C9F2BC"
+				type: "item"
+				item: "rftoolsdim:dimension_builder"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			id: "20C30EC67706DA6F"
+			tasks: [
+				{
+					id: "29DA26EF15ECA582"
+					type: "item"
+					item: "rftoolsdim:part_energy_0"
+				}
+				{
+					id: "43F4A5CBEBD81C02"
+					type: "item"
+					item: "rftoolsdim:part_energy_1"
+				}
+				{
+					id: "7F1AC4CEE6C0F6F8"
+					type: "item"
+					item: "rftoolsdim:part_energy_2"
+				}
+				{
+					id: "6A409CBCA677E9F3"
+					type: "item"
+					item: "rftoolsdim:part_energy_3"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			id: "3E5C30C399C129EC"
+			tasks: [
+				{
+					id: "1E2367B09E4CE28E"
+					type: "item"
+					item: "rftoolsdim:part_memory_0"
+				}
+				{
+					id: "5E3D2424EAD5EC32"
+					type: "item"
+					item: "rftoolsdim:part_memory_1"
+				}
+				{
+					id: "5476164076ACB9E3"
+					type: "item"
+					item: "rftoolsdim:part_memory_2"
+				}
+				{
+					id: "1CDF46F910ED89CE"
+					type: "item"
+					item: "rftoolsdim:part_memory_3"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			id: "13B109FB8074A81F"
+			tasks: [
+				{
+					id: "0B2820E2728926A5"
+					type: "item"
+					item: "rftoolsdim:legendary_lost_knowledge"
+				}
+				{
+					id: "4F3EE98455804EDD"
+					type: "item"
+					item: "rftoolsdim:rare_lost_knowledge"
+				}
+				{
+					id: "276830C3F4AD24F0"
+					type: "item"
+					item: "rftoolsdim:uncommon_lost_knowledge"
+				}
+				{
+					id: "3BF527AD5A839500"
+					type: "item"
+					item: "rftoolsdim:common_lost_knowledge"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			id: "727A9AAC7CD67137"
+			tasks: [{
+				id: "367CC77E29A6C247"
+				type: "item"
+				item: "rftoolsdim:dimlet_workbench"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			id: "686A4FA43BBB2851"
+			tasks: [{
+				id: "245C7752F2FEBDCB"
+				type: "item"
+				item: "rftoolsdim:knowledge_holder"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			id: "3DEC8FB386E4623D"
+			tasks: [{
+				id: "75840C4E7D944D47"
+				type: "item"
+				item: "rftoolsdim:enscriber"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			id: "7F1EFCD3474D038E"
+			tasks: [
+				{
+					id: "16C80FF60B4FAAC2"
+					type: "item"
+					item: "rftoolsdim:legendary_essence"
+				}
+				{
+					id: "040B3F5D090370AB"
+					type: "item"
+					item: "rftoolsdim:rare_essence"
+				}
+				{
+					id: "29AC01A0AF817114"
+					type: "item"
+					item: "rftoolsdim:common_essence"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			id: "635B2AA46392E179"
+			tasks: [{
+				id: "4E6920F023B1D777"
+				type: "item"
+				item: "rftoolsdim:empty_dimlet"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			id: "3DEB656640187133"
+			tasks: [
+				{
+					id: "3FFE0E20D7BC7560"
+					type: "item"
+					item: "rftoolsdim:block_absorber"
+				}
+				{
+					id: "661681B6CAF94468"
+					type: "item"
+					item: "rftoolsdim:fluid_absorber"
+				}
+				{
+					id: "3781D0520CA7D9A1"
+					type: "item"
+					item: "rftoolsdim:biome_absorber"
+				}
+				{
+					id: "59D2727A17DAF703"
+					type: "item"
+					item: "rftoolsdim:structure_absorber"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			id: "4A246D3B67493059"
+			tasks: [{
+				id: "49ECF21092DD5D08"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

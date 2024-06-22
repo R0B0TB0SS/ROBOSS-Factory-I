@@ -67,6 +67,9 @@
   "mcjtylib": {
     "jadeaddons": true
   },
+  "lootr": {
+    "info": true
+  },
   "securitycraft": {
     "showowner": true,
     "showmodules": true,

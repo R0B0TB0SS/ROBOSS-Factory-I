@@ -259,6 +259,7 @@
 				"0463287EA90BACFA"
 				"5DA9A8159383BB6D"
 				"40428763FAACD011"
+				"5175AB5381A06B96"
 			]
 			size: 2.5d
 			id: "14B90E757859B622"
@@ -428,6 +429,18 @@
 				id: "2BDCBE7036A24631"
 				type: "item"
 				item: "robosstweaks:draconicevolution_trophy"
+			}]
+		}
+		{
+			icon: "pneumaticcraft:pressure_gauge"
+			x: 0.0d
+			y: 5.5d
+			dependencies: ["3BA457E6147DA41A"]
+			id: "5175AB5381A06B96"
+			tasks: [{
+				id: "6B382D10F5403564"
+				type: "checkmark"
+				title: "Pneumatic Craft"
 			}]
 		}
 	]

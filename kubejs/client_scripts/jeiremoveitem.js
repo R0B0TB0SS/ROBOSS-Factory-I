@@ -245,4 +245,7 @@ onEvent('jei.hide.items', event => {
 
   onEvent('jei.add.items', event => {
     event.add(Item.of('ae2:facade', '{item:"minecraft:stone"}'))
+    event.add('thermal:apatite_ore')
+    event.add('thermal:deepslate_apatite_ore')
   })
+

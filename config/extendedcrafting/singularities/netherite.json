@@ -1,5 +1,6 @@
 {
   "name": "singularity.extendedcrafting.netherite",
+  "materialCount": 256,
   "colors": [
     "4D494D",
     "111111"

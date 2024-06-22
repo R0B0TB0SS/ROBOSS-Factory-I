@@ -1,0 +1,12 @@
+{
+  "name": "singularity.extendedcrafting.dragonsteel",
+  "materialCount": 64,
+  "colors": [
+    "2B377F",
+    "79A3EA"
+  ],
+  "ingredient": {
+    "item": "thermal_extra:dragonsteel_ingot"
+  },
+  "inUltimateSingularity": true
+}

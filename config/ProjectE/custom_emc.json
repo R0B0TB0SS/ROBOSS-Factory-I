@@ -247,6 +247,14 @@
     {
       "item": "thermal:sulfur_dust",
       "emc": 32
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "emc": 46356
+    },
+    {
+      "item": "thermal:apatite",
+      "emc": 256
     }
   ]
 }

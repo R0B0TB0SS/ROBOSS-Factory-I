@@ -1,23 +1,23 @@
 {
   "general": {
-    "despawnItem": 6000,
     "customThrow": true,
     "fallSounds": true,
+    "disableCactusDamage": true,
     "swimmingItems": {
       "entries": [
-        "{id:\"material\",material:\"minecraft:oak_planks\"}",
-        "{id:\"material\",material:\"minecraft:white_bed\"}",
-        "{id:\"material\",material:\"minecraft:sponge\"}",
-        "{id:\"material\",material:\"minecraft:packed_ice\"}",
-        "{id:\"material\",material:\"minecraft:ice\"}",
-        "{id:\"material\",material:\"minecraft:oak_leaves\"}",
-        "{id:\"material\",material:\"minecraft:oak_sapling\"}",
-        "{id:\"material\",material:\"minecraft:white_carpet\"}",
-        "{id:\"material\",material:\"minecraft:snow_block\"}",
-        "{id:\"material\",material:\"minecraft:cactus\"}",
-        "{id:\"material\",material:\"minecraft:cake\"}",
-        "{id:\"material\",material:\"minecraft:grass\"}",
-        "{id:\"material\",material:\"minecraft:cobweb\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
         "{block:\"minecraft:snow\",id:\"block\"}",
         "{id:\"item\",item:\"minecraft:apple\"}",
         "{id:\"item\",item:\"minecraft:bow\"}",
@@ -73,20 +73,20 @@
     },
     "burningItems": {
       "entries": [
-        "{id:\"material\",material:\"minecraft:oak_planks\"}",
-        "{id:\"material\",material:\"minecraft:white_bed\"}",
-        "{id:\"material\",material:\"minecraft:sponge\"}",
-        "{id:\"material\",material:\"minecraft:packed_ice\"}",
-        "{id:\"material\",material:\"minecraft:ice\"}",
-        "{id:\"material\",material:\"minecraft:oak_leaves\"}",
-        "{id:\"material\",material:\"minecraft:oak_sapling\"}",
-        "{id:\"material\",material:\"minecraft:white_carpet\"}",
-        "{id:\"material\",material:\"minecraft:snow_block\"}",
-        "{id:\"material\",material:\"minecraft:cactus\"}",
-        "{id:\"material\",material:\"minecraft:cake\"}",
-        "{id:\"material\",material:\"minecraft:grass\"}",
-        "{id:\"material\",material:\"minecraft:cobweb\"}",
-        "{id:\"material\",material:\"minecraft:dirt\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
+        "{id:\"empty\"}",
         "{block:\"minecraft:snow\",id:\"block\"}",
         "{id:\"item\",item:\"minecraft:apple\"}",
         "{id:\"item\",item:\"minecraft:bow\"}",
@@ -161,7 +161,7 @@
         "{id:\"item\",item:\"minecraft:nether_star\"}",
         "{block:\"minecraft:bedrock\",id:\"block\"}",
         "{block:\"minecraft:obsidian\",id:\"block\"}",
-        "{id:\"material\",material:\"minecraft:barrier\"}"
+        "{id:\"empty\"}"
       ],
       "isWhitelist": true
     }
@@ -169,6 +169,11 @@
   "pickup": {
     "customPickup": false,
     "pickupWhenSneaking": true,
-    "maximumPickupRange": 5.0
+    "pickupNormally": false,
+    "maximumPickupRange": 5.0,
+    "alwaysPickup": {
+      "entries": [],
+      "isWhitelist": true
+    }
   }
 }

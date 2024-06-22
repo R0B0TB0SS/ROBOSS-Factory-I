@@ -1,7 +1,7 @@
 {
 	id: "3B7F1D29EC26E902"
 	group: ""
-	order_index: 19
+	order_index: 20
 	filename: "end_game"
 	title: "End Game"
 	icon: {
@@ -279,7 +279,7 @@
 			tasks: [{
 				id: "65261AAA58F2E0FB"
 				type: "item"
-				item: "robosstweaks:kikongin_statue"
+				item: "robosstweaks:samvfjd_statue"
 			}]
 		}
 		{
@@ -290,12 +290,18 @@
 			tasks: [{
 				id: "098A1FEE84FD3571"
 				type: "item"
-				item: "robosstweaks:kikongin_ingot"
+				item: "robosstweaks:samvfjd_ingot"
 			}]
 			rewards: [{
 				id: "4AC7892511F1446F"
 				type: "item"
-				item: "robosstweaks:cat_helmet"
+				item: {
+					id: "robosstweaks:samvfjd_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{

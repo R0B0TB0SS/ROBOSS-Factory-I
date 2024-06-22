@@ -1,0 +1,12 @@
+{
+  "name": "singularity.extendedcrafting.nether_star",
+  "materialCount": 64,
+  "colors": [
+    "B9C9C9",
+    "D2D200"
+  ],
+  "ingredient": {
+    "item": "minecraft:nether_star"
+  },
+  "inUltimateSingularity": true
+}

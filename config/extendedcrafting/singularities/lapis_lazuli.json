@@ -1,5 +1,6 @@
 {
   "name": "singularity.extendedcrafting.lapis_lazuli",
+  "materialCount": 512,
   "colors": [
     "678dea",
     "1b53a7"
