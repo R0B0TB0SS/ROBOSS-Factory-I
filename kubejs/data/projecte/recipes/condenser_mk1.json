@@ -1,0 +1,14 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [
+      {"item": "projecte:alchemical_chest"},
+      {"item": "minecraft:obsidian"},
+      {"item": "minecraft:obsidian"},
+      {"item": "minecraft:diamond_block"},
+      {"item": "minecraft:diamond_block"}
+    ],
+    "energy": 2000000,
+    "result": {
+      "item": "projecte:condenser_mk1"
+    }
+  }

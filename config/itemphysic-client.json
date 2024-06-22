@@ -4,6 +4,14 @@
     "vanillaRendering": false,
     "rotateSpeed": 1.0,
     "showPickupTooltip": true,
-    "disableThrowHUD": false
+    "showPickupTooltipExtended": false,
+    "showPickupTooltipKeybind": false,
+    "disableThrowHUD": false,
+    "vanillaRendered": {
+      "entries": [],
+      "isWhitelist": true
+    },
+    "tooltipOffsetX": 0,
+    "tooltipOffsetY": 0
   }
 }

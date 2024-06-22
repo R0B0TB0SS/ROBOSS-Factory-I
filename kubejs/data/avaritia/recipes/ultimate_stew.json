@@ -4,7 +4,7 @@
       "ABCDEFGHI",
       "JKLMNOPQR",
       "STUVWXYZ1",
-      "23456789&",
+      "23456789 ",
       "         ",
       "         ",
       "         ",
@@ -18,8 +18,6 @@
         "item": "supplementaries:candy"
       },"C": {
         "item": "minecraft:glow_berries"
-      },"D": {
-        "item": "minecraft:honey_bottle"
       },"E": {
         "item": "minecraft:enchanted_golden_apple"
       },"F": {
@@ -80,9 +78,9 @@
           "item": "minecraft:beetroot"
         },"8": {
           "item": "minecraft:cookie"
-        },"9": {
+        },"D": {
           "item": "minecraft:cake"
-        },"&": {
+        },"9": {
           "item": "avaritia:neutronium_block"
         }
     },

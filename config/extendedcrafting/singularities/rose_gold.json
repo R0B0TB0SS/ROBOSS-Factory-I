@@ -1,10 +1,12 @@
 {
   "name": "singularity.extendedcrafting.rose_gold",
+  "materialCount": 128,
   "colors": [
     "F7CDBB",
     "AD685B"
   ],
   "ingredient": {
     "tag": "forge:ingots/rose_gold"
-  }
+  },
+  "inUltimateSingularity": true
 }

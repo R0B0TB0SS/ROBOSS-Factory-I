@@ -1,7 +1,7 @@
 {
 	id: "3B7F1D29EC26E902"
 	group: ""
-	order_index: 19
+	order_index: 20
 	filename: "end_game"
 	title: "End Game"
 	icon: {
@@ -45,7 +45,7 @@
 		{
 			x: 1.0d
 			y: 4.5d
-			dependencies: ["211DE7106D6B6D96"]
+			dependencies: ["2A119BC55EF33D75"]
 			id: "48A792D9457D130C"
 			tasks: [{
 				id: "11875FAAC56FEEC4"
@@ -64,8 +64,8 @@
 			y: 2.5d
 			hide_dependency_lines: true
 			dependencies: [
-				"211DE7106D6B6D96"
-				"30F2A943E4B4A817"
+				"2A119BC55EF33D75"
+				"00000000000003F9"
 			]
 			id: "034E38A2F981E961"
 			tasks: [
@@ -97,7 +97,10 @@
 		{
 			x: 3.0d
 			y: -2.5d
-			dependencies: ["6EBE994E090A0361"]
+			dependencies: [
+				"6EBE994E090A0361"
+				"01225FF9727AD15D"
+			]
 			id: "50C18BBF716A0B61"
 			tasks: [{
 				id: "67364E8C3DF80098"
@@ -110,22 +113,10 @@
 					}
 				}
 			}]
-		}
-		{
-			x: 6.0d
-			y: 1.0d
-			dependencies: ["729080F35DF1BD00"]
-			id: "6E9BA3F742B29117"
-			tasks: [{
-				id: "69106718FE3E04EB"
+			rewards: [{
+				id: "12444D9AB086556E"
 				type: "item"
-				item: {
-					id: "robosstweaks:blakdestroyer_ingot"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
+				item: "robosstweaks:computer"
 			}]
 		}
 		{
@@ -147,6 +138,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "624019EE00481AE4"
+				type: "item"
+				item: "robosstweaks:laimx_disc"
+			}]
 		}
 		{
 			x: 3.0d
@@ -157,23 +153,6 @@
 				id: "4D06F24313254F23"
 				type: "item"
 				item: "robosstweaks:robotboss_statue"
-			}]
-		}
-		{
-			x: 5.0d
-			y: 1.0d
-			dependencies: ["6E9BA3F742B29117"]
-			id: "5F43E1E3E02B1E3B"
-			tasks: [{
-				id: "0051D21C60ABB2E4"
-				type: "item"
-				item: {
-					id: "robosstweaks:blakdestroyer_statue"
-					Count: 1b
-					ForgeCaps: {
-						"customnpcs:itemscripteddata": { }
-					}
-				}
 			}]
 		}
 		{
@@ -197,28 +176,11 @@
 			x: 0.0d
 			y: -1.5d
 			id: "481FCCFD50824C10"
-			tasks: [
-				{
-					id: "5CC747DE907C0834"
-					type: "item"
-					item: "ae2:creative_item_cell"
-				}
-				{
-					id: "1C526B3E6363B5C4"
-					type: "item"
-					item: "ae2:creative_fluid_cell"
-				}
-				{
-					id: "065C86DCF737A9EE"
-					type: "item"
-					item: "appbot:creative_mana_cell"
-				}
-				{
-					id: "773DAF8481364C17"
-					type: "item"
-					item: "appmek:creative_chemical_cell"
-				}
-			]
+			tasks: [{
+				id: "5CC747DE907C0834"
+				type: "item"
+				item: "ae2:creative_item_cell"
+			}]
 		}
 		{
 			x: 5.0d
@@ -227,7 +189,18 @@
 			tasks: [{
 				id: "01C7441DABB0EA70"
 				type: "item"
-				item: "draconicevolution:creative_op_capacitor"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -271,59 +244,73 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 5.0d
 			y: -0.5d
-			hide_dependency_lines: true
-			dependencies: ["6E6C7E755E2EE9A5"]
-			id: "30F2A943E4B4A817"
+			dependencies: [
+				"6EBE994E090A0361"
+				"1E493395C0FB0FE5"
+			]
+			id: "6E6C7E755E2EE9A5"
+			tasks: [
+				{
+					id: "19DBE93FBEE58AC4"
+					type: "item"
+					item: "robosstweaks:creative_catalyst"
+					count: 8L
+				}
+				{
+					id: "2CA85518E7C59A11"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "robosstweaks:creative_fabricator"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["01A5245310285704"]
+			id: "17D56D1EDA5B3973"
 			tasks: [{
-				id: "0F4F00FB220FD157"
+				id: "65261AAA58F2E0FB"
+				type: "item"
+				item: "robosstweaks:samvfjd_statue"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["01225FF9727AD15D"]
+			id: "01A5245310285704"
+			tasks: [{
+				id: "098A1FEE84FD3571"
+				type: "item"
+				item: "robosstweaks:samvfjd_ingot"
+			}]
+			rewards: [{
+				id: "4AC7892511F1446F"
 				type: "item"
 				item: {
-					id: "custommachinery:custom_machine_item"
+					id: "robosstweaks:samvfjd_hoe"
 					Count: 1b
 					tag: {
-						machine: "robosstweaks:creative_fabricator"
+						Damage: 0
 					}
 				}
 			}]
 		}
 		{
 			x: 5.0d
-			y: -0.5d
-			id: "6E6C7E755E2EE9A5"
-			tasks: [{
-				id: "19DBE93FBEE58AC4"
-				type: "item"
-				item: "robosstweaks:creative_catalyst"
-				count: 8L
-			}]
-		}
-		{
-			x: 3.0d
-			y: 3.5d
-			dependencies: ["01A5245310285704"]
-			id: "17D56D1EDA5B3973"
-			tasks: [{
-				id: "65261AAA58F2E0FB"
-				type: "item"
-				item: "robosstweaks:kikongin_statue"
-			}]
-		}
-		{
-			x: 3.0d
-			y: 4.5d
-			dependencies: ["32DD06A12F494771"]
-			id: "01A5245310285704"
-			tasks: [{
-				id: "098A1FEE84FD3571"
-				type: "item"
-				item: "robosstweaks:kikongin_ingot"
-			}]
-		}
-		{
-			x: 5.0d
 			y: 2.5d
+			dependencies: [
+				"2DC7E1A8E22F7658"
+				"2A119BC55EF33D75"
+			]
 			id: "7D80EE4A9AFF3677"
 			tasks: [{
 				id: "621CFD6E66A6F576"
@@ -368,13 +355,53 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 6.0d
+			x: 1.0d
+			y: -0.5d
+			dependencies: [
+				"1A131060D0DAE21F"
+				"2A119BC55EF33D75"
+			]
 			id: "2B7E492D2938D788"
 			tasks: [{
 				id: "3144318DFC2FBE00"
 				type: "item"
 				item: "pipez:infinity_upgrade"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["31CA094774A92C47"]
+			id: "6990B1B081DCA115"
+			tasks: [{
+				id: "2496EDA48D2D2BDC"
+				type: "item"
+				item: "robosstweaks:blakdestroyer_statue"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: [
+				"729080F35DF1BD00"
+				"01225FF9727AD15D"
+			]
+			id: "31CA094774A92C47"
+			tasks: [{
+				id: "6A60558879FE7E43"
+				type: "item"
+				item: "robosstweaks:blakdestroyer_ingot"
+			}]
+			rewards: [{
+				id: "6004228DB9E1C94B"
+				type: "item"
+				item: {
+					id: "robosstweaks:blak_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

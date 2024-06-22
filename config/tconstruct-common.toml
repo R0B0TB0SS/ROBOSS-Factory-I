@@ -2,7 +2,7 @@
 #Everything to do with gameplay
 [gameplay]
 	#Set this to false to disable new players spawning with the Tinkers' Book.
-	shouldSpawnWithTinkersBook = true
+	shouldSpawnWithTinkersBook = false
 	#If non-empty, only this material will be shown on tools in creative and JEI (or the first valid material if this is invalid for the tool).
 	#If empty, all materials will show
 	showOnlyToolMaterial = ""
@@ -15,6 +15,9 @@
 	showAllAnvilVariants = true
 	#If true, smeltery and foundry controllers, drains, ducts, and chutes will show all variants
 	showAllSmelteryVariants = true
+	#If true, extends the applicable slots for the fire protection enchantment to work better with shields. Will not impact gameplay with the vanilla enchantment.
+	#If false, fire protection on a shield will not reduce fire tick time.
+	extendFireProtectionSlots = true
 
 	#Tweaks to vanilla damage sources to better work with armor
 	[gameplay.damageTweaks]

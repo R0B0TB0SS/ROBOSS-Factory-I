@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        " I",
+        " I"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:bone"
+        },
+        "#": {
+            "item": "tconstruct:necrotic_bone"
+        }
+    },
+    "result": {
+        "item": "robosstweaks:samvfjd_hoe",
+        "count": 1
+    }
+}

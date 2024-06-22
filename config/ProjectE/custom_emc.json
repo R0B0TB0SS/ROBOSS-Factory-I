@@ -147,6 +147,114 @@
     {
       "item": "thermal:lead_plate",
       "emc": 0
+    },
+    {
+      "item": "beyond_earth:iron_stick",
+      "emc": 0
+    },
+    {
+      "item": "thermal:steel_block",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:ingot_steel",
+      "emc": 0
+    },
+    {
+      "item": "mekanism:nugget_steel",
+      "emc": 0
+    },
+    {
+      "item": "thermal:silver_dust",
+      "emc": 512
+    },
+    {
+      "item": "byg:dacite",
+      "emc": 136
+    },
+    {
+      "item": "ae2:ender_dust",
+      "emc": 1024
+    },
+    {
+      "item": "thermal:nickel_dust",
+      "emc": 1024
+    },
+    {
+      "item": "thermal:tin_dust",
+      "emc": 256
+    },
+    {
+      "item": "thermal:electrum_ingot",
+      "emc": 1280
+    },
+    {
+      "item": "thermal:electrum_plate",
+      "emc": 1280
+    },
+    {
+      "item": "thermal:ruby_dust",
+      "emc": 2048
+    },
+    {
+      "item": "create:zinc_ingot",
+      "emc": 512
+    },
+    {
+      "item": "extendedexchange:energy_link",
+      "emc": 467380
+    },
+    {
+      "item": "projecte:alchemical_chest",
+      "emc": 183071
+    },
+    {
+      "item": "minecraft:furnace",
+      "emc": 8
+    },
+    {
+      "item": "#forge:cobblestone/normal",
+      "emc": 1
+    },
+    {
+      "item": "#forge:cobblestone",
+      "emc": 1
+    },
+    {
+      "item": "#forge:stone",
+      "emc": 1
+    },
+    {
+      "item": "projecte:transmutation_table",
+      "emc": 21692416
+    },
+    {
+      "item": "projecte:transmutation_tablet",
+      "emc": 43384832
+    },
+    {
+      "item": "projecte:philosophers_stone",
+      "emc": 1597657
+    },
+    {
+      "item": "projecte:condenser_mk1",
+      "emc": 330655
+    },
+    {
+      "item": "projecte:condenser_mk2",
+      "emc": 615327
+    },
+    {
+      "item": "thermal:sulfur_dust",
+      "emc": 32
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "emc": 46356
+    },
+    {
+      "item": "thermal:apatite",
+      "emc": 256
     }
   ]
 }

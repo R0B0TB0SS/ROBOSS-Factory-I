@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 22, 2023, 2:56:45 PM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 8, 2024, 2:21:08 PM
 
 #forge:gems/eudialyte
 - tropicraft:eudialyte_gem
@@ -8,6 +8,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:glass/tinted
 - minecraft:tinted_glass
+- tconstruct:clear_tinted_glass
 - connectedglass:tinted_borderless_glass_magenta
 - connectedglass:tinted_borderless_glass_gray
 - connectedglass:tinted_borderless_glass_blue
@@ -450,6 +451,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:seeds/pineapple
 - pamhc2crops:pineappleseeditem
 
+#quark:runes
+- quark:black_rune
+- quark:blue_rune
+- quark:brown_rune
+- quark:cyan_rune
+- quark:gray_rune
+- quark:green_rune
+- quark:light_blue_rune
+- quark:light_gray_rune
+- quark:lime_rune
+- quark:magenta_rune
+- quark:orange_rune
+- quark:pink_rune
+- quark:purple_rune
+- quark:red_rune
+- quark:white_rune
+- quark:yellow_rune
+- quark:rainbow_rune
+- quark:blank_rune
+
 #forge:cobblestone/infested
 - minecraft:infested_cobblestone
 
@@ -688,6 +709,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #tconstruct:casts/multi_use/coin
 - tconstruct:coin_cast
 
+#tconstruct:modifiable/book_armor/mighty_smelting
+
 #forge:jellies/greengrapejelly
 - pamhc2foodextended:greengrapejellyitem
 
@@ -889,6 +912,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:salmon
 - minecraft:tropical_fish
 
+#quark:wooden_vertical_slabs
+- quark:azalea_planks_vertical_slab
+- quark:blossom_planks_vertical_slab
+
 #forge:jellies/elderberryjelly
 - pamhc2foodextended:elderberryjellyitem
 
@@ -958,6 +985,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:music_disc_low_tide
 - tropicraft:music_disc_trade_winds
 - tropicraft:music_disc_summering
+- quark:music_disc_endermosh
+- quark:music_disc_drips
+- quark:music_disc_ocean
+- quark:music_disc_rain
+- quark:music_disc_wind
+- quark:music_disc_fire
+- quark:music_disc_clock
+- quark:music_disc_crickets
+- quark:music_disc_chatter
 
 #forge:fences/aluminum
 - immersiveengineering:alu_fence
@@ -989,6 +1025,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:nuggets/netherite_scrap
 - tconstruct:debris_nugget
+
+#quark:parrot_feed
+- minecraft:beetroot_seeds
 
 #forge:rawpork/rawpork
 - minecraft:porkchop
@@ -1092,6 +1131,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:copper_ingot
 - minecraft:copper_ingot
 - iceandfire:copper_ingot
+- minecraft:copper_ingot
 
 #tconstruct:casts/single_use/plate
 - tconstruct:plate_sand_cast
@@ -1547,6 +1587,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:nuggets/knightslime
 - tconstruct:knightslime_nugget
 
+#tconstruct:modifiable/book_armor/puny_smelting
+- tconstruct:travelers_helmet
+- tconstruct:travelers_chestplate
+- tconstruct:travelers_leggings
+- tconstruct:travelers_boots
+- tconstruct:travelers_shield
+
 #forge:groundmeats/firmtofu
 - pamhc2foodextended:firmtofuitem
 
@@ -1576,6 +1623,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - twilightforest:sorting_chest
 - minecraft:chest
 - minecraft:trapped_chest
+- quark:oak_chest
+- quark:spruce_chest
+- quark:birch_chest
+- quark:jungle_chest
+- quark:acacia_chest
+- quark:dark_oak_chest
+- quark:warped_chest
+- quark:crimson_chest
+- quark:oak_trapped_chest
+- quark:spruce_trapped_chest
+- quark:birch_trapped_chest
+- quark:jungle_trapped_chest
+- quark:acacia_trapped_chest
+- quark:dark_oak_trapped_chest
+- quark:warped_trapped_chest
+- quark:crimson_trapped_chest
+- quark:azalea_chest
+- quark:azalea_trapped_chest
+- quark:blossom_chest
+- quark:blossom_trapped_chest
 
 #forge:storage_blocks/aluminum
 - immersiveengineering:storage_aluminum
@@ -1597,6 +1664,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:sky_staff
 - tconstruct:earth_staff
 - tconstruct:ichor_staff
+- tconstruct:ender_staff
 - #tconstruct:modifiable/armor/boots
 
 #forge:stock_ingredients/rawsalmon
@@ -1927,6 +1995,68 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #securitycraft:reinforced/slabs
 - securitycraft:crystal_quartz_slab
 - securitycraft:smooth_crystal_quartz_slab
+- quark:andesite_bricks_slab
+- quark:azalea_planks_slab
+- quark:blackstone_bricks_slab
+- quark:black_shingles_slab
+- quark:blossom_planks_slab
+- quark:blue_nether_bricks_slab
+- quark:blue_shingles_slab
+- quark:brown_shingles_slab
+- quark:calcite_bricks_slab
+- quark:calcite_slab
+- quark:cobblestone_bricks_slab
+- quark:cut_soul_sandstone_slab
+- quark:cyan_shingles_slab
+- quark:diorite_bricks_slab
+- quark:dirt_bricks_slab
+- quark:dripstone_block_slab
+- quark:dripstone_bricks_slab
+- quark:duskbound_block_slab
+- quark:granite_bricks_slab
+- quark:gray_shingles_slab
+- quark:green_shingles_slab
+- quark:iron_plate_slab
+- quark:jasper_bricks_slab
+- quark:jasper_slab
+- quark:light_blue_shingles_slab
+- quark:light_gray_shingles_slab
+- quark:limestone_bricks_slab
+- quark:limestone_slab
+- quark:lime_shingles_slab
+- quark:magenta_shingles_slab
+- quark:midori_block_slab
+- quark:mossy_cobblestone_bricks_slab
+- quark:myalite_bricks_slab
+- quark:myalite_slab
+- quark:netherrack_bricks_slab
+- quark:orange_shingles_slab
+- quark:permafrost_bricks_slab
+- quark:permafrost_slab
+- quark:pink_shingles_slab
+- quark:polished_calcite_slab
+- quark:polished_dripstone_slab
+- quark:polished_jasper_slab
+- quark:polished_limestone_slab
+- quark:polished_myalite_slab
+- quark:polished_shale_slab
+- quark:polished_tuff_slab
+- quark:purple_shingles_slab
+- quark:red_sandstone_bricks_slab
+- quark:red_shingles_slab
+- quark:rusty_iron_plate_slab
+- quark:sandstone_bricks_slab
+- quark:shale_bricks_slab
+- quark:shale_slab
+- quark:shingles_slab
+- quark:smooth_soul_sandstone_slab
+- quark:soul_sandstone_bricks_slab
+- quark:soul_sandstone_slab
+- quark:thatch_slab
+- quark:tuff_bricks_slab
+- quark:tuff_slab
+- quark:white_shingles_slab
+- quark:yellow_shingles_slab
 
 #supplementaries:pedestal_upright
 - minecraft:wooden_sword?
@@ -2110,11 +2240,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #tconstruct:seared_blocks
 - #tconstruct:seared_tanks
 - tconstruct:smeltery_controller
+- tconstruct:seared_ladder
 - tconstruct:seared_drain
 - tconstruct:seared_chute
 - tconstruct:seared_duct
 - tconstruct:seared_glass
-- tconstruct:seared_ladder
+- tconstruct:seared_soul_glass
+- tconstruct:seared_tinted_glass
 
 #c:ores/pendorite
 - byg:pendorite_ore
@@ -2199,6 +2331,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:sledge_hammer
 - tconstruct:vein_hammer
 - immersiveengineering:pickaxe_steel
+- quark:pickarang
+- quark:flamerang
 
 #forge:wool/cyan
 - minecraft:cyan_wool
@@ -2265,12 +2399,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #beyond_earth:engines/ostrum
 - beyond_earth:ostrum_engine
-
-#wildbackport:mangrove_logs
-- wildbackport:mangrove_log
-- wildbackport:mangrove_wood
-- wildbackport:stripped_mangrove_log
-- wildbackport:stripped_mangrove_wood
 
 #forge:jellies/tamarindjelly
 - pamhc2foodextended:tamarindjellyitem
@@ -2552,6 +2680,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:sky_staff
 - tconstruct:earth_staff
 - tconstruct:ichor_staff
+- tconstruct:ender_staff
 
 #forge:crops/alfalfa
 - pamhc2crops:alfalfaitem
@@ -2722,11 +2851,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:present_light_gray?
 - supplementaries:present_brown?
 
-#create_enchantment_industry:ink_ingredient
-- minecraft:black_dye
-- minecraft:wither_rose
-- minecraft:ink_sac
-
 #dankstorage:dank_storages
 - dankstorage:dank_1
 - dankstorage:dank_2
@@ -2868,6 +2992,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:tea_mangrove_propagule
 - tropicraft:black_mangrove_propagule
 - integrateddynamics:menril_sapling
+- quark:blue_blossom_sapling
+- quark:lavender_blossom_sapling
+- quark:orange_blossom_sapling
+- quark:pink_blossom_sapling
+- quark:yellow_blossom_sapling
+- quark:red_blossom_sapling
 
 #forge:ores/copper
 - #minecraft:copper_ores
@@ -2967,7 +3097,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:palm_fence
 - tropicraft:mahogany_fence
 - integrateddynamics:menril_fence
-- wildbackport:mangrove_fence
+- quark:azalea_fence
+- quark:blossom_fence
 
 #forge:condiments/saladdressing
 - pamhc2foodextended:saladdressingitem
@@ -3247,6 +3378,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - connectedglass:clear_glass_light_gray
 - connectedglass:tinted_borderless_glass_purple
 - connectedglass:borderless_glass_orange
+- quark:dirty_glass
+- quark:framed_glass
+- quark:black_framed_glass
+- quark:blue_framed_glass
+- quark:brown_framed_glass
+- quark:cyan_framed_glass
+- quark:gray_framed_glass
+- quark:green_framed_glass
+- quark:light_blue_framed_glass
+- quark:light_gray_framed_glass
+- quark:lime_framed_glass
+- quark:magenta_framed_glass
+- quark:orange_framed_glass
+- quark:pink_framed_glass
+- quark:purple_framed_glass
+- quark:red_framed_glass
+- quark:white_framed_glass
+- quark:yellow_framed_glass
 
 #forge:mob_buckets
 - minecraft:pufferfish_bucket
@@ -3262,8 +3411,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:jungle_boat
 - minecraft:acacia_boat
 - minecraft:dark_oak_boat
-- wildbackport:mangrove_boat
-- #wildbackport:chest_boats
 
 #forge:crops/grapefruit
 - pamhc2trees:grapefruititem
@@ -3532,7 +3679,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:hanging_sign_dark_oak
 - supplementaries:hanging_sign_crimson
 - supplementaries:hanging_sign_warped
-- supplementaries:wildbackport/hanging_sign_mangrove
 - supplementaries:botania/hanging_sign_livingwood
 - supplementaries:botania/hanging_sign_dreamwood
 - supplementaries:integrateddynamics/hanging_sign_menril
@@ -3578,6 +3724,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:tconstruct/hanging_sign_greenheart
 - supplementaries:tconstruct/hanging_sign_skyroot
 - supplementaries:tconstruct/hanging_sign_bloodshroom
+- supplementaries:quark/hanging_sign_azalea
+- supplementaries:quark/hanging_sign_blossom
 
 #forge:ingots/refined_glowstone
 - mekanism:ingot_refined_glowstone
@@ -3729,6 +3877,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - beyond_earth:venus_stone
 - beyond_earth:mercury_stone
 - beyond_earth:glacio_stone
+- quark:jasper
+- quark:limestone
+- quark:permafrost
+- quark:shale
+- quark:myalite
+- quark:polished_jasper
+- quark:polished_limestone
+- quark:polished_calcite
+- quark:polished_shale
+- quark:polished_myalite
 
 #forge:storage_blocks/lightning_dragon_scale
 - iceandfire:dragonscale_electric
@@ -4133,6 +4291,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:bow_limb_red_sand_cast
 - tconstruct:bow_grip_red_sand_cast
 
+#quark:boatable_chests
+- minecraft:chest
+- quark:oak_chest
+- quark:spruce_chest
+- quark:birch_chest
+- quark:jungle_chest
+- quark:acacia_chest
+- quark:dark_oak_chest
+- quark:warped_chest
+- quark:crimson_chest
+- quark:nether_brick_chest
+- quark:prismarine_chest
+- quark:purpur_chest
+- quark:blossom_chest
+- quark:azalea_chest
+
 #tconstruct:modifiable/armor/chestplate
 - tconstruct:travelers_chestplate
 - tconstruct:plate_chestplate
@@ -4144,6 +4318,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:lingering_potion
 - minecraft:enchanted_book
 - minecraft:tipped_arrow
+- custommachinery:custom_machine_item
 
 #minecraft:birch_logs
 - minecraft:birch_log
@@ -4594,6 +4769,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:bulbis_fence_gate
 - byg:nightshade_fence_gate
 - byg:imparius_fence_gate
+- quark:azalea_fence_gate
+- quark:blossom_fence_gate
 
 #forge:ores/aluminum
 - immersiveengineering:ore_aluminum
@@ -4813,6 +4990,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:ores/pendorite
 - byg:pendorite_ore
 
+#minecraft:fence_gates
+- quark:azalea_fence_gate
+- quark:blossom_fence_gate
+
 #forge:crops/cactusfruit
 - pamhc2crops:cactusfruititem
 
@@ -4845,6 +5026,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:sky_staff
 - tconstruct:earth_staff
 - tconstruct:ichor_staff
+- tconstruct:ender_staff
 - tconstruct:travelers_boots
 - tconstruct:travelers_leggings
 - tconstruct:travelers_chestplate
@@ -4920,6 +5102,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #curios:back
 - sophisticatedbackpacks:backpack
+- sophisticatedbackpacks:copper_backpack
 - sophisticatedbackpacks:iron_backpack
 - sophisticatedbackpacks:gold_backpack
 - sophisticatedbackpacks:diamond_backpack
@@ -5105,6 +5288,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:gems/sulfur
 - thermal:sulfur
 
+#quark:stools
+- quark:black_stool
+- quark:blue_stool
+- quark:brown_stool
+- quark:cyan_stool
+- quark:gray_stool
+- quark:green_stool
+- quark:light_blue_stool
+- quark:light_gray_stool
+- quark:lime_stool
+- quark:magenta_stool
+- quark:orange_stool
+- quark:pink_stool
+- quark:purple_stool
+- quark:red_stool
+- quark:white_stool
+- quark:yellow_stool
+
 #forge:crops/cantaloupe
 - pamhc2crops:cantaloupeitem
 
@@ -5159,8 +5360,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:cake
 - createaddition:seed_oil_bucket
 - createaddition:bioethanol_bucket
-- create_enchantment_industry:hyper_experience_bottle
-- minecraft:experience_bottle
 
 #forge:dusts/lumium
 - thermal:lumium_dust
@@ -5881,6 +6080,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:chests/trapped
 - minecraft:trapped_chest
+- quark:oak_trapped_chest
+- quark:spruce_trapped_chest
+- quark:birch_trapped_chest
+- quark:jungle_trapped_chest
+- quark:acacia_trapped_chest
+- quark:dark_oak_trapped_chest
+- quark:warped_trapped_chest
+- quark:crimson_trapped_chest
+- quark:nether_brick_trapped_chest
+- quark:purpur_trapped_chest
+- quark:prismarine_trapped_chest
+- quark:azalea_trapped_chest
+- quark:blossom_trapped_chest
 
 #balm:cyan_dyes
 - #forge:dyes/cyan?
@@ -5895,6 +6107,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - upgradednetherite:poison_upgraded_netherite_chestplate
 - upgradednetherite:phantom_upgraded_netherite_chestplate
 - upgradednetherite:feather_upgraded_netherite_chestplate
+
+#tconstruct:modifiable/book_armor/fantastic_foundry
+- tconstruct:plate_helmet
+- tconstruct:plate_chestplate
+- tconstruct:plate_leggings
+- tconstruct:plate_boots
+- tconstruct:plate_shield
 
 #thermal:crafting/casts
 - thermal:chiller_ball_cast
@@ -5997,6 +6216,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:silver_door
 - supplementaries:lead_door
 - integrateddynamics:menril_door
+- quark:azalea_door
+- quark:blossom_door
 
 #botania:petals/red
 - botania:red_petal
@@ -6321,6 +6542,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:storage_blocks/charcoal
 - mekanism:block_charcoal
 - thermal:charcoal_block
+- quark:charcoal_block
 
 #forge:flour_plants/rice
 - pamhc2crops:riceitem
@@ -6689,6 +6911,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:black_mangrove_wood
 - tropicraft:stripped_mangrove_log
 - tropicraft:stripped_mangrove_wood
+- quark:azalea_log
+- quark:stripped_azalea_log
+- quark:azalea_wood
+- quark:stripped_azalea_wood
+- quark:blossom_log
+- quark:stripped_blossom_log
+- quark:blossom_wood
+- quark:stripped_blossom_wood
 
 #forge:ores/ice_shard
 - beyond_earth:moon_ice_shard_ore
@@ -6751,6 +6981,113 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:jellies/bananajelly
 - pamhc2foodextended:bananajellyitem
+
+#quark:vertical_slab
+- quark:acacia_vertical_slab
+- quark:andesite_bricks_vertical_slab
+- quark:andesite_vertical_slab
+- quark:birch_vertical_slab
+- quark:blackstone_bricks_vertical_slab
+- quark:blackstone_vertical_slab
+- quark:black_shingles_vertical_slab
+- quark:blue_nether_bricks_vertical_slab
+- quark:blue_shingles_vertical_slab
+- quark:brick_vertical_slab
+- quark:brown_shingles_vertical_slab
+- quark:calcite_bricks_vertical_slab
+- quark:calcite_vertical_slab
+- quark:cobbled_deepslate_vertical_slab
+- quark:cobblestone_bricks_vertical_slab
+- quark:cobblestone_vertical_slab
+- quark:crimson_vertical_slab
+- quark:cut_copper_vertical_slab
+- quark:cut_red_sandstone_vertical_slab
+- quark:cut_sandstone_vertical_slab
+- quark:cut_soul_sandstone_vertical_slab
+- quark:cyan_shingles_vertical_slab
+- quark:dark_oak_vertical_slab
+- quark:dark_prismarine_vertical_slab
+- quark:deepslate_brick_vertical_slab
+- quark:deepslate_tile_vertical_slab
+- quark:diorite_bricks_vertical_slab
+- quark:diorite_vertical_slab
+- quark:dirt_bricks_vertical_slab
+- quark:duskbound_block_vertical_slab
+- quark:end_stone_brick_vertical_slab
+- quark:exposed_cut_copper_vertical_slab
+- quark:granite_bricks_vertical_slab
+- quark:granite_vertical_slab
+- quark:gray_shingles_vertical_slab
+- quark:green_shingles_vertical_slab
+- quark:iron_plate_vertical_slab
+- quark:jasper_bricks_vertical_slab
+- quark:jasper_vertical_slab
+- quark:jungle_vertical_slab
+- quark:light_blue_shingles_vertical_slab
+- quark:light_gray_shingles_vertical_slab
+- quark:limestone_bricks_vertical_slab
+- quark:limestone_vertical_slab
+- quark:lime_shingles_vertical_slab
+- quark:magenta_shingles_vertical_slab
+- quark:midori_block_vertical_slab
+- quark:mossy_cobblestone_bricks_vertical_slab
+- quark:mossy_cobblestone_vertical_slab
+- quark:mossy_stone_brick_vertical_slab
+- quark:myalite_bricks_vertical_slab
+- quark:myalite_vertical_slab
+- quark:netherrack_bricks_vertical_slab
+- quark:nether_brick_vertical_slab
+- quark:oak_vertical_slab
+- quark:orange_shingles_vertical_slab
+- quark:oxidized_cut_copper_vertical_slab
+- quark:permafrost_bricks_vertical_slab
+- quark:permafrost_vertical_slab
+- quark:pink_shingles_vertical_slab
+- quark:polished_andesite_vertical_slab
+- quark:polished_blackstone_brick_vertical_slab
+- quark:polished_blackstone_vertical_slab
+- quark:polished_calcite_vertical_slab
+- quark:polished_deepslate_vertical_slab
+- quark:polished_diorite_vertical_slab
+- quark:polished_granite_vertical_slab
+- quark:polished_jasper_vertical_slab
+- quark:polished_limestone_vertical_slab
+- quark:polished_myalite_vertical_slab
+- quark:polished_shale_vertical_slab
+- quark:prismarine_brick_vertical_slab
+- quark:prismarine_vertical_slab
+- quark:purple_shingles_vertical_slab
+- quark:purpur_vertical_slab
+- quark:quartz_vertical_slab
+- quark:red_nether_brick_vertical_slab
+- quark:red_sandstone_bricks_vertical_slab
+- quark:red_sandstone_vertical_slab
+- quark:red_shingles_vertical_slab
+- quark:rusty_iron_plate_vertical_slab
+- quark:sandstone_bricks_vertical_slab
+- quark:sandstone_vertical_slab
+- quark:shingles_vertical_slab
+- quark:shale_bricks_vertical_slab
+- quark:shale_vertical_slab
+- quark:smooth_quartz_vertical_slab
+- quark:smooth_red_sandstone_vertical_slab
+- quark:smooth_sandstone_vertical_slab
+- quark:smooth_soul_sandstone_vertical_slab
+- quark:smooth_stone_vertical_slab
+- quark:soul_sandstone_bricks_vertical_slab
+- quark:soul_sandstone_vertical_slab
+- quark:spruce_vertical_slab
+- quark:stone_brick_vertical_slab
+- quark:stone_vertical_slab
+- quark:thatch_vertical_slab
+- quark:warped_vertical_slab
+- quark:waxed_cut_copper_vertical_slab
+- quark:waxed_exposed_cut_copper_vertical_slab
+- quark:waxed_oxidized_cut_copper_vertical_slab
+- quark:waxed_weathered_cut_copper_vertical_slab
+- quark:weathered_cut_copper_vertical_slab
+- quark:white_shingles_vertical_slab
+- quark:yellow_shingles_vertical_slab
 
 #tconstruct:modifiable/interactable/right
 - #tconstruct:modifiable/one_handed
@@ -7080,6 +7417,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:palm_button
 - tropicraft:bamboo_button
 - tropicraft:thatch_button
+- quark:azalea_button
+- quark:blossom_button
 
 #tconstruct:patterns/reusable
 - #tconstruct:casts/gold
@@ -7371,6 +7710,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - pamhc2foodcore:bakewareitem
 - pamhc2foodcore:bakewareitem
 
+#tconstruct:modifiable/book_armor
+- #tconstruct:modifiable/book_armor/materials_and_you
+- #tconstruct:modifiable/book_armor/puny_smelting
+- #tconstruct:modifiable/book_armor/mighty_smelting
+- #tconstruct:modifiable/book_armor/fantastic_foundry
+- #tconstruct:modifiable/book_armor/tinkers_gadgetry
+
 #forge:fruits/gooseberry
 - pamhc2trees:gooseberryitem
 
@@ -7463,6 +7809,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:soul_sand
 - minecraft:soul_soil
 - tconstruct:soul_glass
+- tconstruct:seared_soul_glass
+- tconstruct:scorched_soul_glass
 
 #supplementaries:shulker_blacklist
 - #forge:shulker_boxes?
@@ -7610,6 +7958,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:fishes/rawcod
 - #forge:fishes/rawsalmon
 - #forge:fishes/rawtropicalfish
+
+#quark:azalea_logs
+- quark:azalea_log
+- quark:stripped_azalea_log
+- quark:azalea_wood
+- quark:stripped_azalea_wood
 
 #forge:glass_panes/cyan
 - minecraft:cyan_stained_glass_pane
@@ -7833,60 +8187,61 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:sign_post_birch?
 - supplementaries:sign_post_crimson?
 - supplementaries:sign_post_warped?
-- supplementaries:integrateddynamics/sign_post_menril
-- supplementaries:byg/sign_post_green_enchanted
-- supplementaries:botania/sign_post_dreamwood
-- supplementaries:byg/sign_post_ebony
-- supplementaries:byg/sign_post_cherry
-- supplementaries:byg/sign_post_sythian
-- supplementaries:byg/sign_post_imparius
-- supplementaries:twilightforest/sign_post_twilight_oak
-- supplementaries:tconstruct/sign_post_bloodshroom
-- supplementaries:byg/sign_post_ether
-- supplementaries:wildbackport/sign_post_mangrove
-- supplementaries:tropicraft/sign_post_palm
-- supplementaries:sign_post_acacia
-- supplementaries:byg/sign_post_fir
-- supplementaries:byg/sign_post_maple
-- supplementaries:sign_post_jungle
-- supplementaries:byg/sign_post_skyris
-- supplementaries:byg/sign_post_mahogany
-- supplementaries:byg/sign_post_baobab
-- supplementaries:sign_post_crimson
-- supplementaries:twilightforest/sign_post_mining
-- supplementaries:sign_post_spruce
-- supplementaries:iceandfire/sign_post_dreadwood
 - supplementaries:byg/sign_post_witch_hazel
-- supplementaries:botania/sign_post_livingwood
-- supplementaries:byg/sign_post_willow
-- supplementaries:byg/sign_post_mangrove
-- supplementaries:byg/sign_post_bulbis
-- supplementaries:tconstruct/sign_post_skyroot
-- supplementaries:byg/sign_post_redwood
-- supplementaries:twilightforest/sign_post_transformation
-- supplementaries:byg/sign_post_jacaranda
-- supplementaries:sign_post_dark_oak
-- supplementaries:twilightforest/sign_post_time
-- supplementaries:byg/sign_post_cika
-- supplementaries:twilightforest/sign_post_sorting
-- supplementaries:byg/sign_post_aspen
-- supplementaries:twilightforest/sign_post_canopy
-- supplementaries:tropicraft/sign_post_mahogany
-- supplementaries:sign_post_oak
-- supplementaries:sign_post_warped
-- supplementaries:byg/sign_post_nightshade
-- supplementaries:byg/sign_post_lament
-- supplementaries:sign_post_birch
-- supplementaries:byg/sign_post_zelkova
-- supplementaries:byg/sign_post_blue_enchanted
-- supplementaries:twilightforest/sign_post_dark
-- supplementaries:tconstruct/sign_post_greenheart
-- supplementaries:byg/sign_post_pine
-- supplementaries:byg/sign_post_palm
-- supplementaries:twilightforest/sign_post_mangrove
-- supplementaries:byg/sign_post_holly
-- supplementaries:byg/sign_post_cypress
 - supplementaries:byg/sign_post_rainbow_eucalyptus
+- supplementaries:byg/sign_post_ether
+- supplementaries:twilightforest/sign_post_time
+- supplementaries:byg/sign_post_blue_enchanted
+- supplementaries:byg/sign_post_holly
+- supplementaries:byg/sign_post_jacaranda
+- supplementaries:byg/sign_post_zelkova
+- supplementaries:byg/sign_post_aspen
+- supplementaries:iceandfire/sign_post_dreadwood
+- supplementaries:sign_post_warped
+- supplementaries:byg/sign_post_maple
+- supplementaries:sign_post_spruce
+- supplementaries:twilightforest/sign_post_sorting
+- supplementaries:botania/sign_post_dreamwood
+- supplementaries:byg/sign_post_cypress
+- supplementaries:twilightforest/sign_post_mining
+- supplementaries:sign_post_oak
+- supplementaries:byg/sign_post_imparius
+- supplementaries:tropicraft/sign_post_mahogany
+- supplementaries:byg/sign_post_green_enchanted
+- supplementaries:tconstruct/sign_post_greenheart
+- supplementaries:byg/sign_post_baobab
+- supplementaries:byg/sign_post_lament
+- supplementaries:byg/sign_post_pine
+- supplementaries:twilightforest/sign_post_twilight_oak
+- supplementaries:byg/sign_post_redwood
+- supplementaries:byg/sign_post_skyris
+- supplementaries:byg/sign_post_fir
+- supplementaries:tconstruct/sign_post_bloodshroom
+- supplementaries:quark/sign_post_azalea
+- supplementaries:byg/sign_post_mangrove
+- supplementaries:sign_post_jungle
+- supplementaries:byg/sign_post_cika
+- supplementaries:byg/sign_post_ebony
+- supplementaries:twilightforest/sign_post_dark
+- supplementaries:byg/sign_post_bulbis
+- supplementaries:byg/sign_post_palm
+- supplementaries:byg/sign_post_willow
+- supplementaries:botania/sign_post_livingwood
+- supplementaries:sign_post_dark_oak
+- supplementaries:quark/sign_post_blossom
+- supplementaries:byg/sign_post_sythian
+- supplementaries:byg/sign_post_nightshade
+- supplementaries:integrateddynamics/sign_post_menril
+- supplementaries:twilightforest/sign_post_transformation
+- supplementaries:tropicraft/sign_post_palm
+- supplementaries:sign_post_birch
+- supplementaries:twilightforest/sign_post_mangrove
+- supplementaries:byg/sign_post_mahogany
+- supplementaries:sign_post_acacia
+- supplementaries:byg/sign_post_cherry
+- supplementaries:sign_post_crimson
+- supplementaries:twilightforest/sign_post_canopy
+- supplementaries:tconstruct/sign_post_skyroot
 
 #forge:firmtofu/firmtofu
 - pamhc2foodextended:firmtofuitem
@@ -8078,6 +8433,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - connectedglass:scratched_glass_gray_pane
 - connectedglass:scratched_glass_white_pane
 - connectedglass:clear_glass_purple_pane
+- quark:dirty_glass_pane
+- quark:framed_glass_pane
+- quark:black_framed_glass_pane
+- quark:blue_framed_glass_pane
+- quark:brown_framed_glass_pane
+- quark:cyan_framed_glass_pane
+- quark:gray_framed_glass_pane
+- quark:green_framed_glass_pane
+- quark:light_blue_framed_glass_pane
+- quark:light_gray_framed_glass_pane
+- quark:lime_framed_glass_pane
+- quark:magenta_framed_glass_pane
+- quark:orange_framed_glass_pane
+- quark:pink_framed_glass_pane
+- quark:purple_framed_glass_pane
+- quark:red_framed_glass_pane
+- quark:white_framed_glass_pane
+- quark:yellow_framed_glass_pane
 
 #forge:sodas/lemonlimesodaitem
 - pamhc2foodextended:lemonlimesodaitem
@@ -8482,6 +8855,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:sky_staff
 - tconstruct:earth_staff
 - tconstruct:ichor_staff
+- tconstruct:ender_staff
 - tconstruct:travelers_boots
 - tconstruct:travelers_leggings
 - tconstruct:travelers_chestplate
@@ -8560,6 +8934,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:rods/treated_wood
 - immersiveengineering:stick_treated
+
+#quark:glow_shroom_feedables
+- quark:glow_shroom
 
 #forge:storage_blocks/lignite
 - byg:lignite_block
@@ -8689,7 +9066,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:tea_mangrove_leaves
 - tropicraft:black_mangrove_leaves
 - integrateddynamics:menril_leaves
-- wildbackport:mangrove_leaves
+- quark:blue_blossom_leaves
+- quark:lavender_blossom_leaves
+- quark:orange_blossom_leaves
+- quark:pink_blossom_leaves
+- quark:yellow_blossom_leaves
+- quark:red_blossom_leaves
 
 #forge:crops/celery
 - pamhc2crops:celeryitem
@@ -8702,6 +9084,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #tconstruct:modifiable/ranged
 - #tconstruct:modifiable/ranged/bows
+- #tconstruct:modifiable/staffs
 
 #mekanism:crystals/copper
 - mekanism:crystal_copper
@@ -9060,6 +9443,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:sky_staff
 - tconstruct:earth_staff
 - tconstruct:ichor_staff
+- tconstruct:ender_staff
 - tconstruct:plate_boots
 - tconstruct:plate_leggings
 - tconstruct:plate_chestplate
@@ -9182,6 +9566,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #tconstruct:casts/multi_use/rod
 - tconstruct:rod_cast
+
+#quark:revertable_chests
+- quark:oak_chest
+- quark:spruce_chest
+- quark:birch_chest
+- quark:jungle_chest
+- quark:acacia_chest
+- quark:dark_oak_chest
+- quark:warped_chest
+- quark:crimson_chest
+- quark:azalea_chest
+- quark:blossom_chest
 
 #forge:ingots/dragonsteel_ice
 - iceandfire:dragonsteel_ice_ingot
@@ -9682,7 +10078,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:palm_planks
 - tropicraft:mangrove_planks
 - integrateddynamics:menril_planks
-- wildbackport:mangrove_planks
+- quark:azalea_planks
+- quark:blossom_planks
 
 #minecraft:fox_food
 - minecraft:sweet_berries
@@ -9799,11 +10196,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #tconstruct:scorched_blocks
 - #tconstruct:scorched_tanks
 - tconstruct:foundry_controller
+- tconstruct:scorched_ladder
 - tconstruct:scorched_drain
 - tconstruct:scorched_chute
 - tconstruct:scorched_duct
 - tconstruct:scorched_glass
-- tconstruct:scorched_ladder
+- tconstruct:scorched_soul_glass
+- tconstruct:scorched_tinted_glass
 
 #forge:salad_ingredients/brusselsprout
 - pamhc2crops:brusselsproutitem
@@ -9904,6 +10303,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:fruits/juniperberry
 - pamhc2crops:juniperberryitem
 
+#iceandfire:make_item_drops_fireimmune
+- iceandfire:dragonsteel_lightning_sword
+- iceandfire:dragonbone_sword_lightning
+- iceandfire:dragonsteel_lightning_pickaxe
+- iceandfire:dragonsteel_lightning_axe
+- iceandfire:dragonsteel_lightning_shovel
+- iceandfire:dragonsteel_lightning_hoe
+
 #forge:seeds/amaranth
 - pamhc2crops:amaranthseeditem
 
@@ -9951,6 +10358,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:seeds/cotton
 - pamhc2crops:cottonseeditem
+
+#tconstruct:modifiable/broad
+- tconstruct:sledge_hammer
+- tconstruct:vein_hammer
+- tconstruct:excavator
+- tconstruct:broad_axe
+- tconstruct:scythe
+- tconstruct:cleaver
+- tconstruct:longbow
 
 #forge:rootvegetables/rhubarb
 - pamhc2crops:rhubarbitem
@@ -10019,6 +10435,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:chests/ender
 - #forge:chests/trapped
 - #forge:chests/wooden
+- quark:nether_brick_chest
+- quark:purpur_chest
+- quark:prismarine_chest
+- quark:azalea_chest
+- quark:azalea_trapped_chest
+- quark:blossom_chest
+- quark:blossom_trapped_chest
 
 #forge:storage_blocks/uranium
 - mekanism:block_uranium
@@ -10067,6 +10490,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:cobblestone/deepslate
 - minecraft:cobbled_deepslate
 
+#quark:seed_pouch_holdable
+- #forge:seeds
+- #forge:mushrooms
+- minecraft:warped_fungus
+- minecraft:crimson_fungus
+- #minecraft:saplings
+- minecraft:carrot
+- minecraft:potato
+- minecraft:sweet_berries
+- minecraft:kelp
+- minecraft:bamboo
+- minecraft:sugar_cane
+- minecraft:nether_wart
+- minecraft:cocoa_beans
+
 #ae2:interface
 - ae2:cable_interface
 - ae2:interface
@@ -10114,6 +10552,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:bulbis_fence_gate
 - byg:nightshade_fence_gate
 - byg:imparius_fence_gate
+- quark:azalea_fence_gate
+- quark:blossom_fence_gate
+- quark:nether_brick_fence_gate
 
 #forge:storage_blocks/carminite
 - twilightforest:carminite_block
@@ -10286,6 +10727,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:sky_staff
 - tconstruct:earth_staff
 - tconstruct:ichor_staff
+- tconstruct:ender_staff
 
 #forge:salad_ingredients/cauliflower
 - pamhc2crops:caulifloweritem
@@ -10404,6 +10846,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - ae2:red_glass_cable
 - ae2:black_glass_cable
 - ae2:fluix_glass_cable
+
+#quark:corundum
+- quark:red_corundum
+- quark:orange_corundum
+- quark:yellow_corundum
+- quark:green_corundum
+- quark:blue_corundum
+- quark:indigo_corundum
+- quark:violet_corundum
+- quark:white_corundum
+- quark:black_corundum
 
 #bookshelf:clocks
 - #forge:clocks
@@ -10699,6 +11152,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:ingots/invar
 - thermal:invar_ingot
 
+#quark:shards
+- quark:clear_shard
+- quark:dirty_shard
+- quark:black_shard
+- quark:blue_shard
+- quark:brown_shard
+- quark:cyan_shard
+- quark:gray_shard
+- quark:green_shard
+- quark:light_blue_shard
+- quark:light_gray_shard
+- quark:lime_shard
+- quark:magenta_shard
+- quark:orange_shard
+- quark:pink_shard
+- quark:purple_shard
+- quark:red_shard
+- quark:white_shard
+- quark:yellow_shard
+
 #botania:terrasteel_nuggets
 - botania:terrasteel_nugget
 
@@ -10884,7 +11357,35 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:lapis_bricks_wall
 - supplementaries:stone_tile_wall
 - tropicraft:chunk_wall
-- wildbackport:mud_brick_wall
+- quark:andesite_bricks_wall
+- quark:blackstone_bricks_wall
+- quark:blue_nether_bricks_wall
+- quark:calcite_bricks_wall
+- quark:calcite_wall
+- quark:cobblestone_bricks_wall
+- quark:diorite_bricks_wall
+- quark:dirt_bricks_wall
+- quark:dripstone_block_wall
+- quark:dripstone_bricks_wall
+- quark:granite_bricks_wall
+- quark:jasper_bricks_wall
+- quark:jasper_wall
+- quark:limestone_bricks_wall
+- quark:limestone_wall
+- quark:mossy_cobblestone_bricks_wall
+- quark:myalite_bricks_wall
+- quark:myalite_wall
+- quark:netherrack_bricks_wall
+- quark:permafrost_bricks_wall
+- quark:permafrost_wall
+- quark:red_sandstone_bricks_wall
+- quark:sandstone_bricks_wall
+- quark:shale_bricks_wall
+- quark:shale_wall
+- quark:soul_sandstone_bricks_wall
+- quark:soul_sandstone_wall
+- quark:tuff_bricks_wall
+- quark:tuff_wall
 
 #forge:dusts/mana
 - #botania:mana_dusts
@@ -11132,6 +11633,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:palm_trapdoor
 - tropicraft:mahogany_trapdoor
 - tropicraft:thatch_trapdoor
+- quark:azalea_trapdoor
+- quark:blossom_trapdoor
 
 #create:valve_handles
 - create:copper_valve_handle
@@ -11310,7 +11813,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:mahogany_door
 - tropicraft:thatch_door
 - integrateddynamics:menril_door
-- wildbackport:mangrove_door
+- quark:azalea_door
+- quark:blossom_door
 
 #tconstruct:duct_containers
 - minecraft:bucket
@@ -11338,14 +11842,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:seeds/raspberry
 - pamhc2crops:raspberryseeditem
-
-#create_sa:fillable
-- create_sa:brass_jetpack_chestplate
-- create_sa:portable_drill
-- create_sa:brass_exoskeleton_chestplate
-- create_sa:copper_exoskeleton_chestplate
-- create_sa:copper_jetpack_chestplate
-- create_sa:block_picker
 
 #forge:ingots/constantan
 - thermal:constantan_ingot
@@ -11414,6 +11910,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - immersivepetroleum:paraffin_wax_block
 - immersivepetroleum:paraffin_wax_block
 
+#quark:hedges
+- quark:oak_hedge
+- quark:birch_hedge
+- quark:spruce_hedge
+- quark:jungle_hedge
+- quark:acacia_hedge
+- quark:dark_oak_hedge
+- quark:blue_blossom_hedge
+- quark:lavender_blossom_hedge
+- quark:orange_blossom_hedge
+- quark:pink_blossom_hedge
+- quark:yellow_blossom_hedge
+- quark:red_blossom_hedge
+- quark:azalea_hedge
+- quark:flowering_azalea_hedge
+
 #tconstruct:casts/empty/table
 - tconstruct:gold_bars
 
@@ -11428,6 +11940,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:flour_plants/chickpea
 - pamhc2crops:chickpeaitem
+
+#quark:stone_tool_materials
+- #forge:stone
+- #forge:cobblestone
+- minecraft:flint
+- minecraft:sandstone
+- quark:limestone
+- quark:polished_limestone
+- quark:polished_calcite
+- quark:jasper
+- quark:polished_jasper
+- quark:shale
+- quark:polished_shale
+- quark:permafrost
+- minecraft:blackstone
 
 #forge:fruits/strawberries
 - pamhc2crops:strawberryitem
@@ -11791,6 +12318,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:salad_ingredients/tomatillo
 - pamhc2crops:tomatilloitem
 
+#minecraft:guarded_by_piglins
+- quark:azalea_chest
+- quark:azalea_trapped_chest
+- quark:blossom_chest
+- quark:blossom_trapped_chest
+
 #tconstruct:slimy_grass_seeds
 - tconstruct:earth_slime_grass_seeds
 - tconstruct:sky_slime_grass_seeds
@@ -11885,6 +12418,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:nightshade_button
 - byg:imparius_button
 - #securitycraft:reinforced/buttons
+- quark:azalea_button
+- quark:blossom_button
+- quark:gold_button
+- quark:iron_button
 
 #ftbultimine:excluded_tools
 - #ftbultimine:excluded_tools/strict?
@@ -12523,6 +13060,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - framedblocks:framed_fence
 - #libx:impl_fences
 - securitycraft:electrified_iron_fence
+- quark:azalea_fence
+- quark:blossom_fence
 
 #forge:berries/blackberry
 - pamhc2crops:blackberryitem
@@ -12594,6 +13133,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:rods/brass
 - createaddition:brass_rod
 
+#quark:revertable_trapped_chests
+- quark:oak_trapped_chest
+- quark:spruce_trapped_chest
+- quark:birch_trapped_chest
+- quark:jungle_trapped_chest
+- quark:acacia_trapped_chest
+- quark:dark_oak_trapped_chest
+- quark:warped_trapped_chest
+- quark:crimson_trapped_chest
+- quark:azalea_trapped_chest
+- quark:blossom_trapped_chest
+
 #forge:vegetables/jicama
 - pamhc2crops:jicamaitem
 
@@ -12634,11 +13185,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #minecraft:coal_ores
 - beyond_earth:venus_coal_ore
 - beyond_earth:glacio_coal_ore
-
-#createdieselgenerators:fd_fermentable
-- farmersdelight:tomato
-- farmersdelight:pumpkin_slice
-- farmersdelight:rice_panicle
 
 #byg:light_gray_dye
 - byg:richea
@@ -12781,6 +13327,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - securitycraft:reinforced_iron_trapdoor
 - securitycraft:keypad_trapdoor
 - securitycraft:scanner_trapdoor
+- quark:azalea_trapdoor
+- quark:blossom_trapdoor
 
 #forge:ores/calorite
 - beyond_earth:venus_calorite_ore
@@ -13452,9 +14000,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - cyclic:charm_ultimate?
 - cyclic:charm_stealthpotion?
 - cyclic:antigravity?
-- storagenetwork:inventory_remote
-- storagenetwork:crafting_remote
-- storagenetwork:collector_remote
 - thermal:flux_capacitor
 - thermal:flux_magnet
 - thermal:fluid_reservoir
@@ -13729,6 +14274,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:mushrooms/truffle
 - pamhc2crops:truffleitem
 
+#minecraft:pressure_plates
+- quark:azalea_pressure_plate
+- quark:blossom_pressure_plate
+
 #forge:tools/gold
 - minecraft:golden_axe
 - minecraft:golden_hoe
@@ -13865,6 +14414,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - mekanism:ingot_lead
 - thermal:lead_ingot
 - immersiveengineering:ingot_lead
+
+#quark:blossom_logs
+- quark:blossom_log
+- quark:stripped_blossom_log
+- quark:blossom_wood
+- quark:stripped_blossom_wood
 
 #forge:vinegar_ingredients/millet
 - pamhc2crops:milletitem
@@ -14990,15 +15545,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:windswept_sand
 - byg:cracked_red_sand
 
-#create_sa:fuelable
-- create_sa:andesite_exoskeleton_chestplate
-- create_sa:brass_jetpack_chestplate
-- create_sa:portable_drill
-- create_sa:brass_exoskeleton_chestplate
-- create_sa:flamethrower
-- create_sa:grapplin_whisk
-- create_sa:andesite_jetpack_chestplate
-
 #forge:crops/barley
 - pamhc2crops:barleyitem
 
@@ -15166,15 +15712,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:seeds/cactusfruit
 - pamhc2crops:cactusfruitseeditem
 
-#wildbackport:chest_boats
-- wildbackport:oak_chest_boat
-- wildbackport:spruce_chest_boat
-- wildbackport:birch_chest_boat
-- wildbackport:jungle_chest_boat
-- wildbackport:acacia_chest_boat
-- wildbackport:dark_oak_chest_boat
-- wildbackport:mangrove_chest_boat
-
 #ae2:all_quartz
 - #forge:gems/quartz
 - #forge:gems/certus_quartz
@@ -15219,6 +15756,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:greenheart_fence
 - tconstruct:skyroot_fence
 - tconstruct:bloodshroom_fence
+- quark:azalea_fence
+- quark:blossom_fence
 
 #bookshelf:mob_buckets
 - #forge:mob_buckets
@@ -15337,6 +15876,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - thermal_extra:shellite_block
 - thermal_extra:twinite_block
 - thermal_extra:dragonsteel_block
+- #forge:storage_blocks/charcoal
 
 #forge:coins/lead
 - thermal:lead_coin
@@ -15713,6 +16253,67 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #securitycraft:reinforced/stairs
 - securitycraft:crystal_quartz_stairs
 - securitycraft:smooth_crystal_quartz_stairs
+- quark:andesite_bricks_stairs
+- quark:azalea_planks_stairs
+- quark:blackstone_bricks_stairs
+- quark:black_shingles_stairs
+- quark:blossom_planks_stairs
+- quark:blue_nether_bricks_stairs
+- quark:blue_shingles_stairs
+- quark:brown_shingles_stairs
+- quark:calcite_bricks_stairs
+- quark:calcite_stairs
+- quark:cobblestone_bricks_stairs
+- quark:cyan_shingles_stairs
+- quark:diorite_bricks_stairs
+- quark:dirt_bricks_stairs
+- quark:dripstone_block_stairs
+- quark:dripstone_bricks_stairs
+- quark:duskbound_block_stairs
+- quark:granite_bricks_stairs
+- quark:gray_shingles_stairs
+- quark:green_shingles_stairs
+- quark:iron_plate_stairs
+- quark:jasper_bricks_stairs
+- quark:jasper_stairs
+- quark:light_blue_shingles_stairs
+- quark:light_gray_shingles_stairs
+- quark:limestone_bricks_stairs
+- quark:limestone_stairs
+- quark:lime_shingles_stairs
+- quark:magenta_shingles_stairs
+- quark:midori_block_stairs
+- quark:mossy_cobblestone_bricks_stairs
+- quark:myalite_bricks_stairs
+- quark:myalite_stairs
+- quark:netherrack_bricks_stairs
+- quark:orange_shingles_stairs
+- quark:permafrost_bricks_stairs
+- quark:permafrost_stairs
+- quark:pink_shingles_stairs
+- quark:polished_calcite_stairs
+- quark:polished_dripstone_stairs
+- quark:polished_jasper_stairs
+- quark:polished_limestone_stairs
+- quark:polished_myalite_stairs
+- quark:polished_shale_stairs
+- quark:polished_tuff_stairs
+- quark:purple_shingles_stairs
+- quark:red_sandstone_bricks_stairs
+- quark:red_shingles_stairs
+- quark:rusty_iron_plate_stairs
+- quark:sandstone_bricks_stairs
+- quark:shale_bricks_stairs
+- quark:shale_stairs
+- quark:shingles_stairs
+- quark:smooth_soul_sandstone_stairs
+- quark:soul_sandstone_bricks_stairs
+- quark:soul_sandstone_stairs
+- quark:thatch_stairs
+- quark:tuff_bricks_stairs
+- quark:tuff_stairs
+- quark:white_shingles_stairs
+- quark:yellow_shingles_stairs
 
 #forge:vegetables/tomato
 - pamhc2crops:tomatoitem
@@ -15869,6 +16470,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:sky_staff
 - tconstruct:earth_staff
 - tconstruct:ichor_staff
+- tconstruct:ender_staff
 - #tconstruct:modifiable/shields
 
 #immersiveengineering:toolbox/wiring
@@ -16210,6 +16812,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - thermal:raw_silver
 - immersiveengineering:raw_silver
 
+#tconstruct:modifiable/special
+- tconstruct:sky_staff
+- tconstruct:earth_staff
+- tconstruct:ichor_staff
+- tconstruct:ender_staff
+
 #forge:glass/black
 - minecraft:black_stained_glass
 - tconstruct:black_clear_stained_glass
@@ -16325,7 +16933,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:bamboo_stairs
 - tropicraft:mangrove_stairs
 - integrateddynamics:menril_planks_stairs
-- wildbackport:mangrove_stairs
+- quark:azalea_planks_stairs
+- quark:blossom_planks_stairs
 
 #c:ores/anthracite
 - byg:anthracite_ore
@@ -16431,6 +17040,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #mekanism:alloys/reinforced
 - #forge:alloys/elite
+
+#quark:runes_lootable
+- quark:black_rune
+- quark:blue_rune
+- quark:brown_rune
+- quark:cyan_rune
+- quark:gray_rune
+- quark:green_rune
+- quark:light_blue_rune
+- quark:light_gray_rune
+- quark:lime_rune
+- quark:magenta_rune
+- quark:orange_rune
+- quark:pink_rune
+- quark:purple_rune
+- quark:red_rune
+- quark:white_rune
+- quark:yellow_rune
 
 #forge:jellies/blackberryjelly
 - pamhc2foodextended:blackberryjellyitem
@@ -16599,6 +17226,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:ether_bookshelf
 - byg:nightshade_bookshelf
 - byg:imparius_bookshelf
+- quark:acacia_bookshelf
+- quark:birch_bookshelf
+- quark:dark_oak_bookshelf
+- quark:jungle_bookshelf
+- quark:spruce_bookshelf
+- quark:warped_bookshelf
+- quark:crimson_bookshelf
+- quark:azalea_bookshelf
+- quark:blossom_bookshelf
 
 #forge:dyes
 - #forge:dyes/white
@@ -16640,14 +17276,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:mycelium
 - minecraft:rooted_dirt
 - minecraft:moss_block
-- wildbackport:mud
-- wildbackport:muddy_mangrove_roots
 
 #forge:fruits/grapefruit
 - pamhc2trees:grapefruititem
 
 #forge:crops/chia
 - pamhc2crops:chiaitem
+
+#tconstruct:modifiable/book_armor/tinkers_gadgetry
+- tconstruct:slime_helmet
+- tconstruct:slime_chestplate
+- tconstruct:slime_leggings
+- tconstruct:slime_boots
 
 #forge:gears/constantan
 - thermal:constantan_gear
@@ -16683,11 +17323,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - dustrial_decor:large_gold_chain?
 - dustrial_decor:large_chain?
 - forbidden_arcanus:arcane_golden_chain?
-
-#create_sa:jetpack
-- create_sa:brass_jetpack_chestplate
-- create_sa:copper_jetpack_chestplate
-- create_sa:andesite_jetpack_chestplate
 
 #forge:crops/tealeaf
 - pamhc2crops:tealeafitem
@@ -16905,6 +17540,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #bookshelf:chestplates
 - #forge:chestplates
 
+#quark:ladders
+- minecraft:ladder
+- quark:spruce_ladder
+- quark:birch_ladder
+- quark:jungle_ladder
+- quark:acacia_ladder
+- quark:dark_oak_ladder
+- quark:warped_ladder
+- quark:crimson_ladder
+- quark:iron_ladder
+- quark:azalea_ladder
+- quark:blossom_ladder
+
 #forge:groundmeats/groundchicken
 - pamhc2foodcore:groundchickenitem
 - pamhc2foodcore:groundchickenitem
@@ -16982,6 +17630,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:bloodshroom_pressure_plate
 - tconstruct:bloodshroom_button
 - #tconstruct:bloodshroom_logs
+- quark:warped_chest
+- quark:crimson_chest
+- quark:warped_ladder
+- quark:crimson_ladder
+- quark:warped_post
+- quark:crimson_post
+- quark:warped_bookshelf
+- quark:crimson_bookshelf
 
 #c:fruits
 - byg:blueberries
@@ -17068,6 +17724,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #quark:big_harvesting_hoes
 - botania:elementium_hoe
+- minecraft:diamond_hoe
+- minecraft:netherite_hoe
 
 #forge:vegetables/olive
 - pamhc2trees:oliveitem
@@ -17172,6 +17830,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - projecte:life_stone
 - projecte:soul_stone
 - projecte:volcanite_amulet
+- experienceobelisk:enlightened_amulet
 
 #forge:seeds/blackberry
 - pamhc2crops:blackberryseeditem
@@ -17573,19 +18232,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - securitycraft:nether_gold_mine
 - securitycraft:reinforced_gold_block
 - securitycraft:reinforced_raw_gold_block
-- create_sa:brass_axe
-- create_sa:brass_boots
-- create_sa:brass_leggings
-- create_sa:brass_pickaxe
-- create_sa:steam_engine
-- create_sa:brass_hoe
-- create_sa:incomplete_steam_engine
-- create_sa:brass_jetpack_chestplate
-- create_sa:brass_exoskeleton_chestplate
-- create_sa:brass_helmet
-- create_sa:brass_sword
-- create_sa:brass_chestplate
-- create_sa:brass_shovel
+- quark:gold_button
+- quark:gold_bars
+- quark:golden_frog_leg
+- quark:golden_apple_crate
 
 #forge:icecreams/icecream
 - pamhc2foodcore:icecreamitem
@@ -17738,7 +18388,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:stripped_mangrove_wood
 - integrateddynamics:menril_log
 - integrateddynamics:menril_log_filled
-- #wildbackport:mangrove_logs
+- quark:azalea_log
+- quark:stripped_azalea_log
+- quark:azalea_wood
+- quark:stripped_azalea_wood
+- quark:blossom_log
+- quark:stripped_blossom_log
+- quark:blossom_wood
+- quark:stripped_blossom_wood
 
 #forge:raw_materials/desh
 - beyond_earth:raw_desh
@@ -17842,7 +18499,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:mahogany_slab
 - tropicraft:mangrove_slab
 - integrateddynamics:menril_slab
-- wildbackport:mangrove_slab
+- quark:azalea_planks_slab
+- quark:blossom_planks_slab
 
 #tconstruct:casts/multi_use/tool_handle
 - tconstruct:tool_handle_cast
@@ -17958,12 +18616,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:music_disc_11
 - minecraft:music_disc_wait
 
-#forge:fermentable
-- minecraft:sugar
-- minecraft:apple
-- minecraft:potato
-- minecraft:sugar_cane
-
 #botania:petals/lime
 - botania:lime_petal
 - botania:lime_mushroom
@@ -18034,6 +18686,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - pipez:advanced_upgrade
 - pipez:ultimate_upgrade
 - pipez:infinity_upgrade
+
+#tconstruct:modifiable/book_armor/materials_and_you
 
 #fabric:helmets
 - byg:ametrine_helmet
@@ -18253,6 +18907,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - botania:dirt_rod
 - botania:cobble_rod
 - botania:black_hole_talisman
+- quark:trowel
 
 #forge:juices/apricotjuice
 - pamhc2foodextended:apricotjuiceitem
@@ -18288,6 +18943,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #mekanism:dirty_dusts/iron
 - mekanism:dirty_dust_iron
+
+#tconstruct:modifiable/small
+- tconstruct:pickaxe
+- tconstruct:mattock
+- tconstruct:pickadze
+- tconstruct:hand_axe
+- tconstruct:kama
+- tconstruct:dagger
+- tconstruct:sword
+- tconstruct:crossbow
+- tconstruct:flint_and_brick
 
 #forge:storage_blocks/raw_copper
 - minecraft:raw_copper_block
@@ -18545,6 +19211,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:fences/plastic
 - #forge:fences/nether_brick
 - #forge:fences/wooden
+- quark:azalea_fence
+- quark:blossom_fence
 
 #create:deployable_drink
 - minecraft:milk_bucket

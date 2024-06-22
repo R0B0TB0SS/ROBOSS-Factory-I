@@ -1,0 +1,142 @@
+{
+    "type": "extendedcrafting:shaped_table",
+    "pattern": [
+      "ABCDEFGHI",
+      "JKLMNOPQR",
+      "STUVWXYZa",
+      "bcdefghij",
+      "klmno    ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:copper_ingot"
+      },
+      "B": {
+        "item": "minecraft:iron_ingot"
+      },
+      "C": {
+        "item": "minecraft:gold_ingot"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "E": {
+        "item": "minecraft:emerald"
+      },
+      "F": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "G": {
+        "item": "immersiveengineering:ingot_hop_graphite"
+      },
+      "H": {
+        "item": "immersiveengineering:ingot_aluminum"
+      },
+      "I": {
+        "item": "thermal:nickel_ingot"
+      },
+      "J": {
+        "item": "thermal:constantan_ingot"
+      },
+      "K": {
+        "item": "thermal:electrum_ingot"
+      },
+      "L": {
+        "item": "thermal:steel_ingot"
+      },
+      "M": {
+        "item": "thermal:tin_ingot"
+      },
+      "N": {
+        "item": "thermal:lead_ingot"
+      },
+      "O": {
+        "item": "thermal:silver_ingot"
+      },
+      "P": {
+        "item": "thermal:bronze_ingot"
+      },
+      "Q": {
+        "item": "thermal:invar_ingot"
+      },
+      "R": {
+        "item": "create:brass_ingot"
+      },
+      "S": {
+        "item": "create:zinc_ingot"
+      },
+      "T": {
+        "item": "botania:manasteel_ingot"
+      },
+      "U": {
+        "item": "botania:terrasteel_ingot"
+      },
+      "V": {
+        "item": "botania:elementium_ingot"
+      },
+      "W": {
+        "item": "botania:gaia_ingot"
+      },
+      "X": {
+        "item": "mekanism:ingot_refined_obsidian"
+      },
+      "Y": {
+        "item": "mekanism:ingot_refined_glowstone"
+      },
+      "Z": {
+        "item": "mekanism:ingot_osmium"
+      },
+      "a": {
+        "item": "mekanism:ingot_uranium"
+      },
+      "b": {
+        "item": "tconstruct:cobalt_ingot"
+      },
+      "c": {
+        "item": "tconstruct:amethyst_bronze_ingot"
+      },
+      "d": {
+        "item": "tconstruct:queens_slime_ingot"
+      },
+      "e": {
+        "item": "tconstruct:manyullyn_ingot"
+      },
+      "f": {
+        "item": "beyond_earth:desh_ingot"
+      },
+      "g": {
+        "item": "beyond_earth:ostrum_ingot"
+      },
+      "h": {
+        "item": "beyond_earth:calorite_ingot"
+      },
+      "i": {
+        "item": "draconicevolution:draconium_ingot"
+      },
+      "j": {
+        "item": "draconicevolution:awakened_draconium_ingot"
+      },
+      "k": {
+        "item": "bigreactors:yellorium_ingot"
+      },
+      "l": {
+        "item": "iceandfire:dragonsteel_fire_ingot"
+      },
+      "m": {
+        "item": "iceandfire:dragonsteel_ice_ingot"
+      },
+      "n": {
+        "item": "iceandfire:dragonsteel_lightning_ingot"
+      },
+      "o": {
+        "item": "twilightforest:ironwood_ingot"
+      }
+    },
+    "result": {
+        "item": "extendedcrafting:the_ultimate_ingot"
+      }
+    }

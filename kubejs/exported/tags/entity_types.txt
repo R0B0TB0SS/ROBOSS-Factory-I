@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 22, 2023, 2:56:43 PM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 8, 2024, 2:21:06 PM
 
 #supplementaries:cage_baby_catchable
 - minecraft:cow
@@ -94,6 +94,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:strider
 - minecraft:glow_squid
 - minecraft:goat
+- minecraft:bee
 
 #mekanism:hurtable_vehicles
 - minecraft:boat
@@ -316,6 +317,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:zombie_villager
 - minecraft:zombie
 
+#create:blaze_burner_capturable
+- minecraft:blaze
+
 #iceandfire:villagers
 - minecraft:villager
 - minecraft:wandering_trader
@@ -325,10 +329,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #c:bosses
 - botania:doppleganger
-
-#wildbackport:frog_food
-- minecraft:slime
-- minecraft:magma_cube
 
 #forge:villagers
 - minecraft:villager

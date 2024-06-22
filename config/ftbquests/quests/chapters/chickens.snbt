@@ -13,25 +13,48 @@
 			}
 		}
 	}
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -2.0d
-		y: -1.5d
-		id: "665B4357F4D657E4"
-		tasks: [{
-			id: "5F9A04C8A7C205EC"
-			type: "item"
-			item: {
-				id: "chickens:chicken_item"
-				Count: 1b
-				tag: {
-					ChickenType: {
-						id: "chickens:smart_chicken"
+	quests: [
+		{
+			x: -1.5d
+			y: 1.5d
+			id: "665B4357F4D657E4"
+			tasks: [{
+				id: "5F9A04C8A7C205EC"
+				type: "item"
+				item: {
+					id: "chickens:chicken_item"
+					Count: 1b
+					tag: {
+						ChickenType: {
+							id: "chickens:smart_chicken"
+						}
 					}
 				}
-			}
-		}]
-	}]
+				match_nbt: true
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			id: "1A81D0DF54F94DFB"
+			tasks: [{
+				id: "4293F10B03DB4FBE"
+				type: "item"
+				item: "chickens:roost"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			id: "1FFFD820404C6736"
+			tasks: [{
+				id: "3A85F452517D78A1"
+				type: "item"
+				item: "chickens:breeder"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

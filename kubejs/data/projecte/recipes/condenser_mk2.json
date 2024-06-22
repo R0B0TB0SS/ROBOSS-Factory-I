@@ -1,0 +1,14 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [
+      {"item": "projecte:condenser_mk1"},
+      {"item": "minecraft:glowstone"},
+      {"item": "minecraft:glowstone"},
+      {"item": "projecte:dark_matter"},
+      {"item": "projecte:dark_matter"}
+    ],
+    "energy": 4000000,
+    "result": {
+      "item": "projecte:condenser_mk2"
+    }
+  }

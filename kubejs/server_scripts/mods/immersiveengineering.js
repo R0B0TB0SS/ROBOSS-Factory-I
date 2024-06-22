@@ -31,7 +31,13 @@ onEvent('recipes', e => {
         },{
             in:"minecraft:netherite_ingot",
             out:"thermal:netherite_plate"
-        }
+        },{
+            in:"create:zinc_ingot",
+            out:'createaddition:zinc_sheet'
+        },{
+          in:'create:brass_ingot',
+          out:'create:brass_sheet'
+      }
     ]
 
     plate.forEach((i) => {
@@ -105,6 +111,9 @@ onEvent('recipes', e => {
         },{
             in:"thermal_extra:shellite_ingot",
             out:"thermal_extra:shellite_gear"
+        },{
+            in:"pneumaticcraft:ingot_iron_compressed",
+            out:'pneumaticcraft:compressed_iron_gear'
         }
     ]
 

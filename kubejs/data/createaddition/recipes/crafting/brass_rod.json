@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i",
+        "i"
+    ],
+    "key": {
+        "i": {
+            "item": "create:brass_ingot"
+        }
+    },
+    "result": {
+        "item": "createaddition:brass_rod",
+        "count": 1
+    }
+}

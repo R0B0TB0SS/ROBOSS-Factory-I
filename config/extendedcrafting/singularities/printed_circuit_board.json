@@ -1,0 +1,12 @@
+{
+  "name": "singularity.extendedcrafting.printed_circuit_board",
+  "materialCount": 8,
+  "colors": [
+    "79AD39",
+    "FFF09C"
+  ],
+  "ingredient": {
+    "item": "pneumaticcraft:printed_circuit_board"
+  },
+  "inUltimateSingularity": true
+}

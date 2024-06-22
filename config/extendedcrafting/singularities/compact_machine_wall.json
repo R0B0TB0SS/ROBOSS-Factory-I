@@ -1,0 +1,12 @@
+{
+  "name": "singularity.extendedcrafting.compact_machine_wall",
+  "materialCount": 32,
+  "colors": [
+    "42484E",
+    "272D33"
+  ],
+  "ingredient": {
+    "item": "compactmachines:wall"
+  },
+  "inUltimateSingularity": true
+}

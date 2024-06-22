@@ -1,0 +1,23 @@
+{
+  "type": "thermal:centrifuge",
+  "ingredient": {
+    "item": "thermal:gold_dust"
+  },
+  "result": [
+    {
+      "item": "minecraft:gold_nugget",
+      "count": 9
+    },
+    {
+      "item": "minecraft:quartz",
+      "chance": 0.5
+    }
+  ],
+  "energy": 1600,
+  "conditions": [
+    {
+      "type": "thermal:flag",
+      "flag": "mod_create"
+    }
+  ]
+}

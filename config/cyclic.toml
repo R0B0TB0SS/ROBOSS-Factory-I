@@ -191,6 +191,10 @@
 			#Set false to disable enchantment
 			enabled = true
 
+		[cyclic.enchantment.gloom]
+			#Set list of effects for Gloom enchant (cyclic:curse) to ignore and not use these
+			ignored = ["minecraft:bad_omen", "minecraft:nausea", "botania:clear"]
+
 	#####################################################################################
 	# Worldgen settings  
 	#####################################################################################
@@ -462,10 +466,13 @@
 	[cyclic.blocks]
 		#If true, then all potions marked as harmful/negative will be used in addition to the 'anti_beacon.potion_list' for cures and immunities  (used by both sponge and artemisbeacon).
 		harmful_potions = true
+		#  Allows the dimensional Transfer Nodes to cross dimensions (no chunk loading is done, you have to do that on your own); This affects blocks cyclic:wireless_energy, cyclic:wireless_item, cyclic:wireless_fluid, cyclic:wireless_transmitter; If you change it to false it will only work if the target is in the same dimension.
+		wireless_transfer_dimensional = true
 
+		#soundproofing settings
 		[cyclic.blocks.soundproofing]
-			#Radius to find and muffle sounds. 
-			#Range: 1 ~ 128
+			#Radius of sound proofing (distance from each block that it will listen)
+			#Range: 1 ~ 16
 			radius = 6
 
 		[cyclic.blocks.anti_beacon]
@@ -651,12 +658,15 @@
 			energy_cost = 2500
 
 		[cyclic.blocks.terra_preta]
-			#Growth interval in ticks (100 would be every 5 seconds). Also affects terra glass
+			#Growth interval in ticks (100 would be every 5 seconds). 
 			#Range: 1 ~ 64000
 			growth_interval = 100
 			#Chance that the crop will grow after the interval
 			#Range: 0.0 ~ 1.0
 			growth_chance = 0.5
+			#growth height above the soil
+			#Range: 2 ~ 32
+			height = 8
 
 		[cyclic.blocks.anvil_void]
 			#Payment per void action, if not zero
@@ -743,4 +753,13 @@
 			#Ticks used for each uncraft
 			#Range: 1 ~ 9999
 			ticks = 60
+
+		#terra_glass settings
+		[cyclic.blocks.terra_glass]
+			#ticks between growth cycles
+			#Range: 1 ~ 10000
+			timer = 100
+			#growth height below the glass
+			#Range: 0 ~ 32
+			height = 8
 
