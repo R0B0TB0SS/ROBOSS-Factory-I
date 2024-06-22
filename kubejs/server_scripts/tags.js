@@ -149,66 +149,71 @@ onEvent('tags.items', e => {
                              'immersiveengineering:ingot_electrum',
                              'immersiveengineering:nugget_electrum',
                              'create:crushed_raw_copper',
-                             'ae2:ender_dust'
+                             'immersiveengineering:wire_lead',
+                             'beyond_earth:iron_stick',
+                             'mekanism:sawdust',
+                             'thermal:ender_pearl_dust',
+                             'immersiveengineering:dust_wood',
+                             'immersiveengineering:dust_sulfur',
+                             'mekanism:dust_sulfur',
+                             'immersiveengineering:plate_steel',
+                             'mekanism:nugget_steel',
+                             'mekanism:ingot_steel',
+                             'thermal:steel_block',
+                             'mekanism:dust_steel',
+                             'thermal:rose_gold_block',
+                             'thermal:rose_gold_ingot',
+                             'thermal:rose_gold_nugget',
+                             'thermal:rose_gold_dust',
+                             'thermal:rose_gold_gear',
+                             'thermal:rose_gold_plate',
+                             'thermal:rose_gold_coin'
                              ])
 
-                             e.add('forge:dusts','thermal:ender_pearl_dust')
-                             e.add('supplementaries:hourglass_dusts','thermal:ender_pearl_dust')
-                             e.add('extendedexchange:stone_table_whitelist','thermal:ender_pearl_dust')
+
+                    const it =[
+                                {
+                                item:'viescraftmachines:music_disc_bramble',
+                                tag:'minecraft:music_discs'
+                                },{
+                                item:'viescraftmachines:music_disc_castle',
+                                tag:'minecraft:music_discs'
+                                },{
+                                item:'viescraftmachines:music_disc_dire',
+                                tag:'minecraft:music_discs'
+                                },{
+                                item:'viescraftmachines:music_disc_jungle',
+                                tag:'minecraft:music_discs'
+                                },{
+                                item:'viescraftmachines:music_disc_storms',
+                                tag:'minecraft:music_discs'
+                                },{
+                                item:'viescraftmachines:music_disc_timescar',
+                                tag:'minecraft:music_discs'
+                                }
+                            ]
+                    
+                    it.forEach((i)=>{
+                        e.add(i.tag, i.item);
+                    
+                    })
+
+                            
+                             
 
 
 })
-
-
-
-
 onEvent('tags.blocks', e => {
+const it =[
+            /*{
+                item:'iceandfire:copper_ore',
+                tag:':ores'
+            }*/
+        ]
 
-    e.removeAllTagsFrom(['immersiveengineering:ore_lead', 
-                             'immersiveengineering:deepslate_ore_lead', 
-                             'immersiveengineering:raw_block_lead', 
-                             'immersiveengineering:storage_lead',  ,  
-                             'mekanism:block_lead', 
-                             'mekanism:block_raw_lead', 
-                             'mekanism:deepslate_lead_ore', 
-                             'mekanism:lead_ore',
-                             'mekanism:block_bronze', 
-                             'mekanism:block_tin', 
-                             'mekanism:block_raw_tin', 
-                             'mekanism:deepslate_tin_ore', 
-                             'immersiveengineering:storage_silver', 
-                             'immersiveengineering:raw_block_silver', 
-                             'immersiveengineering:deepslate_ore_silver', 
-                             'immersiveengineering:ore_silver',
-                             'immersiveengineering:slab_storage_lead',
-                             'immersiveengineering:deepslate_ore_uranium', 
-                             'immersiveengineering:storage_uranium', 
-                             'immersiveengineering:raw_block_uranium', 
-                             'immersiveengineering:slab_storage_uranium', 
-                             'immersiveengineering:ore_uranium',
-                             'immersiveengineering:slab_storage_constantan', 
-                             'immersiveengineering:storage_constantan',
-                             'immersiveengineering:slab_storage_nickel', 
-                             'immersiveengineering:raw_block_nickel', 
-                             'immersiveengineering:storage_nickel', 
-                             'immersiveengineering:deepslate_ore_nickel',
-                             'immersiveengineering:ore_nickel',
-                             'iceandfire:copper_block', 
-                             'iceandfire:copper_ore', 
-                             'iceandfire:silver_block', 
-                             'iceandfire:silver_ore',
-                             'avaritia:compressor',
-                             'twilightforest:uncrafting_table', 
-                             'avaritia:extreme_crafting_table', 
-                             'avaritia:compressed_crafting_table', 
-                             'avaritia:double_compressed_crafting_table',
-                             'mekanism:tin_ore',
-                             'beyond_earth:steel_block',
-                             'mekanism:block_steel',
-                             'iceandfire:amythest_ore', 
-                             'iceandfire:amythest_block',
-                             'immersiveengineering:storage_electrum'])
+it.forEach((i)=>{
+    e.remove(i.tag, i.item);
 
-                             e.add('minecraft:block/bedrock', 'minecraft:bedrock')
+})
 
 })

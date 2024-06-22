@@ -1,10 +1,12 @@
 {
   "name": "singularity.extendedcrafting.diamond",
+  "materialCount": 512,
   "colors": [
     "a6fce9",
     "1aaca8"
   ],
   "ingredient": {
     "item": "minecraft:diamond"
-  }
+  },
+  "inUltimateSingularity": true
 }

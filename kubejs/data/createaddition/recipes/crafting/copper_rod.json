@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "i",
+        "i"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:copper_ingot"
+        }
+    },
+    "result": {
+        "item": "createaddition:copper_rod",
+        "count": 1
+    }
+}

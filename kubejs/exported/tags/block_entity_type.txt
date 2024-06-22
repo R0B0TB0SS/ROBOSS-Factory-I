@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 22, 2023, 2:56:44 PM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 8, 2024, 2:21:07 PM
 
 #tconstruct:crafting_station_blacklist
 - tconstruct:crafting_station
@@ -110,6 +110,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - immersiveengineering:mv_relay
 - immersiveengineering:hv_conn
 - immersiveengineering:hv_relay
+
+#entangled:render_blacklist
+- tconstruct:foundry?
+- tconstruct:smeltery?
 
 #projecte:blacklist/time_watch
 - projecte:dm_pedestal

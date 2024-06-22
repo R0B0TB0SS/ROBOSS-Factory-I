@@ -1,10 +1,12 @@
 {
   "name": "singularity.extendedcrafting.refined_obsidian",
+  "materialCount": 256,
   "colors": [
     "8168AD",
     "C09FBF"
   ],
   "ingredient": {
     "tag": "forge:ingots/refined_obsidian"
-  }
+  },
+  "inUltimateSingularity": true
 }

@@ -1,0 +1,12 @@
+{
+  "name": "singularity.extendedcrafting.ultimate_trash_can",
+  "materialCount": 128,
+  "colors": [
+    "6B5178",
+    "451E5B"
+  ],
+  "ingredient": {
+    "item": "trashcans:ultimate_trash_can"
+  },
+  "inUltimateSingularity": true
+}

@@ -12,6 +12,11 @@ onEvent('recipes', e => {
     ro(['avaritia:quartz_singularity','avaritia:redstone_singularity','avaritia:lapis_singularity', 'avaritia:gold_singularity','avaritia:iron_singularity', 'avaritia:emerald_singularity','avaritia:extreme_crafting_table','avaritia:double_compressed_crafting_table', 'avaritia:compressed_crafting_table','avaritia:diamond_singularity', 'avaritia:copper_singularity','avaritia:tin_singularity','avaritia:lead_singularity','avaritia:nickel_singularity','avaritia:silver_singularity'])
     ri('twilightforest:stonecutting/oak_log/hollow_oak_log')
     ri('intefrateddynamics:special/facade')
+    ro('createappliedkinetics:energy_provider')
+
+    ri('thermal:compat/create/smelter_create_crushed_raw_copper')
+    ri('mekanism:processing/copper/ingot/from_dust_blasting')
+    ri('mekanism:processing/copper/ingot/from_dust_smelting')
 
     //lead
     ri('create:smelting/lead_ingot_compat_thermal')
@@ -20,8 +25,9 @@ onEvent('recipes', e => {
     ri('create:blasting/lead_ingot_compat_thermal')
     ri('create:blasting/ingot_lead_compat_mekanism')    
     ri('create:blasting/ingot_lead_compat_immersiveengineering')
-    ri('create:splashing/immersiveengineering/crushed_lead_ore')
-    ri('create:splashing/mekanism/crushed_lead_ore')
+    ri('create:splashing/immersiveengineering/crushed_raw_lead')
+    ri('create:splashing/mekanism/crushed_raw_lead')
+    ri('create:splashing/thermal/crushed_raw_lead')
     ri('immersiveengineering:smelting/ingot_lead')
     ri('immersiveengineering:smelting/ingot_lead_from_blasting')
     ri('immersiveengineering:smelting/ingot_lead2')
@@ -50,6 +56,8 @@ onEvent('recipes', e => {
     ri('mekanism:processing/lead/ingot/from_ore_blasting')
     ri('mekanism:processing/lead/ingot/from_dust_blasting')
     ri('mekanism:processing/lead/nugget/from_ingot')
+    ro('immersiveengineering:wire_lead')
+    ri('thermal:compat/create/smelter_create_crushed_raw_lead')
 
     //copper
     ri('tconstruct:common/materials/copper_nugget_from_ingot')
@@ -88,11 +96,6 @@ onEvent('recipes', e => {
     ri('iceandfire:furnace/silver_ingot_blasting')
     ri('iceandfire:silver_block')
     ri('iceandfire:silver_ingot_to_nuggets')
-    ri('iceandfire:silver_hoe')
-    ri('iceandfire:silver_axe')
-    ri('iceandfire:silver_pickaxe')
-    ri('iceandfire:silver_shovel')
-    ri('iceandfire:silver_sword')
     ri('immersiveengineering:crafting/raw_silver_to_raw_block_silver')
     ri('immersiveengineering:crafting/raw_block_silver_to_raw_silver')
     ri('immersiveengineering:crafting/storage_silver_to_ingot_silver')
@@ -111,11 +114,19 @@ onEvent('recipes', e => {
     ri('create:smelting/silver_ingot_compat_thermal')
     ri('create:blasting/silver_ingot_compat_thermal')
     ri('create:splashing/immersiveengineering/crushed_raw_silver')
+    ri('thermal:compat/create/smelter_create_crushed_raw_silver')
 
     
     
 
     //steel
+    ri('thermal:storage/steel_block')
+    ri('mekanism:nuggets/steel')
+    ri('mekanism:processing/steel/ingot/from_nuggets')
+    ri('mekanism:processing/steel/ingot/from_dust_blasting')
+    ri('mekanism:processing/steel/ingot/from_dust_smelting')
+    ri('thermal:compat/immersiveengineering/press_ie_steel_ingot_to_plate')
+    ri('mekanism:processing/steel/ingot/from_block')
     ro('immersiveengineering:armor_steel_feet')
     ro('immersiveengineering:armor_steel_legs')
     ro('immersiveengineering:armor_steel_chest')
@@ -136,6 +147,7 @@ onEvent('recipes', e => {
     ri('create:smelting/ingot_osmium_compat_mekanism')
     ri('create:blasting/ingot_osmium_compat_mekanism')
     //tin
+    ri('thermal:compat/create/smelter_create_crushed_raw_tin')
     ri('create:splashing/mekanism/crushed_raw_tin')
     ri('create:blasting/ingot_tin_compat_mekanism')
     ri('create:blasting/tin_ingot_compat_thermal')
@@ -156,14 +168,17 @@ onEvent('recipes', e => {
     //aluminium
     ri('create:smelting/ingot_aluminum_compat_immersiveengineering')
     ri('create:blasting/ingot_aluminum_compat_immersiveengineering')
+    ri('thermal:compat/create_ie/smelter_create_ie_crushed_raw_aluminum')
     //gold
     ri('industrialforegoing:gold_gear')
     ri('immersiveengineering:smelting/gold_ingot_from_dust_from_blasting')
     ri('immersiveengineering:smelting/gold_ingot_from_dust')
     ri('create:blasting/gold_ingot_from_crushed')
     ri('create:smelting/gold_ingot_from_crushed')
+    ri('thermal:compat/create/smelter_create_crushed_raw_gold')
     
     //iron
+    ri('beyond_earth_giselle_addon:extruding/iron_stick')
     ri('industrialforegoing:iron_gear')
     ri('immersiveengineering:smelting/iron_ingot_from_dust_from_blasting')
     ri('immersiveengineering:smelting/iron_ingot_from_dust')
@@ -172,6 +187,8 @@ onEvent('recipes', e => {
     ri('beyond_earth_giselle_addon:smelting/iron_ingot_from_plate')
     ri('create:blasting/iron_ingot_from_crushed')
     ri('create:smelting/iron_ingot_from_crushed')
+    ri('beyond_earth:iron_stick')
+    ri('thermal:compat/create/smelter_create_crushed_raw_iron')
 
     //uranuim
     ro('immersiveengineering:ingot_uranium')
@@ -195,6 +212,7 @@ onEvent('recipes', e => {
     ro('immersiveengineering:nugget_nickel')
     ri('create:blasting/nickel_ingot_compat_thermal')
     ri('create:smelting/nickel_ingot_compat_thermal')
+    ri('thermal:compat/create/smelter_create_crushed_raw_nickel')
     //electrum
     ro('createaddition:electrum_nugget')
     ri('createaddition:crafting/electrum_spool')
@@ -221,5 +239,31 @@ onEvent('recipes', e => {
     ri('avaritia:compressor')
     //invar
     ri('immersiveengineering:metalpress/plate_invar')
+
+
+    //rose gold
+    ro('thermal:rose_gold_block')
+    ro('thermal:rose_gold_ingot')
+    ro('thermal:rose_gold_nugget')
+    ro('thermal:rose_gold_dust')
+    ro('thermal:rose_gold_gear')
+    ro('thermal:rose_gold_plate')
+    ro('thermal:rose_gold_coin')
+    ri('beyond_earth_giselle_addon:rolling/iron_plate')
+    ri('beyond_earth_giselle_addon:rolling/desh_plate')
+
+
+    //other
+    ro('createaddition:gold_spool')
+    ro('createaddition:festive_spool')
+    ro('createaddition:copper_spool')
+    ro('createaddition:large_connector')
+    ri('immersiveengineering:metalpress/plate_brass')
+    ri('immersiveengineering:metalpress/plate_zinc')
+    ri('beyond_earth:desh_plate')
+    ri('extendedexchange:stone_table_1')
+    ri('extendedexchange:alchemy_table')
+    ri('projecte:philosophers_stone_alt')
+
 
 })

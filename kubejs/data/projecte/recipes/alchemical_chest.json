@@ -1,0 +1,15 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [
+      {"item": "ironchest:obsidian_chest"},
+      {"item": "minecraft:diamond_block"},
+      {"item": "minecraft:diamond_block"},
+      {"item": "projecte:high_covalence_dust"},
+      {"item": "projecte:medium_covalence_dust"},
+      {"item": "projecte:low_covalence_dust"}
+    ],
+    "energy": 1000000,
+    "result": {
+      "item": "projecte:alchemical_chest"
+    }
+  }

@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 22, 2023, 2:56:42 PM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 8, 2024, 2:21:05 PM
 
 #repurposed_structures:collections/villages
 - repurposed_structures:village_badlands
@@ -44,6 +44,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #dungeons_plus:on_snowy_temple_maps
 - dungeons_plus:snowy_temple
+
+#quark:soul_bead_target
+- minecraft:fortress
 
 #repurposed_structures:explorer_maps/pyramid_end
 - repurposed_structures:pyramid_end

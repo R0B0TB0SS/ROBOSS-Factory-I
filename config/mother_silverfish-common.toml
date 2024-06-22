@@ -1,0 +1,49 @@
+
+#Mob settings
+[easy_mother]
+	#How often the mother summons a baby in ticks
+	#Range: 0 ~ 1000
+	easySummon = 100
+	#How often the mother charges in ticks
+	#Range: 0 ~ 1000
+	easyCharge = 200
+	#How often the mother causes an earthquake
+	#Range: 0 ~ 1000
+	easyQuake = 400
+	#Mother health
+	#Range: 1.0 ~ 2.147483647E9
+	easyHealth = 600.0
+	#Mother move speed
+	#Range: 0.0 ~ 10.0
+	easyMovement = 1.0
+	#Mother attack damage
+	#Range: 0.0 ~ 1000.0
+	easyDamage = 8.0
+	#Mother toughness
+	#Range: 0.0 ~ 1000.0
+	easyToughness = 1.0
+	#Mother armor
+	#Range: 0.0 ~ 1000.0
+	easyArmor = 6.0
+	#Mother knockback resistance
+	#Range: 0.0 ~ 1000.0
+	easyKnockbackRes = 0.6
+	#Mother attack knockback
+	#Range: 0.0 ~ 1000.0
+	easyAttackKnockback = 1.0
+	#Mother max damage taken. 0 will disable this and allow any damage.
+	#Range: 0 ~ 1000
+	maxDamageTaken = 0
+
+#Baby Settings
+[babies]
+	#How much the leech baby heals the mother
+	#Range: 0.0 ~ 1000.0
+	leechHeal = 3.0
+	#Potion level of poison the poison fish inflicts
+	#Range: 0 ~ 5
+	poisonLevel = 1
+	#Duration in ticks the poison lasts
+	#Range: 0 ~ 1000
+	posionDuration = 60
+

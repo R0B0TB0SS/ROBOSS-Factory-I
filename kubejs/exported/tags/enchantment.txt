@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 22, 2023, 2:56:43 PM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 8, 2024, 2:21:06 PM
 
 #tconstruct:modifier_like/reflecting
 - parry:rebound?
@@ -22,8 +22,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #tconstruct:modifier_like/knockback_resistance
 - cyclic:steady?
 
-#create_enchantment_industry:hyper_enchantable_blacklist
-
 #tconstruct:modifier_like/multishot
 - cyclic:multishot?
 - ensorcellation:volley?
@@ -43,8 +41,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #tconstruct:modifier_like/severing
 - cyclic:beheading?
 - ensorcellation:vorpal?
-
-#create_enchantment_industry:hyper_enchantable
 
 #tconstruct:modifier_like/step_up
 - cyclic:step?

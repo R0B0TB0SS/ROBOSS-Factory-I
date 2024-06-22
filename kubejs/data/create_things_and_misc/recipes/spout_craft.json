@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+  	" A  ",
+    "LKKS",
+    "LR  "
+  ],
+  "key": {
+  	    "A": {
+      "item": "create:fluid_tank"
+    },
+    "L": {
+      "item": "create:fluid_pipe"
+    },
+    "R": {
+      "item": "create:precision_mechanism"
+    },
+    "S": {
+      "item": "create:spout"
+    },
+    "K": {
+      "item": "thermal:copper_plate"
+    }
+  },
+  "result": {
+    "item": "create_things_and_misc:spout_gun"
+  },
+  "acceptMirrored": true
+}

@@ -4,14 +4,14 @@
 	order_index: 0
 	filename: "progression"
 	title: "Progression"
-	icon: "robosstweaks:logo_block"
+	icon: "robosstweaks:logo"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	images: [{
 		x: 0.0d
-		y: -1.0d
-		width: 10.0d
-		height: 1.5d
+		y: -4.5d
+		width: 5.0d
+		height: 5.0d
 		rotation: 0.0d
 		image: "robosstweaks:textures/ui/logo.png"
 		hover: [ ]
@@ -23,8 +23,8 @@
 		{
 			title: "Miscellaneous"
 			icon: "ftbquests:book"
-			x: 1.5d
-			y: 2.0d
+			x: 2.5d
+			y: 1.0d
 			dependencies: ["0163EF4A5A6A1C7B"]
 			id: "30832019D909C77A"
 			tasks: [{
@@ -40,8 +40,8 @@
 		{
 			title: "Create"
 			icon: "create:crushing_wheel"
-			x: -3.5d
-			y: 3.0d
+			x: 2.5d
+			y: 4.5d
 			dependencies: ["000000000000044D"]
 			id: "06CDBD9C9DB8EEF8"
 			tasks: [{
@@ -57,8 +57,8 @@
 		{
 			title: "Mekanism"
 			icon: "mekanism:quantum_entangloporter"
-			x: -2.5d
-			y: 2.0d
+			x: 1.5d
+			y: 3.5d
 			dependencies: ["0000000000000859"]
 			id: "3252255A365BA1CA"
 			tasks: [{
@@ -73,7 +73,7 @@
 		}
 		{
 			icon: "thermal:wrench"
-			x: -1.5d
+			x: -2.0d
 			y: 2.0d
 			dependencies: ["75BCA105246FEFD5"]
 			id: "2FC9DD2BC364D083"
@@ -91,8 +91,8 @@
 		{
 			title: "RFToold"
 			icon: "rftoolsbase:dimensionalshard"
-			x: 0.5d
-			y: 2.0d
+			x: 1.5d
+			y: 0.5d
 			dependencies: ["0000000000000AC7"]
 			id: "5FFA7A7E765D2B0C"
 			tasks: [{
@@ -108,8 +108,8 @@
 		{
 			title: "Power generation"
 			icon: "solarflux:sp_1"
-			x: -2.5d
-			y: 3.0d
+			x: 1.0d
+			y: -0.5d
 			dependencies: ["000000000000059D"]
 			id: "332FFEC02948D74B"
 			tasks: [{
@@ -125,8 +125,8 @@
 		{
 			title: "Applied Energistics 2"
 			icon: "ae2:controller"
-			x: -0.5d
-			y: 2.0d
+			x: -1.5d
+			y: 0.5d
 			dependencies: ["00000000000000B8"]
 			id: "05A5AEB405FEEB3D"
 			tasks: [{
@@ -142,8 +142,8 @@
 		}
 		{
 			icon: "twilightforest:twilight_portal_miniature_structure"
-			x: -1.5d
-			y: 3.0d
+			x: 0.0d
+			y: 4.0d
 			dependencies: ["2460DB8DDEB167BE"]
 			id: "66F87A8E9A9A2587"
 			tasks: [{
@@ -163,8 +163,8 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 3.5d
-			y: 4.0d
+			x: 2.5d
+			y: 3.0d
 			dependencies: ["3D7606CCC3AA3984"]
 			id: "0684A94501C53B51"
 			tasks: [{
@@ -180,8 +180,8 @@
 		}
 		{
 			icon: "botania:natura_pylon"
-			x: 2.5d
-			y: 2.0d
+			x: -2.5d
+			y: 1.0d
 			dependencies: ["0000000000000371"]
 			id: "2D4B71EFA1A42100"
 			tasks: [{
@@ -197,8 +197,8 @@
 		}
 		{
 			icon: "extendedcrafting:ultimate_table"
-			x: -0.5d
-			y: 3.0d
+			x: 0.0d
+			y: 0.0d
 			dependencies: ["5F1828D807F8D85C"]
 			id: "0C2672997483434C"
 			tasks: [{
@@ -220,8 +220,8 @@
 					Damage: 0
 				}
 			}
-			x: 1.5d
-			y: 3.0d
+			x: -1.0d
+			y: 4.5d
 			dependencies: ["0000000000000691"]
 			id: "33BAF0BC4AF6FA30"
 			tasks: [{
@@ -237,9 +237,9 @@
 		}
 		{
 			title: "Thanks for playing"
-			icon: "robosstweaks:logo_block"
+			icon: "robosstweaks:logo"
 			x: 0.0d
-			y: 8.0d
+			y: 2.0d
 			dependencies: [
 				"05A5AEB405FEEB3D"
 				"06CDBD9C9DB8EEF8"
@@ -253,8 +253,15 @@
 				"5FFA7A7E765D2B0C"
 				"2FC9DD2BC364D083"
 				"220219FE3918373A"
+				"039344CBD59965A9"
+				"66F87A8E9A9A2587"
+				"387CFF6315EEF98D"
+				"0463287EA90BACFA"
+				"5DA9A8159383BB6D"
+				"40428763FAACD011"
+				"5175AB5381A06B96"
 			]
-			size: 2.0d
+			size: 2.5d
 			id: "14B90E757859B622"
 			tasks: [{
 				id: "0291A8738320C87E"
@@ -263,15 +270,15 @@
 			rewards: [{
 				id: "56E6CDEFCC120084"
 				type: "item"
-				item: "robosstweaks:logo_block"
+				item: "robosstweaks:logo"
 			}]
 		}
 		{
 			title: "Start Questbook"
 			icon: "create:brass_hand"
 			x: 0.0d
-			y: 0.0d
-			description: ["Quest book inspered by Mldeg's quest book of Ragnamod VI"]
+			y: -1.5d
+			description: ["Some chapiter of the quest book are inspered by Mldeg's quest book of the modpack Ragnamod VI"]
 			id: "68319FDD2F0D6DE8"
 			tasks: [{
 				id: "585D64EADDED6E9E"
@@ -284,8 +291,8 @@
 				Count: 1b
 				tag: { }
 			}
-			x: 2.5d
-			y: 3.0d
+			x: 2.0d
+			y: 2.0d
 			dependencies: ["7A488E646C3369BB"]
 			id: "220219FE3918373A"
 			tasks: [{
@@ -309,8 +316,8 @@
 					}
 				}
 			}
-			x: -3.5d
-			y: 4.0d
+			x: -2.5d
+			y: 3.0d
 			hide_dependency_lines: false
 			dependencies: ["537D00E2FDD60C94"]
 			id: "0463287EA90BACFA"
@@ -327,8 +334,8 @@
 		}
 		{
 			icon: "powah:reactor_nitro"
-			x: 3.5d
-			y: 3.0d
+			x: -1.0d
+			y: -0.5d
 			dependencies: ["0CD8249618677C87"]
 			id: "387CFF6315EEF98D"
 			tasks: [{
@@ -344,8 +351,8 @@
 		}
 		{
 			icon: "avaritia:infinity_block"
-			x: 0.5d
-			y: 4.0d
+			x: 1.0d
+			y: 4.5d
 			dependencies: ["32DD06A12F494771"]
 			id: "40428763FAACD011"
 			tasks: [{
@@ -367,8 +374,8 @@
 					machine: "robosstweaks:creative_fabricator"
 				}
 			}
-			x: -0.5d
-			y: 4.0d
+			x: -1.5d
+			y: 3.5d
 			dependencies: ["3B7F1D29EC26E902"]
 			id: "5DA9A8159383BB6D"
 			tasks: [{
@@ -409,8 +416,8 @@
 					}
 				}
 			}
-			x: 0.5d
-			y: 3.0d
+			x: -2.5d
+			y: 4.5d
 			dependencies: ["25A119813F55D28B"]
 			id: "039344CBD59965A9"
 			tasks: [{
@@ -422,6 +429,18 @@
 				id: "2BDCBE7036A24631"
 				type: "item"
 				item: "robosstweaks:draconicevolution_trophy"
+			}]
+		}
+		{
+			icon: "pneumaticcraft:pressure_gauge"
+			x: 0.0d
+			y: 5.5d
+			dependencies: ["3BA457E6147DA41A"]
+			id: "5175AB5381A06B96"
+			tasks: [{
+				id: "6B382D10F5403564"
+				type: "checkmark"
+				title: "Pneumatic Craft"
 			}]
 		}
 	]

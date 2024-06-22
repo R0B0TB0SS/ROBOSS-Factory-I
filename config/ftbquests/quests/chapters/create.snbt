@@ -489,6 +489,7 @@
 		{
 			x: 1.0d
 			y: -6.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "0000000000000487"
 			tasks: [{
 				id: "0000000000000488"
@@ -801,12 +802,6 @@
 				id: "59B76EE74E0A9667"
 				type: "item"
 				item: "createaddition:rolling_mill"
-			}]
-			rewards: [{
-				id: "05248140DEE61CF5"
-				type: "item"
-				item: "thermal:copper_ingot"
-				count: 4
 			}]
 		}
 		{

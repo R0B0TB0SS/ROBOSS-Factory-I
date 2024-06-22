@@ -22,8 +22,8 @@
 						id: "constructionwand:diamond_wand"
 						Count: 1b
 						tag: {
-							wand_options: { }
 							Damage: 0
+							wand_options: { }
 						}
 					}
 				}
@@ -368,6 +368,7 @@
 		{
 			x: 6.5d
 			y: -1.0d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "1B03D6AA02783EDE"
 			tasks: [{
 				id: "31E50445D8CDAC9D"
@@ -431,6 +432,7 @@
 		{
 			x: 4.5d
 			y: -1.0d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "5321A818F8ED9DAE"
 			tasks: [{
 				id: "11208C7CF4AB2A4F"
@@ -505,6 +507,7 @@
 		{
 			x: 5.5d
 			y: -1.0d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "6D009211960BBE06"
 			tasks: [{
 				id: "2E2AFEDE6BF729EE"
@@ -568,6 +571,7 @@
 		{
 			x: 7.5d
 			y: -1.0d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "3CAAF135CA97DA60"
 			tasks: [{
 				id: "0097516F5EB0A1DA"
@@ -611,7 +615,7 @@
 			rewards: [{
 				id: "127BA41A41FBFCF5"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "thermal:steel_ingot"
 				count: 8
 			}]
 		}
@@ -1118,6 +1122,7 @@
 		{
 			x: -1.5d
 			y: -1.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "6755F5992A1052AA"
 			tasks: [
 				{
@@ -1146,6 +1151,7 @@
 		{
 			x: -2.5d
 			y: -1.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "30929A39AAE546F9"
 			tasks: [{
 				id: "46C0E5B6DA8DD4E4"
@@ -1425,6 +1431,233 @@
 				id: "2BD227E0F2F0CA09"
 				type: "item"
 				item: "compactcrafting:field_projector"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "580698EB76789DB8"
+			tasks: [
+				{
+					id: "15AE5FAFCE809174"
+					type: "item"
+					item: "colossalchests:interface_wood"
+				}
+				{
+					id: "7D27F6AE5F354CBD"
+					type: "item"
+					item: "colossalchests:colossal_chest_wood"
+				}
+				{
+					id: "604BFEE3B35F3FA9"
+					type: "item"
+					item: "colossalchests:chest_wall_wood"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 6.5d
+			dependencies: ["580698EB76789DB8"]
+			id: "225B0532C1F41632"
+			tasks: [
+				{
+					id: "33CBD68D85FE0E06"
+					type: "item"
+					item: "colossalchests:interface_copper"
+				}
+				{
+					id: "3027AB812734FFEA"
+					type: "item"
+					item: "colossalchests:colossal_chest_copper"
+				}
+				{
+					id: "525649CCAF404D4A"
+					type: "item"
+					item: "colossalchests:chest_wall_copper"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 7.5d
+			dependencies: ["536833B9CF03BF30"]
+			id: "75C4B1A749609A55"
+			tasks: [
+				{
+					id: "2B43A707F9B58120"
+					type: "item"
+					item: "colossalchests:interface_silver"
+				}
+				{
+					id: "0EDA0F353154E6E3"
+					type: "item"
+					item: "colossalchests:colossal_chest_silver"
+				}
+				{
+					id: "4D0E4BBCAFC9C984"
+					type: "item"
+					item: "colossalchests:chest_wall_silver"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			dependencies: ["225B0532C1F41632"]
+			id: "536833B9CF03BF30"
+			tasks: [
+				{
+					id: "7A2FB9884A3F35AC"
+					type: "item"
+					item: "colossalchests:interface_iron"
+				}
+				{
+					id: "12874220C04F59BF"
+					type: "item"
+					item: "colossalchests:colossal_chest_iron"
+				}
+				{
+					id: "0F9FC1A905A1775E"
+					type: "item"
+					item: "colossalchests:chest_wall_iron"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 8.5d
+			dependencies: ["75C4B1A749609A55"]
+			id: "6F51D70D54E0F858"
+			tasks: [
+				{
+					id: "629878AB3C429CFC"
+					type: "item"
+					item: "colossalchests:interface_gold"
+				}
+				{
+					id: "2E04B7A61E5BBC04"
+					type: "item"
+					item: "colossalchests:colossal_chest_gold"
+				}
+				{
+					id: "5E482F23805B209F"
+					type: "item"
+					item: "colossalchests:chest_wall_gold"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 8.5d
+			dependencies: ["6F51D70D54E0F858"]
+			id: "4A1870E00725B267"
+			tasks: [
+				{
+					id: "4C7054BFAC5B0FF0"
+					type: "item"
+					item: "colossalchests:interface_diamond"
+				}
+				{
+					id: "5947C1C305C545DA"
+					type: "item"
+					item: "colossalchests:colossal_chest_diamond"
+				}
+				{
+					id: "2D6EBBB35299F1A4"
+					type: "item"
+					item: "colossalchests:chest_wall_diamond"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 9.5d
+			dependencies: ["4A1870E00725B267"]
+			id: "6B31F5905E319434"
+			tasks: [
+				{
+					id: "068646A5CEAD6F12"
+					type: "item"
+					item: "colossalchests:interface_obsidian"
+				}
+				{
+					id: "00A50081E86A9C81"
+					type: "item"
+					item: "colossalchests:colossal_chest_obsidian"
+				}
+				{
+					id: "0AB6D833866A6DD6"
+					type: "item"
+					item: "colossalchests:chest_wall_obsidian"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			dependencies: ["580698EB76789DB8"]
+			id: "4D429D9F2DBAE0BD"
+			tasks: [{
+				id: "1E4E4A66625990A7"
+				type: "item"
+				item: "colossalchests:uncolossal_chest"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "0DA4DE039D713DC8"
+			tasks: [{
+				id: "0B0FF31B0AF092F6"
+				type: "item"
+				item: "cobblefordays:tier_1"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			dependencies: ["0DA4DE039D713DC8"]
+			id: "258F5538417D51B6"
+			tasks: [{
+				id: "36F06A118278B790"
+				type: "item"
+				item: "cobblefordays:tier_2"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			dependencies: ["258F5538417D51B6"]
+			id: "3A6637B2D97216DC"
+			tasks: [{
+				id: "5D4BEAD66DD3F79C"
+				type: "item"
+				item: "cobblefordays:tier_3"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			dependencies: ["3A6637B2D97216DC"]
+			id: "5204913CABBE2F5F"
+			tasks: [{
+				id: "18CF2C030BA6A42B"
+				type: "item"
+				item: "cobblefordays:tier_4"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.5d
+			dependencies: ["5204913CABBE2F5F"]
+			id: "2937766E5DA73086"
+			tasks: [{
+				id: "01A47D2132A15303"
+				type: "item"
+				item: "cobblefordays:tier_5"
 			}]
 		}
 	]

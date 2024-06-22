@@ -1,0 +1,12 @@
+{
+  "name": "singularity.extendedcrafting.netherite_upgrade",
+  "materialCount": 64,
+  "colors": [
+    "2D2D2D",
+    "B7B7B7"
+  ],
+  "ingredient": {
+    "item": "functionalstorage:netherite_upgrade"
+  },
+  "inUltimateSingularity": true
+}

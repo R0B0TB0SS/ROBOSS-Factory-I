@@ -19,7 +19,7 @@ onEvent('recipes', event => {
       out:Item.of("mekanism:creative_fluid_tank")
     },{
       in:Item.of('mekanism:ultimate_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"256000000"}]}}'),
-      out:Item.of("draconicevolution:creative_op_capacitor")
+      out:Item.of('mekanism:creative_energy_cube', '{mekData:{EnergyContainers:[{Container:0b,stored:"18446744073709551615.9999"}]}}')
     },{
       in:Item.of('draconicevolution:chaotic_capacitor'),
       out:Item.of("draconicevolution:creative_capacitor")
@@ -38,15 +38,12 @@ onEvent('recipes', event => {
   item.forEach((creativeitem) => {
     event.recipes.custommachinery.custom_machine("robosstweaks:creative_fabricator", 200)
     .requireEnergyPerTick(1000)
-    .requireItem(Item.of("robosstweaks:robotboss_ingot"), "input1")
-    .requireItem(Item.of("robosstweaks:kikongin_ingot"), "input3")
-    .requireItem(Item.of("avaritia:infinity_catalyst"), "input2")
-    .requireItem(Item.of("avaritia:infinity_catalyst"), "input4")
-    .requireItem(creativeitem.in, "input5")
-    .requireItem(Item.of("avaritia:infinity_catalyst"), "input6")
-    .requireItem(Item.of("robosstweaks:laimx_ingot", "input7"))
-    .requireItem(Item.of("avaritia:infinity_catalyst"), "input8")
-    .requireItem(Item.of("robosstweaks:blakdestroyer_ingot", "input9"))
+    .requireItem(Item.of("robosstweaks:robotboss_ingot"))
+    .requireItem(Item.of("robosstweaks:samvfjd_ingot"))
+    .requireItem(Item.of("avaritia:infinity_catalyst", 4))
+    .requireItem(Item.of("robosstweaks:blakdestroyer_ingot"))
+    .requireItem(Item.of("robosstweaks:laimx_ingot"))
+    .requireItem(creativeitem.in)
     .produceItem(creativeitem.out, "output1")
     .requireStructure([["a a","   ","a a"],[" a ","aba"," m "]],{"a":"robosstweaks:creative_catalyst","b":"avaritia:infinity_block"})
   })
@@ -55,15 +52,6 @@ const item2 =[
   {
     in:Item.of("ae2:item_storage_cell_256k"),
     out:Item.of("ae2:creative_item_cell")
-  },{
-    in:Item.of("ae2:fluid_storage_cell_256k"),
-    out:Item.of("ae2:creative_fluid_cell")
-  },{
-    in:Item.of("appbot:mana_storage_cell_256k"),
-    out:Item.of("appbot:creative_mana_cell")
-  },{
-    in:Item.of("appmek:chemical_storage_cell_256k"),
-    out:Item.of("appmek:creative_chemical_cell")
   },{
     in:Item.of("draconicevolution:draconium_chest"),
     out:Item.of("create:creative_crate")
@@ -74,15 +62,12 @@ const item2 =[
 item2.forEach((cri) =>{
   event.recipes.custommachinery.custom_machine("robosstweaks:creative_fabricator", 200)
     .requireEnergyPerTick(1000)
-    .requireItem(Item.of("robosstweaks:robotboss_ingot"), "input1")
-    .requireItem(Item.of("robosstweaks:kikongin_ingot"), "input3")
-    .requireItem(Item.of("avaritia:infinity_ingot"), "input2")
-    .requireItem(Item.of("avaritia:infinity_catalyst"), "input4")
-    .requireItem(cri.in, "input5")
-    .requireItem(Item.of("avaritia:infinity_catalyst"), "input6")
-    .requireItem(Item.of("robosstweaks:laimx_ingot", "input7"))
-    .requireItem(Item.of("avaritia:infinity_ingot"), "input8")
-    .requireItem(Item.of("robosstweaks:blakdestroyer_ingot", "input9"))
+    .requireItem(Item.of("robosstweaks:robotboss_ingot"))
+    .requireItem(Item.of("robosstweaks:samvfjd_ingot"))
+    .requireItem(Item.of("avaritia:infinity_ingot",4))
+    .requireItem(Item.of("robosstweaks:blakdestroyer_ingot"))
+    .requireItem(Item.of("robosstweaks:laimx_ingot"))
+    .requireItem(cri.in)
     .produceItem(cri.out, "output1")
     .requireStructure([["a a","   ","a a"],[" a ","aba"," m "]],{"a":"robosstweaks:creative_catalyst","b":"avaritia:infinity_block"})
   })

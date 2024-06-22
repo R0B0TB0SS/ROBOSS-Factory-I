@@ -82,7 +82,7 @@ event.shapeless("minecraft:water_bucket", [
       ),
     },
     {
-      input: "#forge:dyes/white",
+      input: "minecraft:bone_meal",
       output: Item.of(
         "chickens:chicken_item",
         '{ChickenType:{id:"chickens:white_chicken"},gain:1,growth:1,strength:1}'

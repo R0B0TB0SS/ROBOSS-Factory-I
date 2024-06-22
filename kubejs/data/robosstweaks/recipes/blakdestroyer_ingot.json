@@ -1,7 +1,7 @@
 {
     "type": "extendedcrafting:compressor",
     "powerCost": 500000,
-    "inputCount": 1024,
+    "inputCount": 32,
     "ingredient": {
       "item": "extendedexchange:yellow_matter"
     },

@@ -1,7 +1,8 @@
-To refresh this file, delete it and run /reload command again! Last updated: Oct 22, 2023, 2:56:44 PM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 8, 2024, 2:21:07 PM
 
 #forge:glass/tinted
 - minecraft:tinted_glass
+- tconstruct:clear_tinted_glass
 - connectedglass:tinted_borderless_glass_magenta
 - connectedglass:tinted_borderless_glass_gray
 - connectedglass:tinted_borderless_glass_blue
@@ -19,6 +20,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - connectedglass:tinted_borderless_glass_cyan
 - connectedglass:tinted_borderless_glass_purple
 - connectedglass:tinted_borderless_glass
+
+#quark:planks_vertical_slab
+- quark:azalea_planks_vertical_slab
+- quark:blossom_planks_vertical_slab
 
 #byg:may_place_on/allium_flower_bush
 - #minecraft:dirt
@@ -99,6 +104,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:chests/ender
 - #forge:chests/trapped
 - #forge:chests/wooden
+- quark:nether_brick_chest
+- quark:purpur_chest
+- quark:prismarine_chest
+- quark:azalea_chest
+- quark:azalea_trapped_chest
+- quark:blossom_chest
+- quark:blossom_trapped_chest
 
 #forge:storage_blocks/emerald
 - minecraft:emerald_block
@@ -259,15 +271,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #libx:impl_fences
 
-#wildbackport:mangrove_roots_can_grow_through
-- wildbackport:mud
-- wildbackport:muddy_mangrove_roots
-- wildbackport:mangrove_roots
-- minecraft:moss_carpet
-- minecraft:vine
-- wildbackport:mangrove_propagule
-- minecraft:snow
-
 #structure_gel:gel
 - structure_gel:red_gel
 - structure_gel:blue_gel
@@ -316,6 +319,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:bulbis_fence_gate
 - byg:nightshade_fence_gate
 - byg:imparius_fence_gate
+- quark:azalea_fence_gate
+- quark:blossom_fence_gate
+- quark:nether_brick_fence_gate
 
 #forge:ices
 - #forge:ices/ice
@@ -422,6 +428,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:black_sand
 - byg:black_sand
+
+#quark:corundum
+- quark:red_corundum
+- quark:orange_corundum
+- quark:yellow_corundum
+- quark:green_corundum
+- quark:blue_corundum
+- quark:indigo_corundum
+- quark:violet_corundum
+- quark:white_corundum
+- quark:black_corundum
 
 #forge:relocation_not_supported
 - mekanismgenerators:advanced_solar_generator
@@ -734,57 +751,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #minecraft:cauldrons
 - #minecraft:saplings
 - #minecraft:climbable
-- connectedglass:borderless_glass_red_pane
-- connectedglass:clear_glass_green_pane
-- connectedglass:clear_glass_black_pane
-- connectedglass:clear_glass_cyan_pane
-- connectedglass:scratched_glass_pink_pane
-- connectedglass:borderless_glass_brown_pane
-- connectedglass:clear_glass_white_pane
-- connectedglass:borderless_glass_gray_pane
-- connectedglass:borderless_glass_pink_pane
-- connectedglass:clear_glass_pane
-- connectedglass:scratched_glass_green_pane
-- connectedglass:scratched_glass_black_pane
-- connectedglass:borderless_glass_orange_pane
-- connectedglass:borderless_glass_yellow_pane
-- connectedglass:borderless_glass_purple_pane
-- connectedglass:scratched_glass_pane
-- connectedglass:borderless_glass_cyan_pane
-- connectedglass:borderless_glass_green_pane
-- connectedglass:clear_glass_light_gray_pane
-- connectedglass:clear_glass_pink_pane
-- connectedglass:borderless_glass_light_blue_pane
-- connectedglass:clear_glass_gray_pane
-- connectedglass:scratched_glass_yellow_pane
-- connectedglass:clear_glass_red_pane
-- connectedglass:clear_glass_orange_pane
-- connectedglass:clear_glass_brown_pane
-- connectedglass:borderless_glass_pane
-- connectedglass:borderless_glass_magenta_pane
-- connectedglass:scratched_glass_purple_pane
-- connectedglass:borderless_glass_lime_pane
-- connectedglass:borderless_glass_blue_pane
-- connectedglass:clear_glass_lime_pane
-- connectedglass:scratched_glass_light_blue_pane
-- connectedglass:scratched_glass_brown_pane
-- connectedglass:scratched_glass_lime_pane
-- connectedglass:borderless_glass_black_pane
-- connectedglass:borderless_glass_light_gray_pane
-- connectedglass:scratched_glass_magenta_pane
-- connectedglass:clear_glass_blue_pane
-- connectedglass:clear_glass_magenta_pane
-- connectedglass:scratched_glass_blue_pane
-- connectedglass:borderless_glass_white_pane
-- connectedglass:clear_glass_yellow_pane
-- connectedglass:scratched_glass_orange_pane
-- connectedglass:scratched_glass_cyan_pane
-- connectedglass:scratched_glass_light_gray_pane
-- connectedglass:scratched_glass_red_pane
-- connectedglass:clear_glass_light_blue_pane
-- connectedglass:scratched_glass_gray_pane
-- connectedglass:scratched_glass_white_pane
-- connectedglass:clear_glass_purple_pane
 
 #farmersdelight:mushroom_colony_growable_on
 
@@ -1027,8 +993,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - thermal:oil_sand
 - thermal:oil_red_sand
 - tconstruct:mud_bricks
-- tconstruct:mud_bricks_slab
-- tconstruct:mud_bricks_stairs
+- tconstruct:cheese_block
 - tconstruct:earth_congealed_slime
 - tconstruct:sky_congealed_slime
 - tconstruct:ichor_congealed_slime
@@ -1181,8 +1146,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - securitycraft:dirt_mine
 - securitycraft:sand_mine
 - securitycraft:gravel_mine
-- wildbackport:mud
-- wildbackport:muddy_mangrove_roots
+- quark:gravisand
+- quark:dirt_bricks
+- quark:dirt_bricks_wall
+- quark:dirt_bricks_stairs
+- quark:dirt_bricks_slab
+- quark:dirt_bricks_vertical_slab
 
 #byg:may_place_on/fir_sapling
 - #minecraft:dirt
@@ -1268,6 +1237,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #alexsmobs:mantis_shrimp_spawns
 - #minecraft:coral_blocks
 
+#quark:wooden_vertical_slabs
+- quark:oak_vertical_slab
+- quark:spruce_vertical_slab
+- quark:birch_vertical_slab
+- quark:jungle_vertical_slab
+- quark:acacia_vertical_slab
+- quark:dark_oak_vertical_slab
+- quark:crimson_vertical_slab
+- quark:warped_vertical_slab
+- quark:azalea_planks_vertical_slab
+- quark:blossom_planks_vertical_slab
+
 #byg:may_place_on/brown_birch_sapling
 - #minecraft:dirt
 
@@ -1286,9 +1267,31 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - cyclic:membrane?
 - tconstruct:soul_glass
 - tconstruct:soul_glass_pane
+- tconstruct:seared_soul_glass
+- tconstruct:seared_soul_glass_pane
+- tconstruct:scorched_soul_glass
+- tconstruct:scorched_soul_glass_pane
 - byg:warped_soul_sand
 - byg:warped_soul_soil
 - securitycraft:reinforced_soul_soil
+- quark:soul_sandstone
+- quark:soul_sandstone_slab
+- quark:soul_sandstone_stairs
+- quark:chiseled_soul_sandstone
+- quark:cut_soul_sandstone
+- quark:cut_soul_sandstone_slab
+- quark:smooth_soul_sandstone
+- quark:smooth_soul_sandstone_slab
+- quark:smooth_soul_sandstone_stairs
+- quark:soul_sandstone_bricks
+- quark:soul_sandstone_bricks_slab
+- quark:soul_sandstone_bricks_stairs
+- quark:soul_sandstone_vertical_slab
+- quark:cut_soul_sandstone_vertical_slab
+- quark:smooth_soul_sandstone_vertical_slab
+- quark:soul_sandstone_bricks_vertical_slab
+- quark:soul_sandstone_wall
+- quark:soul_sandstone_bricks_wall
 
 #immersiveengineering:mineable/hammer
 - immersiveengineering:metal_ladder_none
@@ -1543,7 +1546,35 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - securitycraft:reinforced_polished_deepslate_wall
 - securitycraft:reinforced_deepslate_brick_wall
 - securitycraft:reinforced_deepslate_tile_wall
-- wildbackport:mud_brick_wall
+- quark:andesite_bricks_wall
+- quark:blackstone_bricks_wall
+- quark:blue_nether_bricks_wall
+- quark:calcite_bricks_wall
+- quark:calcite_wall
+- quark:cobblestone_bricks_wall
+- quark:diorite_bricks_wall
+- quark:dirt_bricks_wall
+- quark:dripstone_block_wall
+- quark:dripstone_bricks_wall
+- quark:granite_bricks_wall
+- quark:jasper_bricks_wall
+- quark:jasper_wall
+- quark:limestone_bricks_wall
+- quark:limestone_wall
+- quark:mossy_cobblestone_bricks_wall
+- quark:myalite_bricks_wall
+- quark:myalite_wall
+- quark:netherrack_bricks_wall
+- quark:permafrost_bricks_wall
+- quark:permafrost_wall
+- quark:red_sandstone_bricks_wall
+- quark:sandstone_bricks_wall
+- quark:shale_bricks_wall
+- quark:shale_wall
+- quark:soul_sandstone_bricks_wall
+- quark:soul_sandstone_wall
+- quark:tuff_bricks_wall
+- quark:tuff_wall
 
 #forge:storage_blocks/lead
 - mekanism:block_lead
@@ -1784,6 +1815,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:palm_trapdoor
 - tropicraft:mahogany_trapdoor
 - tropicraft:thatch_trapdoor
+- quark:azalea_trapdoor
+- quark:blossom_trapdoor
 
 #avaritia:mineable/infinity_axe
 - #minecraft:leaves
@@ -2023,7 +2056,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:mahogany_door
 - tropicraft:thatch_door
 - integrateddynamics:menril_door
-- wildbackport:mangrove_door
+- quark:azalea_door
+- quark:blossom_door
 
 #byg:may_place_on/orange_oak_sapling
 - #minecraft:dirt
@@ -2387,6 +2421,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:storage_blocks/wax/paraffin
 - immersivepetroleum:paraffin_wax_block
 
+#quark:hedges
+- quark:oak_hedge
+- quark:birch_hedge
+- quark:spruce_hedge
+- quark:jungle_hedge
+- quark:acacia_hedge
+- quark:dark_oak_hedge
+- quark:blue_blossom_hedge
+- quark:lavender_blossom_hedge
+- quark:orange_blossom_hedge
+- quark:pink_blossom_hedge
+- quark:yellow_blossom_hedge
+- quark:red_blossom_hedge
+- quark:azalea_hedge
+- quark:flowering_azalea_hedge
+
 #alexsmobs:gorilla_breakables
 - #minecraft:leaves
 - minecraft:bamboo
@@ -2621,6 +2671,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - twilightforest:sorting_chest
 - minecraft:chest
 - minecraft:trapped_chest
+- quark:oak_chest
+- quark:spruce_chest
+- quark:birch_chest
+- quark:jungle_chest
+- quark:acacia_chest
+- quark:dark_oak_chest
+- quark:warped_chest
+- quark:crimson_chest
+- quark:oak_trapped_chest
+- quark:spruce_trapped_chest
+- quark:birch_trapped_chest
+- quark:jungle_trapped_chest
+- quark:acacia_trapped_chest
+- quark:dark_oak_trapped_chest
+- quark:warped_trapped_chest
+- quark:crimson_trapped_chest
+- quark:azalea_chest
+- quark:azalea_trapped_chest
+- quark:blossom_chest
+- quark:blossom_trapped_chest
 
 #forge:storage_blocks/aluminum
 - immersiveengineering:storage_aluminum
@@ -2696,6 +2766,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:andesite
 - minecraft:tuff
 - minecraft:deepslate
+- quark:jasper
+- quark:limestone
+- quark:shale
 
 #alexsmobs:crow_foodblocks
 - #minecraft:crops
@@ -2997,6 +3070,68 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #securitycraft:reinforced/slabs
 - securitycraft:crystal_quartz_slab
 - securitycraft:smooth_crystal_quartz_slab
+- quark:andesite_bricks_slab
+- quark:azalea_planks_slab
+- quark:blackstone_bricks_slab
+- quark:black_shingles_slab
+- quark:blossom_planks_slab
+- quark:blue_nether_bricks_slab
+- quark:blue_shingles_slab
+- quark:brown_shingles_slab
+- quark:calcite_bricks_slab
+- quark:calcite_slab
+- quark:cobblestone_bricks_slab
+- quark:cut_soul_sandstone_slab
+- quark:cyan_shingles_slab
+- quark:diorite_bricks_slab
+- quark:dirt_bricks_slab
+- quark:dripstone_block_slab
+- quark:dripstone_bricks_slab
+- quark:duskbound_block_slab
+- quark:granite_bricks_slab
+- quark:gray_shingles_slab
+- quark:green_shingles_slab
+- quark:iron_plate_slab
+- quark:jasper_bricks_slab
+- quark:jasper_slab
+- quark:light_blue_shingles_slab
+- quark:light_gray_shingles_slab
+- quark:limestone_bricks_slab
+- quark:limestone_slab
+- quark:lime_shingles_slab
+- quark:magenta_shingles_slab
+- quark:midori_block_slab
+- quark:mossy_cobblestone_bricks_slab
+- quark:myalite_bricks_slab
+- quark:myalite_slab
+- quark:netherrack_bricks_slab
+- quark:orange_shingles_slab
+- quark:permafrost_bricks_slab
+- quark:permafrost_slab
+- quark:pink_shingles_slab
+- quark:polished_calcite_slab
+- quark:polished_dripstone_slab
+- quark:polished_jasper_slab
+- quark:polished_limestone_slab
+- quark:polished_myalite_slab
+- quark:polished_shale_slab
+- quark:polished_tuff_slab
+- quark:purple_shingles_slab
+- quark:red_sandstone_bricks_slab
+- quark:red_shingles_slab
+- quark:rusty_iron_plate_slab
+- quark:sandstone_bricks_slab
+- quark:shale_bricks_slab
+- quark:shale_slab
+- quark:shingles_slab
+- quark:smooth_soul_sandstone_slab
+- quark:soul_sandstone_bricks_slab
+- quark:soul_sandstone_slab
+- quark:thatch_slab
+- quark:tuff_bricks_slab
+- quark:tuff_slab
+- quark:white_shingles_slab
+- quark:yellow_shingles_slab
 
 #minecraft:animals_spawnable_on
 - minecraft:grass_block
@@ -3042,6 +3177,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - securitycraft:nether_gold_mine
 - securitycraft:reinforced_gold_block
 - securitycraft:reinforced_raw_gold_block
+- #forge:chests
+- quark:azalea_chest
+- quark:azalea_trapped_chest
+- quark:blossom_chest
+- quark:blossom_trapped_chest
 
 #create:casing
 - create:andesite_casing
@@ -3114,6 +3254,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:nightshade_button
 - byg:imparius_button
 - #securitycraft:reinforced/buttons
+- quark:azalea_button
+- quark:blossom_button
+- quark:gold_button
+- quark:iron_button
 
 #byg:green_enchanted_logs
 - byg:green_enchanted_log
@@ -3321,6 +3465,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:gray_concrete_powder?
 - minecraft:light_gray_concrete_powder?
 
+#entangled:invalid_targets
+- 'supermartijn642corelib:namespace'{com.supermartijn642.core.data.tag.entries.NamespaceTagEntry@1055bbcd}
+- 'supermartijn642corelib:namespace'{com.supermartijn642.core.data.tag.entries.NamespaceTagEntry@74266a3d}
+
 #minecraft:snow
 - minecraft:snow
 - minecraft:snow_block
@@ -3353,7 +3501,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:seared_triangle_bricks
 - tconstruct:seared_ladder
 - tconstruct:seared_glass
+- tconstruct:seared_soul_glass
+- tconstruct:seared_tinted_glass
 - tconstruct:seared_glass_pane
+- tconstruct:seared_soul_glass_pane
 - tconstruct:scorched_bricks
 - tconstruct:scorched_bricks_slab
 - tconstruct:scorched_bricks_stairs
@@ -3366,7 +3517,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:chiseled_scorched_bricks
 - tconstruct:scorched_ladder
 - tconstruct:scorched_glass
+- tconstruct:scorched_soul_glass
+- tconstruct:scorched_tinted_glass
 - tconstruct:scorched_glass_pane
+- tconstruct:scorched_soul_glass_pane
 - tconstruct:seared_fuel_tank
 - tconstruct:seared_fuel_gauge
 - tconstruct:seared_ingot_tank
@@ -3553,12 +3707,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - mekanismadditions:brown_plastic_transparent_stairs
 - mekanismadditions:pink_plastic_transparent_stairs
 
-#wildbackport:mangrove_logs
-- wildbackport:mangrove_log
-- wildbackport:mangrove_wood
-- wildbackport:stripped_mangrove_log
-- wildbackport:stripped_mangrove_wood
-
 #forge:mineable/paxel
 - #minecraft:mineable/axe
 - #minecraft:mineable/pickaxe
@@ -3641,9 +3789,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - botania:fabulous_pool
 - botania:terra_plate
 - botania:runic_altar
-
-#wildbackport:mud
-- wildbackport:mud
 
 #forge:fences/steel
 - immersiveengineering:steel_fence
@@ -3794,6 +3939,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - immersiveengineering:metal_ladder_steel
 - tropicraft:bamboo_ladder
 - securitycraft:reinforced_ladder
+- quark:acacia_ladder
+- quark:birch_ladder
+- quark:dark_oak_ladder
+- quark:jungle_ladder
+- quark:spruce_ladder
+- quark:crimson_ladder
+- quark:warped_ladder
+- quark:iron_ladder
+- quark:cut_vine
+- quark:azalea_ladder
+- quark:blossom_ladder
 
 #byg:may_place_on/delphinium
 - #minecraft:dirt
@@ -4028,6 +4184,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - immersiveengineering:treated_fence
 - #cfm:fences/upgraded
 - securitycraft:electrified_iron_fence
+- quark:azalea_fence
+- quark:blossom_fence
 
 #minecraft:saplings
 - minecraft:oak_sapling
@@ -4159,6 +4317,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - pamhc2trees:pinyon_sapling
 - pamhc2trees:rubber_sapling
 - pamhc2trees:eucalyptus_sapling
+- quark:blue_blossom_sapling
+- quark:lavender_blossom_sapling
+- quark:orange_blossom_sapling
+- quark:pink_blossom_sapling
+- quark:yellow_blossom_sapling
+- quark:red_blossom_sapling
 
 #forge:ores/copper
 - #minecraft:copper_ores
@@ -4287,7 +4451,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:palm_fence
 - tropicraft:mahogany_fence
 - integrateddynamics:menril_fence
-- wildbackport:mangrove_fence
+- quark:azalea_fence
+- quark:blossom_fence
 
 #forge:sheetmetals/constantan
 - immersiveengineering:sheetmetal_constantan
@@ -4608,6 +4773,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - securitycraft:reinforced_iron_trapdoor
 - securitycraft:keypad_trapdoor
 - securitycraft:scanner_trapdoor
+- quark:azalea_trapdoor
+- quark:blossom_trapdoor
 
 #forge:ores/calorite
 - beyond_earth:venus_calorite_ore
@@ -4739,6 +4906,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - connectedglass:clear_glass_light_gray
 - connectedglass:tinted_borderless_glass_purple
 - connectedglass:borderless_glass_orange
+- quark:dirty_glass
+- quark:framed_glass
+- quark:black_framed_glass
+- quark:blue_framed_glass
+- quark:brown_framed_glass
+- quark:cyan_framed_glass
+- quark:gray_framed_glass
+- quark:green_framed_glass
+- quark:light_blue_framed_glass
+- quark:light_gray_framed_glass
+- quark:lime_framed_glass
+- quark:magenta_framed_glass
+- quark:orange_framed_glass
+- quark:pink_framed_glass
+- quark:purple_framed_glass
+- quark:red_framed_glass
+- quark:white_framed_glass
+- quark:yellow_framed_glass
 
 #securitycraft:reinforced/nylium
 - securitycraft:reinforced_crimson_nylium
@@ -5229,11 +5414,41 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - iceandfire:myrmex_jungle_biolight
 - iceandfire:pixie_house_mushroom_red
 - iceandfire:pixie_house_mushroom_brown
-- minecraft:sculk_sensor
-- wildbackport:sculk
-- wildbackport:sculk_catalyst
-- wildbackport:sculk_vein
-- wildbackport:sculk_shrieker
+- quark:blue_blossom_leaves
+- quark:lavender_blossom_leaves
+- quark:orange_blossom_leaves
+- quark:pink_blossom_leaves
+- quark:yellow_blossom_leaves
+- quark:red_blossom_leaves
+- quark:oak_leaf_carpet
+- quark:spruce_leaf_carpet
+- quark:birch_leaf_carpet
+- quark:jungle_leaf_carpet
+- quark:acacia_leaf_carpet
+- quark:dark_oak_leaf_carpet
+- quark:azalea_leaf_carpet
+- quark:flowering_azalea_leaf_carpet
+- quark:blue_blossom_leaf_carpet
+- quark:lavender_blossom_leaf_carpet
+- quark:orange_blossom_leaf_carpet
+- quark:pink_blossom_leaf_carpet
+- quark:yellow_blossom_leaf_carpet
+- quark:red_blossom_leaf_carpet
+- quark:thatch
+- quark:thatch_slab
+- quark:thatch_vertical_slab
+- quark:thatch_stairs
+- quark:bamboo_mat
+- quark:bamboo_mat_carpet
+- quark:sugar_cane_block
+- quark:bamboo_block
+- quark:cactus_block
+- quark:chorus_fruit_block
+- quark:cocoa_beans_sack
+- quark:nether_wart_sack
+- quark:gunpowder_sack
+- quark:berry_sack
+- quark:glowberry_sack
 
 #forge:glass/gray
 - minecraft:gray_stained_glass
@@ -5418,7 +5633,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:hanging_sign_dark_oak
 - supplementaries:hanging_sign_crimson
 - supplementaries:hanging_sign_warped
-- supplementaries:wildbackport/hanging_sign_mangrove
 - supplementaries:botania/hanging_sign_livingwood
 - supplementaries:botania/hanging_sign_dreamwood
 - supplementaries:integrateddynamics/hanging_sign_menril
@@ -5464,6 +5678,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - supplementaries:tconstruct/hanging_sign_greenheart
 - supplementaries:tconstruct/hanging_sign_skyroot
 - supplementaries:tconstruct/hanging_sign_bloodshroom
+- supplementaries:quark/hanging_sign_azalea
+- supplementaries:quark/hanging_sign_blossom
 
 #tconstruct:slimy_nylium/blood
 - tconstruct:blood_earth_slime_grass
@@ -5550,6 +5766,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - beyond_earth:venus_stone
 - beyond_earth:mercury_stone
 - beyond_earth:glacio_stone
+- quark:jasper
+- quark:limestone
+- quark:permafrost
+- quark:shale
+- quark:myalite
+- quark:polished_jasper
+- quark:polished_limestone
+- quark:polished_calcite
+- quark:polished_shale
+- quark:polished_myalite
 
 #forge:ices/ice
 - minecraft:ice
@@ -5833,6 +6059,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:blood_ichor_slime_grass
 - tconstruct:ichor_slime_dirt
 
+#quark:pike_trophies
+- minecraft:skeleton_skull
+- minecraft:zombie_head
+- minecraft:creeper_head
+
 #forge:cactus
 - byg:mini_cactus?
 - byg:spined_cactus?
@@ -6005,6 +6236,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #minecraft:stone_pressure_plates
 - #libx:impl_pressure_plates
 - #securitycraft:reinforced/pressure_plates
+- quark:azalea_pressure_plate
+- quark:blossom_pressure_plate
 
 #forge:ores/nickel
 - thermal:nickel_ore
@@ -6109,6 +6342,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:bulbis_fence_gate
 - byg:nightshade_fence_gate
 - byg:imparius_fence_gate
+- quark:azalea_fence_gate
+- quark:blossom_fence_gate
 
 #forge:ores/aluminum
 - immersiveengineering:ore_aluminum
@@ -7501,7 +7736,136 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - fuze_relics:crate
 - fuze_relics:multi_piston_on
 - fuze_relics:multi_piston_hand
-- wildbackport:mangrove_roots
+- #quark:wooden_vertical_slabs
+- quark:paper_lantern
+- quark:paper_lantern_sakura
+- quark:paper_wall
+- quark:paper_wall_big
+- quark:paper_wall_sakura
+- quark:oak_hedge
+- quark:birch_hedge
+- quark:spruce_hedge
+- quark:jungle_hedge
+- quark:acacia_hedge
+- quark:dark_oak_hedge
+- quark:azalea_hedge
+- quark:flowering_azalea_hedge
+- quark:blue_blossom_hedge
+- quark:lavender_blossom_hedge
+- quark:orange_blossom_hedge
+- quark:pink_blossom_hedge
+- quark:yellow_blossom_hedge
+- quark:red_blossom_hedge
+- quark:oak_chest
+- quark:oak_trapped_chest
+- quark:birch_bookshelf
+- quark:birch_chest
+- quark:birch_trapped_chest
+- quark:spruce_bookshelf
+- quark:spruce_chest
+- quark:spruce_trapped_chest
+- quark:jungle_bookshelf
+- quark:jungle_chest
+- quark:jungle_trapped_chest
+- quark:acacia_bookshelf
+- quark:acacia_chest
+- quark:acacia_trapped_chest
+- quark:dark_oak_bookshelf
+- quark:dark_oak_chest
+- quark:dark_oak_trapped_chest
+- quark:crimson_bookshelf
+- quark:crimson_chest
+- quark:crimson_trapped_chest
+- quark:warped_bookshelf
+- quark:warped_chest
+- quark:warped_trapped_chest
+- quark:oak_post
+- quark:birch_post
+- quark:spruce_post
+- quark:jungle_post
+- quark:acacia_post
+- quark:dark_oak_post
+- quark:crimson_post
+- quark:warped_post
+- quark:stripped_oak_post
+- quark:stripped_birch_post
+- quark:stripped_spruce_post
+- quark:stripped_jungle_post
+- quark:stripped_acacia_post
+- quark:stripped_dark_oak_post
+- quark:stripped_crimson_post
+- quark:stripped_warped_post
+- quark:chute
+- quark:crate
+- quark:stick_block
+- quark:golden_apple_crate
+- quark:apple_crate
+- quark:potato_crate
+- quark:carrot_crate
+- quark:beetroot_crate
+- quark:glow_shroom_block
+- quark:glow_shroom_stem
+- quark:acacia_ladder
+- quark:birch_ladder
+- quark:crimson_ladder
+- quark:dark_oak_ladder
+- quark:jungle_ladder
+- quark:spruce_ladder
+- quark:warped_ladder
+- quark:azalea_planks
+- quark:azalea_log
+- quark:azalea_wood
+- quark:stripped_azalea_log
+- quark:stripped_azalea_wood
+- quark:azalea_post
+- quark:stripped_azalea_post
+- quark:azalea_bookshelf
+- quark:azalea_planks_slab
+- quark:azalea_planks_stairs
+- quark:azalea_planks_vertical_slab
+- quark:azalea_fence
+- quark:azalea_fence_gate
+- quark:azalea_door
+- quark:azalea_trapdoor
+- quark:azalea_ladder
+- quark:azalea_sign
+- quark:azalea_wall_sign
+- quark:azalea_chest
+- quark:azalea_trapped_chest
+- quark:azalea_button
+- quark:azalea_pressure_plate
+- quark:blossom_planks
+- quark:blossom_log
+- quark:blossom_wood
+- quark:stripped_blossom_log
+- quark:stripped_blossom_wood
+- quark:blossom_post
+- quark:stripped_blossom_post
+- quark:blossom_bookshelf
+- quark:blossom_planks_slab
+- quark:blossom_planks_stairs
+- quark:blossom_planks_vertical_slab
+- quark:blossom_fence
+- quark:blossom_fence_gate
+- quark:blossom_door
+- quark:blossom_trapdoor
+- quark:blossom_ladder
+- quark:blossom_sign
+- quark:blossom_wall_sign
+- quark:blossom_chest
+- quark:blossom_trapped_chest
+- quark:blossom_button
+- quark:blossom_pressure_plate
+- quark:vertical_oak_planks
+- quark:vertical_spruce_planks
+- quark:vertical_birch_planks
+- quark:vertical_jungle_planks
+- quark:vertical_acacia_planks
+- quark:vertical_dark_oak_planks
+- quark:vertical_warped_planks
+- quark:vertical_crimson_planks
+- quark:vertical_azalea_planks
+- quark:vertical_blossom_planks
 
 #securitycraft:reinforced/birch_logs
 - securitycraft:reinforced_birch_log
@@ -7600,6 +7964,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #tconstruct:scorched_blocks
 - #tconstruct:foundry/tanks
 - tconstruct:scorched_glass
+- tconstruct:scorched_soul_glass
+- tconstruct:scorched_tinted_glass
 - tconstruct:scorched_ladder
 - tconstruct:scorched_drain
 - tconstruct:scorched_chute
@@ -7609,6 +7975,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #tconstruct:seared_blocks
 - #tconstruct:smeltery/tanks
 - tconstruct:seared_glass
+- tconstruct:seared_soul_glass
+- tconstruct:seared_tinted_glass
 - tconstruct:seared_ladder
 - tconstruct:seared_drain
 - tconstruct:seared_chute
@@ -7624,6 +7992,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #byg:may_place_on/brown_oak_sapling
 - #minecraft:dirt
+
+#quark:blossom_logs
+- quark:blossom_log
+- quark:stripped_blossom_log
+- quark:blossom_wood
+- quark:stripped_blossom_wood
 
 #byg:may_place_on/pink_anemone
 - #minecraft:dirt
@@ -7677,6 +8051,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #minecraft:base_stone_overworld
 - #minecraft:dirt
 - #minecraft:mushroom_grow_block
+
+#tconstruct:transparent_overlay
+- tconstruct:soul_glass
+- tconstruct:soul_glass_pane
+- tconstruct:seared_soul_glass
+- tconstruct:seared_soul_glass_pane
+- tconstruct:scorched_soul_glass
+- tconstruct:scorched_soul_glass_pane
 
 #botania:functional_special_flowers
 - botania:agricarnation
@@ -7825,6 +8207,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:palm_fence_gate
 - tropicraft:mahogany_fence_gate
 - #cfm:fence_gates/upgraded
+- quark:azalea_fence_gate
+- quark:blossom_fence_gate
 
 #forge:ores
 - #forge:ores/uraninite
@@ -8099,6 +8483,30 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #minecraft:wool
 - twilightforest:arctic_fur_block
 - #securitycraft:reinforced/wool
+
+#quark:stools
+- quark:black_stool
+- quark:blue_stool
+- quark:brown_stool
+- quark:cyan_stool
+- quark:gray_stool
+- quark:green_stool
+- quark:light_blue_stool
+- quark:light_gray_stool
+- quark:lime_stool
+- quark:magenta_stool
+- quark:orange_stool
+- quark:pink_stool
+- quark:purple_stool
+- quark:red_stool
+- quark:white_stool
+- quark:yellow_stool
+
+#forge:needs_diamond_tool
+- quark:myalite_crystal
+- quark:obsidian_pressure_plate
+- quark:ender_watcher
+- quark:matrix_enchanter
 
 #twilightforest:hollow_logs
 - #twilightforest:hollow_logs_horizontal
@@ -8731,6 +9139,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - securitycraft:reinforced_moving_piston
 - securitycraft:reinforced_piston_head
 - securitycraft:sentry_disguise
+- quark:myalite
+- quark:polished_myalite
+- quark:myalite_stairs
+- quark:polished_myalite_stairs
+- quark:myalite_slab
+- quark:polished_myalite_slab
+- quark:myalite_vertical_slab
+- quark:polished_myalite_vertical_slab
+- quark:myalite_wall
+- quark:myalite_bricks
+- quark:chiseled_myalite_bricks
+- quark:myalite_bricks_slab
+- quark:myalite_bricks_stairs
+- quark:myalite_bricks_vertical_slab
+- quark:myalite_bricks_wall
+- quark:myalite_pillar
+- quark:duskbound_lantern
+- quark:duskbound_block
+- quark:duskbound_block_stairs
+- quark:duskbound_block_slab
+- quark:duskbound_block_vertical_slab
+- quark:myalite_crystal
 
 #byg:may_place_on/black_rose
 - #minecraft:dirt
@@ -8977,6 +9407,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #forge:chests/trapped
 - minecraft:trapped_chest
+- quark:oak_trapped_chest
+- quark:spruce_trapped_chest
+- quark:birch_trapped_chest
+- quark:jungle_trapped_chest
+- quark:acacia_trapped_chest
+- quark:dark_oak_trapped_chest
+- quark:warped_trapped_chest
+- quark:crimson_trapped_chest
+- quark:nether_brick_trapped_chest
+- quark:purpur_trapped_chest
+- quark:prismarine_trapped_chest
+- quark:azalea_trapped_chest
+- quark:blossom_trapped_chest
 
 #byg:may_place_on/violet_leather_flower
 - #minecraft:dirt
@@ -9211,6 +9654,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - securitycraft:keypad_door
 - securitycraft:iron_door_reinforced
 - securitycraft:scanner_door
+- quark:azalea_door
+- quark:blossom_door
 
 #mekanismadditions:plastic_blocks/road
 - mekanismadditions:black_plastic_road
@@ -9257,6 +9702,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:travertine
 - beyond_earth:infernal_spire_block
 - securitycraft:reinforced_netherrack
+- quark:charcoal_block
+- quark:blaze_lantern
 
 #minecraft:flower_pots
 - minecraft:flower_pot
@@ -9386,7 +9833,35 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:bamboo_potted_brown_mushroom
 - tropicraft:bamboo_potted_dead_bush
 - tropicraft:bamboo_potted_cactus
-- wildbackport:potted_mangrove_propagule
+- quark:potted_beetroot
+- quark:potted_berries
+- quark:potted_blue_blossom_sapling
+- quark:potted_carrot
+- quark:potted_chorus
+- quark:potted_cocoa_bean
+- quark:potted_grass
+- quark:potted_large_fern
+- quark:potted_lavender_blossom_sapling
+- quark:potted_lilac
+- quark:potted_melon
+- quark:potted_nether_sprouts
+- quark:potted_nether_wart
+- quark:potted_orange_blossom_sapling
+- quark:potted_peony
+- quark:potted_pink_blossom_sapling
+- quark:potted_potato
+- quark:potted_pumpkin
+- quark:potted_red_blossom_sapling
+- quark:potted_rose
+- quark:potted_sea_pickle
+- quark:potted_sugar_cane
+- quark:potted_sunflower
+- quark:potted_tall_grass
+- quark:potted_twisting_vines
+- quark:potted_vine
+- quark:potted_weeping_vines
+- quark:potted_wheat
+- quark:potted_yellow_blossom_sapling
 
 #forge:ore_rates/dense
 - mekanism:fluorite_ore
@@ -9409,6 +9884,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - thermal:signalum_block
 
 #forge:mineable/hammer
+
+#forge:needs_iron_tool
+- quark:gold_bars
 
 #computercraft:turtle_always_breakable
 - #minecraft:leaves
@@ -9496,6 +9974,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - framedblocks:framed_wall_sign
 - #libx:impl_signs
 - #securitycraft:secret_signs
+- quark:azalea_sign
+- quark:azalea_wall_sign
+- quark:blossom_sign
+- quark:blossom_wall_sign
 
 #waystones:sharestone
 - waystones:sharestone
@@ -9691,6 +10173,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:storage_blocks/charcoal
 - mekanism:block_charcoal
 - thermal:charcoal_block
+- quark:charcoal_block
 
 #oxygen:sealed
 - minecraft:barrier
@@ -9837,6 +10320,62 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:nightshade_crafting_table
 - byg:imparius_crafting_table
 
+#forge:needs_stone_tool
+- quark:cut_copper_vertical_slab
+- quark:exposed_cut_copper_vertical_slab
+- quark:oxidized_cut_copper_vertical_slab
+- quark:waxed_cut_copper_vertical_slab
+- quark:waxed_exposed_cut_copper_vertical_slab
+- quark:waxed_oxidized_cut_copper_vertical_slab
+- quark:waxed_weathered_cut_copper_vertical_slab
+- quark:weathered_cut_copper_vertical_slab
+- quark:framed_glass
+- quark:white_framed_glass
+- quark:orange_framed_glass
+- quark:magenta_framed_glass
+- quark:light_blue_framed_glass
+- quark:yellow_framed_glass
+- quark:lime_framed_glass
+- quark:pink_framed_glass
+- quark:gray_framed_glass
+- quark:light_gray_framed_glass
+- quark:cyan_framed_glass
+- quark:purple_framed_glass
+- quark:blue_framed_glass
+- quark:brown_framed_glass
+- quark:green_framed_glass
+- quark:red_framed_glass
+- quark:black_framed_glass
+- quark:framed_glass_pane
+- quark:white_framed_glass_pane
+- quark:orange_framed_glass_pane
+- quark:magenta_framed_glass_pane
+- quark:light_blue_framed_glass_pane
+- quark:yellow_framed_glass_pane
+- quark:lime_framed_glass_pane
+- quark:pink_framed_glass_pane
+- quark:gray_framed_glass_pane
+- quark:light_gray_framed_glass_pane
+- quark:cyan_framed_glass_pane
+- quark:purple_framed_glass_pane
+- quark:blue_framed_glass_pane
+- quark:brown_framed_glass_pane
+- quark:green_framed_glass_pane
+- quark:red_framed_glass_pane
+- quark:black_framed_glass_pane
+- quark:iron_plate
+- quark:iron_plate_slab
+- quark:iron_plate_vertical_slab
+- quark:iron_plate_stairs
+- quark:rusty_iron_plate
+- quark:rusty_iron_plate_slab
+- quark:rusty_iron_plate_vertical_slab
+- quark:rusty_iron_plate_stairs
+- quark:iron_pillar
+- quark:iron_ladder
+- quark:iron_rod
+- quark:grate
+
 #botania:terrasteel_blocks
 - botania:terrasteel_block
 
@@ -9916,8 +10455,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - thermal:enderium_glass
 - tconstruct:clear_glass
 - tconstruct:soul_glass
-- tconstruct:seared_glass
 - tconstruct:clear_tinted_glass
+- tconstruct:seared_glass
+- tconstruct:seared_soul_glass
+- tconstruct:seared_tinted_glass
+- tconstruct:scorched_glass
+- tconstruct:scorched_soul_glass
+- tconstruct:scorched_tinted_glass
 - tconstruct:white_clear_stained_glass
 - tconstruct:orange_clear_stained_glass
 - tconstruct:magenta_clear_stained_glass
@@ -10033,6 +10577,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - connectedglass:clear_glass_light_gray
 - connectedglass:tinted_borderless_glass_purple
 - connectedglass:borderless_glass_orange
+- quark:dirty_glass
+- quark:framed_glass
+- quark:black_framed_glass
+- quark:blue_framed_glass
+- quark:brown_framed_glass
+- quark:cyan_framed_glass
+- quark:gray_framed_glass
+- quark:green_framed_glass
+- quark:light_blue_framed_glass
+- quark:light_gray_framed_glass
+- quark:lime_framed_glass
+- quark:magenta_framed_glass
+- quark:orange_framed_glass
+- quark:pink_framed_glass
+- quark:purple_framed_glass
+- quark:red_framed_glass
+- quark:white_framed_glass
+- quark:yellow_framed_glass
 
 #forge:end_stones
 - minecraft:end_stone
@@ -10131,6 +10693,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:greenheart_fence
 - tconstruct:skyroot_fence
 - tconstruct:bloodshroom_fence
+- quark:azalea_fence
+- quark:blossom_fence
 
 #forge:storage_blocks
 - powah:uraninite_block
@@ -10250,6 +10814,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - thermal_extra:shellite_block
 - thermal_extra:twinite_block
 - thermal_extra:dragonsteel_block
+- #forge:storage_blocks/charcoal
 
 #tconstruct:slimy_soil
 - #tconstruct:slimy_soil/earth
@@ -10375,24 +10940,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - mekanismadditions:white_plastic_slab
 - mekanismadditions:brown_plastic_slab
 - mekanismadditions:pink_plastic_slab
-
-#wildbackport:sculk_replaceable
-- #minecraft:base_stone_overworld
-- #minecraft:dirt
-- #minecraft:terracotta
-- #minecraft:nylium
-- #minecraft:base_stone_nether
-- #minecraft:sand
-- minecraft:gravel
-- minecraft:soul_sand
-- minecraft:soul_soil
-- minecraft:calcite
-- minecraft:smooth_basalt
-- minecraft:clay
-- minecraft:dripstone_block
-- minecraft:end_stone
-- minecraft:red_sandstone
-- minecraft:sandstone
 
 #forge:storage_blocks/redstone
 - minecraft:redstone_block
@@ -10651,9 +11198,81 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #securitycraft:reinforced/stairs
 - securitycraft:crystal_quartz_stairs
 - securitycraft:smooth_crystal_quartz_stairs
+- quark:andesite_bricks_stairs
+- quark:azalea_planks_stairs
+- quark:blackstone_bricks_stairs
+- quark:black_shingles_stairs
+- quark:blossom_planks_stairs
+- quark:blue_nether_bricks_stairs
+- quark:blue_shingles_stairs
+- quark:brown_shingles_stairs
+- quark:calcite_bricks_stairs
+- quark:calcite_stairs
+- quark:cobblestone_bricks_stairs
+- quark:cyan_shingles_stairs
+- quark:diorite_bricks_stairs
+- quark:dirt_bricks_stairs
+- quark:dripstone_block_stairs
+- quark:dripstone_bricks_stairs
+- quark:duskbound_block_stairs
+- quark:granite_bricks_stairs
+- quark:gray_shingles_stairs
+- quark:green_shingles_stairs
+- quark:iron_plate_stairs
+- quark:jasper_bricks_stairs
+- quark:jasper_stairs
+- quark:light_blue_shingles_stairs
+- quark:light_gray_shingles_stairs
+- quark:limestone_bricks_stairs
+- quark:limestone_stairs
+- quark:lime_shingles_stairs
+- quark:magenta_shingles_stairs
+- quark:midori_block_stairs
+- quark:mossy_cobblestone_bricks_stairs
+- quark:myalite_bricks_stairs
+- quark:myalite_stairs
+- quark:netherrack_bricks_stairs
+- quark:orange_shingles_stairs
+- quark:permafrost_bricks_stairs
+- quark:permafrost_stairs
+- quark:pink_shingles_stairs
+- quark:polished_calcite_stairs
+- quark:polished_dripstone_stairs
+- quark:polished_jasper_stairs
+- quark:polished_limestone_stairs
+- quark:polished_myalite_stairs
+- quark:polished_shale_stairs
+- quark:polished_tuff_stairs
+- quark:purple_shingles_stairs
+- quark:red_sandstone_bricks_stairs
+- quark:red_shingles_stairs
+- quark:rusty_iron_plate_stairs
+- quark:sandstone_bricks_stairs
+- quark:shale_bricks_stairs
+- quark:shale_stairs
+- quark:shingles_stairs
+- quark:smooth_soul_sandstone_stairs
+- quark:soul_sandstone_bricks_stairs
+- quark:soul_sandstone_stairs
+- quark:thatch_stairs
+- quark:tuff_bricks_stairs
+- quark:tuff_stairs
+- quark:white_shingles_stairs
+- quark:yellow_shingles_stairs
 
 #alexsmobs:grizzly_beehive
 - #minecraft:beehives
+
+#quark:underground_biome_replaceable
+- minecraft:stone
+- minecraft:netherrack
+- minecraft:end_stone
+- minecraft:granite
+- minecraft:diorite
+- minecraft:andesite
+- quark:limestone
+- quark:jasper
+- quark:shale
 
 #minecraft:logs
 - #minecraft:logs_that_burn
@@ -10685,6 +11304,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:black_mangrove_wood
 - tropicraft:stripped_mangrove_log
 - tropicraft:stripped_mangrove_wood
+- quark:azalea_log
+- quark:stripped_azalea_log
+- quark:azalea_wood
+- quark:stripped_azalea_wood
+- quark:blossom_log
+- quark:stripped_blossom_log
+- quark:blossom_wood
+- quark:stripped_blossom_wood
 
 #tconstruct:foundry_bricks
 - #tconstruct:scorched_blocks
@@ -10758,6 +11385,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #libx:impl_walls
 
+#quark:wraith_spawnable
+- minecraft:soul_sand
+- minecraft:soul_soil
+
 #forge:ores/certus_quartz
 - ae2:quartz_ore
 - ae2:deepslate_quartz_ore
@@ -10799,6 +11430,121 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #byg:may_place_on/fairy_slipper
 - #minecraft:dirt
 - #minecraft:logs
+
+#quark:vertical_slab
+- quark:acacia_vertical_slab
+- quark:andesite_bricks_vertical_slab
+- quark:andesite_vertical_slab
+- quark:azalea_planks_vertical_slab
+- quark:birch_vertical_slab
+- quark:blackstone_bricks_vertical_slab
+- quark:blackstone_vertical_slab
+- quark:black_shingles_vertical_slab
+- quark:blossom_planks_vertical_slab
+- quark:blue_nether_bricks_vertical_slab
+- quark:blue_shingles_vertical_slab
+- quark:brick_vertical_slab
+- quark:brown_shingles_vertical_slab
+- quark:calcite_bricks_vertical_slab
+- quark:calcite_vertical_slab
+- quark:cobbled_deepslate_vertical_slab
+- quark:cobblestone_bricks_vertical_slab
+- quark:cobblestone_vertical_slab
+- quark:crimson_vertical_slab
+- quark:cut_copper_vertical_slab
+- quark:cut_red_sandstone_vertical_slab
+- quark:cut_sandstone_vertical_slab
+- quark:cut_soul_sandstone_vertical_slab
+- quark:cyan_shingles_vertical_slab
+- quark:dark_oak_vertical_slab
+- quark:dark_prismarine_vertical_slab
+- quark:deepslate_brick_vertical_slab
+- quark:deepslate_tile_vertical_slab
+- quark:diorite_bricks_vertical_slab
+- quark:diorite_vertical_slab
+- quark:dirt_bricks_vertical_slab
+- quark:dripstone_block_vertical_slab
+- quark:dripstone_bricks_vertical_slab
+- quark:duskbound_block_vertical_slab
+- quark:end_stone_brick_vertical_slab
+- quark:exposed_cut_copper_vertical_slab
+- quark:granite_bricks_vertical_slab
+- quark:granite_vertical_slab
+- quark:gray_shingles_vertical_slab
+- quark:green_shingles_vertical_slab
+- quark:iron_plate_vertical_slab
+- quark:jasper_bricks_vertical_slab
+- quark:jasper_vertical_slab
+- quark:jungle_vertical_slab
+- quark:light_blue_shingles_vertical_slab
+- quark:light_gray_shingles_vertical_slab
+- quark:limestone_bricks_vertical_slab
+- quark:limestone_vertical_slab
+- quark:lime_shingles_vertical_slab
+- quark:magenta_shingles_vertical_slab
+- quark:midori_block_vertical_slab
+- quark:mossy_cobblestone_bricks_vertical_slab
+- quark:mossy_cobblestone_vertical_slab
+- quark:mossy_stone_brick_vertical_slab
+- quark:myalite_bricks_vertical_slab
+- quark:myalite_vertical_slab
+- quark:netherrack_bricks_vertical_slab
+- quark:nether_brick_vertical_slab
+- quark:oak_vertical_slab
+- quark:orange_shingles_vertical_slab
+- quark:oxidized_cut_copper_vertical_slab
+- quark:permafrost_bricks_vertical_slab
+- quark:permafrost_vertical_slab
+- quark:pink_shingles_vertical_slab
+- quark:polished_andesite_vertical_slab
+- quark:polished_blackstone_brick_vertical_slab
+- quark:polished_blackstone_vertical_slab
+- quark:polished_calcite_vertical_slab
+- quark:polished_deepslate_vertical_slab
+- quark:polished_diorite_vertical_slab
+- quark:polished_dripstone_vertical_slab
+- quark:polished_granite_vertical_slab
+- quark:polished_jasper_vertical_slab
+- quark:polished_limestone_vertical_slab
+- quark:polished_myalite_vertical_slab
+- quark:polished_shale_vertical_slab
+- quark:polished_tuff_vertical_slab
+- quark:prismarine_brick_vertical_slab
+- quark:prismarine_vertical_slab
+- quark:purple_shingles_vertical_slab
+- quark:purpur_vertical_slab
+- quark:quartz_vertical_slab
+- quark:red_nether_brick_vertical_slab
+- quark:red_sandstone_bricks_vertical_slab
+- quark:red_sandstone_vertical_slab
+- quark:red_shingles_vertical_slab
+- quark:rusty_iron_plate_vertical_slab
+- quark:sandstone_bricks_vertical_slab
+- quark:sandstone_vertical_slab
+- quark:shale_bricks_vertical_slab
+- quark:shale_vertical_slab
+- quark:shingles_vertical_slab
+- quark:smooth_quartz_vertical_slab
+- quark:smooth_red_sandstone_vertical_slab
+- quark:smooth_sandstone_vertical_slab
+- quark:smooth_soul_sandstone_vertical_slab
+- quark:smooth_stone_vertical_slab
+- quark:soul_sandstone_bricks_vertical_slab
+- quark:soul_sandstone_vertical_slab
+- quark:spruce_vertical_slab
+- quark:stone_brick_vertical_slab
+- quark:stone_vertical_slab
+- quark:thatch_vertical_slab
+- quark:tuff_bricks_vertical_slab
+- quark:tuff_vertical_slab
+- quark:warped_vertical_slab
+- quark:waxed_cut_copper_vertical_slab
+- quark:waxed_exposed_cut_copper_vertical_slab
+- quark:waxed_oxidized_cut_copper_vertical_slab
+- quark:waxed_weathered_cut_copper_vertical_slab
+- quark:weathered_cut_copper_vertical_slab
+- quark:white_shingles_vertical_slab
+- quark:yellow_shingles_vertical_slab
 
 #forge:storage_blocks/blutonium
 - bigreactors:blutonium_block
@@ -10869,6 +11615,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - create:zinc_block
 - create:brass_block
 - create:experience_block
+- experienceobelisk:cognitive_alloy_block
+- experienceobelisk:cognitive_crystal_block
 - byg:pendorite_block
 - byg:ametrine_block
 - beyond_earth:steel_block
@@ -10880,6 +11628,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - securitycraft:reinforced_gold_block
 - securitycraft:reinforced_iron_block
 - securitycraft:reinforced_netherite_block
+- quark:golden_apple_crate
 
 #railways:semaphore_poles
 - create:metal_girder
@@ -11266,9 +12015,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:storage_blocks/draconium
 - draconicevolution:draconium_block
 
-#minecraft:snow_layer_can_survive_on
-- wildbackport:mud
-
 #minecraft:wooden_stairs
 - minecraft:oak_stairs
 - minecraft:spruce_stairs
@@ -11336,7 +12082,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:bamboo_stairs
 - tropicraft:mangrove_stairs
 - integrateddynamics:menril_planks_stairs
-- wildbackport:mangrove_stairs
+- quark:azalea_planks_stairs
+- quark:blossom_planks_stairs
 
 #c:ores/anthracite
 - byg:anthracite_ore
@@ -11412,6 +12159,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:palm_button
 - tropicraft:bamboo_button
 - tropicraft:thatch_button
+- quark:azalea_button
+- quark:blossom_button
 
 #railways:track_casing_blacklist
 
@@ -11531,6 +12280,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #libx:impl_slabs
 
+#quark:foxhound_spawnable
+- minecraft:netherrack
+- minecraft:soul_sand
+- minecraft:basalt
+- minecraft:soul_soil
+
 #immersiveengineering:scaffolding_slabs/steel
 - immersiveengineering:slab_steel_scaffolding_standard
 - immersiveengineering:slab_steel_scaffolding_grate_top
@@ -11541,14 +12296,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #byg:may_place_on/orchard_sapling
 - #minecraft:dirt
-
-#wildbackport:sculk_replaceable_world_gen
-- #wildbackport:sculk_replaceable
-- minecraft:deepslate_bricks
-- minecraft:deepslate_tiles
-- minecraft:cobbled_deepslate
-- minecraft:cracked_deepslate_bricks
-- minecraft:cracked_deepslate_tiles
 
 #securitycraft:reinforced/buttons
 - #securitycraft:reinforced/wooden_buttons
@@ -11602,16 +12349,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:tall_pink_allium
 - byg:blooming_aloe_vera
 
-#wildbackport:mangrove_logs_can_grow_through
-- wildbackport:mud
-- wildbackport:muddy_mangrove_roots
-- wildbackport:mangrove_roots
-- wildbackport:mangrove_leaves
-- wildbackport:mangrove_log
-- wildbackport:mangrove_propagule
-- minecraft:moss_carpet
-- minecraft:vine
-
 #forge:sand/black
 - byg:black_sand
 
@@ -11651,6 +12388,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:ether_bookshelf
 - byg:nightshade_bookshelf
 - byg:imparius_bookshelf
+- quark:acacia_bookshelf
+- quark:birch_bookshelf
+- quark:dark_oak_bookshelf
+- quark:jungle_bookshelf
+- quark:spruce_bookshelf
+- quark:warped_bookshelf
+- quark:crimson_bookshelf
+- quark:azalea_bookshelf
+- quark:blossom_bookshelf
 
 #minecraft:stone_pressure_plates
 - minecraft:stone_pressure_plate
@@ -11734,8 +12480,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - botania:vivid_grass
 - decorative_blocks:rocky_dirt
 - #byg:dirt
-- wildbackport:mud
-- wildbackport:muddy_mangrove_roots
 
 #forge:netherrack
 - minecraft:netherrack
@@ -11768,12 +12512,32 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:soul_sand
 - minecraft:soul_soil
 - tconstruct:soul_glass
+- tconstruct:seared_soul_glass
+- tconstruct:scorched_soul_glass
 - byg:warped_soul_sand
 - byg:warped_soul_soil
 - byg:brimstone
 - byg:frost_magma
 - draconicevolution:infused_obsidian
 - securitycraft:reinforced_soul_soil
+- quark:soul_sandstone
+- quark:soul_sandstone_slab
+- quark:soul_sandstone_stairs
+- quark:soul_sandstone_wall
+- quark:soul_sandstone_vertical_slab
+- quark:chiseled_soul_sandstone
+- quark:cut_soul_sandstone
+- quark:cut_soul_sandstone_slab
+- quark:cut_soul_sandstone_vertical_slab
+- quark:smooth_soul_sandstone
+- quark:smooth_soul_sandstone_slab
+- quark:smooth_soul_sandstone_stairs
+- quark:smooth_soul_sandstone_vertical_slab
+- quark:soul_sandstone_bricks
+- quark:soul_sandstone_bricks_slab
+- quark:soul_sandstone_bricks_stairs
+- quark:soul_sandstone_bricks_wall
+- quark:soul_sandstone_bricks_vertical_slab
 
 #forge:crops/flax
 - supplementaries:flax
@@ -11836,6 +12600,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - byg:purpur_stone
 - byg:imparius_phylium
 - minecraft:end_stone
+
+#quark:azalea_logs
+- quark:azalea_log
+- quark:stripped_azalea_log
+- quark:azalea_wood
+- quark:stripped_azalea_wood
 
 #forge:glass_panes/cyan
 - minecraft:cyan_stained_glass_pane
@@ -12114,6 +12884,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #create:ore_override_stone
 - #minecraft:stone_ore_replaceables
 
+#quark:ladders
+- minecraft:ladder
+- quark:spruce_ladder
+- quark:birch_ladder
+- quark:jungle_ladder
+- quark:acacia_ladder
+- quark:dark_oak_ladder
+- quark:warped_ladder
+- quark:crimson_ladder
+- quark:iron_ladder
+- quark:azalea_ladder
+- quark:blossom_ladder
+
 #forge:glass_panes
 - botania:mana_glass_pane
 - botania:elf_glass_pane
@@ -12184,6 +12967,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - connectedglass:scratched_glass_gray_pane
 - connectedglass:scratched_glass_white_pane
 - connectedglass:clear_glass_purple_pane
+- quark:dirty_glass_pane
+- quark:framed_glass_pane
+- quark:black_framed_glass_pane
+- quark:blue_framed_glass_pane
+- quark:brown_framed_glass_pane
+- quark:cyan_framed_glass_pane
+- quark:gray_framed_glass_pane
+- quark:green_framed_glass_pane
+- quark:light_blue_framed_glass_pane
+- quark:light_gray_framed_glass_pane
+- quark:lime_framed_glass_pane
+- quark:magenta_framed_glass_pane
+- quark:orange_framed_glass_pane
+- quark:pink_framed_glass_pane
+- quark:purple_framed_glass_pane
+- quark:red_framed_glass_pane
+- quark:white_framed_glass_pane
+- quark:yellow_framed_glass_pane
 
 #minecraft:non_flammable_wood
 - minecraft:warped_stem
@@ -12256,6 +13057,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #tconstruct:bloodshroom_logs
 - supplementaries:hanging_sign_warped?
 - supplementaries:hanging_sign_crimson?
+- quark:warped_chest
+- quark:crimson_chest
+- quark:warped_ladder
+- quark:crimson_ladder
+- quark:warped_post
+- quark:crimson_post
+- quark:warped_bookshelf
+- quark:crimson_bookshelf
 
 #forge:sand/pink
 - byg:pink_sand
@@ -12289,10 +13098,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 
 #industrialforegoing:machine_frame/simple
 - industrialforegoing:machine_frame_simple
-
-#wildbackport:frog_prefer_jump_to
-- minecraft:lily_pad
-- minecraft:big_dripleaf
 
 #tconstruct:seared_blocks
 - tconstruct:seared_stone
@@ -14224,7 +15029,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:seared_triangle_bricks
 - tconstruct:seared_ladder
 - tconstruct:seared_glass
+- tconstruct:seared_soul_glass
+- tconstruct:seared_tinted_glass
 - tconstruct:seared_glass_pane
+- tconstruct:seared_soul_glass_pane
 - tconstruct:scorched_bricks
 - tconstruct:scorched_bricks_slab
 - tconstruct:scorched_bricks_stairs
@@ -14237,7 +15045,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tconstruct:chiseled_scorched_bricks
 - tconstruct:scorched_ladder
 - tconstruct:scorched_glass
+- tconstruct:scorched_soul_glass
+- tconstruct:scorched_tinted_glass
 - tconstruct:scorched_glass_pane
+- tconstruct:scorched_soul_glass_pane
 - tconstruct:seared_fuel_tank
 - tconstruct:seared_fuel_gauge
 - tconstruct:seared_ingot_tank
@@ -14883,6 +15694,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - itemcollectors:advanced_collector
 - itemcollectors:basic_collector
 - experienceobelisk:experience_obelisk
+- experienceobelisk:experience_fountain
+- experienceobelisk:precision_dispeller
+- experienceobelisk:cognitive_alloy_block
+- experienceobelisk:cognitive_crystal_block
 - fluxnetworks:flux_block
 - fluxnetworks:flux_plug
 - fluxnetworks:flux_point
@@ -16011,15 +16826,426 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - thermal_extra:shellite_glass
 - thermal_extra:twinite_glass
 - thermal_extra:dragonsteel_glass
-- wildbackport:mud_bricks
-- wildbackport:mud_brick_stairs
-- wildbackport:mud_brick_slab
-- wildbackport:packed_mud
-- createdieselgenerators:diesel_engine
-- create_sa:brass_cube
-- create_enchantment_industry:disenchanter
-- create_enchantment_industry:printer
-- create_enchantment_industry:blaze_enchanter
+- quark:andesite_vertical_slab
+- quark:blackstone_vertical_slab
+- quark:brick_vertical_slab
+- quark:cobbled_deepslate_vertical_slab
+- quark:cobblestone_vertical_slab
+- quark:cut_copper_vertical_slab
+- quark:cut_red_sandstone_vertical_slab
+- quark:cut_sandstone_vertical_slab
+- quark:dark_prismarine_vertical_slab
+- quark:deepslate_brick_vertical_slab
+- quark:deepslate_tile_vertical_slab
+- quark:diorite_vertical_slab
+- quark:end_stone_brick_vertical_slab
+- quark:exposed_cut_copper_vertical_slab
+- quark:granite_vertical_slab
+- quark:mossy_cobblestone_vertical_slab
+- quark:mossy_stone_brick_vertical_slab
+- quark:nether_brick_vertical_slab
+- quark:oxidized_cut_copper_vertical_slab
+- quark:polished_andesite_vertical_slab
+- quark:polished_blackstone_brick_vertical_slab
+- quark:polished_blackstone_vertical_slab
+- quark:polished_deepslate_vertical_slab
+- quark:polished_diorite_vertical_slab
+- quark:polished_granite_vertical_slab
+- quark:prismarine_brick_vertical_slab
+- quark:prismarine_vertical_slab
+- quark:purpur_vertical_slab
+- quark:quartz_vertical_slab
+- quark:red_nether_brick_vertical_slab
+- quark:red_sandstone_vertical_slab
+- quark:sandstone_vertical_slab
+- quark:smooth_quartz_vertical_slab
+- quark:smooth_red_sandstone_vertical_slab
+- quark:smooth_sandstone_vertical_slab
+- quark:smooth_stone_vertical_slab
+- quark:stone_brick_vertical_slab
+- quark:stone_vertical_slab
+- quark:waxed_cut_copper_vertical_slab
+- quark:waxed_exposed_cut_copper_vertical_slab
+- quark:waxed_oxidized_cut_copper_vertical_slab
+- quark:waxed_weathered_cut_copper_vertical_slab
+- quark:weathered_cut_copper_vertical_slab
+- quark:andesite_pillar
+- quark:black_corundum
+- quark:black_framed_glass
+- quark:blue_corundum
+- quark:blue_framed_glass
+- quark:brown_framed_glass
+- quark:calcite_pillar
+- quark:charcoal_block
+- quark:chiseled_andesite_bricks
+- quark:chiseled_calcite_bricks
+- quark:chiseled_diorite_bricks
+- quark:chiseled_granite_bricks
+- quark:chiseled_jasper_bricks
+- quark:chiseled_limestone_bricks
+- quark:chiseled_myalite_bricks
+- quark:chiseled_shale_bricks
+- quark:chiseled_soul_sandstone
+- quark:cyan_framed_glass
+- quark:diorite_pillar
+- quark:dusky_myalite
+- quark:framed_glass
+- quark:granite_pillar
+- quark:gray_framed_glass
+- quark:green_corundum
+- quark:green_framed_glass
+- quark:indigo_corundum
+- quark:jasper_pillar
+- quark:light_blue_framed_glass
+- quark:light_gray_framed_glass
+- quark:lime_framed_glass
+- quark:limestone_pillar
+- quark:magenta_framed_glass
+- quark:midori_pillar
+- quark:myalite_crystal
+- quark:myalite_pillar
+- quark:nether_brick_fence_gate
+- quark:obsidian_pressure_plate
+- quark:orange_corundum
+- quark:orange_framed_glass
+- quark:pink_framed_glass
+- quark:purple_framed_glass
+- quark:red_corundum
+- quark:red_framed_glass
+- quark:shale_pillar
+- quark:sturdy_stone
+- quark:violet_corundum
+- quark:waxed_black_corundum
+- quark:waxed_blue_corundum
+- quark:waxed_green_corundum
+- quark:waxed_indigo_corundum
+- quark:waxed_orange_corundum
+- quark:waxed_red_corundum
+- quark:waxed_violet_corundum
+- quark:waxed_white_corundum
+- quark:waxed_yellow_corundum
+- quark:white_corundum
+- quark:white_framed_glass
+- quark:yellow_corundum
+- quark:yellow_framed_glass
+- quark:andesite_bricks
+- quark:andesite_bricks_wall
+- quark:andesite_bricks_stairs
+- quark:andesite_bricks_slab
+- quark:andesite_bricks_vertical_slab
+- quark:blackstone_bricks
+- quark:blackstone_bricks_wall
+- quark:blackstone_bricks_stairs
+- quark:blackstone_bricks_slab
+- quark:blackstone_bricks_vertical_slab
+- quark:blue_nether_bricks
+- quark:blue_nether_bricks_wall
+- quark:blue_nether_bricks_stairs
+- quark:blue_nether_bricks_slab
+- quark:blue_nether_bricks_vertical_slab
+- quark:calcite_bricks
+- quark:calcite_bricks_wall
+- quark:calcite_bricks_stairs
+- quark:calcite_bricks_slab
+- quark:calcite_bricks_vertical_slab
+- quark:calcite_wall
+- quark:calcite_stairs
+- quark:calcite_slab
+- quark:calcite_vertical_slab
+- quark:cobblestone_bricks
+- quark:cobblestone_bricks_wall
+- quark:cobblestone_bricks_stairs
+- quark:cobblestone_bricks_slab
+- quark:cobblestone_bricks_vertical_slab
+- quark:cut_soul_sandstone
+- quark:cut_soul_sandstone_slab
+- quark:cut_soul_sandstone_vertical_slab
+- quark:diorite_bricks
+- quark:diorite_bricks_wall
+- quark:diorite_bricks_stairs
+- quark:diorite_bricks_slab
+- quark:diorite_bricks_vertical_slab
+- quark:granite_bricks
+- quark:granite_bricks_wall
+- quark:granite_bricks_stairs
+- quark:granite_bricks_slab
+- quark:granite_bricks_vertical_slab
+- quark:jasper_bricks
+- quark:jasper_bricks_wall
+- quark:jasper_bricks_stairs
+- quark:jasper_bricks_slab
+- quark:jasper_bricks_vertical_slab
+- quark:jasper
+- quark:jasper_wall
+- quark:jasper_stairs
+- quark:jasper_slab
+- quark:jasper_vertical_slab
+- quark:limestone_bricks
+- quark:limestone_bricks_wall
+- quark:limestone_bricks_stairs
+- quark:limestone_bricks_slab
+- quark:limestone_bricks_vertical_slab
+- quark:limestone
+- quark:limestone_wall
+- quark:limestone_stairs
+- quark:limestone_slab
+- quark:limestone_vertical_slab
+- quark:midori_block
+- quark:midori_block_stairs
+- quark:midori_block_slab
+- quark:midori_block_vertical_slab
+- quark:mossy_cobblestone_bricks
+- quark:mossy_cobblestone_bricks_wall
+- quark:mossy_cobblestone_bricks_stairs
+- quark:mossy_cobblestone_bricks_slab
+- quark:mossy_cobblestone_bricks_vertical_slab
+- quark:myalite_bricks
+- quark:myalite_bricks_wall
+- quark:myalite_bricks_stairs
+- quark:myalite_bricks_slab
+- quark:myalite_bricks_vertical_slab
+- quark:myalite
+- quark:myalite_wall
+- quark:myalite_stairs
+- quark:myalite_slab
+- quark:myalite_vertical_slab
+- quark:netherrack_bricks
+- quark:netherrack_bricks_wall
+- quark:netherrack_bricks_stairs
+- quark:netherrack_bricks_slab
+- quark:netherrack_bricks_vertical_slab
+- quark:permafrost_bricks
+- quark:permafrost_bricks_wall
+- quark:permafrost_bricks_stairs
+- quark:permafrost_bricks_slab
+- quark:permafrost_bricks_vertical_slab
+- quark:permafrost
+- quark:permafrost_wall
+- quark:permafrost_stairs
+- quark:permafrost_slab
+- quark:permafrost_vertical_slab
+- quark:polished_calcite
+- quark:polished_calcite_stairs
+- quark:polished_calcite_slab
+- quark:polished_calcite_vertical_slab
+- quark:polished_jasper
+- quark:polished_jasper_stairs
+- quark:polished_jasper_slab
+- quark:polished_jasper_vertical_slab
+- quark:polished_limestone
+- quark:polished_limestone_stairs
+- quark:polished_limestone_slab
+- quark:polished_limestone_vertical_slab
+- quark:polished_myalite
+- quark:polished_myalite_stairs
+- quark:polished_myalite_slab
+- quark:polished_myalite_vertical_slab
+- quark:polished_shale
+- quark:polished_shale_stairs
+- quark:polished_shale_slab
+- quark:polished_shale_vertical_slab
+- quark:red_sandstone_bricks
+- quark:red_sandstone_bricks_wall
+- quark:red_sandstone_bricks_stairs
+- quark:red_sandstone_bricks_slab
+- quark:red_sandstone_bricks_vertical_slab
+- quark:sandstone_bricks
+- quark:sandstone_bricks_wall
+- quark:sandstone_bricks_stairs
+- quark:sandstone_bricks_slab
+- quark:sandstone_bricks_vertical_slab
+- quark:sandstone_bricks
+- quark:sandstone_bricks_wall
+- quark:sandstone_bricks_stairs
+- quark:sandstone_bricks_slab
+- quark:sandstone_bricks_vertical_slab
+- quark:shale_bricks
+- quark:shale_bricks_wall
+- quark:shale_bricks_stairs
+- quark:shale_bricks_slab
+- quark:shale_bricks_vertical_slab
+- quark:shale
+- quark:shale_wall
+- quark:shale_stairs
+- quark:shale_slab
+- quark:shale_vertical_slab
+- quark:smooth_soul_sandstone
+- quark:smooth_soul_sandstone_stairs
+- quark:smooth_soul_sandstone_slab
+- quark:smooth_soul_sandstone_vertical_slab
+- quark:soul_sandstone
+- quark:soul_sandstone_wall
+- quark:soul_sandstone_stairs
+- quark:soul_sandstone_slab
+- quark:soul_sandstone_vertical_slab
+- quark:soul_sandstone_bricks
+- quark:soul_sandstone_bricks_wall
+- quark:soul_sandstone_bricks_stairs
+- quark:soul_sandstone_bricks_slab
+- quark:soul_sandstone_bricks_vertical_slab
+- quark:framed_glass_pane
+- quark:white_framed_glass_pane
+- quark:orange_framed_glass_pane
+- quark:magenta_framed_glass_pane
+- quark:light_blue_framed_glass_pane
+- quark:yellow_framed_glass_pane
+- quark:lime_framed_glass_pane
+- quark:pink_framed_glass_pane
+- quark:gray_framed_glass_pane
+- quark:light_gray_framed_glass_pane
+- quark:cyan_framed_glass_pane
+- quark:purple_framed_glass_pane
+- quark:blue_framed_glass_pane
+- quark:brown_framed_glass_pane
+- quark:green_framed_glass_pane
+- quark:red_framed_glass_pane
+- quark:black_framed_glass_pane
+- quark:red_corundum_pane
+- quark:orange_corundum_pane
+- quark:yellow_corundum_pane
+- quark:green_corundum_pane
+- quark:blue_corundum_pane
+- quark:indigo_corundum_pane
+- quark:violet_corundum_pane
+- quark:white_corundum_pane
+- quark:black_corundum_pane
+- quark:stone_lamp
+- quark:stone_brick_lamp
+- quark:duskbound_block
+- quark:duskbound_lantern
+- quark:gold_bars
+- quark:iron_plate
+- quark:iron_plate_slab
+- quark:iron_plate_vertical_slab
+- quark:iron_plate_stairs
+- quark:rusty_iron_plate
+- quark:rusty_iron_plate_slab
+- quark:rusty_iron_plate_vertical_slab
+- quark:rusty_iron_plate_stairs
+- quark:iron_pillar
+- quark:iron_ladder
+- quark:shingles
+- quark:shingles_stairs
+- quark:shingles_slab
+- quark:shingles_vertical_slab
+- quark:white_shingles
+- quark:white_shingles_stairs
+- quark:white_shingles_slab
+- quark:white_shingles_vertical_slab
+- quark:orange_shingles
+- quark:orange_shingles_stairs
+- quark:orange_shingles_slab
+- quark:orange_shingles_vertical_slab
+- quark:magenta_shingles
+- quark:magenta_shingles_stairs
+- quark:magenta_shingles_slab
+- quark:magenta_shingles_vertical_slab
+- quark:light_blue_shingles
+- quark:light_blue_shingles_stairs
+- quark:light_blue_shingles_slab
+- quark:light_blue_shingles_vertical_slab
+- quark:yellow_shingles
+- quark:yellow_shingles_stairs
+- quark:yellow_shingles_slab
+- quark:yellow_shingles_vertical_slab
+- quark:lime_shingles
+- quark:lime_shingles_stairs
+- quark:lime_shingles_slab
+- quark:lime_shingles_vertical_slab
+- quark:pink_shingles
+- quark:pink_shingles_stairs
+- quark:pink_shingles_slab
+- quark:pink_shingles_vertical_slab
+- quark:gray_shingles
+- quark:gray_shingles_stairs
+- quark:gray_shingles_slab
+- quark:gray_shingles_vertical_slab
+- quark:light_gray_shingles
+- quark:light_gray_shingles_stairs
+- quark:light_gray_shingles_slab
+- quark:light_gray_shingles_vertical_slab
+- quark:cyan_shingles
+- quark:cyan_shingles_stairs
+- quark:cyan_shingles_slab
+- quark:cyan_shingles_vertical_slab
+- quark:purple_shingles
+- quark:purple_shingles_stairs
+- quark:purple_shingles_slab
+- quark:purple_shingles_vertical_slab
+- quark:blue_shingles
+- quark:blue_shingles_stairs
+- quark:blue_shingles_slab
+- quark:blue_shingles_vertical_slab
+- quark:brown_shingles
+- quark:brown_shingles_stairs
+- quark:brown_shingles_slab
+- quark:brown_shingles_vertical_slab
+- quark:green_shingles
+- quark:green_shingles_stairs
+- quark:green_shingles_slab
+- quark:green_shingles_vertical_slab
+- quark:red_shingles
+- quark:red_shingles_stairs
+- quark:red_shingles_slab
+- quark:red_shingles_vertical_slab
+- quark:black_shingles
+- quark:black_shingles_stairs
+- quark:black_shingles_slab
+- quark:black_shingles_vertical_slab
+- quark:nether_brick_chest
+- quark:nether_brick_trapped_chest
+- quark:purpur_chest
+- quark:purpur_trapped_chest
+- quark:prismarine_chest
+- quark:prismarine_trapped_chest
+- quark:red_corundum_cluster
+- quark:orange_corundum_cluster
+- quark:yellow_corundum_cluster
+- quark:green_corundum_cluster
+- quark:blue_corundum_cluster
+- quark:indigo_corundum_cluster
+- quark:violet_corundum_cluster
+- quark:white_corundum_cluster
+- quark:black_corundum_cluster
+- quark:iron_rod
+- quark:grate
+- quark:blaze_lantern
+- quark:ender_watcher
+- quark:blackstone_furnace
+- quark:deepslate_furnace
+- quark:tuff_bricks
+- quark:tuff_bricks_wall
+- quark:tuff_bricks_stairs
+- quark:tuff_bricks_slab
+- quark:tuff_bricks_vertical_slab
+- quark:tuff_wall
+- quark:tuff_stairs
+- quark:tuff_slab
+- quark:tuff_vertical_slab
+- quark:polished_tuff
+- quark:polished_tuff_stairs
+- quark:polished_tuff_slab
+- quark:polished_tuff_vertical_slab
+- quark:tuff_pillar
+- quark:chiseled_tuff_bricks
+- quark:dripstone_bricks
+- quark:dripstone_bricks_wall
+- quark:dripstone_bricks_stairs
+- quark:dripstone_bricks_slab
+- quark:dripstone_bricks_vertical_slab
+- quark:dripstone_block_wall
+- quark:dripstone_block_stairs
+- quark:dripstone_block_slab
+- quark:dripstone_block_vertical_slab
+- quark:polished_dripstone
+- quark:polished_dripstone_stairs
+- quark:polished_dripstone_slab
+- quark:polished_dripstone_vertical_slab
+- quark:dripstone_pillar
+- quark:chiseled_dripstone_bricks
+- quark:pipe
+- quark:matrix_enchanter
+- quark:magnet
 
 #twilightforest:storage_blocks/ironwood
 - twilightforest:ironwood_block
@@ -16308,6 +17534,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:thatch_wall_sign
 - tropicraft:mangrove_wall_sign
 - #securitycraft:secret_wall_signs
+- quark:azalea_wall_sign
+- quark:blossom_wall_sign
 
 #quark:vertical_slabs
 - supplementaries:checker_vertical_slab
@@ -16442,6 +17670,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - minecraft:piston
 - minecraft:sticky_piston
 - minecraft:composter
+
+#quark:crab_spawnable
+- minecraft:sand
+- minecraft:red_sand
 
 #forge:storage_blocks/gunpowder
 - thermal:gunpowder_block
@@ -16604,7 +17836,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:tea_mangrove_leaves
 - tropicraft:black_mangrove_leaves
 - integrateddynamics:menril_leaves
-- wildbackport:mangrove_leaves
+- quark:blue_blossom_leaves
+- quark:lavender_blossom_leaves
+- quark:orange_blossom_leaves
+- quark:pink_blossom_leaves
+- quark:yellow_blossom_leaves
+- quark:red_blossom_leaves
 
 #buzzier_bees:flower_blacklist
 - #botania:mystical_flowers
@@ -17322,7 +18559,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:stripped_mangrove_wood
 - integrateddynamics:menril_log
 - integrateddynamics:menril_log_filled
-- #wildbackport:mangrove_logs
+- quark:azalea_log
+- quark:stripped_azalea_log
+- quark:azalea_wood
+- quark:stripped_azalea_wood
+- quark:blossom_log
+- quark:stripped_blossom_log
+- quark:blossom_wood
+- quark:stripped_blossom_wood
 
 #forge:barrels/personal
 - mekanism:personal_barrel
@@ -17584,6 +18828,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - create:zinc_block
 - create:brass_block
 - experienceobelisk:experience_obelisk
+- experienceobelisk:experience_fountain
+- experienceobelisk:precision_dispeller
+- experienceobelisk:cognitive_alloy_block
+- experienceobelisk:cognitive_crystal_block
 - byg:brimstone_nether_quartz_ore
 - byg:brimstone_nether_gold_ore
 - byg:blue_nether_gold_ore
@@ -17767,7 +19015,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:mahogany_slab
 - tropicraft:mangrove_slab
 - integrateddynamics:menril_slab
-- wildbackport:mangrove_slab
+- quark:azalea_planks_slab
+- quark:blossom_planks_slab
 
 #projecte:mineable/morning_star
 - #forge:mineable/morning_star
@@ -18208,6 +19457,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:thatch_sign
 - tropicraft:mangrove_sign
 - #securitycraft:secret_standing_signs
+- quark:azalea_sign
+- quark:blossom_sign
+
+#entangled:render_blacklist
 
 #securitycraft:reinforced/stairs
 - #securitycraft:reinforced/wooden_stairs
@@ -18470,11 +19723,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 #forge:basalt
 - minecraft:basalt
 
-#wildbackport:convertable_to_mud
-- minecraft:dirt
-- minecraft:coarse_dirt
-- minecraft:rooted_dirt
-
 #forge:storage_blocks/manyullyn
 - tconstruct:manyullyn_block
 
@@ -18619,7 +19867,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - tropicraft:palm_planks
 - tropicraft:mangrove_planks
 - integrateddynamics:menril_planks
-- wildbackport:mangrove_planks
+- quark:azalea_planks
+- quark:blossom_planks
+- quark:vertical_oak_planks
+- quark:vertical_spruce_planks
+- quark:vertical_birch_planks
+- quark:vertical_jungle_planks
+- quark:vertical_acacia_planks
+- quark:vertical_dark_oak_planks
+- quark:vertical_warped_planks
+- quark:vertical_crimson_planks
+- quark:vertical_azalea_planks
+- quark:vertical_blossom_planks
 
 #byg:may_place_on/pink_daffodil
 - #minecraft:dirt
@@ -18803,6 +20062,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Oct
 - #forge:fences/plastic
 - #forge:fences/nether_brick
 - #forge:fences/wooden
+- quark:azalea_fence
+- quark:blossom_fence
 
 #forge:storage_blocks/petcoke
 - immersivepetroleum:petcoke_block

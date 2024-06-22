@@ -1,0 +1,14 @@
+{
+    "type": "extendedcrafting:compressor",
+    "powerCost": 500000,
+    "inputCount": 128,
+    "ingredient": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "catalyst": {
+      "item": "extendedcrafting:ultimate_catalyst"
+    },
+    "result": {
+      "item": "robosstweaks:samvfjd_ingot"
+    }
+  }
