@@ -237,7 +237,21 @@ onEvent('jei.hide.items', event => {
                  'thermal:beekeeper_leggings', 
                  'thermal:beekeeper_boots',
                  'thermal:beekeeper_fabric',
-                 /ae2:facade/
+                 /ae2:facade/,
+                 'create:crushed_raw_nickel',
+                 'create:crushed_raw_lead',
+                 'minecraft:debug_stick',
+                 'minecraft:command_block',
+                 'minecraft:repeating_command_block',
+                 'minecraft:chain_command_block',
+                 'computercraft:computer_command',
+                 'extendedexchange:stone_table', 
+                 'extendedexchange:alchemy_table', 
+                 'industrialforegoing:plastic', 
+                 'pneumaticcraft:wheat_flour', 
+                 'pamhc2foodcore:flouritem', 
+                 'pamhc2foodcore:doughitem', 
+                 'mekanism:salt'
             ])
 
   })

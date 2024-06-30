@@ -255,6 +255,18 @@
     {
       "item": "thermal:apatite",
       "emc": 256
+    },
+    {
+      "item": "pamhc2foodcore:flouritem",
+      "emc": 0
+    },
+    {
+      "item": "pamhc2foodcore:saltitem",
+      "emc": 8
+    },
+    {
+      "item": "mekanism:salt",
+      "emc": 0
     }
   ]
 }

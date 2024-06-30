@@ -1,7 +1,7 @@
 {
 	id: "000000000000059D"
 	group: ""
-	order_index: 10
+	order_index: 11
 	filename: "energy_generation"
 	title: "Power Generation"
 	icon: "solarflux:sp_1"
@@ -449,8 +449,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -10.0d
+			x: 7.0d
+			y: -9.0d
 			dependencies: ["68319FDD2F0D6DE8"]
 			id: "69FEEF86D0CC1EE9"
 			tasks: [{

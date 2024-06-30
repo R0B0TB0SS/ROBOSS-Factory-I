@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_grinder"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+
+
+	],
+	
+	"result": {"item": "create:wheat_flour",
+	"count": 1}
+	
+}

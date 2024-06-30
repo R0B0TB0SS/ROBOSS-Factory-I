@@ -1,0 +1,26 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "thermal:apatite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:apatite_dust"
+    },
+    {
+      "item": "thermal:apatite_dust",
+      "chance": 0.75
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 250
+}

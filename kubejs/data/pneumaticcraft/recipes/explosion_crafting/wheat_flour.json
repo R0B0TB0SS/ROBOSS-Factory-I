@@ -1,0 +1,12 @@
+{
+  "type": "pneumaticcraft:explosion_crafting",
+  "input": {
+    "tag": "forge:crops/wheat"
+  },
+  "results": [
+    {
+      "item": "create:wheat_flour"
+    }
+  ],
+  "loss_rate": 50
+}

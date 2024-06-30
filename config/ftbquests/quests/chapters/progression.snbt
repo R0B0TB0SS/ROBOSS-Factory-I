@@ -442,6 +442,11 @@
 				type: "checkmark"
 				title: "Pneumatic Craft"
 			}]
+			rewards: [{
+				id: "3D0B2761C955C8E7"
+				type: "item"
+				item: "robosstweaks:pneumaticcraft_trophy"
+			}]
 		}
 	]
 	quest_links: [ ]

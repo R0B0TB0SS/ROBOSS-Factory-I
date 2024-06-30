@@ -37,6 +37,9 @@ const orecraft=[
     },{
         out:"thermal:cinnabar_ore",
         in:"thermal:cinnabar"
+    },{
+        out:"thermal:apatite_ore",
+        in:"thermal:apatite"
     }
 ]
 orecraft.forEach((ore)=>{
@@ -91,6 +94,9 @@ orecraft.forEach((ore)=>{
         },{
             out:"thermal:deepslate_cinnabar_ore",
             in:"thermal:cinnabar"
+        },{
+            out:"thermal:deepslate_apatite_ore",
+            in:"thermal:apatite"
         }
     ]
     deeporecraft.forEach((ore)=>{

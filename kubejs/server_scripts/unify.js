@@ -13,4 +13,10 @@ onEvent('recipes', e => {
             Ingredient.of([Item.of("chickens:liquid_egg", '{id:"minecraft:water"}'), "minecraft:water_bucket"]).toJson()
           );
 
+          e.replaceInput("industrialforegoing:plastic","pneumaticcraft:plastic");
+          e.replaceInput("extendedexchange:stone_table","minecraft:netherite_block");
+          e.replaceInput("mekanism:salt","pamhc2foodcore:saltitem");
+          e.replaceOutput("industrialforegoing:plastic","pneumaticcraft:plastic");
+          e.replaceOutput("mekanism:salt","pamhc2foodcore:saltitem");
+
 })

@@ -1,0 +1,62 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    "transitionalItem": {
+      "item": "kubejs:incomplete_reinforced_stone"
+    },
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:incomplete_reinforced_stone"
+          },
+          {
+            "item": "minecraft:stone"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:incomplete_reinforced_stone"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "kubejs:incomplete_reinforced_stone"
+          },
+          {
+            "item": "minecraft:stone"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:incomplete_reinforced_stone"
+          }
+        ]
+      },{
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "kubejs:incomplete_reinforced_stone"
+          }
+        ],
+        "results": [
+          {
+            "item": "kubejs:incomplete_reinforced_stone"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "item": "pneumaticcraft:reinforced_stone",
+        "count": 8
+      }
+    ],
+    "loops": 4
+  }

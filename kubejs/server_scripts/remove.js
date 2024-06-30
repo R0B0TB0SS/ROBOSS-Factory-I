@@ -264,6 +264,8 @@ onEvent('recipes', e => {
     ri('extendedexchange:stone_table_1')
     ri('extendedexchange:alchemy_table')
     ri('projecte:philosophers_stone_alt')
+    ri('pamhc2foodcore:doughitem_x2')
+    ri('pamhc2foodcore:doughitem')
 
 
 })

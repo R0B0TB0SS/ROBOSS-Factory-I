@@ -1,0 +1,29 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+       "item": "minecraft:lapis_lazuli",
+       "count": 2
+    },
+    {
+       "item": "minecraft:gold_ingot",
+       "count": 3
+    },
+    {
+        "item": "minecraft:clock"
+     },
+    {
+       "item": "minecraft:diamond",
+       "count": 2
+    }
+  ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "item": "tiab:time_in_a_bottle"
+    }
+  ]
+}

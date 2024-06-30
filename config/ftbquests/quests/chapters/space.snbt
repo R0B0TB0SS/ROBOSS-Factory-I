@@ -328,6 +328,8 @@
 			icon: "beyond_earth:earth_globe"
 			x: -9.0d
 			y: 6.0d
+			subtitle: "ISS ?"
+			description: ["Go to the orbit and create a space station"]
 			id: "08FEF02D57D7F0C5"
 			tasks: [{
 				id: "64EA6435FB6824E3"

@@ -167,7 +167,12 @@ onEvent('tags.items', e => {
                              'thermal:rose_gold_dust',
                              'thermal:rose_gold_gear',
                              'thermal:rose_gold_plate',
-                             'thermal:rose_gold_coin'
+                             'thermal:rose_gold_coin',
+                             'industrialforegoing:plastic',
+                             'pneumaticcraft:wheat_flour', 
+                             'pamhc2foodcore:flouritem',
+                             'pamhc2foodcore:doughitem',
+                             'mekanism:salt'
                              ])
 
 
@@ -190,6 +195,15 @@ onEvent('tags.items', e => {
                                 },{
                                 item:'viescraftmachines:music_disc_timescar',
                                 tag:'minecraft:music_discs'
+                                },{
+                                item:'pneumaticcraft:plastic',
+                                tag:'forge:plastic'
+                                },{
+                                item:'create:wheat_flour',
+                                tag:'forge:dusts/flour'
+                                },{
+                                    item:'pamhc2foodcore:saltitem',
+                                    tag:'forge:dusts/salt'
                                 }
                             ]
                     
@@ -204,6 +218,63 @@ onEvent('tags.items', e => {
 
 })
 onEvent('tags.blocks', e => {
+
+e.removeAllTagsFrom([
+    'avaritia:compressor',
+    'immersiveengineering:storage_constantan', 
+    'mekanism:creative_bin', 
+    'thermal:steel_block', 
+    'immersiveengineering:ore_nickel', 
+    'immersiveengineering:deepslate_ore_nickel', 
+    'immersiveengineering:raw_block_nickel', 
+    'immersiveengineering:storage_nickel', 
+    'beyond_earth:steel_block', 
+    'mekanism:block_steel', 
+    'immersiveengineering:slab_storage_nickel', 
+    'immersiveengineering:slab_storage_electrum', 
+    'immersiveengineering:storage_electrum', 
+    'immersiveengineering:slab_storage_constantan',
+    'avaritia:double_compressed_crafting_table', 
+    'avaritia:compressed_crafting_table', 
+    'avaritia:extreme_crafting_table', 
+    'twilightforest:uncrafting_table',
+    'immersiveengineering:storage_lead', 
+    'immersiveengineering:raw_block_lead', 
+    'mekanism:block_raw_lead', 
+    'immersiveengineering:ore_lead', 
+    'mekanism:deepslate_lead_ore', 
+    'mekanism:lead_ore', 
+    'immersiveengineering:deepslate_ore_lead', 
+    'iceandfire:copper_ore', 
+    'iceandfire:copper_block', 
+    'thermal:rose_gold_block', 
+    'iceandfire:amythest_block', 
+    'iceandfire:amythest_ore', 
+    'immersiveengineering:slab_storage_uranium', 
+    'immersiveengineering:raw_block_uranium', 
+    'immersiveengineering:storage_uranium', 
+    'immersiveengineering:deepslate_ore_uranium', 
+    'immersiveengineering:ore_uranium', 
+    'mekanism:block_raw_tin',
+    'mekanism:block_tin', 
+    'mekanism:deepslate_tin_ore', 
+    'mekanism:tin_ore', 
+    'immersiveengineering:slab_storage_silver', 
+    'iceandfire:silver_block', 
+    'immersiveengineering:storage_silver', 
+    'immersiveengineering:raw_block_silver', 
+    'immersiveengineering:deepslate_ore_silver', 
+    'iceandfire:silver_ore', 
+    'immersiveengineering:ore_silver', 
+    'mekanism:block_bronze', 
+    'mekanism:block_lead', 
+    'immersiveengineering:slab_storage_lead'
+])
+
+
+
+
+
 const it =[
             /*{
                 item:'iceandfire:copper_ore',
