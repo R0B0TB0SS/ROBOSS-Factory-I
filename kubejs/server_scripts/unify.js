@@ -1,5 +1,4 @@
 onEvent('recipes', e => {
-    
        
         e.replaceOutput({}, 'mekanism:sawdust', 'thermal:sawdust')
         e.replaceOutput({}, 'mekanism:ingot_steel', 'thermal:steel_ingot')

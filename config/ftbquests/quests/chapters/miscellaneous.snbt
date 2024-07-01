@@ -14,36 +14,17 @@
 			y: -1.5d
 			dependencies: ["68319FDD2F0D6DE8"]
 			id: "0E4B5AC376DA9D23"
-			tasks: [
-				{
-					id: "67553288841B324A"
-					type: "item"
-					item: {
-						id: "constructionwand:diamond_wand"
-						Count: 1b
-						tag: {
-							Damage: 0
-							wand_options: { }
-						}
+			tasks: [{
+				id: "67553288841B324A"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+						wand_options: { }
 					}
 				}
-				{
-					id: "76E41F530844197F"
-					type: "item"
-					item: {
-						id: "constructionwand:infinity_wand"
-						Count: 1b
-						tag: {
-							wand_options: { }
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "1AF1C7A6C91BD64C"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6352993187007078229L
 			}]
 		}
 		{
@@ -1181,12 +1162,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "1DD451A5B67C1BB5"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6352993187007078229L
-			}]
 		}
 		{
 			x: -2.0d
@@ -1203,12 +1178,6 @@
 						"customnpcs:itemscripteddata": { }
 					}
 				}
-			}]
-			rewards: [{
-				id: "7C406F37D60C1133"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6352993187007078229L
 			}]
 		}
 		{

@@ -288,3 +288,9 @@ it.forEach((i)=>{
 })
 
 })
+
+
+onEvent('fluid.tags', event => {
+
+    event.removeAllTagsFrom('tconstruct:molten_ender')
+})

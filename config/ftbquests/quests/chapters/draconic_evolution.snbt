@@ -308,7 +308,7 @@
 			}]
 		}
 		{
-			x: 9.75d
+			x: 9.5d
 			y: -8.25d
 			description: ["The Chaotic Core is the final Core. It's used to craft Chaotic stuff and also the Reactor Stabilizer."]
 			dependencies: [
@@ -330,7 +330,7 @@
 		}
 		{
 			x: 8.5d
-			y: -12.0d
+			y: -11.0d
 			description: ["Use the Fusion Crafting Core to combine a Dragon Heart, some Draconic Cores and Draconium Blocks to get the Awakened Draconium Blocks."]
 			dependencies: ["5FEF1CE17B8A57E7"]
 			id: "1BF4A0B3372F5E91"
@@ -347,7 +347,7 @@
 		}
 		{
 			x: 8.5d
-			y: -13.5d
+			y: -12.5d
 			description: ["You can get a Dragon Heart by killing the Ender Dragon."]
 			dependencies: ["68319FDD2F0D6DE8"]
 			id: "5FEF1CE17B8A57E7"
@@ -364,7 +364,7 @@
 		}
 		{
 			x: 8.5d
-			y: -11.0d
+			y: -9.0d
 			description: ["Simply uncraft a block to get an ingot."]
 			dependencies: ["1BF4A0B3372F5E91"]
 			id: "176D771D9F343E0F"
@@ -1936,8 +1936,8 @@
 		}
 		{
 			title: "Chaos Shard"
-			x: 11.5d
-			y: -9.5d
+			x: 11.0d
+			y: -9.0d
 			description: ["You need to defeat the Chaos Guardian, located in every 10k distance, to can grab the Chaotic Shards inside the Chaotic Island."]
 			dependencies: ["68319FDD2F0D6DE8"]
 			id: "410C369B33532099"
