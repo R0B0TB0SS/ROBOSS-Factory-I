@@ -1147,8 +1147,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 2.0d
+			x: -0.5d
+			y: 1.5d
 			dependencies: ["614C83E1A305853D"]
 			id: "12E0FF32418CBB59"
 			tasks: [{
@@ -1164,8 +1164,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 0.5d
+			x: -0.5d
+			y: 0.0d
 			dependencies: ["68319FDD2F0D6DE8"]
 			id: "614C83E1A305853D"
 			tasks: [{
@@ -1628,6 +1628,105 @@
 				type: "item"
 				item: "cobblefordays:tier_5"
 			}]
+		}
+		{
+			title: "Drawer"
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "1E4959B5D38358B3"
+			tasks: [{
+				id: "766EE3C206BA95D6"
+				type: "item"
+				title: "Any #functionalstorage:drawer"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["1E4959B5D38358B3"]
+			id: "76F435C9E185D206"
+			tasks: [{
+				id: "35EEC22CC20734E2"
+				type: "item"
+				item: "functionalstorage:storage_controller"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "06AF031623EB9B29"
+			tasks: [{
+				id: "5E2C8DC7A64D9E1D"
+				type: "item"
+				item: {
+					id: "functionalstorage:configuration_tool"
+					Count: 1b
+					tag: {
+						Mode: "LOCKING"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "310D64CC5A1A69A0"
+			tasks: [{
+				id: "36624BF34E7B8E04"
+				type: "item"
+				item: {
+					id: "functionalstorage:linking_tool"
+					Count: 1b
+					tag: {
+						Action: "ADD"
+						Mode: "SINGLE"
+					}
+				}
+			}]
+		}
+		{
+			title: "Drawer Upgrade"
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["1E4959B5D38358B3"]
+			id: "4A244C9C9086E258"
+			tasks: [
+				{
+					id: "45159A6E6401EE1D"
+					type: "item"
+					item: "functionalstorage:copper_upgrade"
+				}
+				{
+					id: "726937E5038E9134"
+					type: "item"
+					item: "functionalstorage:gold_upgrade"
+				}
+				{
+					id: "307BB1D506835F01"
+					type: "item"
+					item: "functionalstorage:diamond_upgrade"
+				}
+				{
+					id: "3A6DBCECE585BE8A"
+					type: "item"
+					item: "functionalstorage:netherite_upgrade"
+				}
+				{
+					id: "481F8436EF81DD53"
+					type: "item"
+					item: "functionalstorage:void_upgrade"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

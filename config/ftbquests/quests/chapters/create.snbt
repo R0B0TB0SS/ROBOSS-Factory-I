@@ -120,6 +120,7 @@
 			title: "Filters"
 			x: 6.0d
 			y: -7.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "000000000000045C"
 			tasks: [
 				{
@@ -236,6 +237,7 @@
 		{
 			x: 5.0d
 			y: -8.0d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "0000000000000467"
 			tasks: [
 				{
@@ -259,6 +261,7 @@
 		{
 			x: 4.0d
 			y: -8.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "000000000000046A"
 			tasks: [
 				{
@@ -315,6 +318,7 @@
 		{
 			x: 5.0d
 			y: -2.0d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "0000000000000471"
 			tasks: [{
 				id: "0000000000000472"
@@ -331,6 +335,7 @@
 		{
 			x: 4.0d
 			y: -2.0d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "0000000000000473"
 			tasks: [{
 				id: "0000000000000474"
@@ -346,6 +351,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "0000000000000475"
 			tasks: [
 				{
@@ -369,6 +375,7 @@
 		{
 			x: 2.0d
 			y: -7.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "0000000000000479"
 			tasks: [
 				{
@@ -579,6 +586,7 @@
 		{
 			x: 1.0d
 			y: -3.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "0000000000000490"
 			tasks: [{
 				id: "0000000000000491"
@@ -625,6 +633,7 @@
 		{
 			x: 3.0d
 			y: -8.0d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "0000000000000494"
 			tasks: [{
 				id: "0000000000000495"

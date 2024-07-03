@@ -1,0 +1,19 @@
+{
+  "type": "immersivepetroleum:distillation",
+  "results": [
+    {
+      "fluid": "pneumaticcraft:kerosene",
+      "amount": 6
+    },
+    {
+      "fluid": "immersivepetroleum:diesel_sulfur",
+      "amount": 10
+    }
+  ],
+  "input": {
+    "tag": "forge:lubricant_cracked",
+    "amount": 12
+  },
+  "time": 1,
+  "energy": 1024
+}

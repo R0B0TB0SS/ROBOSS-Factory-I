@@ -11,7 +11,6 @@
 			Damage: 0
 		}
 	}
-	subtitle: ["The beginning of engineering."]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	images: [
@@ -736,7 +735,7 @@
 			]
 		}
 		{
-			x: 3.0d
+			x: 3.5d
 			y: -2.5d
 			description: ["To make a HOP Graphite ingot, you need to smelt a HOP Graphite dust, who it's make in a squeezer with petcoke dust."]
 			dependencies: ["000000000000071E"]
@@ -755,7 +754,7 @@
 		}
 		{
 			title: "Graphite Electrode"
-			x: 4.0d
+			x: 4.5d
 			y: -2.5d
 			description: ["The Graphite Electrode is needed to properly function the Arc Furnace."]
 			dependencies: ["00000000000006CA"]
@@ -890,7 +889,7 @@
 				{
 					id: "6154165F875CC2AB"
 					type: "item"
-					item: "thermal:copper_ore"
+					item: "minecraft:copper_ore"
 					count: 8
 				}
 			]
@@ -933,8 +932,8 @@
 		{
 			title: "Crude Oil"
 			icon: "thermal:crude_oil_bucket"
-			x: 1.5d
-			y: -3.5d
+			x: -1.5d
+			y: -3.0d
 			description: ["Collect a bucket of Crude Oil."]
 			dependencies: ["0000000000000754"]
 			id: "00000000000006DF"
@@ -952,7 +951,7 @@
 		{
 			title: "Distillation Tower results"
 			x: 1.0d
-			y: 0.5d
+			y: -0.5d
 			description: ["Collect those three bucket using the distillation tower."]
 			dependencies: ["00000000000006E5"]
 			id: "00000000000006E1"
@@ -982,7 +981,7 @@
 		{
 			title: "Bitumen"
 			x: 1.0d
-			y: -0.5d
+			y: -1.5d
 			description: ["Collect a stack of Bitumen."]
 			dependencies: ["000000000000075D"]
 			id: "00000000000006E5"
@@ -1039,10 +1038,11 @@
 		{
 			title: "Diesel Generator"
 			icon: "immersiveengineering:diesel_generator"
-			x: 5.5d
+			x: 6.0d
 			y: 3.0d
 			description: ["The Diesel Generator is a 3×5×3 multiblock used to generates RF by burning Biodiesel."]
-			dependencies: ["000000000000077E"]
+			hide_dependency_lines: true
+			dependencies: ["00AA3E0C1621E643"]
 			id: "00000000000006EF"
 			tasks: [
 				{
@@ -1089,14 +1089,15 @@
 		{
 			title: "Lightning Rod"
 			icon: "immersiveengineering:lightning_rod"
-			x: 3.5d
+			x: 4.0d
 			y: 1.5d
 			description: [
 				"The Lightning Rod is a 3x3x3 multiblock who can generate 16M RF per lightning strike."
 				""
 				"To get a lightning strike more easily on to your Lightning Rod, you need to put some Steel fence in the middle of this structure, the more you put, the better the chance you can get your strike."
 			]
-			dependencies: ["0000000000000786"]
+			hide_dependency_lines: true
+			dependencies: ["00AA3E0C1621E643"]
 			id: "00000000000006F6"
 			tasks: [
 				{
@@ -1144,10 +1145,11 @@
 		{
 			title: "Metal Press"
 			icon: "immersiveengineering:metal_press"
-			x: 10.5d
+			x: 10.0d
 			y: -1.5d
 			description: ["The Metal Press is a 3×1×3 multiblock used to press ingots into plates, wires or gears."]
-			dependencies: ["0000000000000788"]
+			hide_dependency_lines: true
+			dependencies: ["00AA3E0C1621E643"]
 			id: "00000000000006FD"
 			tasks: [
 				{
@@ -1186,10 +1188,11 @@
 		{
 			title: "Crusher"
 			icon: "immersiveengineering:crusher"
-			x: 0.5d
+			x: 0.0d
 			y: 1.5d
 			description: ["The Crusher is a 3×5×3 multiblock used for crushing ores into dust."]
-			dependencies: ["000000000000077C"]
+			hide_dependency_lines: true
+			dependencies: ["00AA3E0C1621E643"]
 			id: "0000000000000703"
 			tasks: [
 				{
@@ -1230,10 +1233,11 @@
 		{
 			title: "Sawmill"
 			icon: "immersiveengineering:sawmill"
-			x: 11.5d
+			x: 12.0d
 			y: -1.5d
 			description: ["The Sawmill is a 3×5×3 multiblock used to process woods."]
-			dependencies: ["0000000000000792"]
+			hide_dependency_lines: true
+			dependencies: ["00AA3E0C1621E643"]
 			id: "0000000000000709"
 			tasks: [
 				{
@@ -1283,18 +1287,13 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "1F733857E7F0A406"
-				type: "random"
-			}]
 		}
 		{
 			title: "Assembler"
 			icon: "immersiveengineering:assembler"
-			x: 10.5d
+			x: 10.0d
 			y: 1.5d
 			description: ["The Assembler is a 3x3x3 multiblock used to automatically craft items."]
-			dependencies: ["0000000000000776"]
 			id: "0000000000000710"
 			tasks: [
 				{
@@ -1342,10 +1341,11 @@
 		{
 			title: "Fermenter"
 			icon: "immersiveengineering:fermenter"
-			x: 8.5d
+			x: 8.0d
 			y: -1.5d
 			description: ["The Fermenter is a 3x3x3 multiblock used to make Ethanol."]
-			dependencies: ["0000000000000784"]
+			hide_dependency_lines: true
+			dependencies: ["00AA3E0C1621E643"]
 			id: "0000000000000717"
 			tasks: [
 				{
@@ -1392,10 +1392,11 @@
 		{
 			title: "Squeezer"
 			icon: "immersiveengineering:squeezer"
-			x: 3.5d
+			x: 4.0d
 			y: -1.5d
 			description: ["The Squeezer is a 3x3x3 multiblock used to make Plant Oil or HOP Graphite Dust."]
-			dependencies: ["0000000000000790"]
+			hide_dependency_lines: true
+			dependencies: ["00AA3E0C1621E643"]
 			id: "000000000000071E"
 			tasks: [
 				{
@@ -1447,10 +1448,11 @@
 		{
 			title: "Refinery"
 			icon: "immersiveengineering:refinery"
-			x: 5.5d
+			x: 6.0d
 			y: 0.0d
 			description: ["The Refinery is a 3x5x3 multi-block used to make Biodiesel."]
-			dependencies: ["000000000000078E"]
+			hide_dependency_lines: true
+			dependencies: ["00AA3E0C1621E643"]
 			id: "0000000000000726"
 			tasks: [
 				{
@@ -1497,10 +1499,11 @@
 		{
 			title: "Mixer"
 			icon: "immersiveengineering:mixer"
-			x: 1.5d
+			x: 2.0d
 			y: 1.5d
 			description: ["The Mixer is a 3x3x3 multiblock is used to mixed items and fluid to get another fluids, like potion or concrete."]
-			dependencies: ["000000000000078A"]
+			hide_dependency_lines: true
+			dependencies: ["00AA3E0C1621E643"]
 			id: "000000000000072D"
 			tasks: [
 				{
@@ -1546,10 +1549,9 @@
 		{
 			title: "Bottling Machine"
 			icon: "immersiveengineering:bottling_machine"
-			x: 11.5d
+			x: 12.0d
 			y: 1.5d
 			description: ["The Bottling Machine is a 3x2x3 multiblock used to fill liquid containers."]
-			dependencies: ["000000000000077A"]
 			id: "0000000000000734"
 			tasks: [
 				{
@@ -1595,13 +1597,10 @@
 		{
 			title: "Automated Workbench"
 			icon: "immersiveengineering:auto_workbench"
-			x: 11.5d
+			x: 12.0d
 			y: -4.5d
 			description: ["The Automated Workbench is a 3x2x3 multiblock used to automate items from the Engineer's Workbench."]
-			dependencies: [
-				"0000000000000778"
-				"000000000000069A"
-			]
+			dependencies: ["000000000000069A"]
 			id: "000000000000073B"
 			tasks: [
 				{
@@ -1640,18 +1639,15 @@
 					count: 4L
 				}
 			]
-			rewards: [{
-				id: "28618ED3BE019E50"
-				type: "random"
-			}]
 		}
 		{
 			title: "Arc Furnace"
 			icon: "immersiveengineering:arc_furnace"
-			x: 5.5d
+			x: 6.0d
 			y: -3.0d
 			description: ["The Arc Furnace is a 5×5×5 multiblock used for smelting ores and dust into ingots and creating alloys."]
-			dependencies: ["0000000000000765"]
+			hide_dependency_lines: true
+			dependencies: ["00AA3E0C1621E643"]
 			id: "0000000000000742"
 			tasks: [
 				{
@@ -1715,10 +1711,9 @@
 		{
 			title: "Excavator"
 			icon: "immersiveengineering:excavator"
-			x: 8.5d
+			x: 8.0d
 			y: 1.5d
 			description: ["The Excavator is a 8×3×7 multiblock that mines into Mineral Deposits below bedrock."]
-			dependencies: ["0000000000000782"]
 			id: "000000000000074C"
 			tasks: [
 				{
@@ -1771,17 +1766,14 @@
 		{
 			title: "Pumpjack"
 			icon: "immersivepetroleum:pumpjack"
-			x: 0.5d
+			x: -0.5d
 			y: -4.5d
 			description: [
 				"The Pumpjack is a 6×4×3 multiblock, It extracts fluids like Crude Oil from reservoirs that are below bedrock."
 				""
 				"This works in a Void world."
 			]
-			dependencies: [
-				"000000000000078C"
-				"00000000000006D7"
-			]
+			dependencies: ["00000000000006D7"]
 			id: "0000000000000754"
 			tasks: [
 				{
@@ -1840,16 +1832,13 @@
 		{
 			title: "Distillation Tower"
 			icon: "immersivepetroleum:distillation_tower"
-			x: 0.5d
+			x: -0.5d
 			y: -1.5d
 			description: [
 				"The Distillation Tower is a large 4x16x4 multiblock used to process fluids into other fluids."
 				"It is primarily used to convert Crude Oil into usable Diesel and Gasoline fuels and Lubricant, creating Bitumen as a byproduct."
 			]
-			dependencies: [
-				"0000000000000780"
-				"00000000000006DF"
-			]
+			dependencies: ["00000000000006DF"]
 			id: "000000000000075D"
 			tasks: [
 				{
@@ -1894,16 +1883,6 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -3.0d
-			id: "0000000000000765"
-			tasks: [{
-				id: "0000000000000767"
-				type: "checkmark"
-				title: "Arc Furnace Quest"
-			}]
-		}
-		{
 			x: 7.5d
 			y: -7.0d
 			description: [
@@ -1925,175 +1904,12 @@
 			}]
 		}
 		{
-			title: "Assembler Quest"
-			x: 9.5d
-			y: 1.5d
-			id: "0000000000000776"
-			tasks: [{
-				id: "0000000000000777"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Automated Workbench Quest"
-			x: 12.5d
-			y: -4.5d
-			id: "0000000000000778"
-			tasks: [{
-				id: "0000000000000779"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Bottling Machine Quest"
-			x: 12.5d
-			y: 1.5d
-			id: "000000000000077A"
-			tasks: [{
-				id: "000000000000077B"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Crusher Quest"
-			x: -0.5d
-			y: 1.5d
-			id: "000000000000077C"
-			tasks: [{
-				id: "000000000000077D"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Diesel Generator Quest"
-			x: 6.5d
-			y: 3.0d
-			id: "000000000000077E"
-			tasks: [{
-				id: "000000000000077F"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Distillation Tower Quest"
-			x: -0.5d
-			y: -1.5d
-			id: "0000000000000780"
-			tasks: [{
-				id: "0000000000000781"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Excavator Quest"
-			x: 7.5d
-			y: 1.5d
-			id: "0000000000000782"
-			tasks: [{
-				id: "0000000000000783"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Fermenter Quest"
-			x: 7.5d
-			y: -1.5d
-			id: "0000000000000784"
-			tasks: [{
-				id: "0000000000000785"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Lightning Rod Quest"
-			x: 4.5d
-			y: 1.5d
-			id: "0000000000000786"
-			tasks: [{
-				id: "0000000000000787"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Metal Press Quest"
-			x: 9.5d
-			y: -1.5d
-			id: "0000000000000788"
-			tasks: [{
-				id: "0000000000000789"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Mixer Quest"
-			x: 2.5d
-			y: 1.5d
-			id: "000000000000078A"
-			tasks: [{
-				id: "000000000000078B"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Pumpjack Quest"
-			x: -0.5d
-			y: -4.5d
-			id: "000000000000078C"
-			tasks: [{
-				id: "000000000000078D"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Refinery Quest"
-			x: 6.5d
-			y: 0.0d
-			id: "000000000000078E"
-			tasks: [{
-				id: "000000000000078F"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Squeezer Quest"
-			x: 4.5d
-			y: -1.5d
-			id: "0000000000000790"
-			tasks: [{
-				id: "0000000000000791"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Sawmill Quest"
-			x: 12.5d
-			y: -1.5d
-			id: "0000000000000792"
-			tasks: [{
-				id: "0000000000000793"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "Coker"
-			x: 2.5d
-			y: -1.5d
-			id: "1BC1B5880FB8E66F"
-			tasks: [{
-				id: "596A0DEB2CE74CA1"
-				type: "checkmark"
-			}]
-		}
-		{
 			title: "Coker"
 			icon: "immersivepetroleum:coker_unit"
-			x: 1.5d
-			y: -1.5d
+			x: 2.0d
+			y: -2.0d
 			description: ["The Coker is a large 5x23x9 multiblock used to process Bitumen into Petcoke."]
-			dependencies: [
-				"1BC1B5880FB8E66F"
-				"00000000000006E5"
-			]
+			dependencies: ["00000000000006E5"]
 			id: "3A09BC46905622C0"
 			tasks: [
 				{
@@ -2173,30 +1989,6 @@
 			}]
 		}
 		{
-			title: "How do I begin Immersive Engineering ?"
-			icon: "create:brass_hand"
-			x: 6.0d
-			y: -8.5d
-			shape: "circle"
-			description: [
-				"To make your first Metal Press you need to get a plate with Create. It's very simple and cheap."
-				"{image:kubejs:textures/ftbquests/begin/immersive.png width:150 height:100 align:1}"
-				"At minimum, place one Water Wheel, connect it to a Mechanical Press and toss your ingot underneath."
-				"You can use a mechanical belt, a depot or just nothing, it works the same."
-			]
-			dependencies: ["68319FDD2F0D6DE8"]
-			id: "59CE179CA62BD2A4"
-			tasks: [{
-				id: "58E41877314E8317"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "3EACC3CED97BA741"
-				type: "item"
-				item: "mob_grinding_utils:solid_xp_baby"
-			}]
-		}
-		{
 			title: "Steel"
 			x: 3.5d
 			y: -4.5d
@@ -2204,21 +1996,21 @@
 			dependencies: ["00000000000006A4"]
 			id: "00AA3E0C1621E643"
 			tasks: [{
-				id: "193DE2FC5FC443C1"
+				id: "58F2C0814A52098A"
 				type: "item"
-				item: "mekanism:ingot_steel"
+				item: "thermal:steel_ingot"
 				count: 64L
 			}]
 			rewards: [{
 				id: "24A2D270B6BD7BC8"
 				type: "item"
-				item: "mekanism:block_steel"
+				item: "immersiveengineering:storage_steel"
 			}]
 		}
 		{
 			title: "Petcoke"
 			x: 2.0d
-			y: -2.5d
+			y: -3.5d
 			description: ["Collect 16 Petcoke using the Coker."]
 			dependencies: ["3A09BC46905622C0"]
 			id: "503CE99C8A9515EA"

@@ -293,4 +293,13 @@ it.forEach((i)=>{
 onEvent('fluid.tags', event => {
 
     event.removeAllTagsFrom('tconstruct:molten_ender')
+    event.removeAllTagsFrom('thermal:crude_oil')
+    event.removeAllTagsFrom('immersivepetroleum:crudeoil')
+    event.removeAllTagsFrom('thermal:creosote')
+    event.removeAllTagsFrom('immersiveengineering:ethanol')
+    event.removeAllTagsFrom('mekanismgenerators:bioethanol')
+    event.removeAllTagsFrom('immersivepetroleum:gasoline')
+    event.removeAllTagsFrom('immersivepetroleum:kerosene')
+    event.removeAllTagsFrom('immersivepetroleum:diesel')
+    event.removeAllTagsFrom('immersiveengineering:biodiesel')
 })

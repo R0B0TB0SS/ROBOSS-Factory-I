@@ -29,6 +29,8 @@
 		{
 			x: 6.0d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["6E6C7E755E2EE9A5"]
 			id: "3389365ACFEF86E6"
 			tasks: [{
 				id: "73FFFA7075680032"
@@ -175,6 +177,16 @@
 		{
 			x: 0.0d
 			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"5AE6DDDCA5D000C0"
+				"590C4865B86C5D65"
+				"6B0D0C6A78094932"
+				"1DC1E80498F71204"
+				"7E0629F8938177AE"
+				"359DA623B97C35F1"
+				"6E6C7E755E2EE9A5"
+			]
 			id: "481FCCFD50824C10"
 			tasks: [{
 				id: "5CC747DE907C0834"
@@ -185,6 +197,8 @@
 		{
 			x: 5.0d
 			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["6E6C7E755E2EE9A5"]
 			id: "4FCB03230D47D078"
 			tasks: [{
 				id: "01C7441DABB0EA70"
@@ -206,6 +220,8 @@
 		{
 			x: 1.0d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["6E6C7E755E2EE9A5"]
 			id: "37C58F2AB3A4297E"
 			tasks: [{
 				id: "4A4EC797FDC119C3"
@@ -216,6 +232,10 @@
 		{
 			x: 0.0d
 			y: 3.5d
+			dependencies: [
+				"4A244C9C9086E258"
+				"6E6C7E755E2EE9A5"
+			]
 			id: "5ADB2F3BD97BC7D3"
 			tasks: [{
 				id: "7BAE2CEAC51D9BE5"
@@ -226,6 +246,8 @@
 		{
 			x: 6.0d
 			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["6E6C7E755E2EE9A5"]
 			id: "1A34E37C39BBE455"
 			tasks: [{
 				id: "24C13E94F9F08B01"
@@ -236,6 +258,11 @@
 		{
 			x: 5.0d
 			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"0000000000000890"
+				"6E6C7E755E2EE9A5"
+			]
 			id: "55D08477E76153A4"
 			tasks: [{
 				id: "49E7EDD61810ED2D"
@@ -244,6 +271,7 @@
 			}]
 		}
 		{
+			title: "Creative Fabricator"
 			x: 5.0d
 			y: -0.5d
 			dependencies: [

@@ -227,7 +227,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 3.0d
 			y: -1.5d
 			description: ["The Advanced Charged Porter allow you to teleport to a previously set matter receiver, shift-right click on a receiver to set the destination."]
 			dependencies: ["68319FDD2F0D6DE8"]
@@ -414,7 +414,7 @@
 		}
 		{
 			title: "Advanced Connectors"
-			x: 5.5d
+			x: 5.0d
 			y: -1.5d
 			description: ["Advanced connectors are used in the same way as connectors, but the advanced version can control all sides of all machines, storages, tanks to which it's connected."]
 			dependencies: ["08B4975CC7077DF0"]
@@ -480,7 +480,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 2.0d
 			y: -6.5d
 			description: ["The Environmental Controller can be used to apply various effects to a large area."]
 			dependencies: ["0000000000000ACA"]
@@ -497,8 +497,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -0.5d
+			x: 5.5d
+			y: -7.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "31EBBEFBF6CDBB1C"
 			tasks: [{
 				id: "56A759D2238AB367"
@@ -507,8 +508,12 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 2.0d
+			x: 5.0d
+			y: -6.5d
+			dependencies: [
+				"0000000000000ACA"
+				"3DEC8FB386E4623D"
+			]
 			id: "453882EE2E9B9617"
 			tasks: [{
 				id: "18FF0A6F37C9F2BC"
@@ -517,8 +522,11 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
+			title: "Energy Module"
+			x: 10.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["4A246D3B67493059"]
 			id: "20C30EC67706DA6F"
 			tasks: [
 				{
@@ -544,8 +552,11 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 0.5d
+			title: "Memory Module"
+			x: 9.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["4A246D3B67493059"]
 			id: "3E5C30C399C129EC"
 			tasks: [
 				{
@@ -571,8 +582,9 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: 7.0d
+			y: -7.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "13B109FB8074A81F"
 			tasks: [
 				{
@@ -598,8 +610,16 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 2.0d
+			x: 8.5d
+			y: -7.5d
+			dependencies: [
+				"635B2AA46392E179"
+				"3E5C30C399C129EC"
+				"20C30EC67706DA6F"
+				"7F1EFCD3474D038E"
+				"3DEB656640187133"
+				"686A4FA43BBB2851"
+			]
 			id: "727A9AAC7CD67137"
 			tasks: [{
 				id: "367CC77E29A6C247"
@@ -608,8 +628,9 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.0d
+			x: 8.0d
+			y: -9.0d
+			dependencies: ["5CAF4125F0797DFF"]
 			id: "686A4FA43BBB2851"
 			tasks: [{
 				id: "245C7752F2FEBDCB"
@@ -618,8 +639,12 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 1.5d
+			x: 6.0d
+			y: -6.5d
+			dependencies: [
+				"0000000000000ACA"
+				"31EBBEFBF6CDBB1C"
+			]
 			id: "3DEC8FB386E4623D"
 			tasks: [{
 				id: "75840C4E7D944D47"
@@ -628,8 +653,11 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.5d
+			title: "Dimentional Essences"
+			x: 10.0d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["453882EE2E9B9617"]
 			id: "7F1EFCD3474D038E"
 			tasks: [
 				{
@@ -650,8 +678,10 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -0.5d
+			x: 8.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["4A246D3B67493059"]
 			id: "635B2AA46392E179"
 			tasks: [{
 				id: "4E6920F023B1D777"
@@ -660,8 +690,10 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -0.5d
+			x: 9.0d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["4A246D3B67493059"]
 			id: "3DEB656640187133"
 			tasks: [
 				{
@@ -687,13 +719,37 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: -1.5d
+			x: 2.5d
+			y: -7.5d
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "4A246D3B67493059"
 			tasks: [{
 				id: "49ECF21092DD5D08"
 				type: "item"
 				item: "rftoolsbase:dimensionalshard"
+			}]
+		}
+		{
+			title: "Dimlet"
+			x: 7.0d
+			y: -6.5d
+			dependencies: ["727A9AAC7CD67137"]
+			id: "2E6990A88BD35045"
+			tasks: [{
+				id: "56B898280BA1D005"
+				type: "item"
+				item: "rftoolsdim:terrain_dimlet"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -8.5d
+			dependencies: ["13B109FB8074A81F"]
+			id: "5CAF4125F0797DFF"
+			tasks: [{
+				id: "4E1911ECD9F12280"
+				type: "item"
+				item: "rftoolsdim:researcher"
 			}]
 		}
 	]

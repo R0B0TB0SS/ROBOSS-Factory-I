@@ -251,9 +251,48 @@ onEvent('jei.hide.items', event => {
                  'pneumaticcraft:wheat_flour', 
                  'pamhc2foodcore:flouritem', 
                  'pamhc2foodcore:doughitem', 
-                 'mekanism:salt'
+                 'mekanism:salt',
+                 Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"tconstruct:molten_ender"}}]}}'),
+                 'tconstruct:molten_ender_bucket',
+                 'immersiveengineering:wire_lead',
+                 'createaddition:festive_spool',
+                 'createaddition:gold_spool',
+                 'createaddition:copper_spool',
+                 'immersivepetroleum:crudeoil_bucket',
+                 'thermal:crude_oil_bucket',
+                 Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"thermal:crude_oil"}}]}}'),
+                  Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"immersivepetroleum:crudeoil"}}]}}'),
+                  'thermal:creosote_bucket',
+                  Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"thermal:creosote"}}]}}'),
+                  Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"immersiveengineering:ethanol"}}]}}'),
+                  'immersiveengineering:ethanol_bucket',
+                  Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"mekanismgenerators:bioethanol"}}]}}'),
+                  'mekanismgenerators:bioethanol_bucket',
+                  Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"immersivepetroleum:gasoline"}}]}}'),
+                  'immersivepetroleum:gasoline_bucket',
+                  'immersivepetroleum:kerosene_bucket',
+                  Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"immersivepetroleum:kerosene"}}]}}'),
+                  'immersivepetroleum:diesel_bucket',
+                  Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"immersivepetroleum:diesel"}}]}}'),
+                  Item.of('mekanism:creative_fluid_tank', '{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:"immersiveengineering:biodiesel"}}]}}'),
+                  'immersiveengineering:biodiesel_bucket'
             ])
+            
 
+  })
+
+
+  onEvent('jei.hide.fluids', event => {
+    event.hide('tconstruct:molten_ender')
+    event.hide('thermal:crude_oil')
+    event.hide('immersivepetroleum:crudeoil')
+    event.hide('thermal:creosote')
+    event.hide('immersiveengineering:ethanol')
+    event.hide('mekanismgenerators:bioethanol')
+    event.hide('immersivepetroleum:gasoline')
+    event.hide('immersivepetroleum:kerosene')
+    event.hide('immersivepetroleum:diesel')
+    event.hide('immersiveengineering:biodiesel')
   })
 
 

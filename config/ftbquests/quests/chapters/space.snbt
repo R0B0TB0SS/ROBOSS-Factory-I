@@ -14,8 +14,9 @@
 	quests: [
 		{
 			x: -4.0d
-			y: 0.0d
+			y: 3.5d
 			subtitle: "Steel.zip"
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "1574DEDA555EA996"
 			tasks: [{
 				id: "18B57C86EC995BCB"
@@ -25,7 +26,7 @@
 		}
 		{
 			x: -2.5d
-			y: 0.0d
+			y: 3.5d
 			subtitle: "When NASA works..."
 			dependencies: ["1574DEDA555EA996"]
 			id: "2695E26BDBE6B682"
@@ -36,8 +37,9 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 1.5d
+			x: -3.75d
+			y: 0.0d
+			dependencies: ["68319FDD2F0D6DE8"]
 			size: 1.25d
 			id: "361B97B2D078236D"
 			tasks: [{
@@ -50,6 +52,7 @@
 			x: -6.75d
 			y: 0.75d
 			shape: "diamond"
+			dependencies: ["68319FDD2F0D6DE8"]
 			size: 1.5d
 			id: "40834ABA2E223903"
 			tasks: [{
@@ -68,6 +71,7 @@
 			x: -6.75d
 			y: -0.75d
 			shape: "diamond"
+			dependencies: ["68319FDD2F0D6DE8"]
 			size: 1.5d
 			id: "0A17C3B38E255B1F"
 			tasks: [{
@@ -86,6 +90,7 @@
 			x: -6.75d
 			y: 2.25d
 			shape: "diamond"
+			dependencies: ["68319FDD2F0D6DE8"]
 			size: 1.5d
 			id: "40BE720AD3D9AA55"
 			tasks: [{
@@ -104,6 +109,7 @@
 			x: -6.75d
 			y: 3.75d
 			shape: "diamond"
+			dependencies: ["68319FDD2F0D6DE8"]
 			size: 1.5d
 			id: "3D9CB4D8BFE68845"
 			tasks: [{
@@ -120,7 +126,7 @@
 		}
 		{
 			x: -2.5d
-			y: 1.5d
+			y: 0.0d
 			dependencies: ["361B97B2D078236D"]
 			id: "31F8F0EE00F7C2B9"
 			tasks: [{
@@ -130,8 +136,9 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 3.0d
+			x: -3.125d
+			y: 1.875d
+			dependencies: ["68319FDD2F0D6DE8"]
 			size: 1.25d
 			id: "076B7BA0F794D482"
 			tasks: [{
@@ -141,8 +148,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 0.0d
+			x: -1.0d
+			y: 2.0d
 			subtitle: "Pathetic Rocket"
 			dependencies: ["2695E26BDBE6B682"]
 			id: "66B019A8FDB227F1"
@@ -158,7 +165,7 @@
 		}
 		{
 			x: 1.0d
-			y: 0.5d
+			y: 2.5d
 			subtitle: "Can be found on the moon"
 			dependencies: ["66B019A8FDB227F1"]
 			id: "5F9C092B8E70782E"
@@ -170,7 +177,7 @@
 		}
 		{
 			x: -0.5d
-			y: 1.5d
+			y: 3.0d
 			subtitle: "Advanced Rocket"
 			dependencies: [
 				"5F9C092B8E70782E"
@@ -188,8 +195,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 3.0d
+			x: -1.0d
+			y: 4.0d
 			subtitle: "Elite Rocket"
 			dependencies: [
 				"667851E00A5A178E"
@@ -208,7 +215,7 @@
 		}
 		{
 			x: -0.5d
-			y: 4.5d
+			y: 5.0d
 			subtitle: "Ultimate Rocket"
 			dependencies: [
 				"184B8217FE7868E3"
@@ -226,8 +233,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.0d
+			x: 0.5d
+			y: 3.5d
 			subtitle: "Can be found on Mars"
 			dependencies: ["578A584538A96852"]
 			id: "667851E00A5A178E"
@@ -239,7 +246,7 @@
 		}
 		{
 			x: 1.0d
-			y: 3.5d
+			y: 4.5d
 			subtitle: "Can be found on Venus"
 			dependencies: ["51842EF6C65907F0"]
 			id: "184B8217FE7868E3"
@@ -330,10 +337,13 @@
 			y: 6.0d
 			subtitle: "ISS ?"
 			description: ["Go to the orbit and create a space station"]
+			hide_dependency_lines: true
+			dependencies: ["66B019A8FDB227F1"]
 			id: "08FEF02D57D7F0C5"
 			tasks: [{
 				id: "64EA6435FB6824E3"
 				type: "dimension"
+				icon: "beyond_earth:earth_globe"
 				dimension: "beyond_earth:earth_orbit"
 			}]
 			rewards: [{
@@ -347,10 +357,14 @@
 			icon: "beyond_earth:moon_globe"
 			x: -8.0d
 			y: 6.0d
+			description: ["Go to the Moon"]
+			hide_dependency_lines: true
+			dependencies: ["66B019A8FDB227F1"]
 			id: "1453E937BE7B087E"
 			tasks: [{
 				id: "43D9958D9B8890AB"
 				type: "dimension"
+				icon: "beyond_earth:moon_globe"
 				dimension: "beyond_earth:moon"
 			}]
 			rewards: [{
@@ -364,10 +378,15 @@
 			icon: "beyond_earth:mars_globe"
 			x: -7.0d
 			y: 6.0d
+			subtitle: "Space X ?"
+			description: ["Go to Mars"]
+			hide_dependency_lines: true
+			dependencies: ["578A584538A96852"]
 			id: "654E2161CD54D03E"
 			tasks: [{
 				id: "614846A33644E5C2"
 				type: "dimension"
+				icon: "beyond_earth:mars_globe"
 				dimension: "beyond_earth:mars"
 			}]
 			rewards: [{
@@ -381,10 +400,14 @@
 			icon: "beyond_earth:mercury_globe"
 			x: -6.0d
 			y: 6.0d
+			description: ["Go to Mercury"]
+			hide_dependency_lines: true
+			dependencies: ["51842EF6C65907F0"]
 			id: "11814E54E911E486"
 			tasks: [{
 				id: "0A4E53B982D7A217"
 				type: "dimension"
+				icon: "beyond_earth:mercury_globe"
 				dimension: "beyond_earth:mercury"
 			}]
 			rewards: [{
@@ -398,6 +421,9 @@
 			icon: "beyond_earth:venus_globe"
 			x: -5.0d
 			y: 6.0d
+			description: ["Go to Venus"]
+			hide_dependency_lines: true
+			dependencies: ["51842EF6C65907F0"]
 			id: "380BE3349477ECBA"
 			tasks: [{
 				id: "613679E4EF6F3267"
@@ -416,6 +442,9 @@
 			icon: "beyond_earth:glacio_globe"
 			x: -4.0d
 			y: 6.0d
+			description: ["Go to Glacio"]
+			hide_dependency_lines: true
+			dependencies: ["7D928943654E811B"]
 			id: "70568A0BBBD8AC4D"
 			tasks: [{
 				id: "7CB9741CFBB22E3E"
