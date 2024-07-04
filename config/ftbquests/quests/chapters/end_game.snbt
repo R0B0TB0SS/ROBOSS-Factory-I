@@ -1,7 +1,7 @@
 {
 	id: "3B7F1D29EC26E902"
 	group: ""
-	order_index: 20
+	order_index: 21
 	filename: "end_game"
 	title: "End Game"
 	icon: {
@@ -232,6 +232,7 @@
 		{
 			x: 0.0d
 			y: 3.5d
+			hide_dependency_lines: true
 			dependencies: [
 				"4A244C9C9086E258"
 				"6E6C7E755E2EE9A5"

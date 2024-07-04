@@ -291,7 +291,7 @@
 			icon: "create:brass_hand"
 			x: 0.0d
 			y: -1.5d
-			description: ["Some chapiter of the quest book are inspered by Mldeg's quest book of the modpack Ragnamod VI"]
+			description: ["An optional Quest book to guide you to the end game of the modpack with some reward when you finish quest"]
 			id: "68319FDD2F0D6DE8"
 			tasks: [{
 				id: "585D64EADDED6E9E"
@@ -352,7 +352,6 @@
 			x: -1.0d
 			y: -0.5d
 			description: ["Complete all quest of the chapter \"Powah\""]
-			dependencies: ["0CD8249618677C87"]
 			id: "387CFF6315EEF98D"
 			tasks: [{
 				id: "571F99824E3BF57A"

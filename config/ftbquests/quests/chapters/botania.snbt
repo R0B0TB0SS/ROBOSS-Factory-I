@@ -1,7 +1,7 @@
 {
 	id: "0000000000000371"
 	group: ""
-	order_index: 12
+	order_index: 13
 	filename: "botania"
 	title: "Botania"
 	icon: "botania:natura_pylon"
@@ -10,7 +10,7 @@
 	quests: [
 		{
 			title: "Runes of seasons"
-			x: 11.0d
+			x: -3.5d
 			y: -1.0d
 			dependencies: ["00000000000003F7"]
 			id: "000000000000037C"
@@ -44,7 +44,7 @@
 		}
 		{
 			title: "Runes of Sins"
-			x: 11.0d
+			x: -3.5d
 			y: 1.0d
 			dependencies: ["00000000000003F7"]
 			id: "0000000000000388"
@@ -93,7 +93,7 @@
 		}
 		{
 			title: "Basic Runes"
-			x: 10.0d
+			x: -4.5d
 			y: -1.5d
 			dependencies: ["00000000000003F7"]
 			id: "00000000000003A2"
@@ -132,7 +132,7 @@
 		}
 		{
 			title: "Spark Augment"
-			x: 15.0d
+			x: 6.5d
 			y: -2.0d
 			dependencies: ["00000000000003EF"]
 			id: "00000000000003A4"
@@ -168,8 +168,8 @@
 		{
 			title: "Gaia Boss Battle"
 			icon: "botania:gaia_pylon"
-			x: 7.0d
-			y: 4.0d
+			x: -1.0d
+			y: -6.5d
 			dependencies: ["00000000000003AD"]
 			id: "00000000000003A9"
 			tasks: [
@@ -207,7 +207,7 @@
 		{
 			title: "Alfheim Portal"
 			icon: "botania:natura_pylon"
-			x: 14.0d
+			x: 5.5d
 			y: 0.0d
 			dependencies: ["00000000000003EB"]
 			size: 2.0d
@@ -244,8 +244,9 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 2.0d
+			x: 0.0d
+			y: -7.0d
+			hide_dependency_lines: true
 			dependencies: ["00000000000003CF"]
 			id: "00000000000003AD"
 			tasks: [{
@@ -260,7 +261,7 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 5.5d
 			y: -1.5d
 			dependencies: ["00000000000003AB"]
 			id: "00000000000003AF"
@@ -277,8 +278,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -1.5d
+			x: 1.5d
+			y: 6.0d
 			dependencies: ["4E8017A427B96DC5"]
 			id: "00000000000003B1"
 			tasks: [{
@@ -302,9 +303,8 @@
 		}
 		{
 			x: 0.0d
-			y: 0.0d
+			y: 1.5d
 			dependencies: ["68319FDD2F0D6DE8"]
-			size: 2.0d
 			id: "00000000000003B3"
 			tasks: [{
 				id: "00000000000003B4"
@@ -319,7 +319,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 0.0d
 			y: 0.0d
 			dependencies: ["00000000000003B3"]
 			size: 2.0d
@@ -336,8 +336,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 5.5d
+			x: -1.5d
+			y: -5.5d
 			dependencies: ["00000000000003E9"]
 			id: "00000000000003B7"
 			tasks: [{
@@ -353,7 +353,7 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 5.5d
 			y: -2.5d
 			dependencies: ["00000000000003AB"]
 			id: "00000000000003B9"
@@ -370,8 +370,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 1.5d
+			x: 1.5d
+			y: 7.0d
 			dependencies: ["4E8017A427B96DC5"]
 			id: "00000000000003BB"
 			tasks: [{
@@ -386,8 +386,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 2.5d
+			x: -1.0d
+			y: 8.0d
 			dependencies: ["4E8017A427B96DC5"]
 			id: "00000000000003BD"
 			tasks: [{
@@ -407,8 +407,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 3.5d
+			x: 1.5d
+			y: 5.0d
 			dependencies: ["4E8017A427B96DC5"]
 			id: "00000000000003C7"
 			tasks: [{
@@ -428,8 +428,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 1.0d
+			x: 1.5d
+			y: 10.0d
 			dependencies: ["00000000000003F9"]
 			id: "00000000000003CB"
 			tasks: [
@@ -457,8 +457,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 1.0d
+			x: 1.5d
+			y: 9.0d
 			dependencies: ["00000000000003F9"]
 			id: "00000000000003CF"
 			tasks: [{
@@ -473,8 +473,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -1.0d
+			x: 1.0d
+			y: 11.0d
 			dependencies: ["00000000000003F9"]
 			id: "00000000000003D1"
 			tasks: [{
@@ -489,8 +489,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 1.5d
+			x: -1.5d
+			y: 9.0d
 			dependencies: ["00000000000003F9"]
 			id: "00000000000003D3"
 			tasks: [{
@@ -506,8 +506,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -2.0d
+			x: 1.0d
+			y: 12.0d
 			dependencies: ["00000000000003D1"]
 			id: "00000000000003D5"
 			tasks: [{
@@ -528,8 +528,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: 3.0d
+			x: -3.5d
+			y: 2.5d
 			dependencies: ["00000000000003E5"]
 			id: "00000000000003D7"
 			tasks: [{
@@ -545,7 +545,7 @@
 			}]
 		}
 		{
-			x: 15.0d
+			x: 6.5d
 			y: 1.0d
 			dependencies: ["00000000000003AB"]
 			id: "00000000000003DB"
@@ -562,8 +562,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 7.0d
+			x: 0.0d
+			y: -3.5d
 			dependencies: ["00000000000003E9"]
 			size: 2.0d
 			id: "00000000000003DD"
@@ -579,8 +579,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 1.0d
+			x: -1.5d
+			y: 7.0d
 			dependencies: ["4E8017A427B96DC5"]
 			id: "00000000000003E3"
 			tasks: [{
@@ -600,8 +600,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 3.0d
+			x: -4.5d
+			y: 2.5d
 			dependencies: ["68319FDD2F0D6DE8"]
 			id: "00000000000003E5"
 			tasks: [{
@@ -616,8 +616,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -1.0d
+			x: -1.5d
+			y: 5.0d
 			dependencies: ["4E8017A427B96DC5"]
 			id: "00000000000003E7"
 			tasks: [{
@@ -633,8 +633,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 5.5d
+			x: 0.0d
+			y: -5.0d
 			dependencies: ["00000000000003A9"]
 			id: "00000000000003E9"
 			tasks: [{
@@ -649,7 +649,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 3.5d
 			y: 1.5d
 			dependencies: ["0000000000000416"]
 			id: "00000000000003EB"
@@ -665,7 +665,7 @@
 			}]
 		}
 		{
-			x: 13.0d
+			x: 4.5d
 			y: -1.0d
 			dependencies: ["00000000000003AB"]
 			id: "00000000000003ED"
@@ -682,7 +682,7 @@
 			}]
 		}
 		{
-			x: 15.0d
+			x: 6.5d
 			y: -1.0d
 			dependencies: ["00000000000003AB"]
 			id: "00000000000003EF"
@@ -699,7 +699,7 @@
 			}]
 		}
 		{
-			x: 14.0d
+			x: 5.5d
 			y: 1.5d
 			dependencies: ["00000000000003AB"]
 			id: "00000000000003F1"
@@ -716,8 +716,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -3.0d
+			x: 0.0d
+			y: 11.5d
 			dependencies: ["00000000000003D5"]
 			id: "00000000000003F3"
 			tasks: [{
@@ -739,8 +739,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -2.5d
+			x: 1.0d
+			y: 8.0d
 			dependencies: ["00000000000003F9"]
 			id: "00000000000003F5"
 			tasks: [{
@@ -755,7 +755,7 @@
 			}]
 		}
 		{
-			x: 10.0d
+			x: -4.5d
 			y: 0.0d
 			dependencies: ["00000000000003D2"]
 			size: 2.0d
@@ -773,8 +773,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 0.0d
+			x: 0.0d
+			y: 9.0d
 			dependencies: ["4E8017A427B96DC5"]
 			size: 2.0d
 			id: "00000000000003F9"
@@ -790,8 +790,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 4.5d
+			x: 0.5d
+			y: -6.0d
 			dependencies: ["00000000000003E9"]
 			id: "00000000000003FB"
 			tasks: [{
@@ -814,7 +814,7 @@
 		}
 		{
 			title: "Elementium Armor"
-			x: 14.0d
+			x: 5.5d
 			y: 2.5d
 			dependencies: ["00000000000003F1"]
 			id: "00000000000003FD"
@@ -879,8 +879,8 @@
 		}
 		{
 			title: "Manasteel Armor"
-			x: 8.0d
-			y: 2.5d
+			x: -1.5d
+			y: 10.0d
 			dependencies: ["00000000000003D3"]
 			id: "0000000000000402"
 			tasks: [
@@ -937,7 +937,7 @@
 		}
 		{
 			title: "Terrasteel Armor"
-			x: 12.0d
+			x: 3.5d
 			y: 2.5d
 			dependencies: ["00000000000003EB"]
 			id: "0000000000000407"
@@ -995,8 +995,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -1.0d
+			x: -1.5d
+			y: 6.0d
 			dependencies: ["4E8017A427B96DC5"]
 			id: "0000000000000411"
 			tasks: [
@@ -1020,7 +1020,7 @@
 		}
 		{
 			icon: "botania:terra_plate"
-			x: 12.0d
+			x: 3.5d
 			y: 0.0d
 			dependencies: ["00000000000003A3"]
 			size: 2.0d
@@ -1046,7 +1046,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 3.5d
 			y: -1.5d
 			dependencies: ["0000000000000416"]
 			id: "000000000000041A"
@@ -1063,8 +1063,8 @@
 		}
 		{
 			title: "Basic Rings"
-			x: 8.0d
-			y: -1.5d
+			x: -1.0d
+			y: 11.0d
 			dependencies: ["00000000000003F9"]
 			id: "0000000000000422"
 			tasks: [
@@ -1101,8 +1101,8 @@
 		}
 		{
 			title: "Greater Rings"
-			x: 7.0d
-			y: -2.0d
+			x: -1.0d
+			y: 12.0d
 			dependencies: ["0000000000000422"]
 			id: "0000000000000424"
 			tasks: [
@@ -1138,8 +1138,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 0.0d
+			x: 0.0d
+			y: 4.0d
 			dependencies: ["00000000000003B6"]
 			size: 2.0d
 			id: "000000000000042C"
@@ -1155,8 +1155,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.5d
+			x: 1.5d
+			y: 0.0d
 			dependencies: ["00000000000003B5"]
 			id: "000000000000042E"
 			tasks: [{
@@ -1172,8 +1172,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -2.5d
+			x: 1.0d
+			y: -1.5d
 			dependencies: ["00000000000003B5"]
 			id: "0000000000000430"
 			tasks: [{
@@ -1188,8 +1188,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -2.0d
+			x: 2.0d
+			y: -1.0d
 			dependencies: ["00000000000003B5"]
 			id: "0000000000000432"
 			tasks: [{
@@ -1205,7 +1205,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: -1.0d
 			y: 2.0d
 			dependencies: ["00000000000003B5"]
 			id: "0000000000000434"
@@ -1222,8 +1222,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.0d
+			x: -1.0d
+			y: -1.5d
 			dependencies: ["00000000000003B5"]
 			id: "0000000000000436"
 			tasks: [{
@@ -1239,8 +1239,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: 0.0d
+			y: -1.5d
 			dependencies: ["00000000000003B5"]
 			id: "0000000000000438"
 			tasks: [{
@@ -1255,7 +1255,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: -2.0d
 			y: -1.0d
 			dependencies: ["00000000000003B5"]
 			id: "000000000000043A"
@@ -1301,8 +1301,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: 1.0d
+			y: 2.0d
 			dependencies: ["00000000000003B5"]
 			id: "000000000000043E"
 			tasks: [{
@@ -1318,8 +1318,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.5d
+			x: -1.0d
+			y: 1.0d
 			dependencies: ["00000000000003B5"]
 			id: "0000000000000440"
 			tasks: [{
@@ -1334,8 +1334,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.0d
+			x: -1.5d
+			y: 0.0d
 			dependencies: ["00000000000003B5"]
 			id: "0000000000000442"
 			tasks: [{
@@ -1350,8 +1350,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 2.5d
+			x: -2.0d
+			y: 1.0d
 			dependencies: ["0000000000000440"]
 			id: "0000000000000444"
 			tasks: [
@@ -1404,8 +1404,8 @@
 		}
 		{
 			title: "Living Material"
-			x: 6.0d
-			y: 0.0d
+			x: 0.0d
+			y: 6.0d
 			dependencies: ["000000000000042C"]
 			size: 2.0d
 			id: "4E8017A427B96DC5"

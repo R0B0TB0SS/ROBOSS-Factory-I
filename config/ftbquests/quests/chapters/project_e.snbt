@@ -1,7 +1,7 @@
 {
 	id: "3D7606CCC3AA3984"
 	group: ""
-	order_index: 16
+	order_index: 17
 	filename: "project_e"
 	title: "Project E"
 	icon: {
@@ -15,10 +15,7 @@
 		{
 			x: 2.0d
 			y: -1.5d
-			dependencies: [
-				"68319FDD2F0D6DE8"
-				"4DBB337CE3C9624B"
-			]
+			dependencies: ["68319FDD2F0D6DE8"]
 			size: 2.0d
 			id: "2496AB86EC974CBF"
 			tasks: [{
@@ -43,10 +40,7 @@
 		{
 			x: 2.0d
 			y: -3.0d
-			dependencies: [
-				"68319FDD2F0D6DE8"
-				"4DBB337CE3C9624B"
-			]
+			dependencies: ["68319FDD2F0D6DE8"]
 			id: "39B341DDBA9E1041"
 			tasks: [{
 				id: "6CB6F3A0AD541668"

@@ -1,7 +1,7 @@
 {
 	id: "0DF08D2F1671453F"
 	group: ""
-	order_index: 18
+	order_index: 19
 	filename: "singularity"
 	title: "Singularity"
 	icon: "extendedcrafting:ultimate_singularity"
@@ -12,6 +12,7 @@
 			x: 0.0d
 			y: -0.5d
 			id: "2896F858925DDDD5"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "41C97A832787977A"
 				type: "item"
@@ -27,6 +28,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
+			dependencies: ["01225FF9727AD15D"]
 			id: "60C91DFBDF14BB6C"
 			tasks: [{
 				id: "5904DD0175D8DB2A"
@@ -43,6 +45,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
+			dependencies: ["01225FF9727AD15D"]
 			id: "4AFA62133ECF1901"
 			tasks: [{
 				id: "56C3B350B95073A1"
@@ -59,6 +62,7 @@
 		{
 			x: 2.0d
 			y: 1.0d
+			dependencies: ["01225FF9727AD15D"]
 			id: "2F4EBB6146E15BBE"
 			tasks: [{
 				id: "383F30342E9081AB"
@@ -75,6 +79,7 @@
 		{
 			x: -1.0d
 			y: 2.0d
+			dependencies: ["01225FF9727AD15D"]
 			id: "716EEA1675D2299B"
 			tasks: [{
 				id: "00990D6BEDF69F18"
@@ -91,6 +96,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
+			dependencies: ["01225FF9727AD15D"]
 			id: "53947B6FAC78A591"
 			tasks: [{
 				id: "2B37F727E8341FFD"
@@ -107,6 +113,7 @@
 		{
 			x: 1.0d
 			y: 2.0d
+			dependencies: ["01225FF9727AD15D"]
 			id: "36365DF1D779B2C6"
 			tasks: [{
 				id: "445F6CFC8AA59164"
@@ -124,6 +131,7 @@
 			x: 0.0d
 			y: -2.0d
 			id: "404C68F99855903C"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "4EDA15773ED84209"
 				type: "item"
@@ -139,6 +147,7 @@
 		{
 			x: 1.0d
 			y: -2.0d
+			dependencies: ["01225FF9727AD15D"]
 			id: "017972E0AD54176D"
 			tasks: [{
 				id: "1938140AA6D0BF9A"
@@ -156,6 +165,7 @@
 			x: -1.0d
 			y: -2.0d
 			id: "6026C5C7C7E6E460"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "3C3641C51B114C8A"
 				type: "item"
@@ -172,6 +182,7 @@
 			x: -2.0d
 			y: 0.0d
 			id: "548883ADA417464E"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "45CDCC223B315F25"
 				type: "item"
@@ -188,6 +199,7 @@
 			x: -2.0d
 			y: 1.0d
 			id: "702B6E21AF039969"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "539BA1C21C7A821D"
 				type: "item"
@@ -204,6 +216,7 @@
 			x: 3.0d
 			y: 1.0d
 			id: "1AC2E817D8BC1E78"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "5D8CC7CE4D87F300"
 				type: "item"
@@ -220,6 +233,7 @@
 			x: -2.0d
 			y: -1.0d
 			id: "7473D3B58E829CEE"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "5882274906D71EB5"
 				type: "item"
@@ -236,6 +250,7 @@
 			x: 0.0d
 			y: 3.5d
 			id: "115775C385E97FAF"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "15971D0DB5F2AC3E"
 				type: "item"
@@ -252,6 +267,7 @@
 			x: -1.0d
 			y: 3.0d
 			id: "1AE203FFF7989121"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "653DFB2399D2954E"
 				type: "item"
@@ -268,6 +284,7 @@
 			x: 3.5d
 			y: 0.0d
 			id: "684BCDDD01D81E2F"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "524939F03C9F9484"
 				type: "item"
@@ -284,6 +301,7 @@
 			x: 0.0d
 			y: -3.5d
 			id: "42673DFCE36751A2"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "09D433DF833B9DB3"
 				type: "item"
@@ -300,6 +318,7 @@
 			x: 1.0d
 			y: 4.0d
 			id: "38169D40DAB3A69A"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "4BAE4F0D60F7EF73"
 				type: "item"
@@ -316,6 +335,7 @@
 			x: -3.0d
 			y: -1.0d
 			id: "640F248634D9DB07"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "06EF7F68771EA0F9"
 				type: "item"
@@ -332,6 +352,7 @@
 			x: 4.0d
 			y: -1.0d
 			id: "31B7A656E9482B34"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "1E4A899F84858F24"
 				type: "item"
@@ -348,6 +369,7 @@
 			x: -1.0d
 			y: -4.0d
 			id: "1023677A1C1C1C45"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "610178BE70762AD1"
 				type: "item"
@@ -364,6 +386,7 @@
 			x: 1.0d
 			y: -3.0d
 			id: "06E0DD386A8E9CD1"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "543F2F744ADBC130"
 				type: "item"
@@ -380,6 +403,7 @@
 			x: -4.0d
 			y: 1.0d
 			id: "744B49D742ECF258"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "33745A45B336BAE0"
 				type: "item"
@@ -396,6 +420,7 @@
 			x: -3.5d
 			y: 0.0d
 			id: "703EE22BCBAF49F6"
+			dependencies: ["01225FF9727AD15D"]
 			tasks: [{
 				id: "407073E7AB4F647B"
 				type: "item"
@@ -411,6 +436,7 @@
 		{
 			x: -0.5d
 			y: 0.5d
+			dependencies: ["01225FF9727AD15D"]
 			id: "5DB923EBB93FCE74"
 			tasks: [{
 				id: "4BEEA25567A73B7F"
@@ -427,6 +453,7 @@
 		{
 			x: 0.5d
 			y: 0.5d
+			dependencies: ["01225FF9727AD15D"]
 			id: "3353B65F1459CBBC"
 			tasks: [{
 				id: "11CDC9AF1F1A9E00"
