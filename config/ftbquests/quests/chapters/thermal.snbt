@@ -264,9 +264,9 @@
 				item: "thermal:dynamo_fuel_augment"
 			}]
 			rewards: [{
-				id: "2CC264A50E14E713"
+				id: "055A55FAE3396C2F"
 				type: "item"
-				item: "gobber2:gobber2_foo_end"
+				item: "thermal:dynamo_fuel_augment"
 			}]
 		}
 		{
@@ -710,9 +710,9 @@
 				item: "thermal:machine_furnace"
 			}]
 			rewards: [{
-				id: "1C63F4F707095AF8"
+				id: "7D410EB61F4BD828"
 				type: "item"
-				item: "thermal:copper_ingot"
+				item: "minecraft:copper_ingot"
 				count: 4
 			}]
 		}

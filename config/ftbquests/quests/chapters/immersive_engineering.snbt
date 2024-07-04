@@ -1294,6 +1294,8 @@
 			x: 10.0d
 			y: 1.5d
 			description: ["The Assembler is a 3x3x3 multiblock used to automatically craft items."]
+			hide_dependency_lines: true
+			dependencies: ["00AA3E0C1621E643"]
 			id: "0000000000000710"
 			tasks: [
 				{
@@ -1552,6 +1554,8 @@
 			x: 12.0d
 			y: 1.5d
 			description: ["The Bottling Machine is a 3x2x3 multiblock used to fill liquid containers."]
+			hide_dependency_lines: true
+			dependencies: ["00AA3E0C1621E643"]
 			id: "0000000000000734"
 			tasks: [
 				{
@@ -1714,6 +1718,8 @@
 			x: 8.0d
 			y: 1.5d
 			description: ["The Excavator is a 8×3×7 multiblock that mines into Mineral Deposits below bedrock."]
+			hide_dependency_lines: true
+			dependencies: ["00AA3E0C1621E643"]
 			id: "000000000000074C"
 			tasks: [
 				{

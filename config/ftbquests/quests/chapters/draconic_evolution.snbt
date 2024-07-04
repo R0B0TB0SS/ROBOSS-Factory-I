@@ -1,7 +1,7 @@
 {
 	id: "25A119813F55D28B"
 	group: ""
-	order_index: 11
+	order_index: 10
 	filename: "draconic_evolution"
 	title: "Draconic Evolution"
 	icon: {
@@ -1544,10 +1544,6 @@
 					item: "draconicevolution:chaotic_jump_module"
 				}
 			]
-			rewards: [{
-				id: "7686BBF179154C5A"
-				type: "random"
-			}]
 		}
 		{
 			x: 0.0d
@@ -1561,10 +1557,6 @@
 				type: "item"
 				item: "draconicevolution:wyvern_hill_step_module"
 			}]
-			rewards: [{
-				id: "6A9932C6D18BB0A7"
-				type: "random"
-			}]
 		}
 		{
 			x: 0.5d
@@ -1577,10 +1569,6 @@
 				id: "26C73A4C49A5231A"
 				type: "item"
 				item: "draconicevolution:wyvern_auto_fire_module"
-			}]
-			rewards: [{
-				id: "2C2C13072FA38159"
-				type: "random"
 			}]
 		}
 		{
@@ -1607,10 +1595,6 @@
 					item: "draconicevolution:draconic_auto_feed_module"
 				}
 			]
-			rewards: [{
-				id: "5F32BAD50598DAB0"
-				type: "random"
-			}]
 		}
 		{
 			x: -1.0d
@@ -1641,10 +1625,6 @@
 					item: "draconicevolution:chaotic_energy_module"
 				}
 			]
-			rewards: [{
-				id: "297A6E629DBAB685"
-				type: "random"
-			}]
 		}
 		{
 			x: 2.0d
@@ -1675,10 +1655,6 @@
 					item: "draconicevolution:chaotic_speed_module"
 				}
 			]
-			rewards: [{
-				id: "4702A425C8E6862B"
-				type: "random"
-			}]
 		}
 		{
 			x: 0.5d
@@ -1691,10 +1667,6 @@
 				id: "537173AA057733CD"
 				type: "item"
 				item: "draconicevolution:draconic_proj_anti_immune_module"
-			}]
-			rewards: [{
-				id: "232A7820F909F430"
-				type: "random"
 			}]
 		}
 		{
@@ -1726,10 +1698,6 @@
 					item: "draconicevolution:chaotic_damage_module"
 				}
 			]
-			rewards: [{
-				id: "57025B7BBEE3AE21"
-				type: "random"
-			}]
 		}
 		{
 			x: -1.0d
@@ -1760,10 +1728,6 @@
 					item: "draconicevolution:chaotic_aoe_module"
 				}
 			]
-			rewards: [{
-				id: "5975D2CB7C7B0B96"
-				type: "random"
-			}]
 		}
 		{
 			title: "Shield Capacity Module"
@@ -1790,10 +1754,6 @@
 					item: "draconicevolution:chaotic_shield_capacity_module"
 				}
 			]
-			rewards: [{
-				id: "4F0B6D125236DA0B"
-				type: "random"
-			}]
 		}
 		{
 			title: "Shield Control Module"
@@ -1820,10 +1780,6 @@
 					item: "draconicevolution:chaotic_shield_control_module"
 				}
 			]
-			rewards: [{
-				id: "096096E3F7D93A8A"
-				type: "random"
-			}]
 		}
 		{
 			title: "Large Shield Capacity Module"
@@ -1850,10 +1806,6 @@
 					item: "draconicevolution:chaotic_large_shield_capacity_module"
 				}
 			]
-			rewards: [{
-				id: "0C0364FC51CA231A"
-				type: "random"
-			}]
 		}
 		{
 			title: "Shield Recovery Module"
@@ -1880,10 +1832,6 @@
 					item: "draconicevolution:chaotic_shield_recovery_module"
 				}
 			]
-			rewards: [{
-				id: "3123BA7D54E83B26"
-				type: "random"
-			}]
 		}
 		{
 			title: "Flight Module"
@@ -1910,10 +1858,6 @@
 					item: "draconicevolution:chaotic_flight_module"
 				}
 			]
-			rewards: [{
-				id: "3C4405E760D5CD9B"
-				type: "random"
-			}]
 		}
 		{
 			x: 0.0d
@@ -1979,10 +1923,6 @@
 					item: "draconicevolution:chaotic_undying_module"
 				}
 			]
-			rewards: [{
-				id: "1F1D0CD98FA381FA"
-				type: "random"
-			}]
 		}
 		{
 			title: "Projectile Velocity Module"
@@ -2009,10 +1949,6 @@
 					item: "draconicevolution:chaotic_proj_velocity_module"
 				}
 			]
-			rewards: [{
-				id: "45FA3F1F4DC4EEB3"
-				type: "random"
-			}]
 		}
 		{
 			title: "Projectile Penetration Module"
@@ -2039,10 +1975,6 @@
 					item: "draconicevolution:chaotic_proj_penetration_module"
 				}
 			]
-			rewards: [{
-				id: "2255DBB3057F71E5"
-				type: "random"
-			}]
 		}
 		{
 			title: "Projectile Damage Module"
@@ -2069,10 +2001,6 @@
 					item: "draconicevolution:chaotic_proj_damage_module"
 				}
 			]
-			rewards: [{
-				id: "0E24795E484684E7"
-				type: "random"
-			}]
 		}
 		{
 			title: "Projectil Gravity Compensation Module"
@@ -2099,10 +2027,6 @@
 					item: "draconicevolution:chaotic_proj_grav_comp_module"
 				}
 			]
-			rewards: [{
-				id: "015F205ED0B9FD62"
-				type: "random"
-			}]
 		}
 		{
 			title: "Projectile Accuracy Module"
@@ -2129,10 +2053,6 @@
 					item: "draconicevolution:chaotic_proj_accuracy_module"
 				}
 			]
-			rewards: [{
-				id: "049142FC62ECF79D"
-				type: "random"
-			}]
 		}
 		{
 			x: 4.0d

@@ -1,7 +1,7 @@
 {
 	id: "0000000000000955"
 	group: ""
-	order_index: 10
+	order_index: 9
 	filename: "pneumaticcraft"
 	title: "Pneumaticcraft"
 	icon: "pneumaticcraft:pressure_gauge"
@@ -207,10 +207,6 @@
 				type: "item"
 				item: "pneumaticcraft:empty_pcb"
 			}]
-			rewards: [{
-				id: "55449C4037F31A6B"
-				type: "random"
-			}]
 		}
 		{
 			x: 6.0d
@@ -226,10 +222,6 @@
 				id: "000000000000096E"
 				type: "item"
 				item: "pneumaticcraft:unassembled_pcb"
-			}]
-			rewards: [{
-				id: "4737BE3263A54E31"
-				type: "random"
 			}]
 		}
 		{
@@ -337,10 +329,6 @@
 					item: "pneumaticcraft:assembly_platform"
 				}
 			]
-			rewards: [{
-				id: "278445E2B1226A54"
-				type: "random"
-			}]
 		}
 		{
 			x: 1.5d

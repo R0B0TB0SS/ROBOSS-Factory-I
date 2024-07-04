@@ -1728,6 +1728,47 @@
 				}
 			]
 		}
+		{
+			x: 0.5d
+			y: 8.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "1A81D0DF54F94DFB"
+			tasks: [{
+				id: "4293F10B03DB4FBE"
+				type: "item"
+				item: "chickens:roost"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "1FFFD820404C6736"
+			tasks: [{
+				id: "3A85F452517D78A1"
+				type: "item"
+				item: "chickens:breeder"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 9.5d
+			dependencies: ["68319FDD2F0D6DE8"]
+			id: "665B4357F4D657E4"
+			tasks: [{
+				id: "5F9A04C8A7C205EC"
+				type: "item"
+				title: "Any #chickens:chickens"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "chickens:chickens"
+					}
+				}
+				match_nbt: true
+			}]
+		}
 	]
 	quest_links: [ ]
 }
