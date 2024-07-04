@@ -332,7 +332,7 @@
 			}
 			x: -2.5d
 			y: 3.0d
-			description: ["Complete all quest of the chapter \"Chickens\""]
+			description: ["Complete all quest of Chickens"]
 			hide_dependency_lines: false
 			dependencies: [
 				"1A81D0DF54F94DFB"
@@ -356,6 +356,7 @@
 			x: -1.0d
 			y: -0.5d
 			description: ["Complete all quest of the chapter \"Powah\""]
+			dependencies: ["00000000000009BC"]
 			id: "387CFF6315EEF98D"
 			tasks: [{
 				id: "571F99824E3BF57A"
@@ -459,7 +460,7 @@
 			x: 0.0d
 			y: 5.5d
 			description: ["Complete all quest of the chapter \"Pneumatic Craft\""]
-			dependencies: ["3BA457E6147DA41A"]
+			dependencies: ["0000000000000955"]
 			id: "5175AB5381A06B96"
 			tasks: [{
 				id: "6B382D10F5403564"

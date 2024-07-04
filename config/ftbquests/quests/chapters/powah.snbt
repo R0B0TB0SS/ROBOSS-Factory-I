@@ -5,7 +5,6 @@
 	filename: "powah"
 	title: "Powah"
 	icon: "powah:energy_cell_nitro"
-	subtitle: ["Unlimited powah !!! No, Almost."]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
