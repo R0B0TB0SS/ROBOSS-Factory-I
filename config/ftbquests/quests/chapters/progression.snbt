@@ -334,11 +334,7 @@
 			y: 3.0d
 			description: ["Complete all quest of Chickens"]
 			hide_dependency_lines: false
-			dependencies: [
-				"1A81D0DF54F94DFB"
-				"1FFFD820404C6736"
-				"665B4357F4D657E4"
-			]
+			dependencies: ["5624755CB20B950D"]
 			id: "0463287EA90BACFA"
 			tasks: [{
 				id: "666401C9354058E7"

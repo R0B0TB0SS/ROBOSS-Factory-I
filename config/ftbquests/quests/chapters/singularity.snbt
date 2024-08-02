@@ -1,7 +1,7 @@
 {
 	id: "0DF08D2F1671453F"
 	group: ""
-	order_index: 17
+	order_index: 18
 	filename: "singularity"
 	title: "Singularity"
 	icon: "extendedcrafting:ultimate_singularity"
@@ -214,7 +214,7 @@
 		}
 		{
 			x: 3.0d
-			y: 1.0d
+			y: -1.0d
 			dependencies: ["01225FF9727AD15D"]
 			id: "1AC2E817D8BC1E78"
 			tasks: [{
@@ -264,7 +264,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: 1.0d
 			y: 3.0d
 			dependencies: ["01225FF9727AD15D"]
 			id: "1AE203FFF7989121"
@@ -315,7 +315,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: -1.0d
 			y: 4.0d
 			dependencies: ["01225FF9727AD15D"]
 			id: "38169D40DAB3A69A"
@@ -333,7 +333,7 @@
 		}
 		{
 			x: -3.0d
-			y: -1.0d
+			y: 1.0d
 			dependencies: ["01225FF9727AD15D"]
 			id: "640F248634D9DB07"
 			tasks: [{
@@ -350,7 +350,7 @@
 		}
 		{
 			x: 4.0d
-			y: -1.0d
+			y: 1.0d
 			dependencies: ["01225FF9727AD15D"]
 			id: "31B7A656E9482B34"
 			tasks: [{
@@ -366,7 +366,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: 1.0d
 			y: -4.0d
 			dependencies: ["01225FF9727AD15D"]
 			id: "1023677A1C1C1C45"
@@ -383,7 +383,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: -1.0d
 			y: -3.0d
 			dependencies: ["01225FF9727AD15D"]
 			id: "06E0DD386A8E9CD1"
@@ -401,7 +401,7 @@
 		}
 		{
 			x: -4.0d
-			y: 1.0d
+			y: -1.0d
 			dependencies: ["01225FF9727AD15D"]
 			id: "744B49D742ECF258"
 			tasks: [{

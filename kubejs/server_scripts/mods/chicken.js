@@ -16,6 +16,12 @@ event.shapeless("minecraft:water_bucket", [
         "chickens:chicken_item",
         '{ChickenType:{id:"chickens:flint_chicken"},gain:1,growth:1,strength:1}'
       ),
+    },{
+      input: "minecraft:egg",
+      output: Item.of(
+        "chickens:chicken_item",
+        '{ChickenType:{id:"chickens:smart_chicken"},gain:1,growth:1,strength:1}'
+      ),
     },
     {
       input: "minecraft:sand",
