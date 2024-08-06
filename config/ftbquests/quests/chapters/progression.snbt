@@ -332,7 +332,7 @@
 			}
 			x: -2.5d
 			y: 3.0d
-			description: ["Complete all quest of Chickens"]
+			description: ["Complete all quest of the chapter \"Chickens\""]
 			hide_dependency_lines: false
 			dependencies: ["5624755CB20B950D"]
 			id: "0463287EA90BACFA"

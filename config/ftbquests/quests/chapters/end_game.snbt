@@ -119,7 +119,7 @@
 		}
 		{
 			x: 3.0d
-			y: -2.5d
+			y: -1.5d
 			dependencies: [
 				"6EBE994E090A0361"
 				"01225FF9727AD15D"
@@ -169,7 +169,7 @@
 		}
 		{
 			x: 3.0d
-			y: -1.5d
+			y: -0.5d
 			dependencies: ["50C18BBF716A0B61"]
 			id: "455BE659D97F00CA"
 			tasks: [{
@@ -474,7 +474,7 @@
 		}
 		{
 			x: 3.0d
-			y: 3.5d
+			y: 2.5d
 			dependencies: ["31CA094774A92C47"]
 			id: "6990B1B081DCA115"
 			tasks: [{
@@ -490,7 +490,7 @@
 		}
 		{
 			x: 3.0d
-			y: 4.5d
+			y: 3.5d
 			dependencies: [
 				"729080F35DF1BD00"
 				"01225FF9727AD15D"

@@ -24,6 +24,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6DEC359AB3AAC20F"
+				type: "item"
+				item: "twilightforest:ironwood_ingot"
+			}]
 		}
 		{
 			x: 2.0d
@@ -40,6 +45,11 @@
 						Id: "extendedcrafting:pink_slime_ingot"
 					}
 				}
+			}]
+			rewards: [{
+				id: "0E2ACACBDE844AD6"
+				type: "item"
+				item: "industrialforegoing:pink_slime_ingot"
 			}]
 		}
 		{
@@ -58,6 +68,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "77B47B2AF31704BE"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+			}]
 		}
 		{
 			x: 2.0d
@@ -74,6 +89,11 @@
 						Id: "extendedcrafting:lapis_lazuli"
 					}
 				}
+			}]
+			rewards: [{
+				id: "3E72BAE21E4F6E4E"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
 			}]
 		}
 		{
@@ -92,6 +112,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "08AB0AEDFC16F7A0"
+				type: "item"
+				item: "powah:crystal_nitro"
+			}]
 		}
 		{
 			x: 0.0d
@@ -108,6 +133,11 @@
 						Id: "extendedcrafting:netherite_upgrade"
 					}
 				}
+			}]
+			rewards: [{
+				id: "4794CB20636227EF"
+				type: "item"
+				item: "functionalstorage:netherite_upgrade"
 			}]
 		}
 		{
@@ -126,6 +156,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7824DF230A2486FD"
+				type: "item"
+				item: "minecraft:coal"
+			}]
 		}
 		{
 			x: 0.0d
@@ -142,6 +177,11 @@
 						Id: "extendedcrafting:redstone"
 					}
 				}
+			}]
+			rewards: [{
+				id: "30C15A8830A737CA"
+				type: "item"
+				item: "minecraft:redstone"
 			}]
 		}
 		{
@@ -160,6 +200,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "050FB0D8361B64D9"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
 		}
 		{
 			x: -1.0d
@@ -176,6 +221,11 @@
 						Id: "extendedcrafting:dragonsteel"
 					}
 				}
+			}]
+			rewards: [{
+				id: "325BA9E0C9E6ED34"
+				type: "item"
+				item: "thermal_extra:dragonsteel_ingot"
 			}]
 		}
 		{
@@ -194,6 +244,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "69D4977DF1015D28"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
 			x: -2.0d
@@ -210,6 +265,11 @@
 						Id: "extendedcrafting:iron"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7BB25A7CC564B6FC"
+				type: "item"
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{
@@ -228,6 +288,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1CE586D0F9504A81"
+				type: "item"
+				item: "tconstruct:cobalt_ingot"
+			}]
 		}
 		{
 			x: -2.0d
@@ -244,6 +309,11 @@
 						Id: "extendedcrafting:glowstone"
 					}
 				}
+			}]
+			rewards: [{
+				id: "1908BBDB8A03E712"
+				type: "item"
+				item: "minecraft:glowstone"
 			}]
 		}
 		{
@@ -262,6 +332,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "732C4478091D7936"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+			}]
 		}
 		{
 			x: 1.0d
@@ -278,6 +353,11 @@
 						Id: "extendedcrafting:rose_gold"
 					}
 				}
+			}]
+			rewards: [{
+				id: "1F88F269BDE7AC43"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
 			}]
 		}
 		{
@@ -296,6 +376,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7933B82DDBF12034"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
 		}
 		{
 			x: 0.0d
@@ -312,6 +397,11 @@
 						Id: "extendedcrafting:emerald"
 					}
 				}
+			}]
+			rewards: [{
+				id: "0FED9CE41A59A979"
+				type: "item"
+				item: "minecraft:emerald"
 			}]
 		}
 		{
@@ -330,6 +420,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6DF4CC7E8F0A3CDD"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
 		}
 		{
 			x: -3.0d
@@ -346,6 +441,11 @@
 						Id: "extendedcrafting:ultimate_trash_can"
 					}
 				}
+			}]
+			rewards: [{
+				id: "3066F32EE5473740"
+				type: "item"
+				item: "trashcans:ultimate_trash_can"
 			}]
 		}
 		{
@@ -364,6 +464,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6D458EB09D8B10DE"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
 		}
 		{
 			x: 1.0d
@@ -380,6 +485,11 @@
 						Id: "extendedcrafting:uraninite"
 					}
 				}
+			}]
+			rewards: [{
+				id: "6FBF0B50FCD48EDE"
+				type: "item"
+				item: "powah:uraninite"
 			}]
 		}
 		{
@@ -398,6 +508,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "01B173D673668B47"
+				type: "item"
+				item: "ae2:singularity"
+			}]
 		}
 		{
 			x: -4.0d
@@ -414,6 +529,11 @@
 						Id: "extendedcrafting:copper"
 					}
 				}
+			}]
+			rewards: [{
+				id: "2723F157CC37AF88"
+				type: "item"
+				item: "minecraft:copper_ingot"
 			}]
 		}
 		{
@@ -432,6 +552,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0D4C2B094CDBAB53"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
 		}
 		{
 			x: -0.5d
@@ -449,6 +574,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "02ED5C188EB36A8D"
+				type: "item"
+				item: "compactmachines:wall"
+			}]
 		}
 		{
 			x: 0.5d
@@ -465,6 +595,11 @@
 						Id: "extendedcrafting:gold"
 					}
 				}
+			}]
+			rewards: [{
+				id: "4053F1CE2469F30E"
+				type: "item"
+				item: "minecraft:gold_ingot"
 			}]
 		}
 	]
