@@ -37,7 +37,10 @@
 			title: "Ender Storage"
 			x: 1.5d
 			y: -1.5d
-			description: [""]
+			description: [
+				""
+				"You can change the color of the ec with dyes"
+			]
 			dependencies: ["68319FDD2F0D6DE8"]
 			id: "1F0EDC68C1BAB021"
 			tasks: [
@@ -1361,6 +1364,7 @@
 		{
 			x: 6.5d
 			y: 7.5d
+			description: ["3x3x3 space in one block"]
 			dependencies: [
 				"3BDB56DC15B09942"
 				"4C9B4E323E236C97"
@@ -1380,6 +1384,7 @@
 		{
 			x: 6.5d
 			y: 6.5d
+			description: ["5x5x5 space in one block"]
 			dependencies: ["691ADA45669B8CE0"]
 			id: "4BBE3DABB0E65E98"
 			tasks: [{
@@ -1396,6 +1401,7 @@
 		{
 			x: 6.5d
 			y: 5.5d
+			description: ["7x7x7 space in one block"]
 			dependencies: ["4BBE3DABB0E65E98"]
 			id: "59FEE9FF03DEEB95"
 			tasks: [{
@@ -1412,6 +1418,7 @@
 		{
 			x: 7.5d
 			y: 6.0d
+			description: ["9x9x9 space in one block"]
 			dependencies: ["59FEE9FF03DEEB95"]
 			id: "5B07C6F9CF7C57D6"
 			tasks: [{
@@ -1428,6 +1435,7 @@
 		{
 			x: 7.5d
 			y: 7.0d
+			description: ["11x11x11 space in one block"]
 			dependencies: ["5B07C6F9CF7C57D6"]
 			id: "3FFE1BD285DEA10A"
 			tasks: [{
@@ -1444,6 +1452,7 @@
 		{
 			x: 8.5d
 			y: 6.5d
+			description: ["13x13x13 space in one block"]
 			dependencies: ["3FFE1BD285DEA10A"]
 			id: "4E033CA9D0D33DF2"
 			tasks: [{
@@ -1715,6 +1724,7 @@
 		{
 			x: 8.0d
 			y: 2.5d
+			description: ["Produce 0.5 cobble per second"]
 			dependencies: ["68319FDD2F0D6DE8"]
 			id: "0DA4DE039D713DC8"
 			tasks: [{
@@ -1726,6 +1736,7 @@
 		{
 			x: 9.0d
 			y: 2.5d
+			description: ["Produce 1 cobble per second"]
 			dependencies: ["0DA4DE039D713DC8"]
 			id: "258F5538417D51B6"
 			tasks: [{
@@ -1737,6 +1748,7 @@
 		{
 			x: 8.5d
 			y: 3.5d
+			description: ["Produce 2 cobble per second"]
 			dependencies: ["258F5538417D51B6"]
 			id: "3A6637B2D97216DC"
 			tasks: [{
@@ -1748,6 +1760,7 @@
 		{
 			x: 8.0d
 			y: 4.5d
+			description: ["Produce 4 cobble per second"]
 			dependencies: ["3A6637B2D97216DC"]
 			id: "5204913CABBE2F5F"
 			tasks: [{
@@ -1759,6 +1772,7 @@
 		{
 			x: 9.0d
 			y: 4.5d
+			description: ["Produce 8 cobble per second"]
 			dependencies: ["5204913CABBE2F5F"]
 			id: "2937766E5DA73086"
 			tasks: [{
