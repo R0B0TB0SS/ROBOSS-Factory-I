@@ -23,6 +23,11 @@
 				type: "item"
 				item: "beyond_earth:compressed_steel"
 			}]
+			rewards: [{
+				id: "4108CABCCEC69BB3"
+				type: "item"
+				item: "beyond_earth:compressed_steel"
+			}]
 		}
 		{
 			x: -2.5d
@@ -35,6 +40,11 @@
 				type: "item"
 				item: "beyond_earth:nasa_workbench"
 			}]
+			rewards: [{
+				id: "1F409BBAEBCF5206"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
 		}
 		{
 			x: -3.75d
@@ -46,6 +56,11 @@
 				id: "6D14ECE9AAD711B3"
 				type: "item"
 				item: "beyond_earth:oxygen_loader"
+			}]
+			rewards: [{
+				id: "2B2268BCE1D3B117"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -66,6 +81,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0E41608B0B45FDB8"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: -6.75d
@@ -84,6 +104,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "7ABE0439E861D13E"
+				type: "item"
+				item: "minecraft:iron_ingot"
 			}]
 		}
 		{
@@ -104,6 +129,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "411A77E4E39098EE"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: -6.75d
@@ -123,6 +153,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4994597112C5AC64"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: -2.5d
@@ -131,6 +166,11 @@
 			id: "31F8F0EE00F7C2B9"
 			tasks: [{
 				id: "5239CBC816CE55D7"
+				type: "item"
+				item: "beyond_earth_giselle_addon:oxygen_can"
+			}]
+			rewards: [{
+				id: "3E39DE09E9668DC1"
 				type: "item"
 				item: "beyond_earth_giselle_addon:oxygen_can"
 			}]
@@ -145,6 +185,11 @@
 				id: "05609B78AFD54B60"
 				type: "item"
 				item: "beyond_earth_giselle_addon:fuel_loader"
+			}]
+			rewards: [{
+				id: "1394114138291778"
+				type: "item"
+				item: "beyond_earth:fuel_bucket"
 			}]
 		}
 		{
@@ -161,6 +206,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "625AED120DAF5962"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -193,6 +243,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "401068A34884B6FA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: -1.0d
@@ -212,6 +267,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "37537DD34CA664CB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: -0.5d
@@ -230,6 +290,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "7F58080EEE07DADA"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -274,6 +339,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "360B45BC661CDB4E"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
 		}
 		{
 			x: -9.0d
@@ -291,6 +361,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "79AA1A82881A3E0F"
+				type: "item"
+				item: "minecraft:netherite_ingot"
 			}]
 		}
 		{
@@ -311,6 +386,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "63F6A6A4618A385D"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
 		}
 		{
 			x: -9.0d
@@ -328,6 +408,11 @@
 						Damage: 0
 					}
 				}
+			}]
+			rewards: [{
+				id: "45C7598A083AC3CC"
+				type: "item"
+				item: "minecraft:netherite_scrap"
 			}]
 		}
 		{

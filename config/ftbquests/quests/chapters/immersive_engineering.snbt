@@ -28,7 +28,7 @@
 		}
 		{
 			x: 10.0d
-			y: 3.0d
+			y: 2.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -40,7 +40,7 @@
 		}
 		{
 			x: 12.0d
-			y: -3.0d
+			y: -3.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -52,7 +52,7 @@
 		}
 		{
 			x: 12.0d
-			y: 3.0d
+			y: 2.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -64,7 +64,7 @@
 		}
 		{
 			x: 0.0d
-			y: 3.0d
+			y: 2.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -76,7 +76,7 @@
 		}
 		{
 			x: 6.0d
-			y: 4.5d
+			y: 4.0d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -88,7 +88,7 @@
 		}
 		{
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -100,7 +100,7 @@
 		}
 		{
 			x: 8.0d
-			y: 3.0d
+			y: 2.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -112,7 +112,7 @@
 		}
 		{
 			x: 8.0d
-			y: 0.0d
+			y: -0.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -124,7 +124,7 @@
 		}
 		{
 			x: 4.0d
-			y: 3.0d
+			y: 2.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -136,7 +136,7 @@
 		}
 		{
 			x: 10.0d
-			y: 0.0d
+			y: -0.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -148,7 +148,7 @@
 		}
 		{
 			x: 2.0d
-			y: 3.0d
+			y: 2.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -172,7 +172,7 @@
 		}
 		{
 			x: 6.0d
-			y: 1.5d
+			y: 1.0d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -184,7 +184,7 @@
 		}
 		{
 			x: 12.0d
-			y: 0.0d
+			y: -0.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -196,7 +196,7 @@
 		}
 		{
 			x: 4.0d
-			y: 0.0d
+			y: -0.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -208,7 +208,7 @@
 		}
 		{
 			x: 2.0d
-			y: 0.0d
+			y: -0.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d

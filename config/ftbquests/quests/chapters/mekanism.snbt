@@ -10,7 +10,7 @@
 	images: [
 		{
 			x: -4.0d
-			y: 7.0d
+			y: 6.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -22,7 +22,7 @@
 		}
 		{
 			x: 0.0d
-			y: 7.0d
+			y: 6.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -34,7 +34,7 @@
 		}
 		{
 			x: 4.0d
-			y: 7.0d
+			y: 6.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -46,7 +46,7 @@
 		}
 		{
 			x: 2.0d
-			y: 7.0d
+			y: 6.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
@@ -58,7 +58,7 @@
 		}
 		{
 			x: -2.0d
-			y: 7.0d
+			y: 6.5d
 			width: 2.0d
 			height: 2.5d
 			rotation: 0.0d
