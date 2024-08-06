@@ -876,6 +876,11 @@
 				type: "item"
 				item: "thermal_extra:upgrade_augment"
 			}]
+			rewards: [{
+				id: "362F208F7732B148"
+				type: "item"
+				item: "thermal_extra:upgrade_augment"
+			}]
 		}
 	]
 	quest_links: [ ]

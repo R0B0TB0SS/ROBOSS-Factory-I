@@ -506,6 +506,11 @@
 				type: "item"
 				item: "rftoolsdim:empty_dimension_tab"
 			}]
+			rewards: [{
+				id: "53B20BB9F1C5A154"
+				type: "item"
+				item: "rftoolsdim:empty_dimension_tab"
+			}]
 		}
 		{
 			x: 5.0d
@@ -519,6 +524,11 @@
 				id: "18FF0A6F37C9F2BC"
 				type: "item"
 				item: "rftoolsdim:dimension_builder"
+			}]
+			rewards: [{
+				id: "186144F2AEB1D7BD"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
 			}]
 		}
 		{
@@ -580,6 +590,11 @@
 					item: "rftoolsdim:part_memory_3"
 				}
 			]
+			rewards: [{
+				id: "5956A6EF288411B0"
+				type: "item"
+				item: "rftoolsdim:part_memory_3"
+			}]
 		}
 		{
 			x: 7.0d
@@ -608,6 +623,11 @@
 					item: "rftoolsdim:common_lost_knowledge"
 				}
 			]
+			rewards: [{
+				id: "77B3EAE393E28A9F"
+				type: "item"
+				item: "rftoolsdim:legendary_lost_knowledge"
+			}]
 		}
 		{
 			x: 8.5d
@@ -626,6 +646,11 @@
 				type: "item"
 				item: "rftoolsdim:dimlet_workbench"
 			}]
+			rewards: [{
+				id: "3D4F487949EE2AC2"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
 		}
 		{
 			x: 8.0d
@@ -636,6 +661,11 @@
 				id: "245C7752F2FEBDCB"
 				type: "item"
 				item: "rftoolsdim:knowledge_holder"
+			}]
+			rewards: [{
+				id: "1C0C374731ABC46A"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
 			}]
 		}
 		{
@@ -650,6 +680,11 @@
 				id: "75840C4E7D944D47"
 				type: "item"
 				item: "rftoolsdim:enscriber"
+			}]
+			rewards: [{
+				id: "3326ECB1136615C5"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
 			}]
 		}
 		{
@@ -676,6 +711,23 @@
 					item: "rftoolsdim:common_essence"
 				}
 			]
+			rewards: [
+				{
+					id: "53AF053C997EFE62"
+					type: "item"
+					item: "rftoolsdim:common_essence"
+				}
+				{
+					id: "190CCBC2ADCCBE36"
+					type: "item"
+					item: "rftoolsdim:rare_essence"
+				}
+				{
+					id: "58CF1A3534524E3F"
+					type: "item"
+					item: "rftoolsdim:legendary_essence"
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -685,6 +737,11 @@
 			id: "635B2AA46392E179"
 			tasks: [{
 				id: "4E6920F023B1D777"
+				type: "item"
+				item: "rftoolsdim:empty_dimlet"
+			}]
+			rewards: [{
+				id: "303939C1E2BEA323"
 				type: "item"
 				item: "rftoolsdim:empty_dimlet"
 			}]
@@ -717,6 +774,11 @@
 					item: "rftoolsdim:structure_absorber"
 				}
 			]
+			rewards: [{
+				id: "5F28587DF6E1F773"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			x: 2.5d
@@ -740,6 +802,11 @@
 				type: "item"
 				item: "rftoolsdim:terrain_dimlet"
 			}]
+			rewards: [{
+				id: "0284A4758EE690E2"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			x: 7.0d
@@ -750,6 +817,11 @@
 				id: "4E1911ECD9F12280"
 				type: "item"
 				item: "rftoolsdim:researcher"
+			}]
+			rewards: [{
+				id: "218661862A078850"
+				type: "xp"
+				xp: 50
 			}]
 		}
 	]

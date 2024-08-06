@@ -1082,8 +1082,9 @@
 				}
 			]
 			rewards: [{
-				id: "56ED9AFB5EE364B7"
-				type: "random"
+				id: "15D0C2D342943A25"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -1138,8 +1139,9 @@
 				}
 			]
 			rewards: [{
-				id: "32EE1F121F186599"
-				type: "random"
+				id: "73C2A6B3E4FE754C"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -1181,8 +1183,9 @@
 				}
 			]
 			rewards: [{
-				id: "58FEC563A75FBD2A"
-				type: "random"
+				id: "34FAF4A8AD344A62"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -1226,8 +1229,9 @@
 				}
 			]
 			rewards: [{
-				id: "2A08164A513A9F2B"
-				type: "random"
+				id: "64599A3E7E7961DA"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -1287,6 +1291,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1721B9FE82158B87"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			title: "Assembler"
@@ -1336,8 +1345,9 @@
 				}
 			]
 			rewards: [{
-				id: "16F27AF958C6732E"
-				type: "random"
+				id: "040B2459F6FD199A"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -1387,8 +1397,9 @@
 				}
 			]
 			rewards: [{
-				id: "1E72177D22BD2AC3"
-				type: "random"
+				id: "4736AD94116C143F"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -1443,8 +1454,9 @@
 				}
 			]
 			rewards: [{
-				id: "511AC7B8B1669423"
-				type: "random"
+				id: "42F7A42ED2FDFD89"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -1494,8 +1506,9 @@
 				}
 			]
 			rewards: [{
-				id: "385D40171AC24E34"
-				type: "random"
+				id: "20E7CABC3628607F"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -1544,8 +1557,9 @@
 				}
 			]
 			rewards: [{
-				id: "7406E31AB4B66289"
-				type: "random"
+				id: "2C8A1E76B8730FB8"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -1594,8 +1608,9 @@
 				}
 			]
 			rewards: [{
-				id: "2BCCCE9DE566341C"
-				type: "random"
+				id: "24E7A202F56D9FBE"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -1643,6 +1658,11 @@
 					count: 4L
 				}
 			]
+			rewards: [{
+				id: "4FD6EEA6C3E0A882"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			title: "Arc Furnace"
@@ -1765,8 +1785,9 @@
 				}
 			]
 			rewards: [{
-				id: "50B3001BFB3246FE"
-				type: "random"
+				id: "45DB5A561D8236ED"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -1831,8 +1852,9 @@
 				}
 			]
 			rewards: [{
-				id: "5217C812527AA144"
-				type: "random"
+				id: "603A159C0E2B20C6"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -1884,8 +1906,9 @@
 				}
 			]
 			rewards: [{
-				id: "464476AA28476329"
-				type: "random"
+				id: "53B7BF9496F539F6"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -1990,8 +2013,9 @@
 				}
 			]
 			rewards: [{
-				id: "32F06831E154D9AF"
-				type: "random"
+				id: "6D28F2E06D3508A9"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{

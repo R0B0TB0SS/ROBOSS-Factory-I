@@ -307,6 +307,11 @@
 				type: "item"
 				item: "extendedcrafting:crystaltine_component"
 			}]
+			rewards: [{
+				id: "4A2613A55151CA7C"
+				type: "item"
+				item: "extendedcrafting:crystaltine_component"
+			}]
 		}
 		{
 			x: 0.5d
@@ -440,6 +445,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "73A3530A91541972"
+				type: "item"
+				item: "extendedcrafting:ender_star"
+			}]
 		}
 		{
 			x: -2.0d
@@ -457,6 +467,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "17B1E2209F650934"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_ingot"
+			}]
 		}
 		{
 			x: -2.0d
@@ -473,6 +488,11 @@
 						"customnpcs:itemscripteddata": { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "14951A7976A8E922"
+				type: "item"
+				item: "extendedcrafting:crystaltine_catalyst"
 			}]
 		}
 	]

@@ -43,6 +43,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "3860D08E2BC1286B"
+				type: "item"
+				item: "draconicevolution:draconium_chest"
+			}]
 		}
 		{
 			x: 1.0d
@@ -59,6 +64,11 @@
 						"customnpcs:itemscripteddata": { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "3806A3D5BBCF0538"
+				type: "item"
+				item: "createaddition:electric_motor"
 			}]
 		}
 		{
@@ -95,6 +105,17 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "58315985787A8911"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: {
+						mana: 500000
+					}
+				}
+			}]
 		}
 		{
 			x: 3.0d
@@ -156,6 +177,11 @@
 				type: "item"
 				item: "robosstweaks:robotboss_statue"
 			}]
+			rewards: [{
+				id: "399E235FD0564CCC"
+				type: "item"
+				item: "robosstweaks:robotboss_ingot"
+			}]
 		}
 		{
 			x: 1.0d
@@ -172,6 +198,11 @@
 						"customnpcs:itemscripteddata": { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "7163340BE249E53A"
+				type: "item"
+				item: "robosstweaks:laimx_ingot"
 			}]
 		}
 		{
@@ -192,6 +223,15 @@
 				id: "5CC747DE907C0834"
 				type: "item"
 				item: "ae2:creative_item_cell"
+			}]
+			rewards: [{
+				id: "5BD67BD5CA8D613B"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
@@ -216,6 +256,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "298C6E717C996470"
+				type: "item"
+				item: "mekanism:ultimate_energy_cube"
+			}]
 		}
 		{
 			x: 1.0d
@@ -227,6 +272,11 @@
 				id: "4A4EC797FDC119C3"
 				type: "item"
 				item: "create:creative_blaze_cake"
+			}]
+			rewards: [{
+				id: "55BF6A309A640404"
+				type: "item"
+				item: "create:blaze_cake"
 			}]
 		}
 		{
@@ -255,6 +305,11 @@
 				type: "item"
 				item: "mekanism:creative_fluid_tank"
 			}]
+			rewards: [{
+				id: "3B10685AA57E3DF8"
+				type: "item"
+				item: "mekanism:ultimate_fluid_tank"
+			}]
 		}
 		{
 			x: 5.0d
@@ -269,6 +324,11 @@
 				id: "49E7EDD61810ED2D"
 				type: "item"
 				item: "mekanism:creative_chemical_tank"
+			}]
+			rewards: [{
+				id: "680261A40A191ED8"
+				type: "item"
+				item: "mekanism:ultimate_chemical_tank"
 			}]
 		}
 		{
@@ -299,6 +359,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "46BA219D3E9B05AF"
+				type: "item"
+				item: "ae2:controller"
+			}]
 		}
 		{
 			x: 5.0d
@@ -309,6 +374,11 @@
 				id: "65261AAA58F2E0FB"
 				type: "item"
 				item: "robosstweaks:samvfjd_statue"
+			}]
+			rewards: [{
+				id: "70D9FA505C0B9A56"
+				type: "item"
+				item: "robosstweaks:samvfjd_ingot"
 			}]
 		}
 		{
@@ -396,6 +466,11 @@
 				type: "item"
 				item: "pipez:infinity_upgrade"
 			}]
+			rewards: [{
+				id: "745946CECE2D4CC5"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
 		}
 		{
 			x: 3.0d
@@ -406,6 +481,11 @@
 				id: "2496EDA48D2D2BDC"
 				type: "item"
 				item: "robosstweaks:blakdestroyer_statue"
+			}]
+			rewards: [{
+				id: "0DD3E7975C6FEDB3"
+				type: "item"
+				item: "robosstweaks:blakdestroyer_ingot"
 			}]
 		}
 		{

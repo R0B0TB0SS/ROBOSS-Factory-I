@@ -18,6 +18,11 @@
 				type: "item"
 				item: "avaritia:neutron_collector"
 			}]
+			rewards: [{
+				id: "32108835160E2C86"
+				type: "item"
+				item: "avaritia:neutron_collector"
+			}]
 		}
 		{
 			x: 1.0d
@@ -26,6 +31,11 @@
 			id: "79B827DBBC0EDA9C"
 			tasks: [{
 				id: "7FC8975768F84706"
+				type: "item"
+				item: "avaritia:neutron_pile"
+			}]
+			rewards: [{
+				id: "69D280CAC3BCAD7E"
 				type: "item"
 				item: "avaritia:neutron_pile"
 			}]
@@ -40,6 +50,11 @@
 				type: "item"
 				item: "avaritia:neutronium_ingot"
 			}]
+			rewards: [{
+				id: "1C6E82E02E137F9A"
+				type: "item"
+				item: "avaritia:neutronium_ingot"
+			}]
 		}
 		{
 			x: 1.0d
@@ -48,6 +63,11 @@
 			id: "09A5967CAB4672DE"
 			tasks: [{
 				id: "63A44136644F2F87"
+				type: "item"
+				item: "avaritia:neutronium_block"
+			}]
+			rewards: [{
+				id: "3BEF4584A1CC8C5A"
 				type: "item"
 				item: "avaritia:neutronium_block"
 			}]
@@ -62,6 +82,11 @@
 				type: "item"
 				item: "avaritia:neutron_nugget"
 			}]
+			rewards: [{
+				id: "63530237EEF71730"
+				type: "item"
+				item: "avaritia:neutron_nugget"
+			}]
 		}
 		{
 			x: 3.5d
@@ -73,6 +98,11 @@
 				type: "item"
 				item: "avaritia:diamond_lattice"
 			}]
+			rewards: [{
+				id: "5D625ED62D358629"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
 			x: 4.5d
@@ -81,6 +111,11 @@
 			id: "2932E3FC85981387"
 			tasks: [{
 				id: "217CCEFA126DC947"
+				type: "item"
+				item: "avaritia:crystal_matrix_ingot"
+			}]
+			rewards: [{
+				id: "57A42DD89926D83D"
 				type: "item"
 				item: "avaritia:crystal_matrix_ingot"
 			}]
@@ -95,6 +130,11 @@
 				type: "item"
 				item: "avaritia:crystal_matrix_block"
 			}]
+			rewards: [{
+				id: "35A1CE9754BC1B58"
+				type: "item"
+				item: "avaritia:crystal_matrix_ingot"
+			}]
 		}
 		{
 			x: 2.5d
@@ -106,6 +146,11 @@
 				id: "71E756DC442B7C90"
 				type: "item"
 				item: "avaritia:cosmic_meatballs"
+			}]
+			rewards: [{
+				id: "7D47114FD2ACBCDA"
+				type: "item"
+				item: "minecraft:porkchop"
 			}]
 		}
 		{
@@ -119,6 +164,11 @@
 				type: "item"
 				item: "avaritia:ultimate_stew"
 			}]
+			rewards: [{
+				id: "5E1C7F6678478075"
+				type: "item"
+				item: "minecraft:cake"
+			}]
 		}
 		{
 			x: 2.0d
@@ -130,6 +180,11 @@
 				type: "item"
 				item: "avaritia:record_fragment"
 			}]
+			rewards: [{
+				id: "5B615E1B865306AE"
+				type: "item"
+				item: "minecraft:music_disc_otherside"
+			}]
 		}
 		{
 			x: 2.0d
@@ -140,6 +195,12 @@
 				id: "0B49E54B6DD75D35"
 				type: "item"
 				item: "avaritia:endest_pearl"
+			}]
+			rewards: [{
+				id: "28D68931CD7DCF69"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 8
 			}]
 		}
 		{
@@ -162,6 +223,11 @@
 				type: "item"
 				item: "avaritia:infinity_catalyst"
 			}]
+			rewards: [{
+				id: "149EFB6C2A9B5C88"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
 		}
 		{
 			x: 5.5d
@@ -176,6 +242,11 @@
 				type: "item"
 				item: "avaritia:infinity_ingot"
 			}]
+			rewards: [{
+				id: "6FC2A6C0D6DA839A"
+				type: "item"
+				item: "avaritia:infinity_catalyst"
+			}]
 		}
 		{
 			x: 5.5d
@@ -186,6 +257,11 @@
 				id: "321AC22C1066104D"
 				type: "item"
 				item: "avaritia:infinity_block"
+			}]
+			rewards: [{
+				id: "4DADC0D625EF5771"
+				type: "item"
+				item: "avaritia:infinity_ingot"
 			}]
 		}
 		{

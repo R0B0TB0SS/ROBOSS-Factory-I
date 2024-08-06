@@ -469,6 +469,11 @@
 				type: "item"
 				item: "solarflux:sp_custom_wyvern"
 			}]
+			rewards: [{
+				id: "27D0F9C17FD9C86F"
+				type: "item"
+				item: "solarflux:sp_custom_wyvern"
+			}]
 		}
 		{
 			x: 4.0d
@@ -477,6 +482,11 @@
 			id: "75B31F018C1407C4"
 			tasks: [{
 				id: "0C039D2C7F18B6DB"
+				type: "item"
+				item: "solarflux:sp_custom_draconic"
+			}]
+			rewards: [{
+				id: "1DF21F953369C900"
 				type: "item"
 				item: "solarflux:sp_custom_draconic"
 			}]
@@ -491,6 +501,11 @@
 				type: "item"
 				item: "solarflux:sp_custom_neutronium"
 			}]
+			rewards: [{
+				id: "5ACFD0248C4D5F77"
+				type: "item"
+				item: "solarflux:sp_custom_neutronium"
+			}]
 		}
 		{
 			x: 3.5d
@@ -502,6 +517,11 @@
 				type: "item"
 				item: "solarflux:sp_custom_chaotic"
 			}]
+			rewards: [{
+				id: "7568D9F14DD2AAF7"
+				type: "item"
+				item: "solarflux:sp_custom_chaotic"
+			}]
 		}
 		{
 			x: 4.0d
@@ -510,6 +530,11 @@
 			id: "75589D1F90E74BC2"
 			tasks: [{
 				id: "1C8D02237EE3E3B9"
+				type: "item"
+				item: "solarflux:sp_custom_infinity"
+			}]
+			rewards: [{
+				id: "6FF853B8D9C18128"
 				type: "item"
 				item: "solarflux:sp_custom_infinity"
 			}]

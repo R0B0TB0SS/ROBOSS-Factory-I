@@ -26,6 +26,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1DEB7F13C5249AFE"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			title: "Ender Storage"
@@ -134,10 +140,9 @@
 				item: "ironchest:crystal_chest"
 			}]
 			rewards: [{
-				id: "5B0B787686AC3C64"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6352993187007078229L
+				id: "3D0AAA529AF11189"
+				type: "item"
+				item: "ironchest:diamond_chest"
 			}]
 		}
 		{
@@ -151,10 +156,9 @@
 				item: "ironchest:obsidian_chest"
 			}]
 			rewards: [{
-				id: "47E9FCC1EA985AC4"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 6352993187007078229L
+				id: "6976A8A9DB23A1CE"
+				type: "item"
+				item: "minecraft:obsidian"
 			}]
 		}
 		{
@@ -483,6 +487,11 @@
 				id: "746B93C92882FE5C"
 				type: "item"
 				item: "simplyjetpacks:jetpack_te5"
+			}]
+			rewards: [{
+				id: "526DCBC7CE4D83DF"
+				type: "item"
+				item: "simplyjetpacks:particle_flame"
 			}]
 		}
 		{
@@ -1162,6 +1171,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2154E25062C4DBE4"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 16
+			}]
 		}
 		{
 			x: -0.5d
@@ -1178,6 +1193,11 @@
 						"customnpcs:itemscripteddata": { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "44EA1B6613EFF800"
+				type: "item"
+				item: "minecraft:ender_pearl"
 			}]
 		}
 		{
@@ -1196,6 +1216,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5613F479973190F8"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
+			}]
 		}
 		{
 			x: 1.0d
@@ -1212,6 +1238,12 @@
 						"customnpcs:itemscripteddata": { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "0136D079BFA67DB7"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 8
 			}]
 		}
 		{
@@ -1230,6 +1262,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6EBA8D7DC6AD1929"
+				type: "item"
+				item: "minecraft:gold_block"
+				count: 4
+			}]
 		}
 		{
 			x: 1.0d
@@ -1247,6 +1285,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "130885EE6B79C6C1"
+				type: "item"
+				item: "minecraft:emerald_block"
+			}]
 		}
 		{
 			x: 2.0d
@@ -1263,6 +1306,11 @@
 						"customnpcs:itemscripteddata": { }
 					}
 				}
+			}]
+			rewards: [{
+				id: "1ADB2DF045F54BEE"
+				type: "item"
+				item: "minecraft:diamond_block"
 			}]
 		}
 		{
@@ -1282,6 +1330,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "265C2997D4F9EFB3"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
 		}
 		{
 			x: 2.0d
@@ -1299,6 +1352,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7E1100D3B856449B"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
 		}
 		{
 			x: 6.5d
@@ -1313,6 +1371,11 @@
 				type: "item"
 				item: "compactmachines:machine_tiny"
 			}]
+			rewards: [{
+				id: "28075522CD9FDBCD"
+				type: "item"
+				item: "minecraft:copper_block"
+			}]
 		}
 		{
 			x: 6.5d
@@ -1323,6 +1386,11 @@
 				id: "4F78C657402F975B"
 				type: "item"
 				item: "compactmachines:machine_small"
+			}]
+			rewards: [{
+				id: "623B578950401D9D"
+				type: "item"
+				item: "minecraft:iron_block"
 			}]
 		}
 		{
@@ -1335,6 +1403,11 @@
 				type: "item"
 				item: "compactmachines:machine_normal"
 			}]
+			rewards: [{
+				id: "7BC8ABCE91EFEDBB"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
 		}
 		{
 			x: 7.5d
@@ -1345,6 +1418,11 @@
 				id: "61EFE3BADA09D1D7"
 				type: "item"
 				item: "compactmachines:machine_large"
+			}]
+			rewards: [{
+				id: "5C908ED917A872CF"
+				type: "item"
+				item: "minecraft:obsidian"
 			}]
 		}
 		{
@@ -1357,6 +1435,11 @@
 				type: "item"
 				item: "compactmachines:machine_giant"
 			}]
+			rewards: [{
+				id: "671B252142248EFC"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
 		}
 		{
 			x: 8.5d
@@ -1367,6 +1450,11 @@
 				id: "0E5C79171B46B708"
 				type: "item"
 				item: "compactmachines:machine_maximum"
+			}]
+			rewards: [{
+				id: "4A4C9B3F7E352057"
+				type: "item"
+				item: "minecraft:netherite_block"
 			}]
 		}
 		{
@@ -1379,6 +1467,11 @@
 				type: "item"
 				item: "compactmachines:personal_shrinking_device"
 			}]
+			rewards: [{
+				id: "773A2C0043568ED7"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
 		}
 		{
 			x: 5.5d
@@ -1390,6 +1483,11 @@
 				type: "item"
 				item: "compactmachines:wall"
 			}]
+			rewards: [{
+				id: "6E6029C9D2A5ABE4"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
 		}
 		{
 			x: 4.5d
@@ -1400,6 +1498,11 @@
 				id: "2BD227E0F2F0CA09"
 				type: "item"
 				item: "compactcrafting:field_projector"
+			}]
+			rewards: [{
+				id: "0B01DA9C177B186E"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -1424,6 +1527,11 @@
 					item: "colossalchests:chest_wall_wood"
 				}
 			]
+			rewards: [{
+				id: "67296FEC2604F5D8"
+				type: "item"
+				item: "minecraft:oak_planks"
+			}]
 		}
 		{
 			x: -6.0d
@@ -1447,6 +1555,11 @@
 					item: "colossalchests:chest_wall_copper"
 				}
 			]
+			rewards: [{
+				id: "258D925F69B362B8"
+				type: "item"
+				item: "minecraft:copper_block"
+			}]
 		}
 		{
 			x: -5.5d
@@ -1470,6 +1583,11 @@
 					item: "colossalchests:chest_wall_silver"
 				}
 			]
+			rewards: [{
+				id: "06C7DC40759157DD"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
 		}
 		{
 			x: -5.0d
@@ -1516,6 +1634,11 @@
 					item: "colossalchests:chest_wall_gold"
 				}
 			]
+			rewards: [{
+				id: "5F0DC23AECF5ED89"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
 		}
 		{
 			x: -5.0d
@@ -1539,6 +1662,11 @@
 					item: "colossalchests:chest_wall_diamond"
 				}
 			]
+			rewards: [{
+				id: "2584671EE5812CCA"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
 		}
 		{
 			x: -5.5d
@@ -1562,6 +1690,11 @@
 					item: "colossalchests:chest_wall_obsidian"
 				}
 			]
+			rewards: [{
+				id: "0B202EE21C9378E2"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
 		}
 		{
 			x: -6.5d
@@ -1570,6 +1703,11 @@
 			id: "4D429D9F2DBAE0BD"
 			tasks: [{
 				id: "1E4E4A66625990A7"
+				type: "item"
+				item: "colossalchests:uncolossal_chest"
+			}]
+			rewards: [{
+				id: "782512D61733268C"
 				type: "item"
 				item: "colossalchests:uncolossal_chest"
 			}]
@@ -1647,6 +1785,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "00DC00795565F98D"
+				type: "item"
+				item: "functionalstorage:oak_1"
+			}]
 		}
 		{
 			x: -3.0d
@@ -1657,6 +1800,11 @@
 				id: "35EEC22CC20734E2"
 				type: "item"
 				item: "functionalstorage:storage_controller"
+			}]
+			rewards: [{
+				id: "2C0D289176CD018A"
+				type: "item"
+				item: "functionalstorage:oak_1"
 			}]
 		}
 		{
@@ -1727,6 +1875,11 @@
 					item: "functionalstorage:void_upgrade"
 				}
 			]
+			rewards: [{
+				id: "6AF86872C70C7570"
+				type: "item"
+				item: "functionalstorage:netherite_upgrade"
+			}]
 		}
 	]
 	quest_links: [ ]

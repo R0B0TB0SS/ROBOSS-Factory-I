@@ -24,6 +24,11 @@
 				type: "item"
 				item: "ae2:controller"
 			}]
+			rewards: [{
+				id: "2AA8F405CF85A50B"
+				type: "item"
+				item: "ae2:controller"
+			}]
 		}
 		{
 			x: -1.5d
@@ -517,6 +522,11 @@
 				type: "item"
 				item: "ae2:pattern_provider"
 			}]
+			rewards: [{
+				id: "1E0612B1C2A54076"
+				type: "item"
+				item: "ae2:pattern_provider"
+			}]
 		}
 		{
 			x: 1.5d
@@ -610,6 +620,11 @@
 			id: "4298812AF1542305"
 			tasks: [{
 				id: "0D8CD4D14594BD9A"
+				type: "item"
+				item: "ae2:interface"
+			}]
+			rewards: [{
+				id: "00668D09808C52DF"
 				type: "item"
 				item: "ae2:interface"
 			}]
@@ -998,6 +1013,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "065D3D1F9CECA1B2"
+				type: "item"
+				item: "computercraft:cable"
+				count: 8
+			}]
 		}
 		{
 			x: 3.0d
@@ -1008,6 +1029,11 @@
 				id: "66EC1CF367523A68"
 				type: "item"
 				item: "ae2:cable_anchor"
+			}]
+			rewards: [{
+				id: "38C361CA000A95A6"
+				type: "item"
+				item: "computercraft:cable"
 			}]
 		}
 	]

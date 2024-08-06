@@ -525,6 +525,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "2287EA52AC53B421"
+				type: "item"
+				item: "mekanism:radioactive_waste_barrel"
+			}]
 		}
 		{
 			title: "MekaSuit Armor"
@@ -617,8 +622,9 @@
 				item: "mekanism:module_nutritional_injection_unit"
 			}]
 			rewards: [{
-				id: "6854D49D163C6AF5"
-				type: "random"
+				id: "5F4F0B0B7653B353"
+				type: "item"
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -632,8 +638,9 @@
 				item: "mekanism:module_dosimeter_unit"
 			}]
 			rewards: [{
-				id: "0D24D146909DB611"
-				type: "random"
+				id: "14CD3028469DB86F"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
 			}]
 		}
 		{
@@ -647,8 +654,9 @@
 				item: "mekanism:module_gravitational_modulating_unit"
 			}]
 			rewards: [{
-				id: "4EDD0D3F4245C254"
-				type: "random"
+				id: "5E1540F24E2EE4F4"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
 			}]
 		}
 		{
@@ -664,8 +672,9 @@
 				count: 8L
 			}]
 			rewards: [{
-				id: "1B84FEC50F6ADAA8"
-				type: "random"
+				id: "2F19C2F2CD8FD959"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
 			}]
 		}
 		{
@@ -681,8 +690,9 @@
 				count: 4L
 			}]
 			rewards: [{
-				id: "03088C4BD110E12D"
-				type: "random"
+				id: "022CE7B8A0DC7D53"
+				type: "item"
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -713,8 +723,9 @@
 				item: "mekanism:module_radiation_shielding_unit"
 			}]
 			rewards: [{
-				id: "19056A3D5AD8E0FA"
-				type: "random"
+				id: "2841EF0C8E1763EF"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
 			}]
 		}
 		{
@@ -730,8 +741,9 @@
 				count: 8L
 			}]
 			rewards: [{
-				id: "7C38387600B53715"
-				type: "random"
+				id: "431CE200BA8A4471"
+				type: "item"
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -747,8 +759,9 @@
 				count: 4L
 			}]
 			rewards: [{
-				id: "79F66C8E1BBB0C60"
-				type: "random"
+				id: "5B66F0F6DD744B65"
+				type: "item"
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -764,8 +777,9 @@
 				count: 4L
 			}]
 			rewards: [{
-				id: "6EAB48A3C74BE069"
-				type: "random"
+				id: "758984DFA7E0AA34"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
 			}]
 		}
 		{
@@ -779,8 +793,9 @@
 				item: "mekanism:module_charge_distribution_unit"
 			}]
 			rewards: [{
-				id: "34B136E2BB05D09F"
-				type: "random"
+				id: "0DE8B8BFA37C1443"
+				type: "item"
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -1197,10 +1212,9 @@
 				item: "mekanism:combiner"
 			}]
 			rewards: [{
-				id: "6EDB46ECDA503C0A"
+				id: "62D95B50E4E6ADCC"
 				type: "item"
-				item: "kubejs:tungsten_ore"
-				count: 8
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -2020,8 +2034,9 @@
 				count: 8L
 			}]
 			rewards: [{
-				id: "541168AD41E8D06F"
-				type: "random"
+				id: "49548BF6B44A0493"
+				type: "item"
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -2050,8 +2065,9 @@
 				item: "mekanism:module_shearing_unit"
 			}]
 			rewards: [{
-				id: "72FABDE10C194DE5"
-				type: "random"
+				id: "5165E7B3BD4A507B"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
 			}]
 		}
 		{
@@ -2065,8 +2081,9 @@
 				item: "mekanism:module_geiger_unit"
 			}]
 			rewards: [{
-				id: "34F9B40452BF16B3"
-				type: "random"
+				id: "6C66F96E4D7149BA"
+				type: "item"
+				item: "mekanism:hdpe_sheet"
 			}]
 		}
 		{
@@ -2083,8 +2100,9 @@
 				item: "mekanism:module_elytra_unit"
 			}]
 			rewards: [{
-				id: "01DF51766A723694"
-				type: "random"
+				id: "24611CF99B1ECE0F"
+				type: "item"
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
@@ -2100,8 +2118,9 @@
 				count: 2L
 			}]
 			rewards: [{
-				id: "00F5D003118278D2"
-				type: "random"
+				id: "748C7E31528F394F"
+				type: "item"
+				item: "mekanism:pellet_polonium"
 			}]
 		}
 		{
